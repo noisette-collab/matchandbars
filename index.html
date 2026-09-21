@@ -1,32 +1,69 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
 <head>
-<meta charset="utf-8" />
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Match & Bars — On passen el partit</title>
+<title>Match & Bars — Where to watch the match</title>
+<meta name="description" content="Find bars showing football matches in Barcelona." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="wrap">
-<header>
-<div class="logo">match<span>&</span>bars</div>
-<p class="sub">
-Web per saber a quin bar passen els partits. Filtra per ciutat i equip.
-</p>
+<header class="top">
+<div class="wrap nav">
+<a class="logo" href="/">Match<span>&amp;</span>Bars</a>
+<nav>
+<a href="#directori" data-i18n="navDir">Directory</a>
+<a href="#bars-owners" data-i18n="navOwners">Got a bar?</a>
+<div class="langs">
+<button type="button" data-lang="en">EN</button>
+<button type="button" data-lang="es">ES</button>
+<button type="button" data-lang="zh">中文</button>
+</div>
+</nav>
+</div>
 </header>
-<div class="filters">
+<section class="hero">
+<div class="wrap">
+<p class="kicker" data-i18n="kicker">Barcelona · beta</p>
+<h1 data-i18n="title">Which bar is showing the match?</h1>
+<p class="lead" data-i18n="lead">We connect fans with venues that screen football. Always confirm the fixture with the venue before you go.</p>
+<form class="search" id="search-form">
+<input id="q" type="search" data-i18n-placeholder="searchPh" placeholder="Search…" autocomplete="off" />
+<button type="submit" data-i18n="searchBtn">Search</button>
+</form>
+<p class="disclaimer" data-i18n="disclaimer">Listings are not an official TV schedule.</p>
+</div>
+</section>
+<section class="wrap" id="directori">
+<div class="section-head">
+<h2 data-i18n="dirTitle">Bars in Barcelona</h2>
+<p id="count"></p>
+</div>
+<div class="filters" id="filters"></div>
+<div class="grid" id="grid"></div>
+</section>
+<section class="owners" id="bars-owners">
+<div class="wrap owners-inner">
 <div>
-<label for="city">Ciutat</label>
-<select id="city"><option value="">Totes</option></select>
+<h2 data-i18n="ownTitle">Do you run a bar that shows football?</h2>
+<p data-i18n="ownLead">Join for free.</p>
 </div>
-<div>
-<label for="team">Equip</label>
-<select id="team"><option value="">Tots</option></select>
+<form class="owner-form" action="mailto:hola@matchandbars.com" method="get">
+<input name="subject" type="hidden" value="Match and Bars venue" />
+<label><span data-i18n="ownLabel">Bar name</span> <input name="body" required /></label>
+<button type="submit" data-i18n="ownBtn">Send</button>
+</form>
 </div>
+</section>
+<footer>
+<div class="wrap foot">
+<span>© 2026 Match &amp; Bars</span>
+<span data-i18n="footer">Check with the venue.</span>
 </div>
-<section id="list" class="list"></section>
-<footer>matchandbars.com — dades d’exemple.</footer>
-</div>
+</footer>
 <script src="app.js"></script>
 </body>
 </html>
