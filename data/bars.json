@@ -1,0 +1,846 @@
+[
+  {
+    "id": "ovella-poblenou",
+    "name": "L'Ovella Negra Poblenou",
+    "type": "sports-bar",
+    "zone": "Poblenou",
+    "city": "Barcelona",
+    "address": "Carrer de Zamora, 78",
+    "maps": "https://maps.google.com/?q=L'Ovella+Negra+Poblenou+Carrer+de+Zamora,+78+Barcelona",
+    "tags": [
+      "pantalles gegants",
+      "aforo gran",
+      "futbolí"
+    ],
+    "bestFor": "Clàssics i partits amb molta gent",
+    "notes": "Nau d'uns 2.000 m². Recorrent a Time Out i guies. Sovint sense reserva.",
+    "source": "Time Out / Pocket Barcelona"
+  },
+  {
+    "id": "ovella-raval",
+    "name": "L'Ovella Negra Raval",
+    "type": "sports-bar",
+    "zone": "El Raval",
+    "city": "Barcelona",
+    "address": "Carrer de les Sitges, 5",
+    "maps": "https://maps.google.com/?q=L'Ovella+Negra+Raval+Carrer+de+les+Sitges,+5+Barcelona",
+    "tags": [
+      "pantalles",
+      "centre"
+    ],
+    "bestFor": "Partits al centre",
+    "notes": "Local germà més cèntric. Confirma pantalla el mateix dia.",
+    "source": "Time Out / Stadiummm"
+  },
+  {
+    "id": "george-payne",
+    "name": "The George Payne",
+    "type": "sports-bar",
+    "zone": "Urquinaona",
+    "city": "Barcelona",
+    "address": "Plaça Urquinaona, 5",
+    "maps": "https://maps.google.com/?q=The+George+Payne+Plaça+Urquinaona,+5+Barcelona",
+    "tags": [
+      "pub irlandès",
+      "moltes pantalles"
+    ],
+    "bestFor": "Champions i grups grans",
+    "notes": "Pub gran. En partits top de vegades cal reserva.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "belushis",
+    "name": "Belushi's Barcelona",
+    "type": "sports-bar",
+    "zone": "Plaça Catalunya",
+    "city": "Barcelona",
+    "address": "Carrer de Bergara, 3",
+    "maps": "https://maps.google.com/?q=Belushi's+Barcelona+Carrer+de+Bergara,+3+Barcelona",
+    "tags": [
+      "projectors",
+      "internacional"
+    ],
+    "bestFor": "Esports internacionals",
+    "notes": "Diversos projectors a un pas de Plaça Catalunya.",
+    "source": "Time Out"
+  },
+  {
+    "id": "michael-collins",
+    "name": "Michael Collins Irish Pub",
+    "type": "sports-bar",
+    "zone": "Sagrada Família",
+    "city": "Barcelona",
+    "address": "Plaça Sagrada Família, 4",
+    "maps": "https://maps.google.com/?q=Michael+Collins+Irish+Pub+Plaça+Sagrada+Família,+4+Barcelona",
+    "tags": [
+      "pantalla gegant",
+      "pub irlandès"
+    ],
+    "bestFor": "Programació ampla i sopar",
+    "notes": "Time Out el destaca per programació esportiva.",
+    "source": "Time Out / Pocket Barcelona"
+  },
+  {
+    "id": "flahertys",
+    "name": "Flaherty's Irish Pub",
+    "type": "sports-bar",
+    "zone": "Drassanes",
+    "city": "Barcelona",
+    "address": "Plaça de Joaquim Xirau, s/n",
+    "maps": "https://maps.google.com/?q=Flaherty's+Irish+Pub+Plaça+de+Joaquim+Xirau,+s/n+Barcelona",
+    "tags": [
+      "projectors",
+      "Premier"
+    ],
+    "bestFor": "Premier i Mundial",
+    "notes": "Guies de Mundial 2026 el listen amb projectors i TVs.",
+    "source": "Barcelona Life"
+  },
+  {
+    "id": "wild-rover",
+    "name": "Wild Rover",
+    "type": "sports-bar",
+    "zone": "Les Rambles",
+    "city": "Barcelona",
+    "address": "Carrer de Santa Mònica, 2",
+    "maps": "https://maps.google.com/?q=Wild+Rover+Carrer+de+Santa+Mònica,+2+Barcelona",
+    "tags": [
+      "Premier League",
+      "pantalles"
+    ],
+    "bestFor": "Premier League i UFC",
+    "notes": "Sovint recomanat per Premier. Arriba d'hora en finals.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "cocovail",
+    "name": "CocoVail Beer Hall",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer d'Aragó, 284",
+    "maps": "https://maps.google.com/?q=CocoVail+Beer+Hall+Carrer+d'Aragó,+284+Barcelona",
+    "tags": [
+      "craft beer",
+      "pantalles"
+    ],
+    "bestFor": "Partit i cervesa artesana",
+    "notes": "Craft beer hall amb pantalles.",
+    "source": "LiberoGuide"
+  },
+  {
+    "id": "sports-ample",
+    "name": "Sports Bar Carrer Ample",
+    "type": "sports-bar",
+    "zone": "Gòtic",
+    "city": "Barcelona",
+    "address": "Carrer Ample, 51",
+    "maps": "https://maps.google.com/?q=Sports+Bar+Carrer+Ample+Carrer+Ample,+51+Barcelona",
+    "tags": [
+      "pantalla gegant",
+      "pizza"
+    ],
+    "bestFor": "Sopar i partit",
+    "notes": "Pizza i futbol al Gòtic. Verifica la competició.",
+    "source": "Barcelona Urbana"
+  },
+  {
+    "id": "sports-diagonal",
+    "name": "Sports Bar Diagonal",
+    "type": "sports-bar",
+    "zone": "Sant Martí",
+    "city": "Barcelona",
+    "address": "Avinguda Diagonal, 123",
+    "maps": "https://maps.google.com/?q=Sports+Bar+Diagonal+Avinguda+Diagonal,+123+Barcelona",
+    "tags": [
+      "pantalles",
+      "pizza"
+    ],
+    "bestFor": "Partit a Diagonal",
+    "notes": "Altra seu Sports Bar.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "old-irish",
+    "name": "The Old Irish Pub",
+    "type": "sports-bar",
+    "zone": "Les Rambles",
+    "city": "Barcelona",
+    "address": "La Rambla",
+    "maps": "https://maps.google.com/?q=The+Old+Irish+Pub+La+Rambla+Barcelona",
+    "tags": [
+      "moltes TVs",
+      "turístic"
+    ],
+    "bestFor": "Mundial i aficions internacionals",
+    "notes": "Guies de Mundial el situen a la Rambla. Confirma a oldirishpub.es.",
+    "source": "Barcelona Life"
+  },
+  {
+    "id": "dunnes",
+    "name": "Dunne's Irish Bar",
+    "type": "sports-bar",
+    "zone": "Via Laietana",
+    "city": "Barcelona",
+    "address": "Via Laietana, 19",
+    "maps": "https://maps.google.com/?q=Dunne's+Irish+Bar+Via+Laietana,+19+Barcelona",
+    "tags": [
+      "pub irlandès",
+      "pantalles"
+    ],
+    "bestFor": "Partit i sopar",
+    "notes": "Pub i restaurant a Via Laietana.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "mccarthys",
+    "name": "McCarthy's Bar",
+    "type": "sports-bar",
+    "zone": "Via Laietana",
+    "city": "Barcelona",
+    "address": "Via Laietana, 44",
+    "maps": "https://maps.google.com/?q=McCarthy's+Bar+Via+Laietana,+44+Barcelona",
+    "tags": [
+      "pub irlandès"
+    ],
+    "bestFor": "Futbol al centre",
+    "notes": "Punt clàssic a Laietana.",
+    "source": "LiberoGuide"
+  },
+  {
+    "id": "temple-bar",
+    "name": "Temple Bar",
+    "type": "sports-bar",
+    "zone": "Gòtic",
+    "city": "Barcelona",
+    "address": "Carrer de Ferran, 6",
+    "maps": "https://maps.google.com/?q=Temple+Bar+Carrer+de+Ferran,+6+Barcelona",
+    "tags": [
+      "pub irlandès",
+      "Gòtic"
+    ],
+    "bestFor": "Partits al Gòtic",
+    "notes": "Zona Ferran amb diversos pubs de pantalles.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "lennox-palau",
+    "name": "Lennox the Pub Palau",
+    "type": "sports-bar",
+    "zone": "Born",
+    "city": "Barcelona",
+    "address": "Pla de Palau, 9",
+    "maps": "https://maps.google.com/?q=Lennox+the+Pub+Palau+Pla+de+Palau,+9+Barcelona",
+    "tags": [
+      "pub",
+      "Born"
+    ],
+    "bestFor": "Partit a Pla de Palau",
+    "notes": "Cadena Lennox; confirma programació.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "cheers",
+    "name": "Cheers",
+    "type": "sports-bar",
+    "zone": "Gòtic",
+    "city": "Barcelona",
+    "address": "Carrer de la Boqueria, 15",
+    "maps": "https://maps.google.com/?q=Cheers+Carrer+de+la+Boqueria,+15+Barcelona",
+    "tags": [
+      "pantalles",
+      "cervesa"
+    ],
+    "bestFor": "Partit al Gòtic",
+    "notes": "Citat per LiberoGuide amb futbol i bufandes.",
+    "source": "LiberoGuide"
+  },
+  {
+    "id": "shamrock",
+    "name": "The Shamrock Bar",
+    "type": "sports-bar",
+    "zone": "Raval",
+    "city": "Barcelona",
+    "address": "Carrer dels Tallers, 72",
+    "maps": "https://maps.google.com/?q=The+Shamrock+Bar+Carrer+dels+Tallers,+72+Barcelona",
+    "tags": [
+      "pub irlandès",
+      "Raval"
+    ],
+    "bestFor": "Partits al Raval",
+    "notes": "Confirma si aquell dia posen el teu partit.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "scobies",
+    "name": "Scobies Irish Pub",
+    "type": "sports-bar",
+    "zone": "Universitat",
+    "city": "Barcelona",
+    "address": "Ronda de la Universitat, 8",
+    "maps": "https://maps.google.com/?q=Scobies+Irish+Pub+Ronda+de+la+Universitat,+8+Barcelona",
+    "tags": [
+      "pub irlandès"
+    ],
+    "bestFor": "Partit a Universitat",
+    "notes": "A un pas de Plaça Catalunya.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "fastnet",
+    "name": "The Fastnet Pub",
+    "type": "sports-bar",
+    "zone": "Barceloneta",
+    "city": "Barcelona",
+    "address": "Passeig de Joan de Borbó, 22",
+    "maps": "https://maps.google.com/?q=The+Fastnet+Pub+Passeig+de+Joan+de+Borbó,+22+Barcelona",
+    "tags": [
+      "pub",
+      "Barceloneta"
+    ],
+    "bestFor": "Partit a la Barceloneta",
+    "notes": "Pub a Joan de Borbó.",
+    "source": "LiberoGuide"
+  },
+  {
+    "id": "james-joyce",
+    "name": "The James Joyce",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer de Casp, 92",
+    "maps": "https://maps.google.com/?q=The+James+Joyce+Carrer+de+Casp,+92+Barcelona",
+    "tags": [
+      "pub irlandès"
+    ],
+    "bestFor": "Partit a Casp",
+    "notes": "Pub irlandès a l'Eixample Dreta.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "bloomsday",
+    "name": "Bloomsday Irish Pub",
+    "type": "sports-bar",
+    "zone": "Les Rambles",
+    "city": "Barcelona",
+    "address": "La Rambla, 21",
+    "maps": "https://maps.google.com/?q=Bloomsday+Irish+Pub+La+Rambla,+21+Barcelona",
+    "tags": [
+      "pub irlandès",
+      "Rambla"
+    ],
+    "bestFor": "Partit a la Rambla",
+    "notes": "Ambient turístic; confirma partit.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "capitan-k10",
+    "name": "Capitán K10",
+    "type": "sports-bar",
+    "zone": "Sagrada Família",
+    "city": "Barcelona",
+    "address": "Carrer de Padilla, 323",
+    "maps": "https://maps.google.com/?q=Capitán+K10+Carrer+de+Padilla,+323+Barcelona",
+    "tags": [
+      "moltes pantalles"
+    ],
+    "bestFor": "Futbol amb moltes TVs",
+    "notes": "Sports bar amb moltes pantalles.",
+    "source": "Restaurant Guru"
+  },
+  {
+    "id": "dow-jones-bruc",
+    "name": "Dow Jones Bruc",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer del Bruc, 97",
+    "maps": "https://maps.google.com/?q=Dow+Jones+Bruc+Carrer+del+Bruc,+97+Barcelona",
+    "tags": [
+      "pantalles",
+      "Eixample"
+    ],
+    "bestFor": "Partit a l'Eixample",
+    "notes": "Llistat a KOP Stadium i Pocket Barcelona.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "dow-jones-diag",
+    "name": "Dow Jones Diagonal",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Avinguda Diagonal, 430",
+    "maps": "https://maps.google.com/?q=Dow+Jones+Diagonal+Avinguda+Diagonal,+430+Barcelona",
+    "tags": [
+      "pantalles",
+      "Diagonal"
+    ],
+    "bestFor": "Partit a Diagonal",
+    "notes": "Segona seu Dow Jones.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "dublin-tavern",
+    "name": "Dublin Sports Tavern",
+    "type": "sports-bar",
+    "zone": "Sarrià-Sant Gervasi",
+    "city": "Barcelona",
+    "address": "Plaça de Joan Llongueras, 5",
+    "maps": "https://maps.google.com/?q=Dublin+Sports+Tavern+Plaça+de+Joan+Llongueras,+5+Barcelona",
+    "tags": [
+      "sports bar",
+      "Sarrià"
+    ],
+    "bestFor": "Partit a Sant Gervasi",
+    "notes": "KOP Stadium / Pocket Barcelona.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "diagonal-pool",
+    "name": "Diagonal Pool",
+    "type": "sports-bar",
+    "zone": "Les Corts",
+    "city": "Barcelona",
+    "address": "Carrer de Joan Güell, 226",
+    "maps": "https://maps.google.com/?q=Diagonal+Pool+Carrer+de+Joan+Güell,+226+Barcelona",
+    "tags": [
+      "billar",
+      "Les Corts"
+    ],
+    "bestFor": "Billar i partit a Les Corts",
+    "notes": "Sala de pool a Joan Güell.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "retruc",
+    "name": "Retruc",
+    "type": "sports-bar",
+    "zone": "Eixample Esquerra",
+    "city": "Barcelona",
+    "address": "Gran Via de les Corts Catalanes, 399",
+    "maps": "https://maps.google.com/?q=Retruc+Gran+Via+de+les+Corts+Catalanes,+399+Barcelona",
+    "tags": [
+      "futbolí",
+      "billar"
+    ],
+    "bestFor": "Jocs i partit",
+    "notes": "Local gran amb futbolins i billares.",
+    "source": "Salir.com"
+  },
+  {
+    "id": "pecera-pool",
+    "name": "La Pecera del Pool",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer de Calàbria, 171",
+    "maps": "https://maps.google.com/?q=La+Pecera+del+Pool+Carrer+de+Calàbria,+171+Barcelona",
+    "tags": [
+      "billar"
+    ],
+    "bestFor": "Billar i partit",
+    "notes": "Confirma si posen el teu partit.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "bullman",
+    "name": "The Bullman",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer de Muntaner, 1",
+    "maps": "https://maps.google.com/?q=The+Bullman+Carrer+de+Muntaner,+1+Barcelona",
+    "tags": [
+      "pub"
+    ],
+    "bestFor": "Partit a Muntaner",
+    "notes": "Pub a l'inici de Muntaner.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "amsterdam",
+    "name": "Bar Amsterdam",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer d'Aragó, 305",
+    "maps": "https://maps.google.com/?q=Bar+Amsterdam+Carrer+d'Aragó,+305+Barcelona",
+    "tags": [
+      "pantalles"
+    ],
+    "bestFor": "Partit a Aragó",
+    "notes": "Llistat a guies where to watch.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "green-room",
+    "name": "Green Room",
+    "type": "sports-bar",
+    "zone": "Poblenou",
+    "city": "Barcelona",
+    "address": "Rambla del Poblenou, 20",
+    "maps": "https://maps.google.com/?q=Green+Room+Rambla+del+Poblenou,+20+Barcelona",
+    "tags": [
+      "Poblenou"
+    ],
+    "bestFor": "Partit al Poblenou",
+    "notes": "Confirma programació.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "beercelona",
+    "name": "Beercelona Bar",
+    "type": "sports-bar",
+    "zone": "Poblenou",
+    "city": "Barcelona",
+    "address": "Rambla del Poblenou, 118",
+    "maps": "https://maps.google.com/?q=Beercelona+Bar+Rambla+del+Poblenou,+118+Barcelona",
+    "tags": [
+      "cervesa",
+      "Poblenou"
+    ],
+    "bestFor": "Partit al Poblenou",
+    "notes": "Pot ser irregular: truca abans.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "city-tavern",
+    "name": "The City Tavern",
+    "type": "sports-bar",
+    "zone": "Gràcia",
+    "city": "Barcelona",
+    "address": "Plaça de Narcís Oller, 9",
+    "maps": "https://maps.google.com/?q=The+City+Tavern+Plaça+de+Narcís+Oller,+9+Barcelona",
+    "tags": [
+      "Gràcia",
+      "pub"
+    ],
+    "bestFor": "Partit a Gràcia",
+    "notes": "Abans Beer City.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "equinox",
+    "name": "Equinox",
+    "type": "sports-bar",
+    "zone": "Gràcia",
+    "city": "Barcelona",
+    "address": "Carrer de Verdi, 21-23",
+    "maps": "https://maps.google.com/?q=Equinox+Carrer+de+Verdi,+21-23+Barcelona",
+    "tags": [
+      "Gràcia",
+      "Verdi"
+    ],
+    "bestFor": "Partit a Verdi",
+    "notes": "Confirma si posen futbol aquell dia.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "seven-sports",
+    "name": "Seven Sports Bar",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer de Balmes, 64",
+    "maps": "https://maps.google.com/?q=Seven+Sports+Bar+Carrer+de+Balmes,+64+Barcelona",
+    "tags": [
+      "sports bar"
+    ],
+    "bestFor": "Partit a Balmes",
+    "notes": "Sports bar a Balmes.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "frankfurt-munich",
+    "name": "Frankfurt Munich",
+    "type": "sports-bar",
+    "zone": "Les Corts",
+    "city": "Barcelona",
+    "address": "Carrer del Comandant Benítez, 18",
+    "maps": "https://maps.google.com/?q=Frankfurt+Munich+Carrer+del+Comandant+Benítez,+18+Barcelona",
+    "tags": [
+      "Les Corts"
+    ],
+    "bestFor": "Dies de Barça a Les Corts",
+    "notes": "A prop de zona estadi.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "casa-ferreiro",
+    "name": "Casa Ferreiro",
+    "type": "sports-bar",
+    "zone": "Les Corts",
+    "city": "Barcelona",
+    "address": "Carrer de la Riera Blanca, 6",
+    "maps": "https://maps.google.com/?q=Casa+Ferreiro+Carrer+de+la+Riera+Blanca,+6+Barcelona",
+    "tags": [
+      "gallec",
+      "Camp Nou"
+    ],
+    "bestFor": "Abans o després del Camp Nou",
+    "notes": "Restaurant gallec de zona estadi (LiberoGuide).",
+    "source": "LiberoGuide"
+  },
+  {
+    "id": "futballarium",
+    "name": "Futballárium",
+    "type": "sports-bar",
+    "zone": "Les Corts",
+    "city": "Barcelona",
+    "address": "Les Corts",
+    "maps": "https://maps.google.com/?q=Futballárium+Les+Corts+Barcelona",
+    "tags": [
+      "temàtic",
+      "Camp Nou"
+    ],
+    "bestFor": "Ambient Barça a Les Corts",
+    "notes": "Local temàtic. Confirma horari i competició.",
+    "source": "LiberoGuide"
+  },
+  {
+    "id": "grizzly72",
+    "name": "Grizzly 72 Sports Bar",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Gran Via de les Corts Catalanes, 586",
+    "maps": "https://maps.google.com/?q=Grizzly+72+Sports+Bar+Gran+Via+de+les+Corts+Catalanes,+586+Barcelona",
+    "tags": [
+      "sports bar",
+      "billar"
+    ],
+    "bestFor": "Futbol i rugbi",
+    "notes": "Sports bar a Gran Via.",
+    "source": "Stadiummm"
+  },
+  {
+    "id": "4latas-hosta",
+    "name": "4 Latas Hostafrancs",
+    "type": "sports-bar",
+    "zone": "Sants-Montjuïc",
+    "city": "Barcelona",
+    "address": "Carrer de Vilardell, 25",
+    "maps": "https://maps.google.com/?q=4+Latas+Hostafrancs+Carrer+de+Vilardell,+25+Barcelona",
+    "tags": [
+      "Sants"
+    ],
+    "bestFor": "Partit a Hostafrancs",
+    "notes": "Local llistat a KOP Stadium.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "4latas-poble",
+    "name": "4 Latas Poblenou",
+    "type": "sports-bar",
+    "zone": "Poblenou",
+    "city": "Barcelona",
+    "address": "Rambla del Poblenou, 125",
+    "maps": "https://maps.google.com/?q=4+Latas+Poblenou+Rambla+del+Poblenou,+125+Barcelona",
+    "tags": [
+      "Poblenou"
+    ],
+    "bestFor": "Partit al Poblenou",
+    "notes": "Segona seu 4 Latas.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "can-eusebio",
+    "name": "Bar Can Eusebio",
+    "type": "sports-bar",
+    "zone": "Poble-sec",
+    "city": "Barcelona",
+    "address": "Avinguda del Paral·lel, 95",
+    "maps": "https://maps.google.com/?q=Bar+Can+Eusebio+Avinguda+del+Paral·lel,+95+Barcelona",
+    "tags": [
+      "bar de barri"
+    ],
+    "bestFor": "Partit al Paral·lel",
+    "notes": "KOP Stadium. Confirma amb el local.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "la-mundial",
+    "name": "Cervecería La Mundial",
+    "type": "sports-bar",
+    "zone": "Les Corts",
+    "city": "Barcelona",
+    "address": "Carrer de Lluçà, 32",
+    "maps": "https://maps.google.com/?q=Cervecería+La+Mundial+Carrer+de+Lluçà,+32+Barcelona",
+    "tags": [
+      "Les Corts"
+    ],
+    "bestFor": "Partit a Les Corts",
+    "notes": "KOP Stadium.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "l13",
+    "name": "L13 Sports Bar",
+    "type": "sports-bar",
+    "zone": "Poblenou",
+    "city": "Barcelona",
+    "address": "Carrer del Taulat, 1",
+    "maps": "https://maps.google.com/?q=L13+Sports+Bar+Carrer+del+Taulat,+1+Barcelona",
+    "tags": [
+      "sports bar"
+    ],
+    "bestFor": "Partit al Taulat",
+    "notes": "Pocket Barcelona.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "alta-galicia",
+    "name": "Alta Galícia",
+    "type": "sports-bar",
+    "zone": "Poblenou",
+    "city": "Barcelona",
+    "address": "Rambla del Poblenou, 93-95",
+    "maps": "https://maps.google.com/?q=Alta+Galícia+Rambla+del+Poblenou,+93-95+Barcelona",
+    "tags": [
+      "Poblenou"
+    ],
+    "bestFor": "Partit al Poblenou",
+    "notes": "Restaurant/bar a la Rambla del Poblenou.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "brewdog",
+    "name": "BrewDog Barcelona",
+    "type": "sports-bar",
+    "zone": "Eixample",
+    "city": "Barcelona",
+    "address": "Carrer de Casanova, 69",
+    "maps": "https://maps.google.com/?q=BrewDog+Barcelona+Carrer+de+Casanova,+69+Barcelona",
+    "tags": [
+      "craft beer"
+    ],
+    "bestFor": "Partits grans + craft",
+    "notes": "Sovint partits importants. Confirma a xarxes.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "michaels-tavern",
+    "name": "Michael's Tavern",
+    "type": "sports-bar",
+    "zone": "Sant Andreu",
+    "city": "Barcelona",
+    "address": "Carrer de Concepció Arenal, 213",
+    "maps": "https://maps.google.com/?q=Michael's+Tavern+Carrer+de+Concepció+Arenal,+213+Barcelona",
+    "tags": [
+      "Sant Andreu",
+      "pub"
+    ],
+    "bestFor": "Partit a Sant Andreu",
+    "notes": "Útil si vius al barri.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "penya-born",
+    "name": "Penya Blaugrana El Born",
+    "type": "penya",
+    "zone": "El Born",
+    "city": "Barcelona",
+    "address": "Carrer Argenteria, 61-63, baixos",
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+El+Born+Carrer+Argenteria,+61-63,+baixos+Barcelona",
+    "tags": [
+      "penya blaugrana",
+      "Born"
+    ],
+    "bestFor": "Ambient culer al Born",
+    "notes": "Seu al registre d'associacions. Pregunta horari de partit.",
+    "source": "xeu.cat / registre"
+  },
+  {
+    "id": "penya-corts",
+    "name": "Penya Blaugrana Les Corts",
+    "type": "penya",
+    "zone": "Les Corts",
+    "city": "Barcelona",
+    "address": "Carrer Doctor Ibáñez, 9",
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Les+Corts+Carrer+Doctor+Ibáñez,+9+Barcelona",
+    "tags": [
+      "penya blaugrana"
+    ],
+    "bestFor": "Penya de barri a Les Corts",
+    "notes": "Associació oficial. La seu pot no ser el local de partit.",
+    "source": "xeu.cat / registre"
+  },
+  {
+    "id": "penya-tsunami",
+    "name": "Penya Tsunami Blaugrana",
+    "type": "penya",
+    "zone": "Gràcia",
+    "city": "Barcelona",
+    "address": "Carrer de Santa Magdalena, 9, baixos",
+    "maps": "https://maps.google.com/?q=Penya+Tsunami+Blaugrana+Carrer+de+Santa+Magdalena,+9,+baixos+Barcelona",
+    "tags": [
+      "penya blaugrana",
+      "Gràcia"
+    ],
+    "bestFor": "Penya a Gràcia",
+    "notes": "Oficialitzada el 2023. Confirma si obre en partit.",
+    "source": "FC Barcelona / xeu.cat"
+  },
+  {
+    "id": "penya-dracs",
+    "name": "Penya Blaugrana Dracs Units",
+    "type": "penya",
+    "zone": "Sant Martí",
+    "city": "Barcelona",
+    "address": "Carrer Sancho de Ávila, 119, baixos",
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Dracs+Units+Carrer+Sancho+de+Ávila,+119,+baixos+Barcelona",
+    "tags": [
+      "penya blaugrana"
+    ],
+    "bestFor": "Penya culer (Xinesos pel Barça)",
+    "notes": "Associació registrada. No assumeixis barra cada jornada.",
+    "source": "xeu.cat / registre"
+  },
+  {
+    "id": "penya-pakistani",
+    "name": "Penya Blaugrana Pakistaní",
+    "type": "penya",
+    "zone": "Sant Gervasi",
+    "city": "Barcelona",
+    "address": "Ronda General Mitre, 200, baixos",
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Pakistaní+Ronda+General+Mitre,+200,+baixos+Barcelona",
+    "tags": [
+      "penya blaugrana"
+    ],
+    "bestFor": "Penya culer",
+    "notes": "Seu al registre. Confirma local de partit.",
+    "source": "xeu.cat / registre"
+  },
+  {
+    "id": "penya-arab",
+    "name": "Penya Blaugrana Àrab de Barcelona",
+    "type": "penya",
+    "zone": "Sant Martí",
+    "city": "Barcelona",
+    "address": "Avinguda Diagonal, 50 bis",
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Àrab+de+Barcelona+Avinguda+Diagonal,+50+bis+Barcelona",
+    "tags": [
+      "penya blaugrana"
+    ],
+    "bestFor": "Penya culer",
+    "notes": "Associació registrada. Confirma horari.",
+    "source": "xeu.cat / registre"
+  },
+  {
+    "id": "penya-bastio",
+    "name": "Penya El Bastió Blaugrana",
+    "type": "penya",
+    "zone": "El Raval",
+    "city": "Barcelona",
+    "address": "Carrer Jovellanos, 7",
+    "maps": "https://maps.google.com/?q=Penya+El+Bastió+Blaugrana+Carrer+Jovellanos,+7+Barcelona",
+    "tags": [
+      "penya blaugrana",
+      "Raval"
+    ],
+    "bestFor": "Penya al Raval",
+    "notes": "Seu social al registre. Verifica pantalla.",
+    "source": "xeu.cat / registre"
+  }
+]
