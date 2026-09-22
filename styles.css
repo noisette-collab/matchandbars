@@ -29,7 +29,17 @@ body { font-family: Outfit, "Noto Sans SC", system-ui, sans-serif; }
 .kicker { color: var(--accent-2); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: .75rem; }
 h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -0.04em; margin: 8px 0 16px; }
 .lead { max-width: 640px; color: var(--muted); font-size: 1.08rem; line-height: 1.5; }
-.search { margin-top: 28px; display: flex; gap: 8px; max-width: 640px; }
+.search { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 8px; max-width: 860px; }
+.search select {
+  background: var(--card); border: 1px solid var(--line); color: var(--text);
+  padding: 14px 16px; border-radius: 12px; font: inherit; min-width: 150px;
+}
+.near { margin: 12px 0 0; }
+.near button {
+  background: transparent; border: 1px solid var(--line); color: var(--accent);
+  border-radius: 999px; padding: 8px 14px; cursor: pointer; font: inherit;
+}
+.map { height: 340px; border-radius: 16px; border: 1px solid var(--line); margin-bottom: 18px; }
 .search input, .owner-form input {
   flex: 1; background: var(--card); border: 1px solid var(--line); color: var(--text);
   padding: 14px 16px; border-radius: 12px; font: inherit;
