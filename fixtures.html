@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Match & Bars — Fixtures</title>
+  <meta name="description" content="Kick-off times for top football, rugby and cricket leagues." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&amp;</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="index.html#bars-owners">Got a bar?</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>When is kick-off?</h1>
+      <p class="lead">
+        Upcoming fixtures in the main football leagues, plus a first rugby and cricket sample.
+        Times are as published by open calendars. Confirm channel and time with the bar.
+      </p>
+      <form class="search" id="fx-form">
+        <select id="fx-sport"></select>
+        <select id="fx-league"></select>
+      </form>
+      <p class="disclaimer">Not an official broadcast guide. Dates can move.</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="section-head">
+      <h2>Schedule</h2>
+      <p id="fx-count"></p>
+    </div>
+    <div class="fx-list" id="fx-list"></div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© 2026 Match &amp; Bars</span>
+      <span>Football dates from openfootball/football.json. Rugby and cricket rows are indicative — check the official calendar.</span>
+    </div>
+  </footer>
+  <script src="fixtures.js"></script>
+</body>
+</html>

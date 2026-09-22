@@ -1,7 +1,6 @@
 const I18N = {
   en: {
-    navDir: "Directory", navOwners: "Got a bar?",
-    kicker: "Europe + New York · beta",
+    navDir: "Directory", navFix: "Fixtures", navOwners: "Got a bar?",
     title: "Which bar is showing the match?",
     lead: "Find sports bars for football, rugby and cricket in 11 cities. Listings come from public guides. Always confirm the fixture with the venue.",
     searchPh: "Search by name or neighbourhood…", searchBtn: "Search",
@@ -13,8 +12,7 @@ const I18N = {
     footer: "Public-source listings. Always check with the venue.",
   },
   es: {
-    navDir: "Directorio", navOwners: "¿Tienes un bar?",
-    kicker: "Europa + Nueva York · beta",
+    navDir: "Directorio", navFix: "Partidos", navOwners: "¿Tienes un bar?",
     title: "¿En qué bar ponen el partido?",
     lead: "Bares para ver fútbol, rugby y cricket en 11 ciudades. Datos de guías públicas. Confirma siempre con el local.",
     searchPh: "Busca por nombre o barrio…", searchBtn: "Buscar",
@@ -26,8 +24,7 @@ const I18N = {
     footer: "Datos de fuentes públicas. Verifica con el local.",
   },
   zh: {
-    navDir: "目录", navOwners: "我有酒吧",
-    kicker: "欧洲 + 纽约 · 测试版",
+    navDir: "目录", navFix: "赛程", navOwners: "我有酒吧",
     title: "哪家酒吧在转播比赛？",
     lead: "11 座城市的足球、橄榄球与板球酒吧。来自公开指南。请向店家确认当日赛事。",
     searchPh: "按店名或街区搜索…", searchBtn: "搜索",

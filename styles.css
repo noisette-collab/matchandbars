@@ -76,7 +76,18 @@ h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -0.
 .owner-form label { display: flex; flex-direction: column; gap: 6px; color: var(--muted); font-size: .9rem; }
 footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: .82rem; }
 .foot { display: flex; flex-direction: column; gap: 6px; }
+.fx-list { display: flex; flex-direction: column; gap: 10px; padding-bottom: 64px; }
+.fx {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 14px 16px; display: grid; grid-template-columns: 140px 1fr auto; gap: 12px; align-items: center;
+}
+.fx .when { color: var(--muted); font-size: .88rem; }
+.fx .when strong { display: block; color: var(--text); font-size: 1rem; }
+.fx .teams { font-weight: 650; }
+.fx .league { color: var(--accent-2); font-size: .78rem; margin-bottom: 4px; }
+.fx a { color: var(--accent); font-weight: 600; text-decoration: none; font-size: .88rem; white-space: nowrap; }
 @media (max-width: 720px) {
   .owners-inner { grid-template-columns: 1fr; }
   .search { flex-direction: column; }
+  .fx { grid-template-columns: 1fr; }
 }
