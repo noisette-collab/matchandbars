@@ -245,16 +245,18 @@
     "address": "11 Temple Place",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 51.5114,
     "lng": -0.1139,
     "maps": "https://maps.google.com/?q=Walkabout+Temple+11+Temple+Place+London",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -266,16 +268,18 @@
     "address": "Unit 3, King's Boulevard",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 51.532,
     "lng": -0.124,
     "maps": "https://maps.google.com/?q=The+Sports+Bar+&+Grill+Unit+3,+King's+Boulevard+London",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -286,15 +290,17 @@
     "zone": "London Bridge",
     "address": "Unit C, 1 Tower Bridge",
     "sports": [
-      "football"
+      "football",
+      "cricket"
     ],
     "lat": 51.5045,
     "lng": -0.076,
     "maps": "https://maps.google.com/?q=Draft+House+Tower+Bridge+Unit+C,+1+Tower+Bridge+London",
     "tags": [
-      "football"
+      "football",
+      "cricket"
     ],
-    "bestFor": "football",
+    "bestFor": "football, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -324,15 +330,17 @@
     "zone": "Greenwich",
     "address": "Peninsula Square",
     "sports": [
-      "football"
+      "football",
+      "cricket"
     ],
     "lat": 51.503,
     "lng": 0.0032,
     "maps": "https://maps.google.com/?q=The+O2+Sports+Bar+Peninsula+Square+London",
     "tags": [
-      "football"
+      "football",
+      "cricket"
     ],
-    "bestFor": "football",
+    "bestFor": "football, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -382,16 +390,18 @@
     "address": "25 Wilton Road",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 51.4952,
     "lng": -0.1438,
     "maps": "https://maps.google.com/?q=The+Willow+Walk+25+Wilton+Road+London",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -422,16 +432,18 @@
     "address": "21-22 Maiden Lane",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 51.5112,
     "lng": -0.1233,
     "maps": "https://maps.google.com/?q=Porterhouse+Covent+Garden+21-22+Maiden+Lane+London",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -462,16 +474,18 @@
     "address": "29-31 Cranbourn Street",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 51.5116,
     "lng": -0.128,
     "maps": "https://maps.google.com/?q=The+Irish+House+29-31+Cranbourn+Street+London",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1663,16 +1677,18 @@
     "address": "South King Street",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 53.3398,
     "lng": -6.2612,
     "maps": "https://maps.google.com/?q=Sinnotts+Bar+South+King+Street+Dublin",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1684,16 +1700,18 @@
     "address": "Burgh Quay",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 53.347,
     "lng": -6.2585,
     "maps": "https://maps.google.com/?q=River+Bar+Burgh+Quay+Dublin",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1705,16 +1723,18 @@
     "address": "33-34 Upper O'Connell Street",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 53.3512,
     "lng": -6.2608,
     "maps": "https://maps.google.com/?q=Murray's+Bar+33-34+Upper+O'Connell+Street+Dublin",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1726,16 +1746,18 @@
     "address": "Merrion Street Lower",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 53.3395,
     "lng": -6.2505,
     "maps": "https://maps.google.com/?q=The+SinBin+Merrion+Street+Lower+Dublin",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1806,16 +1828,18 @@
     "address": "Temple Bar",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
     "lat": 53.3455,
     "lng": -6.264,
     "maps": "https://maps.google.com/?q=The+Tower+Bar+Temple+Bar+Dublin",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "cricket"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -2614,6 +2638,71 @@
       "nba"
     ],
     "bestFor": "football, nba",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-lords",
+    "name": "The Lord's Tavern",
+    "city": "London",
+    "zone": "St John's Wood",
+    "address": "St John's Wood Road",
+    "sports": [
+      "cricket",
+      "football"
+    ],
+    "lat": 51.5296,
+    "lng": -0.1722,
+    "maps": "https://maps.google.com/?q=The+Lord's+Tavern+St+John's+Wood+Road+London",
+    "tags": [
+      "cricket",
+      "football"
+    ],
+    "bestFor": "cricket, football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-oval",
+    "name": "The Oval Tavern",
+    "city": "London",
+    "zone": "Kennington",
+    "address": "33 Kennington Oval",
+    "sports": [
+      "cricket",
+      "football"
+    ],
+    "lat": 51.4836,
+    "lng": -0.115,
+    "maps": "https://maps.google.com/?q=The+Oval+Tavern+33+Kennington+Oval+London",
+    "tags": [
+      "cricket",
+      "football"
+    ],
+    "bestFor": "cricket, football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-boundary",
+    "name": "The Boundary",
+    "city": "Dublin",
+    "zone": "Ballsbridge",
+    "address": "Pembroke Road",
+    "sports": [
+      "cricket",
+      "rugby",
+      "football"
+    ],
+    "lat": 53.3315,
+    "lng": -6.2365,
+    "maps": "https://maps.google.com/?q=The+Boundary+Pembroke+Road+Dublin",
+    "tags": [
+      "cricket",
+      "rugby",
+      "football"
+    ],
+    "bestFor": "cricket, rugby, football",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   }
