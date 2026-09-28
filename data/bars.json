@@ -46,15 +46,17 @@
     "zone": "Plaça Catalunya",
     "address": "Carrer de Bergara, 3",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 41.3866,
     "lng": 2.1686,
     "maps": "https://maps.google.com/?q=Belushi's+Barcelona+Carrer+de+Bergara,+3+Barcelona",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -121,22 +123,26 @@
   },
   {
     "id": "bcn-coco",
-    "name": "CocoVail",
+    "name": "CocoVail Beer Hall",
     "city": "Barcelona",
     "zone": "Eixample",
     "address": "Carrer d'Aragó, 284",
     "sports": [
-      "football"
+      "football",
+      "nfl",
+      "nba"
     ],
     "lat": 41.3917,
     "lng": 2.1651,
     "maps": "https://maps.google.com/?q=CocoVail+Carrer+d'Aragó,+284+Barcelona",
     "tags": [
-      "football"
+      "football",
+      "nfl",
+      "nba"
     ],
-    "bestFor": "football",
-    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "bestFor": "football, nfl, nba",
+    "notes": "American beer hall. Publicly lists NFL Sundays and Red Zone in Barcelona. Confirm kick-off on the day.",
+    "source": "cocovailbeerhall.com"
   },
   {
     "id": "bcn-sports",
@@ -145,15 +151,17 @@
     "zone": "Gòtic",
     "address": "Carrer Ample, 51",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 41.381,
     "lng": 2.1796,
     "maps": "https://maps.google.com/?q=Sports+Bar+Ample+Carrer+Ample,+51+Barcelona",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -246,7 +254,8 @@
     "sports": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 51.5114,
     "lng": -0.1139,
@@ -254,9 +263,10 @@
     "tags": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, rugby, cricket",
+    "bestFor": "football, rugby, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -269,7 +279,8 @@
     "sports": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 51.532,
     "lng": -0.124,
@@ -277,9 +288,10 @@
     "tags": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, rugby, cricket",
+    "bestFor": "football, rugby, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -291,16 +303,18 @@
     "address": "Unit C, 1 Tower Bridge",
     "sports": [
       "football",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 51.5045,
     "lng": -0.076,
     "maps": "https://maps.google.com/?q=Draft+House+Tower+Bridge+Unit+C,+1+Tower+Bridge+London",
     "tags": [
       "football",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, cricket",
+    "bestFor": "football, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -331,16 +345,18 @@
     "address": "Peninsula Square",
     "sports": [
       "football",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 51.503,
     "lng": 0.0032,
     "maps": "https://maps.google.com/?q=The+O2+Sports+Bar+Peninsula+Square+London",
     "tags": [
       "football",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, cricket",
+    "bestFor": "football, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -497,16 +513,18 @@
     "address": "9 Rue Princesse",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 48.8534,
     "lng": 2.3338,
     "maps": "https://maps.google.com/?q=The+Frog+&+Princess+9+Rue+Princesse+Paris",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -539,16 +557,18 @@
     "address": "5 Rue de Dunkerque",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 48.8804,
     "lng": 2.3553,
     "maps": "https://maps.google.com/?q=Belushi's+Gare+du+Nord+5+Rue+de+Dunkerque+Paris",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -622,15 +642,17 @@
     "zone": "9e",
     "address": "4 Rue Volney",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 48.8702,
     "lng": 2.3305,
     "maps": "https://maps.google.com/?q=The+Great+Canadian+4+Rue+Volney+Paris",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -741,16 +763,18 @@
     "address": "C. de Alcalá, 59",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 40.4215,
     "lng": -3.682,
     "maps": "https://maps.google.com/?q=James+Joyce+Irish+Pub+C.+de+Alcalá,+59+Madrid",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -761,15 +785,17 @@
     "zone": "Salamanca",
     "address": "Av. de Brasil, 7",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 40.456,
     "lng": -3.692,
     "maps": "https://maps.google.com/?q=The+Irish+Rover+Av.+de+Brasil,+7+Madrid",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -995,15 +1021,17 @@
     "zone": "Mitte",
     "address": "Dircksenstraße",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 52.5218,
     "lng": 13.4115,
     "maps": "https://maps.google.com/?q=Belushi's+Alexanderplatz+Dircksenstraße+Berlin",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1052,15 +1080,17 @@
     "zone": "Friedrichshain",
     "address": "Karl-Liebknecht-Straße",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 52.5205,
     "lng": 13.416,
     "maps": "https://maps.google.com/?q=The+Irish+Pub+Berlin+Karl-Liebknecht-Straße+Berlin",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1209,16 +1239,18 @@
     "address": "Via del Plebiscito",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 41.8962,
     "lng": 12.4805,
     "maps": "https://maps.google.com/?q=Scholar's+Lounge+Via+del+Plebiscito+Rome",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1271,15 +1303,17 @@
     "zone": "Pantheon",
     "address": "Via del Collegio Romano",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 41.897,
     "lng": 12.4795,
     "maps": "https://maps.google.com/?q=Trinity+College+Via+del+Collegio+Romano+Rome",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1445,16 +1479,18 @@
     "address": "Rokin",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 52.3695,
     "lng": 4.8922,
     "maps": "https://maps.google.com/?q=The+Tara+Rokin+Amsterdam",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1465,15 +1501,17 @@
     "zone": "Rembrandtplein",
     "address": "Rembrandtplein",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 52.366,
     "lng": 4.8965,
     "maps": "https://maps.google.com/?q=The+Three+Sisters+Rembrandtplein+Amsterdam",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1484,15 +1522,17 @@
     "zone": "De Wallen",
     "address": "Warmoesstraat 129",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 52.3742,
     "lng": 4.8978,
     "maps": "https://maps.google.com/?q=Belushi's+Amsterdam+Warmoesstraat+129+Amsterdam",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1503,15 +1543,17 @@
     "zone": "Rembrandtplein",
     "address": "Thorbeckeplein 8-12",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 52.3662,
     "lng": 4.8955,
     "maps": "https://maps.google.com/?q=Coco's+Outback+Thorbeckeplein+8-12+Amsterdam",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1678,7 +1720,8 @@
     "sports": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 53.3398,
     "lng": -6.2612,
@@ -1686,9 +1729,10 @@
     "tags": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, rugby, cricket",
+    "bestFor": "football, rugby, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1701,7 +1745,8 @@
     "sports": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 53.347,
     "lng": -6.2585,
@@ -1709,9 +1754,10 @@
     "tags": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, rugby, cricket",
+    "bestFor": "football, rugby, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1747,7 +1793,8 @@
     "sports": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
     "lat": 53.3395,
     "lng": -6.2505,
@@ -1755,9 +1802,10 @@
     "tags": [
       "football",
       "rugby",
-      "cricket"
+      "cricket",
+      "nfl"
     ],
-    "bestFor": "football, rugby, cricket",
+    "bestFor": "football, rugby, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -1931,16 +1979,18 @@
     "address": "Frauenplatz",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 48.1386,
     "lng": 11.5738,
     "maps": "https://maps.google.com/?q=Kilian's+Irish+Pub+Frauenplatz+Munich",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -2009,16 +2059,18 @@
     "address": "Bayerstraße",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 48.1398,
     "lng": 11.5585,
     "maps": "https://maps.google.com/?q=Shannon+Irish+Pub+Bayerstraße+Munich",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -2165,16 +2217,18 @@
     "address": "Rua Bernardino Costa",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 38.7068,
     "lng": -9.1455,
     "maps": "https://maps.google.com/?q=The+British+Bar+Rua+Bernardino+Costa+Lisbon",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -2204,15 +2258,17 @@
     "zone": "Parque das Nações",
     "address": "Alameda dos Oceanos",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 38.7685,
     "lng": -9.0938,
     "maps": "https://maps.google.com/?q=Lisbon+Sports+Cafe+Alameda+dos+Oceanos+Lisbon",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -2704,6 +2760,117 @@
     ],
     "bestFor": "cricket, rugby, football",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-box",
+    "name": "BOX Piccadilly",
+    "city": "London",
+    "zone": "Piccadilly",
+    "address": "Piccadilly Circus",
+    "sports": [
+      "nfl",
+      "football"
+    ],
+    "lat": 51.5101,
+    "lng": -0.134,
+    "maps": "https://maps.google.com/?q=BOX+Piccadilly+Piccadilly+Circus+London",
+    "tags": [
+      "nfl",
+      "football"
+    ],
+    "bestFor": "nfl, football",
+    "notes": "Listed as an NFL UK sports-bar partner. Confirm hours.",
+    "source": "NFL UK / local guides"
+  },
+  {
+    "id": "lon-passyunk",
+    "name": "Passyunk Avenue",
+    "city": "London",
+    "zone": "Fitzrovia",
+    "address": "80 Cleveland Street",
+    "sports": [
+      "nfl",
+      "nba"
+    ],
+    "lat": 51.5215,
+    "lng": -0.1408,
+    "maps": "https://maps.google.com/?q=Passyunk+Avenue+80+Cleveland+Street+London",
+    "tags": [
+      "nfl",
+      "nba"
+    ],
+    "bestFor": "nfl, nba",
+    "notes": "Philadelphia-style bar; Eagles landing / NFL Sundays.",
+    "source": "Local guides"
+  },
+  {
+    "id": "par-moose",
+    "name": "The Moose",
+    "city": "Paris",
+    "zone": "Odéon",
+    "address": "16 Rue des Quatre Vents",
+    "sports": [
+      "nfl",
+      "nba",
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8512,
+    "lng": 2.3382,
+    "maps": "https://maps.google.com/?q=The+Moose+16+Rue+des+Quatre+Vents+Paris",
+    "tags": [
+      "nfl",
+      "nba",
+      "football",
+      "rugby"
+    ],
+    "bestFor": "nfl, nba, football, rugby",
+    "notes": "Canadian pub; football, rugby, NHL, NBA and NFL.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-woodford",
+    "name": "Woodford",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "136 E 44th Street",
+    "sports": [
+      "nfl",
+      "nba",
+      "football"
+    ],
+    "lat": 40.7522,
+    "lng": -73.9738,
+    "maps": "https://maps.google.com/?q=Woodford+136+E+44th+Street+New+York",
+    "tags": [
+      "nfl",
+      "nba",
+      "football"
+    ],
+    "bestFor": "nfl, nba, football",
+    "notes": "Sports bar often listed for NFL slates.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-stout2",
+    "name": "Stout NYC FiDi",
+    "city": "New York",
+    "zone": "Financial District",
+    "address": "90 John Street",
+    "sports": [
+      "nfl",
+      "football"
+    ],
+    "lat": 40.708,
+    "lng": -74.0065,
+    "maps": "https://maps.google.com/?q=Stout+NYC+FiDi+90+John+Street+New+York",
+    "tags": [
+      "nfl",
+      "football"
+    ],
+    "bestFor": "nfl, football",
+    "notes": "Second Stout room; NFL and soccer screens.",
     "source": "Public guides"
   }
 ]

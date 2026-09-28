@@ -10,6 +10,9 @@ const CITY_FOR_LEAGUE = {
   "United Rugby Championship": "Dublin",
   "Top 14": "Paris",
   "County Championship": "London",
+  "NFL": "New York",
+  "UEFA Nations League": "Barcelona",
+  "International friendly": "Barcelona",
 };
 
 let rows = [];
