@@ -53,9 +53,9 @@ const CITY_CENTERS = {
 
 let bars = [];
 const params = new URLSearchParams(location.search);
-let city = params.get("city") || "Barcelona";
 let sport = params.get("sport") || "";
-let nearMode = params.get("near") === "1" || params.has("sport");
+let nearMode = !params.get("city");
+let city = params.get("city") || "";
 let userLat = null;
 let userLng = null;
 let youMarker = null;
@@ -132,9 +132,14 @@ function render() {
   syncMap(list);
 }
 
+function setStatus(msg) {
+  const el = $("geo-status");
+  if (el) el.textContent = msg || "";
+}
+
 function initMap() {
-  const c = CITY_CENTERS[city] || [41.39, 2.17];
-  map = L.map("map").setView(c, 12);
+  const c = city && CITY_CENTERS[city] ? CITY_CENTERS[city] : [40, 0];
+  map = L.map("map").setView(c, city ? 12 : 3);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
   }).addTo(map);
@@ -164,18 +169,24 @@ function syncMap(list) {
 }
 
 function locate() {
-  if (!navigator.geolocation) { render(); return; }
+  setStatus("Requesting your location… allow it in the browser.");
+  if (!navigator.geolocation) {
+    setStatus("This browser cannot share location. Pick a city.");
+    render();
+    return;
+  }
   navigator.geolocation.getCurrentPosition((pos) => {
     userLat = pos.coords.latitude;
     userLng = pos.coords.longitude;
     city = "";
     const cityEl = $("city");
     if (cityEl) cityEl.value = "";
+    setStatus("Showing nearest bars for this sport.");
     render();
-  }, () => {
-    city = nearestCity(CITY_CENTERS.Barcelona[0], CITY_CENTERS.Barcelona[1]);
+  }, (err) => {
+    setStatus("Location blocked. Click “Use my location” or pick a city. (" + (err && err.message ? err.message : "denied") + ")");
     render();
-  });
+  }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 0 });
 }
 
 function nearestCity(lat, lng) {
@@ -192,8 +203,7 @@ async function load() {
   applyStatic();
   fillSelects();
   initMap();
-  if (nearMode) locate();
-  else render();
+  locate();
 }
 
 $("city").addEventListener("change", () => {

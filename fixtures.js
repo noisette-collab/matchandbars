@@ -51,7 +51,7 @@ function render() {
         <div class="league">${r.sport} · ${r.league}${r.round ? " · " + r.round : ""}</div>
         <div class="teams">${r.home} — ${r.away}</div>
       </div>
-      <a href="${href}">Nearest bars</a>
+      <a href="${href}">Bars near me</a>
     </article>`;
   }).join("");
 }
