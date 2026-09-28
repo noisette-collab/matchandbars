@@ -52,8 +52,13 @@ const CITY_CENTERS = {
 };
 
 let bars = [];
-let city = "Barcelona";
-let sport = "";
+const params = new URLSearchParams(location.search);
+let city = params.get("city") || "Barcelona";
+let sport = params.get("sport") || "";
+let nearMode = params.get("near") === "1" || params.has("sport");
+let userLat = null;
+let userLng = null;
+let youMarker = null;
 let lang = localStorage.getItem("mab-lang") || "en";
 let map, markers = [];
 
@@ -79,31 +84,46 @@ function cities() {
 function fillSelects() {
   const cityEl = $("city");
   const sportEl = $("sport");
-  cityEl.innerHTML = cities().map((c) => `<option value="${c}">${c}</option>`).join("");
-  cityEl.value = city;
+  cityEl.innerHTML = `<option value="">Near me</option>` + cities().map((c) => `<option value="${c}">${c}</option>`).join("");
+  cityEl.value = nearMode && !params.get("city") ? "" : city;
+  if (!cityEl.value && !nearMode) cityEl.value = city;
   const sports = [...new Set(bars.flatMap((b) => b.sports || []))];
   sportEl.innerHTML = `<option value="">${t().all}</option>` + sports.map((s) => `<option value="${s}">${s}</option>`).join("");
   sportEl.value = sport;
 }
 
+function km(aLat, aLng, bLat, bLng) {
+  const R = 6371;
+  const dLat = (bLat - aLat) * Math.PI / 180;
+  const dLng = (bLng - aLng) * Math.PI / 180;
+  const s = Math.sin(dLat / 2) ** 2 + Math.cos(aLat * Math.PI / 180) * Math.cos(bLat * Math.PI / 180) * Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1 - s));
+}
+
 function filtered() {
   const q = ($("q").value || "").trim().toLowerCase();
-  return bars.filter((b) => {
+  let list = bars.filter((b) => {
     if (city && b.city !== city) return false;
     if (sport && !(b.sports || []).includes(sport)) return false;
     if (!q) return true;
     return [b.name, b.zone, b.address, ...(b.sports || [])].join(" ").toLowerCase().includes(q);
   });
+  if (userLat != null) {
+    list = list.map((b) => ({ ...b, distance: (b.lat != null) ? km(userLat, userLng, b.lat, b.lng) : 9999 }))
+      .sort((a, b) => a.distance - b.distance)
+      .slice(0, 20);
+  }
+  return list;
 }
 
 function render() {
   const list = filtered();
   $("count").textContent = t().count(list.length);
-  $("dir-title").textContent = city;
+  $("dir-title").textContent = userLat != null ? (sport ? `Nearest · ${sport}` : "Nearest") : (city || "Directory");
   $("grid").innerHTML = list.map((b) => `
     <article class="card">
       <h3>${b.name}</h3>
-      <div class="meta">${b.city} · ${b.zone} · ${b.address}</div>
+      <div class="meta">${b.distance != null ? b.distance.toFixed(1) + " km · " : ""}${b.city} · ${b.zone} · ${b.address}</div>
       <div class="tags">${(b.sports || []).map((s) => `<span class="tag">${s}</span>`).join("")}</div>
       <p class="notes">${b.notes || ""}</p>
       <div class="source">${t().source}: ${b.source || ""}</div>
@@ -130,9 +150,32 @@ function syncMap(list) {
     m.bindPopup(`<strong>${b.name}</strong><br>${b.zone}<br>${(b.sports || []).join(", ")}`);
     markers.push(m);
   });
-  const c = CITY_CENTERS[city];
-  if (c) map.setView(c, 12);
+  if (userLat != null) {
+    map.setView([userLat, userLng], 12);
+    if (youMarker) map.removeLayer(youMarker);
+    youMarker = L.circleMarker([userLat, userLng], {
+      radius: 8, color: "#c8f54a", fillColor: "#c8f54a", fillOpacity: 0.9,
+    }).addTo(map).bindPopup("You");
+  } else {
+    const c = CITY_CENTERS[city];
+    if (c) map.setView(c, 12);
+  }
   setTimeout(() => map.invalidateSize(), 200);
+}
+
+function locate() {
+  if (!navigator.geolocation) { render(); return; }
+  navigator.geolocation.getCurrentPosition((pos) => {
+    userLat = pos.coords.latitude;
+    userLng = pos.coords.longitude;
+    city = "";
+    const cityEl = $("city");
+    if (cityEl) cityEl.value = "";
+    render();
+  }, () => {
+    city = nearestCity(CITY_CENTERS.Barcelona[0], CITY_CENTERS.Barcelona[1]);
+    render();
+  });
 }
 
 function nearestCity(lat, lng) {
@@ -149,25 +192,19 @@ async function load() {
   applyStatic();
   fillSelects();
   initMap();
-  render();
+  if (nearMode) locate();
+  else render();
 }
 
-$("city").addEventListener("change", () => { city = $("city").value; render(); });
+$("city").addEventListener("change", () => {
+  city = $("city").value;
+  if (city) { userLat = null; userLng = null; }
+  render();
+});
 $("sport").addEventListener("change", () => { sport = $("sport").value; render(); });
 $("search-form").addEventListener("submit", (e) => { e.preventDefault(); render(); });
 $("q").addEventListener("input", render);
-$("near-btn").addEventListener("click", () => {
-  if (!navigator.geolocation) return;
-  navigator.geolocation.getCurrentPosition((pos) => {
-    city = nearestCity(pos.coords.latitude, pos.coords.longitude);
-    $("city").value = city;
-    render();
-    L.circleMarker([pos.coords.latitude, pos.coords.longitude], {
-      radius: 8, color: "#c8f54a", fillColor: "#c8f54a", fillOpacity: 0.8,
-    }).addTo(map).bindPopup("You");
-    map.setView([pos.coords.latitude, pos.coords.longitude], 13);
-  });
-});
+$("near-btn").addEventListener("click", locate);
 document.querySelectorAll(".langs button").forEach((btn) => {
   btn.addEventListener("click", () => {
     lang = btn.dataset.lang;

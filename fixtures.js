@@ -39,7 +39,10 @@ function render() {
   const list = filtered();
   countEl.textContent = `${list.length} matches`;
   listEl.innerHTML = list.map((r) => {
-    const city = CITY_FOR_LEAGUE[r.league] || "Barcelona";
+    let city = CITY_FOR_LEAGUE[r.league] || "Barcelona";
+    if (r.sport === "nfl" && /London/i.test(r.round || "")) city = "London";
+    const sport = r.sport === "nfl" ? "nfl" : (r.sport === "rugby" ? "rugby" : (r.sport === "cricket" ? "cricket" : "football"));
+    const href = `index.html?sport=${encodeURIComponent(sport)}&near=1`;
     const time = r.time ? r.time : "TBC";
     const score = Array.isArray(r.score) ? ` · ${r.score[0]}-${r.score[1]}` : "";
     return `<article class="fx">
@@ -48,7 +51,7 @@ function render() {
         <div class="league">${r.sport} · ${r.league}${r.round ? " · " + r.round : ""}</div>
         <div class="teams">${r.home} — ${r.away}</div>
       </div>
-      <a href="index.html">Bars in ${city}</a>
+      <a href="${href}">Nearest bars</a>
     </article>`;
   }).join("");
 }
