@@ -1,8 +1,8 @@
 const I18N = {
   en: {
     navDir: "Directory", navFix: "Fixtures", navOwners: "Got a bar?",
-    title: "Which bar is showing the match?",
-    lead: "Find sports bars for football, rugby and cricket in 11 cities. Listings come from public guides. Always confirm the fixture with the venue.",
+    title: "Match & Bars: which bar is showing the match?",
+    lead: "Sports bars for football, rugby, cricket and NFL in Barcelona, London, New York and eight more cities. Listings come from public guides. Always confirm the fixture with the venue.",
     searchPh: "Search by name or neighbourhood…", searchBtn: "Search",
     disclaimer: "Not an official TV schedule. Rights change; not every bar shows every sport.",
     dirTitle: "Directory", count: (n) => `${n} venues`, all: "All sports",
