@@ -40,7 +40,8 @@
     ],
     "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://thegeorgepayne.com"
   },
   {
     "id": "bcn-belushi",
@@ -83,7 +84,8 @@
     ],
     "bestFor": "football, rugby",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.michaelcollinspub.com"
   },
   {
     "id": "bcn-flaherty",
@@ -106,7 +108,8 @@
     ],
     "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://pflaherty.com"
   },
   {
     "id": "bcn-wild",
@@ -127,7 +130,8 @@
     ],
     "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://barwildrover.com"
   },
   {
     "id": "bcn-coco",
@@ -3173,5 +3177,203 @@
     "bestFor": "Real Madrid",
     "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
     "source": "Real Madrid penyes list"
+  },
+  {
+    "id": "bcn-oldirish",
+    "name": "The Old Irish Pub",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Rambla dels Caputxins, 31",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3794,
+    "lng": 2.1746,
+    "maps": "https://maps.google.com/?q=Rambla+dels+Caputxins+31+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go.",
+    "source": "oldirishpub.es",
+    "web": "https://oldirishpub.es"
+  },
+  {
+    "id": "bcn-mybar",
+    "name": "My Bar Irish Pub",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Carrer d'Escudellers, 8",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3798,
+    "lng": 2.1762,
+    "maps": "https://maps.google.com/?q=My+Bar+Irish+Pub+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go. Address from the pub's own site area in the Gothic Quarter; confirm the door.",
+    "source": "mybar.es",
+    "web": "https://mybar.es"
+  },
+  {
+    "id": "bcn-temple-ferran",
+    "name": "Temple Bar Ferran",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Carrer de Ferran",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3806,
+    "lng": 2.1754,
+    "maps": "https://maps.google.com/?q=Temple+Bar+Ferran+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go.",
+    "source": "templebarbcn.com",
+    "web": "https://templebarbcn.com"
+  },
+  {
+    "id": "bcn-temple-avinyo",
+    "name": "Temple Bar Avinyó",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Carrer d'Avinyó",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3801,
+    "lng": 2.1768,
+    "maps": "https://maps.google.com/?q=Temple+Bar+Avinyo+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go.",
+    "source": "templebarbcn.com",
+    "web": "https://templebarbcn.com"
+  },
+  {
+    "id": "bcn-4latas-poblenou",
+    "name": "4 Latas Poblenou",
+    "city": "Barcelona",
+    "zone": "Poblenou",
+    "address": "Rambla del Poblenou, 125",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4022,
+    "lng": 2.2048,
+    "maps": "https://maps.google.com/?q=Rambla+del+Poblenou+125+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed by KOP Stadium as a football venue. Confirm the match. No confirmed website yet.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "bcn-4latas-hostafrancs",
+    "name": "4 Latas Hostafrancs",
+    "city": "Barcelona",
+    "zone": "Sants-Montjuïc",
+    "address": "Carrer de Vilardell, 25",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3744,
+    "lng": 2.1368,
+    "maps": "https://maps.google.com/?q=Carrer+de+Vilardell+25+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed by KOP Stadium as a football venue. Confirm the match. No confirmed website yet.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "bcn-aretapas",
+    "name": "Aretapas",
+    "city": "Barcelona",
+    "zone": "El Clot",
+    "address": "Carrer del Clot, 139",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4108,
+    "lng": 2.1896,
+    "maps": "https://maps.google.com/?q=Carrer+del+Clot+139+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed by KOP Stadium as a football venue. Confirm the match. No confirmed website yet.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "bcn-dowjones",
+    "name": "Dow Jones",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer del Bruc, 97",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3956,
+    "lng": 2.1728,
+    "maps": "https://maps.google.com/?q=Carrer+del+Bruc+97+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar listed in Barcelona match guides. Confirm the fixture. No confirmed website yet.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "bcn-lennox",
+    "name": "Lennox the Pub",
+    "city": "Barcelona",
+    "zone": "Sant Antoni",
+    "address": "Carrer de Sepúlveda, 158",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3786,
+    "lng": 2.1584,
+    "maps": "https://maps.google.com/?q=Lennox+the+Pub+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go. No confirmed website yet.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-sotavent",
+    "name": "Sotavent",
+    "city": "Barcelona",
+    "zone": "Barceloneta",
+    "address": "Carrer de l'Almirall Cervera, 6",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3782,
+    "lng": 2.1918,
+    "maps": "https://maps.google.com/?q=Sotavent+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Named in Barcelona football-bar guides for LaLiga. Confirm the match. No confirmed website yet.",
+    "source": "Barcelona Urbana"
   }
 ]
