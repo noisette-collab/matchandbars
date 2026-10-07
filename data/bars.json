@@ -3375,5 +3375,123 @@
     "bestFor": "football",
     "notes": "Named in Barcelona football-bar guides for LaLiga. Confirm the match. No confirmed website yet.",
     "source": "Barcelona Urbana"
+  },
+  {
+    "id": "bcn-taverna",
+    "name": "La Taverna",
+    "city": "Barcelona",
+    "zone": "Gràcia",
+    "address": "Carrer de Mozart, 8",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4034,
+    "lng": 2.1588,
+    "maps": "https://maps.google.com/?q=Carrer+de+Mozart+8+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-estadio",
+    "name": "Bar Estadio",
+    "city": "Barcelona",
+    "zone": "Les Corts",
+    "address": "Travessera de les Corts, 203",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3868,
+    "lng": 2.1224,
+    "maps": "https://maps.google.com/?q=Bar+Estadio+Travessera+de+les+Corts+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Near Camp Nou. Used as a match-day bar. Confirm it is open.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-dubliner",
+    "name": "The Dubliner",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Aribau, 125",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3928,
+    "lng": 2.1556,
+    "maps": "https://maps.google.com/?q=The+Dubliner+Aribau+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-blackhorse",
+    "name": "The Black Horse",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Aragó, 184",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3906,
+    "lng": 2.1634,
+    "maps": "https://maps.google.com/?q=The+Black+Horse+Arago+184+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-paddys",
+    "name": "Paddy's Point",
+    "city": "Barcelona",
+    "zone": "Barceloneta",
+    "address": "Carrer de la Maquinista, 16",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3796,
+    "lng": 2.1886,
+    "maps": "https://maps.google.com/?q=Paddys+Point+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-uptown",
+    "name": "Uptown Barcelona",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer de Provença, 236",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 41.3948,
+    "lng": 2.1648,
+    "maps": "https://maps.google.com/?q=Uptown+Barcelona+Provenca+236",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
   }
 ]
