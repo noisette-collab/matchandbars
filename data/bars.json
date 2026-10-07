@@ -16,7 +16,8 @@
     ],
     "bestFor": "football",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "http://www.ovellanegra.net"
   },
   {
     "id": "bcn-george",
@@ -26,16 +27,18 @@
     "address": "Plaça Urquinaona, 5",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 41.3892,
     "lng": 2.1734,
     "maps": "https://maps.google.com/?q=The+George+Payne+Plaça+Urquinaona,+5+Barcelona",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -58,7 +61,8 @@
     ],
     "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.belushis.com/barcelona-las-ramblas"
   },
   {
     "id": "bcn-collins",
@@ -89,16 +93,18 @@
     "address": "Plaça Joaquim Xirau",
     "sports": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
     "lat": 41.3773,
     "lng": 2.1761,
     "maps": "https://maps.google.com/?q=Flaherty's+Plaça+Joaquim+Xirau+Barcelona",
     "tags": [
       "football",
-      "rugby"
+      "rugby",
+      "nfl"
     ],
-    "bestFor": "football, rugby",
+    "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -109,15 +115,17 @@
     "zone": "Raval",
     "address": "Carrer de Santa Mònica, 2",
     "sports": [
-      "football"
+      "football",
+      "nfl"
     ],
     "lat": 41.3784,
     "lng": 2.175,
     "maps": "https://maps.google.com/?q=Wild+Rover+Carrer+de+Santa+Mònica,+2+Barcelona",
     "tags": [
-      "football"
+      "football",
+      "nfl"
     ],
-    "bestFor": "football",
+    "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
   },
@@ -141,8 +149,9 @@
       "nba"
     ],
     "bestFor": "football, nfl, nba",
-    "notes": "American beer hall. Publicly lists NFL Sundays and Red Zone in Barcelona. Confirm kick-off on the day.",
-    "source": "cocovailbeerhall.com"
+    "notes": "American beer hall. Lists NFL Sundays and Red Zone. Confirm kick-off on the day.",
+    "source": "cocovailbeerhall.com",
+    "web": "https://cocovailbeerhall.com"
   },
   {
     "id": "bcn-sports",
@@ -268,7 +277,8 @@
     ],
     "bestFor": "football, rugby, cricket, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.walkaboutbars.co.uk"
   },
   {
     "id": "lon-sports-bar",
@@ -461,7 +471,8 @@
     ],
     "bestFor": "football, rugby, cricket",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.theporterhouse.ie"
   },
   {
     "id": "lon-all-bar",
@@ -480,7 +491,8 @@
     ],
     "bestFor": "football",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.allbarone.co.uk"
   },
   {
     "id": "lon-irish",
@@ -570,7 +582,8 @@
     ],
     "bestFor": "football, rugby, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.belushis.com"
   },
   {
     "id": "par-bombardier",
@@ -1033,7 +1046,8 @@
     ],
     "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.belushis.com"
   },
   {
     "id": "ber-magnet",
@@ -2489,7 +2503,8 @@
     ],
     "bestFor": "football, nfl",
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.stoutnyc.com"
   },
   {
     "id": "ny-woodwork",
@@ -2871,6 +2886,292 @@
     ],
     "bestFor": "nfl, football",
     "notes": "Second Stout room; NFL and soccer screens.",
-    "source": "Public guides"
+    "source": "Public guides",
+    "web": "https://www.stoutnyc.com"
+  },
+  {
+    "id": "bcn-penya-juanito",
+    "name": "Peña Madridista Juanito",
+    "city": "Barcelona",
+    "zone": "Sant Martí",
+    "address": "Rambla de Guipúscoa, 120",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4184,
+    "lng": 2.2038,
+    "maps": "https://maps.google.com/?q=Rambla+de+Guipuscoa+120+Barcelona",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Seu de la Federació de Penyes Madridistes de Catalunya. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "FEPEMAC",
+    "web": "https://www.fepemac.com"
+  },
+  {
+    "id": "mad-penya-mostoles",
+    "name": "Peña Barcelonista de Móstoles",
+    "city": "Madrid",
+    "zone": "Móstoles",
+    "address": "Calle Petunia, 21",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3225,
+    "lng": -3.8648,
+    "maps": "https://maps.google.com/?q=Calle+Petunia+21+Mostoles",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya oficial del Barça a Madrid (núm. 2053). Local amb pantalla. Confirma horari i si es pot entrar sense ser soci.",
+    "source": "Penya Barcelonista de Móstoles",
+    "web": "https://www.pbmostoles.com"
+  },
+  {
+    "id": "mad-penya-valdemoro",
+    "name": "Peña Barcelonista Valdemoro",
+    "city": "Madrid",
+    "zone": "Valdemoro",
+    "address": "Calle General Martitegui, 39",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.1907,
+    "lng": -3.6784,
+    "maps": "https://maps.google.com/?q=Calle+General+Martitegui+39+Valdemoro",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya barcelonista a la Comunitat de Madrid. Solen veure el Barça. Confirma si el local és obert al públic.",
+    "source": "Public listing"
+  },
+  {
+    "id": "mad-penya-brujo",
+    "name": "Peña Madridista El Brujo",
+    "city": "Madrid",
+    "zone": "Villaverde",
+    "address": "Avenida de los Rosales, 94",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3482,
+    "lng": -3.6994,
+    "maps": "https://maps.google.com/?q=Avenida+de+los+Rosales+94+Madrid",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya oficial del Real Madrid al sud de Madrid. Solen veure el Madrid. Confirma accés el dia de partit.",
+    "source": "Real Madrid penyes list"
+  },
+  {
+    "id": "bcn-penya-sants",
+    "name": "Penya Barcelonista Sants",
+    "city": "Barcelona",
+    "zone": "La Bordeta",
+    "address": "Carrer de Viladecans, 1-3",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3689,
+    "lng": 2.1348,
+    "maps": "https://maps.google.com/?q=Carrer+de+Viladecans+1+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona"
+  },
+  {
+    "id": "bcn-penya-ciutat",
+    "name": "Penya Blaugrana Ciutat Comtal",
+    "city": "Barcelona",
+    "zone": "Sants",
+    "address": "Carrer de Vilardell, 23",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3742,
+    "lng": 2.1365,
+    "maps": "https://maps.google.com/?q=Carrer+de+Vilardell+23+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona"
+  },
+  {
+    "id": "bcn-penya-congres",
+    "name": "Penya Barcelonista Congrés",
+    "city": "Barcelona",
+    "zone": "Congrés",
+    "address": "Carrer de Pardo, 6",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4236,
+    "lng": 2.1812,
+    "maps": "https://maps.google.com/?q=Carrer+de+Pardo+6+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona"
+  },
+  {
+    "id": "bcn-penya-andreu",
+    "name": "Penya Blanc i Blava de Sant Andreu",
+    "city": "Barcelona",
+    "zone": "Sant Andreu",
+    "address": "Carrer Gran de Sant Andreu, 56",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4358,
+    "lng": 2.1914,
+    "maps": "https://maps.google.com/?q=Carrer+Gran+de+Sant+Andreu+56+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona"
+  },
+  {
+    "id": "bcn-penya-bonpastor",
+    "name": "Peña Barcelonista Bon Pastor",
+    "city": "Barcelona",
+    "zone": "Bon Pastor",
+    "address": "Carrer de Flix, 29",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4364,
+    "lng": 2.2016,
+    "maps": "https://maps.google.com/?q=Carrer+de+Flix+29+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona",
+    "web": "https://www.pbbonpastor.com"
+  },
+  {
+    "id": "bcn-penya-poblenou",
+    "name": "Peña Barcelonista Poble Nou",
+    "city": "Barcelona",
+    "zone": "Poblenou",
+    "address": "Carrer de Venero, 16",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3978,
+    "lng": 2.2034,
+    "maps": "https://maps.google.com/?q=Carrer+de+Venero+16+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Public listing",
+    "web": "https://pbpoblenou.wixsite.com/pb-poblenou"
+  },
+  {
+    "id": "mad-penya-vallecana",
+    "name": "Peña Madridista Vallecana",
+    "city": "Madrid",
+    "zone": "Vallecas",
+    "address": "Calle Sierra Vieja, 64",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3884,
+    "lng": -3.6212,
+    "maps": "https://maps.google.com/?q=Calle+Sierra+Vieja+64+Madrid",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Real Madrid penyes list"
+  },
+  {
+    "id": "mad-penya-leganes",
+    "name": "Peña Madridista Leganés",
+    "city": "Madrid",
+    "zone": "Leganés",
+    "address": "Plaza de España, 20 (El Viejo Café)",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3282,
+    "lng": -3.7634,
+    "maps": "https://maps.google.com/?q=Plaza+de+Espana+20+Leganes",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit. Seu al bar El Viejo Café.",
+    "source": "Peña Madridista Leganés",
+    "web": "https://xn--peamadridistaleganes-46b.es"
+  },
+  {
+    "id": "mad-penya-guadarrama",
+    "name": "Peña Madridista Guadarrama",
+    "city": "Madrid",
+    "zone": "Guadarrama",
+    "address": "Calle La Llama, 9",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.6726,
+    "lng": -4.0894,
+    "maps": "https://maps.google.com/?q=Calle+La+Llama+9+Guadarrama",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Real Madrid penyes list"
+  },
+  {
+    "id": "mad-penya-sanse",
+    "name": "Peña Madridista San Sebastián de los Reyes",
+    "city": "Madrid",
+    "zone": "San Sebastián de los Reyes",
+    "address": "Calle Dos de Mayo, 2",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.5472,
+    "lng": -3.6258,
+    "maps": "https://maps.google.com/?q=Calle+Dos+de+Mayo+2+San+Sebastian+de+los+Reyes",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Real Madrid penyes list"
   }
 ]

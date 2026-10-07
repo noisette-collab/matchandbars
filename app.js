@@ -128,6 +128,7 @@ function render() {
       <p class="notes">${b.notes || ""}</p>
       <div class="source">${t().source}: ${b.source || ""}</div>
       <a class="maps" href="${b.maps}" target="_blank" rel="noopener">${t().maps}</a>
+      ${b.web ? `<a class="maps" href="${b.web}" target="_blank" rel="noopener">Website</a>` : ""}
       <div class="community" data-bar="${b.id}"></div>
     </article>`).join("");
   syncMap(list);
