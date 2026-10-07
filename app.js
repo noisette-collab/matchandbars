@@ -128,8 +128,10 @@ function render() {
       <p class="notes">${b.notes || ""}</p>
       <div class="source">${t().source}: ${b.source || ""}</div>
       <a class="maps" href="${b.maps}" target="_blank" rel="noopener">${t().maps}</a>
+      <div class="community" data-bar="${b.id}"></div>
     </article>`).join("");
   syncMap(list);
+  if (window.mabRefreshComments) window.mabRefreshComments();
 }
 
 function setStatus(msg) {
