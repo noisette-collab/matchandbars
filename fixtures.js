@@ -21,10 +21,19 @@ const leagueEl = document.getElementById("fx-league");
 const listEl = document.getElementById("fx-list");
 const countEl = document.getElementById("fx-count");
 
+function isUpcoming(r) {
+  const now = new Date();
+  const [y, m, d] = (r.date || "").split("-").map(Number);
+  if (!y) return false;
+  const [hh, mm] = (r.time || "23:59").split(":").map(Number);
+  const kick = new Date(y, m - 1, d, hh || 0, mm || 0);
+  return kick.getTime() >= now.getTime() - 2 * 60 * 60 * 1000;
+}
+
 function filtered() {
   const s = sportEl.value;
   const l = leagueEl.value;
-  return rows.filter((r) => (!s || r.sport === s) && (!l || r.league === l));
+  return rows.filter((r) => isUpcoming(r) && (!s || r.sport === s) && (!l || r.league === l));
 }
 
 function fillLeagues() {
@@ -62,7 +71,7 @@ leagueEl.addEventListener("change", render);
 fetch("data/fixtures.json")
   .then((r) => r.json())
   .then((data) => {
-    rows = data;
+    rows = data.filter(isUpcoming);
     const sports = [...new Set(rows.map((r) => r.sport))];
     sportEl.innerHTML = `<option value="">All sports</option>` + sports.map((s) => `<option value="${s}">${s}</option>`).join("");
     fillLeagues();
