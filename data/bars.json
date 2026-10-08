@@ -2912,7 +2912,8 @@
     "bestFor": "Real Madrid",
     "notes": "Seu de la Federació de Penyes Madridistes de Catalunya. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
     "source": "FEPEMAC",
-    "web": "https://www.fepemac.com"
+    "web": "https://www.fepemac.com",
+    "club": "madrid"
   },
   {
     "id": "mad-penya-mostoles",
@@ -2933,7 +2934,8 @@
     "bestFor": "FC Barcelona",
     "notes": "Penya oficial del Barça a Madrid (núm. 2053). Local amb pantalla. Confirma horari i si es pot entrar sense ser soci.",
     "source": "Penya Barcelonista de Móstoles",
-    "web": "https://www.pbmostoles.com"
+    "web": "https://www.pbmostoles.com",
+    "club": "barca"
   },
   {
     "id": "mad-penya-valdemoro",
@@ -2953,7 +2955,8 @@
     ],
     "bestFor": "FC Barcelona",
     "notes": "Penya barcelonista a la Comunitat de Madrid. Solen veure el Barça. Confirma si el local és obert al públic.",
-    "source": "Public listing"
+    "source": "Public listing",
+    "club": "barca"
   },
   {
     "id": "mad-penya-brujo",
@@ -2973,7 +2976,8 @@
     ],
     "bestFor": "Real Madrid",
     "notes": "Penya oficial del Real Madrid al sud de Madrid. Solen veure el Madrid. Confirma accés el dia de partit.",
-    "source": "Real Madrid penyes list"
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
   },
   {
     "id": "bcn-penya-sants",
@@ -2993,7 +2997,8 @@
     ],
     "bestFor": "FC Barcelona",
     "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Guia Barcelona"
+    "source": "Guia Barcelona",
+    "club": "barca"
   },
   {
     "id": "bcn-penya-ciutat",
@@ -3013,7 +3018,8 @@
     ],
     "bestFor": "FC Barcelona",
     "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Guia Barcelona"
+    "source": "Guia Barcelona",
+    "club": "barca"
   },
   {
     "id": "bcn-penya-congres",
@@ -3033,7 +3039,8 @@
     ],
     "bestFor": "FC Barcelona",
     "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Guia Barcelona"
+    "source": "Guia Barcelona",
+    "club": "barca"
   },
   {
     "id": "bcn-penya-andreu",
@@ -3053,7 +3060,8 @@
     ],
     "bestFor": "FC Barcelona",
     "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Guia Barcelona"
+    "source": "Guia Barcelona",
+    "club": "barca"
   },
   {
     "id": "bcn-penya-bonpastor",
@@ -3074,7 +3082,8 @@
     "bestFor": "FC Barcelona",
     "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
     "source": "Guia Barcelona",
-    "web": "https://www.pbbonpastor.com"
+    "web": "https://www.pbbonpastor.com",
+    "club": "barca"
   },
   {
     "id": "bcn-penya-poblenou",
@@ -3095,7 +3104,8 @@
     "bestFor": "FC Barcelona",
     "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
     "source": "Public listing",
-    "web": "https://pbpoblenou.wixsite.com/pb-poblenou"
+    "web": "https://pbpoblenou.wixsite.com/pb-poblenou",
+    "club": "barca"
   },
   {
     "id": "mad-penya-vallecana",
@@ -3115,7 +3125,8 @@
     ],
     "bestFor": "Real Madrid",
     "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Real Madrid penyes list"
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
   },
   {
     "id": "mad-penya-leganes",
@@ -3136,7 +3147,8 @@
     "bestFor": "Real Madrid",
     "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit. Seu al bar El Viejo Café.",
     "source": "Peña Madridista Leganés",
-    "web": "https://xn--peamadridistaleganes-46b.es"
+    "web": "https://xn--peamadridistaleganes-46b.es",
+    "club": "madrid"
   },
   {
     "id": "mad-penya-guadarrama",
@@ -3156,7 +3168,8 @@
     ],
     "bestFor": "Real Madrid",
     "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Real Madrid penyes list"
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
   },
   {
     "id": "mad-penya-sanse",
@@ -3176,7 +3189,8 @@
     ],
     "bestFor": "Real Madrid",
     "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
-    "source": "Real Madrid penyes list"
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
   },
   {
     "id": "bcn-oldirish",
@@ -3493,5 +3507,68 @@
     "bestFor": "football",
     "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
     "source": "Public guides"
+  },
+  {
+    "id": "sitges-sports",
+    "name": "Sports Bar Sitges",
+    "city": "Sitges",
+    "zone": "Passeig Marítim",
+    "address": "Passeig de la Ribera, 48",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.2346,
+    "lng": 1.8112,
+    "maps": "https://maps.google.com/?q=Passeig+de+la+Ribera+48+Sitges",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "15 screens. Confirm the fixture on their Instagram.",
+    "source": "sportsbarsitges.com",
+    "web": "https://sportsbarsitges.com"
+  },
+  {
+    "id": "lon-penya-barca",
+    "name": "Penya Blaugrana London",
+    "city": "London",
+    "zone": "Covent Garden",
+    "address": "Bat & Ball, 50 Earlham Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5134,
+    "lng": -0.1266,
+    "maps": "https://maps.google.com/?q=Bat+and+Ball+50+Earlham+Street+London",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "club": "barca",
+    "notes": "Official Barça penya. Match days at Bat & Ball. Non-members welcome if they support Barça; confirm the screening.",
+    "source": "pblondon.org",
+    "web": "https://pblondon.org"
+  },
+  {
+    "id": "lis-penya-barca",
+    "name": "Penya Barcelonista de Lisboa",
+    "city": "Lisbon",
+    "zone": "Príncipe Real",
+    "address": "Travessa do Salitre, 1",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7176,
+    "lng": -9.1468,
+    "maps": "https://maps.google.com/?q=Travessa+do+Salitre+1+Lisboa",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "club": "barca",
+    "notes": "Barcelonista supporters' club. Confirm it is open to the public on match day.",
+    "source": "Public listing"
   }
 ]

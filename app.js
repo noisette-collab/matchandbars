@@ -100,13 +100,22 @@ function km(aLat, aLng, bLat, bLng) {
   return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1 - s));
 }
 
+function clubMatch(b, q) {
+  if (!b.club) return true;
+  if (!q) return false;
+  if (b.club === "barca") return /bar[cç]a|blaugrana|fcb/.test(q);
+  if (b.club === "madrid") return /madrid|merengue|bernabeu|bernabeu/.test(q);
+  return false;
+}
+
 function filtered() {
   const q = ($("q").value || "").trim().toLowerCase();
   let list = bars.filter((b) => {
     if (city && b.city !== city) return false;
     if (sport && !(b.sports || []).includes(sport)) return false;
+    if (!clubMatch(b, q)) return false;
     if (!q) return true;
-    return [b.name, b.zone, b.address, ...(b.sports || [])].join(" ").toLowerCase().includes(q);
+    return [b.name, b.zone, b.address, b.city, b.bestFor, ...(b.sports || []), ...(b.tags || [])].join(" ").toLowerCase().includes(q) || clubMatch(b, q);
   });
   if (userLat != null) {
     list = list.map((b) => ({ ...b, distance: (b.lat != null) ? km(userLat, userLng, b.lat, b.lng) : 9999 }))
@@ -122,7 +131,7 @@ function render() {
   $("dir-title").textContent = userLat != null ? (sport ? `Nearest · ${sport}` : "Nearest") : (city || "Directory");
   $("grid").innerHTML = list.map((b) => `
     <article class="card">
-      <h3>${b.name}</h3>
+      <h3>${b.club === "barca" ? '<span class="crest barca" title="Barça">FCB</span>' : ""}${b.club === "madrid" ? '<span class="crest madrid" title="Real Madrid">RMA</span>' : ""}${b.name}</h3>
       <div class="meta">${b.distance != null ? b.distance.toFixed(1) + " km · " : ""}${b.city} · ${b.zone} · ${b.address}</div>
       <div class="tags">${(b.sports || []).map((s) => `<span class="tag">${s}</span>`).join("")}</div>
       <p class="notes">${b.notes || ""}</p>
