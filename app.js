@@ -117,10 +117,13 @@ function filtered() {
     if (!q) return true;
     return [b.name, b.zone, b.address, b.city, b.bestFor, ...(b.sports || []), ...(b.tags || [])].join(" ").toLowerCase().includes(q) || clubMatch(b, q);
   });
-  if (userLat != null) {
+  if (userLat != null && !/bar[cç]a|blaugrana|madrid/.test(q)) {
     list = list.map((b) => ({ ...b, distance: (b.lat != null) ? km(userLat, userLng, b.lat, b.lng) : 9999 }))
       .sort((a, b) => a.distance - b.distance)
       .slice(0, 20);
+  } else if (userLat != null) {
+    list = list.map((b) => ({ ...b, distance: (b.lat != null) ? km(userLat, userLng, b.lat, b.lng) : 9999 }))
+      .sort((a, b) => a.distance - b.distance);
   }
   return list;
 }

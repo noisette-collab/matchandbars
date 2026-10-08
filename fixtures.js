@@ -32,11 +32,28 @@ function isUpcoming(r) {
   return kick.getTime() >= now.getTime() - 2 * 60 * 60 * 1000;
 }
 
+function sameTeam(rowTeam, picked) {
+  const a = (rowTeam || "").toLowerCase();
+  const b = (picked || "").toLowerCase();
+  if (!b) return true;
+  if (a === b) return true;
+  const barca = /bar[cç]a/;
+  if (barca.test(b) && barca.test(a) && !/espanyol/.test(a)) return true;
+  const madrid = /real madrid/;
+  if (madrid.test(b) && madrid.test(a)) return true;
+  return a.includes(b) || b.includes(a);
+}
+
 function filtered() {
   const s = sportEl.value;
   const l = leagueEl.value;
   const team = teamEl.value;
-  return rows.filter((r) => (!s || r.sport === s) && (!l || r.league === l) && (!team || r.home === team || r.away === team));
+  return rows.filter((r) => {
+    if (s && r.sport !== s) return false;
+    if (l && r.league !== l) return false;
+    if (!team) return true;
+    return sameTeam(r.home, team) || sameTeam(r.away, team);
+  });
 }
 
 function fillTeams() {
