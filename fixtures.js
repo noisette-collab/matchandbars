@@ -16,8 +16,10 @@ const CITY_FOR_LEAGUE = {
 };
 
 let rows = [];
+const HIDE_LEAGUES = new Set(["Primeira Liga", "Eredivisie"]);
 const sportEl = document.getElementById("fx-sport");
 const leagueEl = document.getElementById("fx-league");
+const teamEl = document.getElementById("fx-team");
 const listEl = document.getElementById("fx-list");
 const countEl = document.getElementById("fx-count");
 
@@ -33,7 +35,21 @@ function isUpcoming(r) {
 function filtered() {
   const s = sportEl.value;
   const l = leagueEl.value;
-  return rows.filter((r) => isUpcoming(r) && (!s || r.sport === s) && (!l || r.league === l));
+  const team = teamEl.value;
+  return rows.filter((r) => (!s || r.sport === s) && (!l || r.league === l) && (!team || r.home === team || r.away === team));
+}
+
+function fillTeams() {
+  const s = sportEl.value;
+  const l = leagueEl.value;
+  const names = new Set();
+  rows.filter((r) => (!s || r.sport === s) && (!l || r.league === l) && r.sport === "football").forEach((r) => {
+    names.add(r.home); names.add(r.away);
+  });
+  const keep = teamEl.value;
+  const list = [...names].sort();
+  teamEl.innerHTML = `<option value="">All teams</option>` + list.map((x) => `<option value="${x}">${x}</option>`).join("");
+  if (list.includes(keep)) teamEl.value = keep;
 }
 
 function fillLeagues() {
@@ -65,15 +81,17 @@ function render() {
   }).join("");
 }
 
-sportEl.addEventListener("change", () => { fillLeagues(); render(); });
-leagueEl.addEventListener("change", render);
+sportEl.addEventListener("change", () => { fillLeagues(); fillTeams(); render(); });
+leagueEl.addEventListener("change", () => { fillTeams(); render(); });
+teamEl.addEventListener("change", render);
 
 fetch("data/fixtures.json")
   .then((r) => r.json())
   .then((data) => {
-    rows = data.filter(isUpcoming);
+    rows = data.filter((r) => isUpcoming(r) && !HIDE_LEAGUES.has(r.league));
     const sports = [...new Set(rows.map((r) => r.sport))];
     sportEl.innerHTML = `<option value="">All sports</option>` + sports.map((s) => `<option value="${s}">${s}</option>`).join("");
     fillLeagues();
+    fillTeams();
     render();
   });
