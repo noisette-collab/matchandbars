@@ -49,6 +49,7 @@ const CITY_CENTERS = {
   Munich: [48.137, 11.576],
   Lisbon: [38.722, -9.139],
   "New York": [40.758, -73.985],
+  Sitges: [41.235, 1.812],
 };
 
 let bars = [];
@@ -128,6 +129,15 @@ function filtered() {
   return list;
 }
 
+function amenity(b) {
+  const admin = window.mabIsAdmin && window.mabIsAdmin();
+  const val = (key) => window.mabFeature ? window.mabFeature(b.id, key) : false;
+  const box = (key, label) => admin
+    ? `<label class="amenity"><input type="checkbox" data-amenity="${key}" data-bar="${b.id}" ${val(key) ? "checked" : ""}> ${label}</label>`
+    : `<span class="amenity ${val(key) ? "on" : "off"}">${val(key) ? "✓" : "–"} ${label}</span>`;
+  return `<div class="amenities">${box("terrace_screen", "Screen on terrace")}${box("big_screen", "Big screen")}${box("multi_screen", "More than one screen")}</div>`;
+}
+
 function render() {
   const list = filtered();
   $("count").textContent = t().count(list.length);
@@ -138,6 +148,7 @@ function render() {
       <div class="meta">${b.distance != null ? b.distance.toFixed(1) + " km · " : ""}${b.city} · ${b.zone} · ${b.address}</div>
       <div class="tags">${(b.sports || []).map((s) => `<span class="tag">${s}</span>`).join("")}</div>
       <p class="notes">${b.notes || ""}</p>
+      ${amenity(b)}
       <div class="source">${t().source}: ${b.source || ""}</div>
       <a class="maps" href="${b.maps}" target="_blank" rel="noopener">${t().maps}</a>
       ${b.web ? `<a class="maps" href="${b.web}" target="_blank" rel="noopener">Website</a>` : ""}
@@ -239,5 +250,7 @@ document.querySelectorAll(".langs button").forEach((btn) => {
     render();
   });
 });
+
+window.mabRerender = render;
 
 load();

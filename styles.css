@@ -101,3 +101,10 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--m
   .search { flex-direction: column; }
   .fx { grid-template-columns: 1fr; }
 }
+
+.amenities { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; font-size: .85rem; }
+.amenity { border: 1px solid #333; border-radius: 999px; padding: 4px 10px; }
+.amenity.on { border-color: #c8f54a; color: #c8f54a; }
+.amenity.off { opacity: .55; }
+.amenity input { accent-color: #c8f54a; }
+

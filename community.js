@@ -11,6 +11,32 @@ function esc(s) {
   return String(s || "").replace(/[&<>"]/g, (c) => ({ "&": "&", "<": "<", ">": ">", '"': """ }[c]));
 }
 
+const ADMINS = new Set(["alvaro.nocete@gmail.com"]);
+let features = {};
+
+function isAdmin() {
+  return !!(session && ADMINS.has((session.user.email || "").toLowerCase()));
+}
+
+async function loadFeatures() {
+  const { data, error } = await sb.from("bar_features").select("bar_id,terrace_screen,big_screen,multi_screen");
+  if (error) return;
+  features = {};
+  (data || []).forEach((row) => { features[row.bar_id] = row; });
+}
+
+window.mabFeature = (id, key) => !!(features[id] && features[id][key]);
+window.mabIsAdmin = isAdmin;
+
+window.mabSaveFeature = async function (barId, key, value) {
+  if (!isAdmin()) return;
+  const row = { bar_id: barId, terrace_screen: false, big_screen: false, multi_screen: false, ...(features[barId] || {}) };
+  row[key] = value;
+  const { error } = await sb.from("bar_features").upsert(row);
+  if (error) { alert(error.message); return; }
+  features[barId] = row;
+};
+
 async function refreshAuth() {
   const { data } = await sb.auth.getSession();
   session = data.session;
@@ -82,5 +108,5 @@ window.mabRefreshComments = async function () {
   });
 };
 
-sb.auth.onAuthStateChange(() => refreshAuth());
-refreshAuth();
+sb.auth.onAuthStateChange(async () => { await refreshAuth(); await loadFeatures(); if (window.mabRerender) window.mabRerender(); });
+refreshAuth().then(loadFeatures);
