@@ -3570,5 +3570,47 @@
     "club": "barca",
     "notes": "Barcelonista supporters' club. Confirm it is open to the public on match day.",
     "source": "Public listing"
+  },
+  {
+    "id": "sitges-tresquarts",
+    "name": "Tres Quarts Sitges Sports Bar",
+    "city": "Sitges",
+    "zone": "Centre",
+    "address": "Carrer Bonaire, 36",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.2354,
+    "lng": 1.8118,
+    "maps": "https://maps.google.com/?q=Carrer+Bonaire+36+Sitges",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar al centre de Sitges. Pantalles i ambient de partit. Confirma l'horari.",
+    "source": "tresquartsbar.com",
+    "web": "https://www.tresquartsbar.com"
+  },
+  {
+    "id": "bcn-bentips",
+    "name": "Ben Tips",
+    "city": "Barcelona",
+    "zone": "Gràcia",
+    "address": "Avinguda de la República Argentina, 104",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4128,
+    "lng": 2.1456,
+    "maps": "https://maps.google.com/?q=Avinguda+de+la+Republica+Argentina+104+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Bar a Gràcia (metro Vallcarca) que retransmet partits. Confirma l'horari i el partit.",
+    "source": "Public listings",
+    "web": "https://www.bentips.es"
   }
 ]
