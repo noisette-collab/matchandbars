@@ -18,6 +18,12 @@ a { color: inherit; }
 .logo img { height: 44px; width: auto; border-radius: 10px; display: block; background: #1a211e; }
 .logo .amp { color: var(--accent); }
 .nav nav { display: flex; gap: 18px; align-items: center; font-size: .95rem; color: var(--muted); }
+.team-drop { position: relative; }
+.team-btn { background: none; border: 0; color: inherit; font: inherit; cursor: pointer; }
+.team-menu { display: none; position: absolute; top: 100%; left: 0; background: #111; border: 1px solid #333; min-width: 140px; padding: 6px 0; z-index: 20; }
+.team-drop:hover .team-menu, .team-drop:focus-within .team-menu { display: block; }
+.team-menu a { display: block; padding: 6px 12px; color: #eee; text-decoration: none; }
+.team-menu a:hover { background: #222; }
 .langs { display: flex; gap: 4px; margin-left: 8px; }
 .langs button {
   background: transparent; border: 1px solid var(--line); color: var(--muted);
