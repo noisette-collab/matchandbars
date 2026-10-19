@@ -1,64 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FC Barcelona penyes — Where to watch Barça | Match & Bars</title>
-  <meta name="description" content="What is a penya? Find official FC Barcelona supporters clubs and the best bars to watch Barça matches in Barcelona, Madrid, London, New York and more.">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FC Barcelona penyes — Match & Bars</title>
+  <link rel="canonical" href="https://www.matchandbars.com/barca" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 <body>
   <header class="top">
-    <a class="logo" href="index.html">Match <span>&</span> Bars</a>
-    <nav>
-      <a href="index.html">Bars</a>
-      <a href="fixtures.html">Fixtures</a>
-      <a href="barca.html" class="active">Barça</a>
-    </nav>
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html" data-i18n="navDir">Directory</a>
+        <a href="fixtures.html" data-i18n="navFix">Fixtures</a>
+        <div class="team-drop">
+          <button type="button" class="team-btn">Your team ▾</button>
+          <div class="team-menu"><a href="barca.html">Barça</a></div>
+        </div>
+        <div class="langs">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="zh">中文</button>
+        </div>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
-    <h1>FC Barcelona <span class="crest barca">FCB</span></h1>
-    <p class="lead">Find a penya or a sports bar to watch every Barça match, wherever you are.</p>
-
-    <section>
-      <h2>What is a penya?</h2>
-      <p>A <strong>penya</strong> (plural: penyes) is an official supporters club of FC Barcelona. The word comes from Catalan and means a group of fans who meet regularly to support the team.</p>
-      <p>Penyes are recognised by the club. They organise match screenings, travel to games, run social activities and keep the Barça spirit alive far from Camp Nou. Most penyes have a fixed venue — usually a bar — where members and visitors can watch the matches together.</p>
-      <p>There are hundreds of penyes in Catalonia, Spain and around the world. On Match & Bars we list the ones that have a public meeting place so you can find them easily.</p>
-    </section>
-
-    <section>
-      <h2>Penyes listed on Match & Bars</h2>
-      <div class="cards" id="penya-list"></div>
-    </section>
-
-    <p><a class="btn" href="index.html?q=Barça">See all bars that show Barça</a></p>
-  </main>
-  <footer>
-    <p>Match & Bars — find where to watch the match.</p>
-  </footer>
+  <section class="hero">
+    <div class="wrap">
+      <h1>FC Barcelona <span class="crest barca">FCB</span></h1>
+      <p class="lead" data-i18n="lead">Penyes and bars where you can watch every Barça match.</p>
+      <p class="near"><button type="button" id="near-btn" data-i18n="near">Use my location</button> <span id="geo-status"></span></p>
+    </div>
+  </section>
+  <section class="wrap">
+    <h2 data-i18n="what">What is a penya?</h2>
+    <p data-i18n="whatP">A penya is an official FC Barcelona supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.</p>
+  </section>
+  <section class="wrap">
+    <div class="section-head"><h2 data-i18n="list">Penyes</h2><p id="count"></p></div>
+    <div id="map" class="map"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+  <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
+    const I18N = {
+      en: { navDir:"Directory", navFix:"Fixtures", lead:"Penyes and bars where you can watch every Barça match.", near:"Use my location", what:"What is a penya?", whatP:"A penya is an official FC Barcelona supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.", list:"Penyes", geo:"Showing nearest penyes" },
+      es: { navDir:"Directorio", navFix:"Partidos", lead:"Peñas y bares donde ver todos los partidos del Barça.", near:"Usar mi ubicación", what:"¿Qué es una peña?", whatP:"Una peña es un club de aficionados oficial del FC Barcelona. Los socios se reúnen en un bar o local fijo para ver los partidos, viajar a los encuentros y mantener el espíritu blaugrana. Hay cientos de peñas en Cataluña, España y el mundo. Aquí están las que ya tenemos en Match & Bars.", list:"Peñas", geo:"Mostrando las peñas más cercanas" },
+      zh: { navDir:"目录", navFix:"赛程", lead:"观看巴萨比赛的球迷会和酒吧。", near:"使用我的位置", what:"什么是球迷会（penya）？", whatP:"Penya 是巴塞罗那足球俱乐部的官方球迷会。球迷们在固定的酒吧或场所聚会观看比赛、前往客场，并保持巴萨精神。加泰罗尼亚、西班牙和世界各地有数百个球迷会。以下是 Match & Bars 目前列出的。", list:"球迷会", geo:"显示最近的球迷会" }
+    };
+    let lang = localStorage.getItem("mab-lang") || "en";
+    function apply() {
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const k = el.dataset.i18n;
+        if (I18N[lang] && I18N[lang][k]) el.textContent = I18N[lang][k];
+      });
+      document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
+    }
     const penyes = [
-      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3"},
-      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23"},
-      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6"},
-      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56"},
-      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29"},
-      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16"},
-      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21"},
-      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39"},
-      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street"},
-      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1"},
-      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street"}
+      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3", lat:41.375, lng:2.134},
+      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23", lat:41.378, lng:2.158},
+      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6", lat:41.422, lng:2.181},
+      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56", lat:41.436, lng:2.191},
+      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29", lat:41.436, lng:2.205},
+      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16", lat:41.398, lng:2.204},
+      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21", lat:40.322, lng:-3.865},
+      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39", lat:40.191, lng:-3.679},
+      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street", lat:51.513, lng:-0.126},
+      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1", lat:38.718, lng:-9.146},
+      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street", lat:40.7445, lng:-73.9925}
     ];
-    document.getElementById("penya-list").innerHTML = penyes.map(p => `
-      <article class="card">
-        <h3><span class="crest barca">FCB</span> ${p.name}</h3>
-        <p>${p.city} · ${p.address}</p>
-        <a href="index.html?q=${encodeURIComponent(p.name)}">View on map</a>
-      </article>
-    `).join("");
+    let map, markers=[], you;
+    function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
+    function render(list){
+      document.getElementById("count").textContent = list.length + (lang==="zh"?" 个":"") ;
+      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest barca">FCB</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p><a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      markers.forEach(m=>map.removeLayer(m)); markers=[];
+      list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
+    }
+    map=L.map("map").setView([41.4,2.15],5);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+    render(penyes);
+    document.getElementById("near-btn").onclick=()=>{
+      if(!navigator.geolocation)return;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude,lng=pos.coords.longitude;
+        if(you)map.removeLayer(you);
+        you=L.circleMarker([lat,lng],{radius:8,color:"#c8f54a",fillColor:"#c8f54a",fillOpacity:.9}).addTo(map).bindPopup("You");
+        const sorted=penyes.map(p=>({...p,distance:km(lat,lng,p.lat,p.lng)})).sort((a,b)=>a.distance-b.distance);
+        render(sorted); map.setView([lat,lng],10);
+        document.getElementById("geo-status").textContent=I18N[lang].geo;
+      });
+    };
+    document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{lang=b.dataset.lang;localStorage.setItem("mab-lang",lang);apply();});
+    apply();
+    setTimeout(()=>map.invalidateSize(),200);
   </script>
 </body>
 </html>
