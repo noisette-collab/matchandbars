@@ -3870,5 +3870,236 @@
     "bestFor": "Real Madrid",
     "notes": "Peña oficial del Real Madrid a València.",
     "source": "Real Madrid"
+  },
+  {
+    "id": "mad-7julio",
+    "name": "Peña 7 de Julio",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid capital.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-centenario",
+    "name": "Peña Centenario Blanco",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.71,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-elchopo",
+    "name": "Peña EL Chopo",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.41,
+    "lng": -3.69,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-campamento",
+    "name": "Peña Campamento",
+    "city": "Madrid",
+    "zone": "Campamento",
+    "address": "Campamento, Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.39,
+    "lng": -3.76,
+    "maps": "https://maps.google.com/?q=Campamento+Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-alboran",
+    "name": "Peña Alborán Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.43,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-guadarrama",
+    "name": "Peña Madridista Guadarrama",
+    "city": "Madrid",
+    "zone": "Guadarrama",
+    "address": "C/ La Llama, 9",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.67,
+    "lng": -4.09,
+    "maps": "https://maps.google.com/?q=Guadarrama",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Guadarrama (Comunitat de Madrid).",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-sanse",
+    "name": "Peña Madridista San Sebastián de los Reyes",
+    "city": "Madrid",
+    "zone": "San Sebastián de los Reyes",
+    "address": "Calle Dos de Mayo, 2",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.55,
+    "lng": -3.62,
+    "maps": "https://maps.google.com/?q=San+Sebastian+de+los+Reyes",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a San Sebastián de los Reyes.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-getafe",
+    "name": "Peña Madridista Getafe",
+    "city": "Madrid",
+    "zone": "Getafe",
+    "address": "Getafe",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3,
+    "lng": -3.73,
+    "maps": "https://maps.google.com/?q=Getafe",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña històrica a Getafe.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-mostoles",
+    "name": "Peña El Centenario Móstoles",
+    "city": "Madrid",
+    "zone": "Móstoles",
+    "address": "Móstoles",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.32,
+    "lng": -3.86,
+    "maps": "https://maps.google.com/?q=Mostoles",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Móstoles.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-alcala",
+    "name": "Peña Alcalaína",
+    "city": "Madrid",
+    "zone": "Alcalá de Henares",
+    "address": "Alcalá de Henares",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.48,
+    "lng": -3.36,
+    "maps": "https://maps.google.com/?q=Alcala+de+Henares",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Alcalá de Henares.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-chelle",
+    "name": "Peña Chelle",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4,
+    "lng": -3.68,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Madrid.",
+    "source": "Real Madrid"
   }
 ]
