@@ -3612,5 +3612,27 @@
     "notes": "Bar a Gràcia (metro Vallcarca) que retransmet partits. Confirma l'horari i el partit.",
     "source": "Public listings",
     "web": "https://www.bentips.es"
+  },
+  {
+    "id": "nyc-penya-barca",
+    "name": "Penya Barcelonista Nova York (Smithfield Hall)",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "138 West 25th Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+138+West+25th+Street+New+York",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial del Barça a Nova York. Es reuneixen al Smithfield Hall per veure els partits.",
+    "source": "Penya FC Barcelona NYC",
+    "web": "https://www.fcbarcelonanyc.com"
   }
 ]
