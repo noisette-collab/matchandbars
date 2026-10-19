@@ -175,21 +175,25 @@ function syncMap(list) {
   if (!map) return;
   markers.forEach((m) => map.removeLayer(m));
   markers = [];
-  list.forEach((b) => {
-    if (b.lat == null) return;
+  // Always show all bars that match current sport/search, not only the nearest 20
+  const q = ($("q").value || "").toLowerCase();
+  const toShow = bars.filter((b) => {
+    if (b.lat == null) return false;
+    if (sport && !(b.sports || []).includes(sport) && b.bestFor !== sport) return false;
+    if (city && b.city !== city) return false;
+    if (q && ![b.name, b.zone, b.address, b.city].join(" ").toLowerCase().includes(q)) return false;
+    return true;
+  });
+  toShow.forEach((b) => {
     const m = L.marker([b.lat, b.lng]).addTo(map);
-    m.bindPopup(`<strong>${b.name}</strong><br>${b.zone}<br>${(b.sports || []).join(", ")}`);
+    m.bindPopup(`<strong>${b.name}</strong><br>${b.zone || ""} · ${b.city}<br>${(b.sports || []).join(", ")}`);
     markers.push(m);
   });
-  if (userLat != null) {
-    map.setView([userLat, userLng], 12);
+  if (userLat != null && !city) {
     if (youMarker) map.removeLayer(youMarker);
     youMarker = L.circleMarker([userLat, userLng], {
       radius: 8, color: "#c8f54a", fillColor: "#c8f54a", fillOpacity: 0.9,
     }).addTo(map).bindPopup("You");
-  } else {
-    const c = CITY_CENTERS[city];
-    if (c) map.setView(c, 12);
   }
   setTimeout(() => map.invalidateSize(), 200);
 }
