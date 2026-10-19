@@ -3742,5 +3742,27 @@
     "bestFor": "Barça",
     "notes": "Penya oficial.",
     "source": "Penya"
+  },
+  {
+    "id": "paris-penya-barca",
+    "name": "Penya Blaugrana de Paris",
+    "city": "Paris",
+    "zone": "2nd arrondissement",
+    "address": "Corcoran's Grands Boulevards, 23 Boulevard Poissonnière",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.8705,
+    "lng": 2.3435,
+    "maps": "https://maps.google.com/?q=23+Boulevard+Poissonniere+Paris",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial del Barça a París. Es reuneixen a Corcoran's.",
+    "source": "Penya Blaugrana de Paris",
+    "web": "https://parisblaugrana.fr"
   }
 ]
