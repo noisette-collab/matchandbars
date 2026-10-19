@@ -102,13 +102,23 @@ sportEl.addEventListener("change", () => { fillLeagues(); fillTeams(); render();
 leagueEl.addEventListener("change", () => { fillTeams(); render(); });
 teamEl.addEventListener("change", render);
 
-fetch("data/fixtures.json")
-  .then((r) => r.json())
-  .then((data) => {
-    rows = data.filter((r) => isUpcoming(r) && !HIDE_LEAGUES.has(r.league));
-    const sports = [...new Set(rows.map((r) => r.sport))];
-    sportEl.innerHTML = `<option value="">All sports</option>` + sports.map((s) => `<option value="${s}">${s}</option>`).join("");
-    fillLeagues();
-    fillTeams();
-    render();
-  });
+async function loadFixtures() {
+  try {
+    const r = await fetch("/api/fixtures");
+    if (r.ok) {
+      const data = await r.json();
+      if (Array.isArray(data) && data.length) return data;
+    }
+  } catch (e) {}
+  const r = await fetch("data/fixtures.json");
+  return r.json();
+}
+
+loadFixtures().then((data) => {
+  rows = data.filter((r) => isUpcoming(r) && !HIDE_LEAGUES.has(r.league));
+  const sports = [...new Set(rows.map((r) => r.sport))];
+  sportEl.innerHTML = `<option value="">All sports</option>` + sports.map((s) => `<option value="${s}">${s}</option>`).join("");
+  fillLeagues();
+  fillTeams();
+  render();
+});
