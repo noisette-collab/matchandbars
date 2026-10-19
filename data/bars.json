@@ -4101,5 +4101,173 @@
     "bestFor": "Real Madrid",
     "notes": "Peña a Madrid.",
     "source": "Real Madrid"
+  },
+  {
+    "id": "bcn-castelldefels",
+    "name": "Penya Blaugrana La Pulga de Castelldefels",
+    "city": "Barcelona",
+    "zone": "Castelldefels",
+    "address": "Castelldefels",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.28,
+    "lng": 1.98,
+    "maps": "https://maps.google.com/?q=Castelldefels",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Castelldefels (àrea metropolitana).",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-viladecans",
+    "name": "Penya Barcelonista Viladecans",
+    "city": "Barcelona",
+    "zone": "Viladecans",
+    "address": "Viladecans",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.32,
+    "lng": 2.02,
+    "maps": "https://maps.google.com/?q=Viladecans",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Viladecans.",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-mataro",
+    "name": "Penya Barcelonista Mataró",
+    "city": "Barcelona",
+    "zone": "Mataró",
+    "address": "Mataró",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.54,
+    "lng": 2.44,
+    "maps": "https://maps.google.com/?q=Mataro",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Mataró.",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-premiadalt",
+    "name": "Penya Barcelonista Premià de Dalt",
+    "city": "Barcelona",
+    "zone": "Premià de Dalt",
+    "address": "Premià de Dalt",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.51,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Premia+de+Dalt",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Premià de Dalt.",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-folgueroles",
+    "name": "Penya Blaugrana de Folgueroles",
+    "city": "Barcelona",
+    "zone": "Folgueroles",
+    "address": "Folgueroles",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.94,
+    "lng": 2.31,
+    "maps": "https://maps.google.com/?q=Folgueroles",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial a Folgueroles.",
+    "source": "Penya"
+  },
+  {
+    "id": "girona-pb",
+    "name": "Penya Barcelonista Girona",
+    "city": "Girona",
+    "zone": "Girona",
+    "address": "Girona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.98,
+    "lng": 2.82,
+    "maps": "https://maps.google.com/?q=Girona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Girona capital.",
+    "source": "Penya"
+  },
+  {
+    "id": "tarragona-pb",
+    "name": "Gran Penya Barcelonista de Tarragona",
+    "city": "Tarragona",
+    "zone": "Tarragona",
+    "address": "Tarragona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.12,
+    "lng": 1.25,
+    "maps": "https://maps.google.com/?q=Tarragona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya històrica a Tarragona.",
+    "source": "Penya"
+  },
+  {
+    "id": "lleida-pb",
+    "name": "Penya Barcelonista Lleida",
+    "city": "Lleida",
+    "zone": "Lleida",
+    "address": "Lleida",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.62,
+    "lng": 0.62,
+    "maps": "https://maps.google.com/?q=Lleida",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Lleida capital.",
+    "source": "Penya"
   }
 ]
