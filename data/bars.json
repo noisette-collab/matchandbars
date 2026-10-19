@@ -3634,5 +3634,113 @@
     "notes": "Penya oficial del Barça a Nova York. Es reuneixen al Smithfield Hall per veure els partits.",
     "source": "Penya FC Barcelona NYC",
     "web": "https://www.fcbarcelonanyc.com"
+  },
+  {
+    "id": "val-cabanyal",
+    "name": "Penya Barcelonista Cabanyal – Ciutat Jardí",
+    "city": "Valencia",
+    "zone": "Cabanyal",
+    "address": "C/ Peris Brell, 43",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.472,
+    "lng": -0.326,
+    "maps": "https://maps.google.com/?q=Carrer+Peris+Brell+43+Valencia",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya activa a València. Instagram @penyabarcelonistacabanyal",
+    "source": "Penya",
+    "web": "https://www.instagram.com/penyabarcelonistacabanyal"
+  },
+  {
+    "id": "bilbao-bizka",
+    "name": "Penya Barcelonista Bizkabarça",
+    "city": "Bilbao",
+    "zone": "Bilbao",
+    "address": "C/ General Eraso, 1",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.263,
+    "lng": -2.935,
+    "maps": "https://maps.google.com/?q=Calle+General+Eraso+1+Bilbao",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Única penya oficial de Bilbao. Instagram @penyabilbaofcb",
+    "source": "Penya",
+    "web": "https://www.instagram.com/penyabilbaofcb"
+  },
+  {
+    "id": "palma-indi",
+    "name": "Penya Blaugrana Sa Indioteria",
+    "city": "Palma",
+    "zone": "Sa Indioteria",
+    "address": "Sa Indioteria",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.59,
+    "lng": 2.65,
+    "maps": "https://maps.google.com/?q=Sa+Indioteria+Palma",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya de Palma. Fundada 2002. Web pbsaindioteria.wixsite.com",
+    "source": "Penya",
+    "web": "https://pbsaindioteria.wixsite.com"
+  },
+  {
+    "id": "sev-utrera",
+    "name": "Peña Barcelonista de Utrera",
+    "city": "Sevilla",
+    "zone": "Utrera",
+    "address": "Utrera",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.18,
+    "lng": -5.78,
+    "maps": "https://maps.google.com/?q=Utrera+Sevilla",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial a la província de Sevilla.",
+    "source": "Penya"
+  },
+  {
+    "id": "sev-almaden",
+    "name": "Peña Barcelonista PSV Almadén de la Plata",
+    "city": "Sevilla",
+    "zone": "Almadén de la Plata",
+    "address": "Almadén de la Plata",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.87,
+    "lng": -6.08,
+    "maps": "https://maps.google.com/?q=Almaden+de+la+Plata",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial.",
+    "source": "Penya"
   }
 ]
