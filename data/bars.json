@@ -3764,5 +3764,111 @@
     "notes": "Penya oficial del Barça a París. Es reuneixen a Corcoran's.",
     "source": "Penya Blaugrana de Paris",
     "web": "https://parisblaugrana.fr"
+  },
+  {
+    "id": "madrid-pena-nyc",
+    "name": "Peña Madridista NYC",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "The Playwright Irish Pub, 27 W 35th St",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.75,
+    "lng": -73.986,
+    "maps": "https://maps.google.com/?q=27+W+35th+St+New+York",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a Nova York.",
+    "source": "Peña Madridista NYC",
+    "web": "https://www.madridistasnyc.com"
+  },
+  {
+    "id": "madrid-pena-london",
+    "name": "Real Madrid Central London",
+    "city": "London",
+    "zone": "Central London",
+    "address": "Sports Café area",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.51,
+    "lng": -0.13,
+    "maps": "https://maps.google.com/?q=Sports+Cafe+London",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a Londres.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "madrid-pena-paris",
+    "name": "Peña Madridista Paris",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "Paris",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.86,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Paris",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a París.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "madrid-pena-barcelona",
+    "name": "Peña El Centenario (Barcelona)",
+    "city": "Barcelona",
+    "zone": "Barcelona",
+    "address": "Barcelona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.39,
+    "lng": 2.17,
+    "maps": "https://maps.google.com/?q=Barcelona",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a Barcelona.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "madrid-pena-valencia",
+    "name": "Peña El 10 (Valencia)",
+    "city": "Valencia",
+    "zone": "Valencia",
+    "address": "Valencia",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.47,
+    "lng": -0.37,
+    "maps": "https://maps.google.com/?q=Valencia",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a València.",
+    "source": "Real Madrid"
   }
 ]
