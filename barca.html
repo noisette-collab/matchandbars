@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FC Barcelona penyes — Where to watch Barça | Match & Bars</title>
+  <meta name="description" content="What is a penya? Find official FC Barcelona supporters clubs and the best bars to watch Barça matches in Barcelona, Madrid, London, New York and more.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="index.html">Match <span>&</span> Bars</a>
+    <nav>
+      <a href="index.html">Bars</a>
+      <a href="fixtures.html">Fixtures</a>
+      <a href="barca.html" class="active">Barça</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <h1>FC Barcelona <span class="crest barca">FCB</span></h1>
+    <p class="lead">Find a penya or a sports bar to watch every Barça match, wherever you are.</p>
+
+    <section>
+      <h2>What is a penya?</h2>
+      <p>A <strong>penya</strong> (plural: penyes) is an official supporters club of FC Barcelona. The word comes from Catalan and means a group of fans who meet regularly to support the team.</p>
+      <p>Penyes are recognised by the club. They organise match screenings, travel to games, run social activities and keep the Barça spirit alive far from Camp Nou. Most penyes have a fixed venue — usually a bar — where members and visitors can watch the matches together.</p>
+      <p>There are hundreds of penyes in Catalonia, Spain and around the world. On Match & Bars we list the ones that have a public meeting place so you can find them easily.</p>
+    </section>
+
+    <section>
+      <h2>Penyes listed on Match & Bars</h2>
+      <div class="cards" id="penya-list"></div>
+    </section>
+
+    <p><a class="btn" href="index.html?q=Barça">See all bars that show Barça</a></p>
+  </main>
+  <footer>
+    <p>Match & Bars — find where to watch the match.</p>
+  </footer>
+  <script>
+    const penyes = [
+      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3"},
+      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23"},
+      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6"},
+      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56"},
+      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29"},
+      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16"},
+      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21"},
+      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39"},
+      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street"},
+      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1"},
+      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street"}
+    ];
+    document.getElementById("penya-list").innerHTML = penyes.map(p => `
+      <article class="card">
+        <h3><span class="crest barca">FCB</span> ${p.name}</h3>
+        <p>${p.city} · ${p.address}</p>
+        <a href="index.html?q=${encodeURIComponent(p.name)}">View on map</a>
+      </article>
+    `).join("");
+  </script>
+</body>
+</html>
