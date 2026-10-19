@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FC Barcelona penyes — Match & Bars</title>
+  <title>Barça penyes — on veure el Barça (Barca, FCB) | Match & Bars</title>
+  <meta name="description" content="Penyes del Barça (FC Barcelona, Barca, FCB) a Barcelona, Madrid, Londres, Nova York i més. Què és una penya i on mirar els partits del Barça.">
   <link rel="canonical" href="https://www.matchandbars.com/barca" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,7 +44,7 @@
   </section>
   <section class="wrap">
     <h2 data-i18n="what">What is a penya?</h2>
-    <p data-i18n="whatP">A penya is an official FC Barcelona supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.</p>
+    <p data-i18n="whatP">A penya is an official FC Barcelona (Barça, Barca, FCB) supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.</p>
   </section>
   <section class="wrap">
     <div class="section-head"><h2 data-i18n="list">Penyes</h2><p id="count"></p></div>
@@ -54,9 +55,9 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const I18N = {
-      en: { navDir:"Directory", navFix:"Fixtures", lead:"Penyes and bars where you can watch every Barça match.", near:"Use my location", what:"What is a penya?", whatP:"A penya is an official FC Barcelona supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.", list:"Penyes", geo:"Showing nearest penyes" },
-      es: { navDir:"Directorio", navFix:"Partidos", lead:"Peñas y bares donde ver todos los partidos del Barça.", near:"Usar mi ubicación", what:"¿Qué es una peña?", whatP:"Una peña es un club de aficionados oficial del FC Barcelona. Los socios se reúnen en un bar o local fijo para ver los partidos, viajar a los encuentros y mantener el espíritu blaugrana. Hay cientos de peñas en Cataluña, España y el mundo. Aquí están las que ya tenemos en Match & Bars.", list:"Peñas", geo:"Mostrando las peñas más cercanas" },
-      zh: { navDir:"目录", navFix:"赛程", lead:"观看巴萨比赛的球迷会和酒吧。", near:"使用我的位置", what:"什么是球迷会（penya）？", whatP:"Penya 是巴塞罗那足球俱乐部的官方球迷会。球迷们在固定的酒吧或场所聚会观看比赛、前往客场，并保持巴萨精神。加泰罗尼亚、西班牙和世界各地有数百个球迷会。以下是 Match & Bars 目前列出的。", list:"球迷会", geo:"显示最近的球迷会" }
+      en: { navDir:"Directory", navFix:"Fixtures", lead:"Penyes and bars where you can watch every Barça match.", near:"Use my location", what:"What is a penya?", whatP:"A penya is an official FC Barcelona (Barça, Barca, FCB) supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.", list:"Penyes", geo:"Showing nearest penyes" },
+      es: { navDir:"Directorio", navFix:"Partidos", lead:"Peñas y bares donde ver todos los partidos del Barça.", near:"Usar mi ubicación", what:"¿Qué es una peña?", whatP:"Una peña es un club de aficionados oficial del FC Barcelona (Barça, Barca, FCB). Los socios se reúnen en un bar o local fijo para ver los partidos, viajar a los encuentros y mantener el espíritu blaugrana. Hay cientos de peñas en Cataluña, España y el mundo. Aquí están las que ya tenemos en Match & Bars.", list:"Peñas", geo:"Mostrando las peñas más cercanas" },
+      zh: { navDir:"目录", navFix:"赛程", lead:"观看巴萨比赛的球迷会和酒吧。", near:"使用我的位置", what:"什么是球迷会（penya）？", whatP:"Penya 是巴塞罗那足球俱乐部（Barça、Barca、FCB）的官方球迷会。球迷们在固定的酒吧或场所聚会观看比赛、前往客场，并保持巴萨精神。加泰罗尼亚、西班牙和世界各地有数百个球迷会。以下是 Match & Bars 目前列出的。", list:"球迷会", geo:"显示最近的球迷会" }
     };
     let lang = localStorage.getItem("mab-lang") || "en";
     function apply() {
