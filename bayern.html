@@ -56,20 +56,19 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const all = [
-      {name:"New York Reds (Man United)", city:"New York", address:"Smithfield Hall, 138 W 25th St", lat:40.7445, lng:-73.9925, notes:"Official Manchester United supporters club in NYC.", web:"https://manutdusa.com", team:"manutd"},
-      {name:"Man United London Supporters", city:"London", address:"London", lat:51.51, lng:-0.13, notes:"Manchester United supporters club in London.", team:"manutd"},
       {name:"FC Bayern NYC", city:"New York", address:"Smithfield Hall, 138 W 25th St", lat:40.7445, lng:-73.9925, notes:"Official FC Bayern Munich fan club in NYC.", web:"https://www.instagram.com/fcbayernnyc", team:"bayern"},
       {name:"Red Dragons London", city:"London", address:"Bermondsey Bierkeller", lat:51.50, lng:-0.08, notes:"Official FC Bayern fan club in London.", team:"bayern"},
-      {name:"Mia San Japan", city:"Tokyo", address:"Tokyo", lat:35.68, lng:139.69, notes:"Official FC Bayern Munich fan club Japan.", web:"https://x.com/mia_san_japan"},
-      {name:"FC Bayern Sydney", city:"Sydney", address:"Sydney", lat:-33.87, lng:151.21, notes:"FC Bayern fan club Sydney."},
-      {name:"FC Bayern Toronto", city:"Toronto", address:"Toronto", lat:43.65, lng:-79.38, notes:"FC Bayern fan club Toronto."},
-      {name:"FC Bayern Chicago", city:"Chicago", address:"Chicago", lat:41.88, lng:-87.63, notes:"FC Bayern fan club Chicago."},
-      {name:"FC Bayern Paris", city:"Paris", address:"Paris", lat:48.86, lng:2.35, notes:"FC Bayern fan club Paris."},
-      {name:"FC Bayern Madrid", city:"Madrid", address:"Madrid", lat:40.42, lng:-3.70, notes:"FC Bayern fan club Madrid."},
-      {name:"FC Bayern Singapore", city:"Singapore", address:"Singapore", lat:1.35, lng:103.82, notes:"FC Bayern fan club Singapore."},
-      {name:"FC Bayern Hong Kong", city:"Hong Kong", address:"Hong Kong", lat:22.32, lng:114.17, notes:"FC Bayern fan club Hong Kong."},
-      {name:"FC Bayern Los Angeles", city:"Los Angeles", address:"Los Angeles", lat:34.05, lng:-118.24, notes:"FC Bayern fan club Los Angeles."},
-      {name:"FC Bayern Berlin", city:"Berlin", address:"Berlin", lat:52.52, lng:13.40, notes:"FC Bayern fan club Berlin."}
+      {name:"Mia San Japan", city:"Tokyo", address:"Tokyo", lat:35.68, lng:139.69, notes:"Official FC Bayern Munich fan club Japan.", web:"https://x.com/mia_san_japan", team:"bayern"},
+      {name:"FC Bayern Sydney", city:"Sydney", address:"Sydney", lat:-33.87, lng:151.21, notes:"FC Bayern fan club Sydney.", team:"bayern"},
+      {name:"FC Bayern Toronto", city:"Toronto", address:"Toronto", lat:43.65, lng:-79.38, notes:"FC Bayern fan club Toronto.", team:"bayern"},
+      {name:"FC Bayern Chicago", city:"Chicago", address:"Chicago", lat:41.88, lng:-87.63, notes:"FC Bayern fan club Chicago.", team:"bayern"},
+      {name:"FC Bayern Paris", city:"Paris", address:"Paris", lat:48.86, lng:2.35, notes:"FC Bayern fan club Paris.", team:"bayern"},
+      {name:"FC Bayern Madrid", city:"Madrid", address:"Madrid", lat:40.42, lng:-3.70, notes:"FC Bayern fan club Madrid.", team:"bayern"},
+      {name:"FC Bayern Singapore", city:"Singapore", address:"Singapore", lat:1.35, lng:103.82, notes:"FC Bayern fan club Singapore.", team:"bayern"},
+      {name:"FC Bayern Hong Kong", city:"Hong Kong", address:"Hong Kong", lat:22.32, lng:114.17, notes:"FC Bayern fan club Hong Kong.", team:"bayern"},
+      {name:"FC Bayern Los Angeles", city:"Los Angeles", address:"Los Angeles", lat:34.05, lng:-118.24, notes:"FC Bayern fan club Los Angeles.", team:"bayern"},
+      {name:"FC Bayern Berlin", city:"Berlin", address:"Berlin", lat:52.52, lng:13.40, notes:"FC Bayern fan club Berlin.", team:"bayern"}
+
     ];
     const clubs = all.filter(c => c.team === "bayern");
     let map, markers=[], you;
