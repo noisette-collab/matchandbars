@@ -4483,5 +4483,680 @@
     "bestFor": "Bayern Munich",
     "notes": "Official FC Bayern fan club in London.",
     "source": "Bayern"
+  },
+  {
+    "id": "lfc-japan",
+    "name": "OLSC Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Epilogue, Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.65,
+    "lng": 139.71,
+    "maps": "https://maps.google.com/?q=Epilogue+Tokyo",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Japan. Meetings in Tokyo and other cities.",
+    "source": "Liverpool FC",
+    "web": "https://www.liverpoolsc.jp"
+  },
+  {
+    "id": "lfc-sydney",
+    "name": "OLSC Sydney",
+    "city": "Sydney",
+    "zone": "Sydney",
+    "address": "Sydney",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.87,
+    "lng": 151.21,
+    "maps": "https://maps.google.com/?q=Sydney",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Sydney.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-melbourne",
+    "name": "OLSC Melbourne",
+    "city": "Melbourne",
+    "zone": "Melbourne",
+    "address": "Melbourne",
+    "sports": [
+      "football"
+    ],
+    "lat": -37.81,
+    "lng": 144.96,
+    "maps": "https://maps.google.com/?q=Melbourne",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Melbourne.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-toronto",
+    "name": "OLSC Toronto",
+    "city": "Toronto",
+    "zone": "Toronto",
+    "address": "Toronto",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.65,
+    "lng": -79.38,
+    "maps": "https://maps.google.com/?q=Toronto",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Toronto.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-chicago",
+    "name": "OLSC Chicago",
+    "city": "Chicago",
+    "zone": "Chicago",
+    "address": "Chicago",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.88,
+    "lng": -87.63,
+    "maps": "https://maps.google.com/?q=Chicago",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Chicago.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-berlin",
+    "name": "OLSC Berlin",
+    "city": "Berlin",
+    "zone": "Berlin",
+    "address": "Berlin",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.52,
+    "lng": 13.4,
+    "maps": "https://maps.google.com/?q=Berlin",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Berlin.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-dublin",
+    "name": "OLSC Dublin",
+    "city": "Dublin",
+    "zone": "Dublin",
+    "address": "Dublin",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.35,
+    "lng": -6.26,
+    "maps": "https://maps.google.com/?q=Dublin",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Dublin.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-amsterdam",
+    "name": "OLSC Amsterdam",
+    "city": "Amsterdam",
+    "zone": "Amsterdam",
+    "address": "Amsterdam",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.37,
+    "lng": 4.9,
+    "maps": "https://maps.google.com/?q=Amsterdam",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Amsterdam.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-losangeles",
+    "name": "OLSC Los Angeles",
+    "city": "Los Angeles",
+    "zone": "Los Angeles",
+    "address": "Los Angeles",
+    "sports": [
+      "football"
+    ],
+    "lat": 34.05,
+    "lng": -118.24,
+    "maps": "https://maps.google.com/?q=Los+Angeles",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Los Angeles.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-singapore",
+    "name": "OLSC Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.35,
+    "lng": 103.82,
+    "maps": "https://maps.google.com/?q=Singapore",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Singapore.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "mu-japan",
+    "name": "MUFC Tokyo",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Official Manchester United supporters club Japan.",
+    "source": "Man United",
+    "web": "https://www.facebook.com/mufctokyo"
+  },
+  {
+    "id": "mu-sydney",
+    "name": "Man United Sydney",
+    "city": "Sydney",
+    "zone": "Sydney",
+    "address": "Sydney",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.87,
+    "lng": 151.21,
+    "maps": "https://maps.google.com/?q=Sydney",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Sydney.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-toronto",
+    "name": "Man United Toronto",
+    "city": "Toronto",
+    "zone": "Toronto",
+    "address": "Toronto",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.65,
+    "lng": -79.38,
+    "maps": "https://maps.google.com/?q=Toronto",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Toronto.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-chicago",
+    "name": "Man United Chicago",
+    "city": "Chicago",
+    "zone": "Chicago",
+    "address": "Chicago",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.88,
+    "lng": -87.63,
+    "maps": "https://maps.google.com/?q=Chicago",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Chicago.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-dublin",
+    "name": "Man United Dublin",
+    "city": "Dublin",
+    "zone": "Dublin",
+    "address": "Dublin",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.35,
+    "lng": -6.26,
+    "maps": "https://maps.google.com/?q=Dublin",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Dublin.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-singapore",
+    "name": "Man United Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.35,
+    "lng": 103.82,
+    "maps": "https://maps.google.com/?q=Singapore",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Singapore.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-hongkong",
+    "name": "Hong Kong Reds",
+    "city": "Hong Kong",
+    "zone": "Hong Kong",
+    "address": "Hong Kong",
+    "sports": [
+      "football"
+    ],
+    "lat": 22.32,
+    "lng": 114.17,
+    "maps": "https://maps.google.com/?q=Hong+Kong",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Hong Kong.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-losangeles",
+    "name": "Man United Los Angeles",
+    "city": "Los Angeles",
+    "zone": "Los Angeles",
+    "address": "Los Angeles",
+    "sports": [
+      "football"
+    ],
+    "lat": 34.05,
+    "lng": -118.24,
+    "maps": "https://maps.google.com/?q=Los+Angeles",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Los Angeles.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-paris",
+    "name": "Man United Paris",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "Paris",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.86,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Paris",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Paris.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-madrid",
+    "name": "Man United Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Madrid.",
+    "source": "Man United"
+  },
+  {
+    "id": "bayern-japan",
+    "name": "Mia San Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "Official FC Bayern Munich fan club Japan.",
+    "source": "Bayern",
+    "web": "https://x.com/mia_san_japan"
+  },
+  {
+    "id": "bayern-sydney",
+    "name": "FC Bayern Sydney",
+    "city": "Sydney",
+    "zone": "Sydney",
+    "address": "Sydney",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.87,
+    "lng": 151.21,
+    "maps": "https://maps.google.com/?q=Sydney",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Sydney.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-toronto",
+    "name": "FC Bayern Toronto",
+    "city": "Toronto",
+    "zone": "Toronto",
+    "address": "Toronto",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.65,
+    "lng": -79.38,
+    "maps": "https://maps.google.com/?q=Toronto",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Toronto.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-chicago",
+    "name": "FC Bayern Chicago",
+    "city": "Chicago",
+    "zone": "Chicago",
+    "address": "Chicago",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.88,
+    "lng": -87.63,
+    "maps": "https://maps.google.com/?q=Chicago",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Chicago.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-paris",
+    "name": "FC Bayern Paris",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "Paris",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.86,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Paris",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Paris.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-madrid",
+    "name": "FC Bayern Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Madrid.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-singapore",
+    "name": "FC Bayern Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.35,
+    "lng": 103.82,
+    "maps": "https://maps.google.com/?q=Singapore",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Singapore.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-hongkong",
+    "name": "FC Bayern Hong Kong",
+    "city": "Hong Kong",
+    "zone": "Hong Kong",
+    "address": "Hong Kong",
+    "sports": [
+      "football"
+    ],
+    "lat": 22.32,
+    "lng": 114.17,
+    "maps": "https://maps.google.com/?q=Hong+Kong",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Hong Kong.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-losangeles",
+    "name": "FC Bayern Los Angeles",
+    "city": "Los Angeles",
+    "zone": "Los Angeles",
+    "address": "Los Angeles",
+    "sports": [
+      "football"
+    ],
+    "lat": 34.05,
+    "lng": -118.24,
+    "maps": "https://maps.google.com/?q=Los+Angeles",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Los Angeles.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-berlin",
+    "name": "FC Bayern Berlin",
+    "city": "Berlin",
+    "zone": "Berlin",
+    "address": "Berlin",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.52,
+    "lng": 13.4,
+    "maps": "https://maps.google.com/?q=Berlin",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Berlin.",
+    "source": "Bayern"
+  },
+  {
+    "id": "barca-japan",
+    "name": "Penya Barcelonista Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya / supporters club del Barça al Japó.",
+    "source": "Penya"
+  },
+  {
+    "id": "madrid-japan",
+    "name": "Peña Madridista Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña / supporters club del Real Madrid al Japó.",
+    "source": "Real Madrid"
   }
 ]

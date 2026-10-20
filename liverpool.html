@@ -81,7 +81,17 @@
       {name:"OLSC France (Paris)", city:"Paris", address:"The Kop Bar / The Lush Bar", lat:48.89, lng:2.34},
       {name:"Madrid Reds", city:"Madrid", address:"Triskel Tavern", lat:40.42, lng:-3.71},
       {name:"OLSC Barcelona", city:"Barcelona", address:"Barcelona", lat:41.39, lng:2.17},
-      {name:"OLSC London", city:"London", address:"London", lat:51.51, lng:-0.13}
+      {name:"OLSC London", city:"London", address:"London", lat:51.51, lng:-0.13},
+      {name:"OLSC Japan", city:"Tokyo", address:"Epilogue, Tokyo", lat:35.65, lng:139.71, notes:"Official LFC Supporters Club Japan.", web:"https://www.liverpoolsc.jp"},
+      {name:"OLSC Sydney", city:"Sydney", address:"Sydney", lat:-33.87, lng:151.21, notes:"Official LFC Supporters Club Sydney."},
+      {name:"OLSC Melbourne", city:"Melbourne", address:"Melbourne", lat:-37.81, lng:144.96, notes:"Official LFC Supporters Club Melbourne."},
+      {name:"OLSC Toronto", city:"Toronto", address:"Toronto", lat:43.65, lng:-79.38, notes:"Official LFC Supporters Club Toronto."},
+      {name:"OLSC Chicago", city:"Chicago", address:"Chicago", lat:41.88, lng:-87.63, notes:"Official LFC Supporters Club Chicago."},
+      {name:"OLSC Berlin", city:"Berlin", address:"Berlin", lat:52.52, lng:13.40, notes:"Official LFC Supporters Club Berlin."},
+      {name:"OLSC Dublin", city:"Dublin", address:"Dublin", lat:53.35, lng:-6.26, notes:"Official LFC Supporters Club Dublin."},
+      {name:"OLSC Los Angeles", city:"Los Angeles", address:"Los Angeles", lat:34.05, lng:-118.24, notes:"Official LFC Supporters Club Los Angeles."},
+      {name:"OLSC Singapore", city:"Singapore", address:"Singapore", lat:1.35, lng:103.82, notes:"Official LFC Supporters Club Singapore."},
+      {name:"OLSC Amsterdam", city:"Amsterdam", address:"Amsterdam", lat:52.37, lng:4.90, notes:"Official LFC Supporters Club Amsterdam."}
     ];
     let map, markers=[], you;
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
