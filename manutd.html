@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manchester United supporters clubs | Match & Bars</title>
+  <meta name="description" content="Where to watch Manchester United with local supporters clubs.">
+  <link rel="canonical" href="https://www.matchandbars.com/manutd" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/"><img src="logo.jpg" alt="Match & Bars" width="40" height="56" /><span class="word">Match<span class="amp">&</span>Bars</span></a>
+      <nav>
+        <a href="index.html">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <div class="team-drop">
+          <button type="button" class="team-btn">Your team ▾</button>
+          <div class="team-menu">
+            <a href="barca.html">Barça</a>
+            <a href="madrid.html">Real Madrid</a>
+            <a href="liverpool.html">Liverpool</a>
+            <a href="manutd.html">Manchester United</a>
+            <a href="bayern.html">Bayern</a>
+          </div>
+        </div>
+        <div class="langs">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Manchester United <span class="crest manutd">MU</span></h1>
+      <p class="lead">Supporters clubs where you can watch every match.</p>
+      <p class="near"><button type="button" id="near-btn">Use my location</button> <span id="geo-status"></span></p>
+    </div>
+  </section>
+  <section class="wrap">
+    <h2>What is a supporters club?</h2>
+    <p>An official supporters club or fan club of Manchester United. Fans meet at a fixed bar or venue to watch matches and travel together. Below are some of the ones currently listed on Match & Bars.</p>
+  </section>
+  <section class="wrap">
+    <div class="section-head"><h2>Clubs</h2><p id="count"></p></div>
+    <div id="map" class="map"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+  <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const all = [
+      {name:"New York Reds (Man United)", city:"New York", address:"Smithfield Hall, 138 W 25th St", lat:40.7445, lng:-73.9925, notes:"Official Manchester United supporters club in NYC.", web:"https://manutdusa.com", team:"manutd"},
+      {name:"Man United London Supporters", city:"London", address:"London", lat:51.51, lng:-0.13, notes:"Manchester United supporters club in London.", team:"manutd"},
+      {name:"FC Bayern NYC", city:"New York", address:"Smithfield Hall, 138 W 25th St", lat:40.7445, lng:-73.9925, notes:"Official FC Bayern Munich fan club in NYC.", web:"https://www.instagram.com/fcbayernnyc", team:"bayern"},
+      {name:"Red Dragons London", city:"London", address:"Bermondsey Bierkeller", lat:51.50, lng:-0.08, notes:"Official FC Bayern fan club in London.", team:"bayern"}
+    ];
+    const clubs = all.filter(c => c.team === "manutd");
+    let map, markers=[], you;
+    function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
+    function render(list){
+      document.getElementById("count").textContent = list.length;
+      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest manutd">MU</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p>${p.notes?`<p class="notes">${p.notes}</p>`:""}${p.web?`<p><a href="${p.web}" target="_blank">Web</a></p>`:""}<a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      markers.forEach(m=>map.removeLayer(m)); markers=[];
+      list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
+    }
+    map=L.map("map").setView([40.7,-73.98],4);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+    render(clubs);
+    document.getElementById("near-btn").onclick=()=>{
+      if(!navigator.geolocation)return;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude,lng=pos.coords.longitude;
+        if(you)map.removeLayer(you);
+        you=L.circleMarker([lat,lng],{radius:8,color:"#c8f54a",fillColor:"#c8f54a",fillOpacity:.9}).addTo(map).bindPopup("You");
+        const sorted=clubs.map(p=>({...p,distance:km(lat,lng,p.lat,p.lng)})).sort((a,b)=>a.distance-b.distance);
+        render(sorted); map.setView([lat,lng],10);
+        document.getElementById("geo-status").textContent="Showing nearest";
+      });
+    };
+    setTimeout(()=>map.invalidateSize(),200);
+  </script>
+</body>
+</html>

@@ -29,6 +29,8 @@
             <a href="barca.html">Barça</a>
             <a href="madrid.html">Real Madrid</a>
             <a href="liverpool.html">Liverpool</a>
+            <a href="manutd.html">Manchester United</a>
+            <a href="bayern.html">Bayern</a>
           </div>
         </div>
         <div class="langs">
@@ -85,7 +87,7 @@
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
     function render(list){
       document.getElementById("count").textContent = list.length;
-      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest liverpool">LFC</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p><a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest liverpool">LFC</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p>${p.notes?`<p class="notes">${p.notes}</p>`:""}${p.web?`<p><a href="${p.web}" target="_blank">Web</a></p>`:""}<a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
       markers.forEach(m=>map.removeLayer(m)); markers=[];
       list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
     }

@@ -4397,5 +4397,91 @@
     "bestFor": "Liverpool",
     "notes": "Official LFC Supporters Club London.",
     "source": "Liverpool FC"
+  },
+  {
+    "id": "mu-nyc",
+    "name": "New York Reds (Man United)",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "Smithfield Hall, 138 W 25th St",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+New+York",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Official Manchester United supporters club in NYC.",
+    "source": "Man United",
+    "web": "https://manutdusa.com"
+  },
+  {
+    "id": "mu-london",
+    "name": "Man United London Supporters",
+    "city": "London",
+    "zone": "London",
+    "address": "London",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.51,
+    "lng": -0.13,
+    "maps": "https://maps.google.com/?q=London",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club in London.",
+    "source": "Man United"
+  },
+  {
+    "id": "bayern-nyc",
+    "name": "FC Bayern NYC",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "Smithfield Hall, 138 W 25th St",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+New+York",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "Official FC Bayern Munich fan club in NYC.",
+    "source": "Bayern",
+    "web": "https://www.instagram.com/fcbayernnyc"
+  },
+  {
+    "id": "bayern-london",
+    "name": "Red Dragons London",
+    "city": "London",
+    "zone": "London",
+    "address": "Bermondsey Bierkeller",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5,
+    "lng": -0.08,
+    "maps": "https://maps.google.com/?q=Bermondsey+Bierkeller+London",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "Official FC Bayern fan club in London.",
+    "source": "Bayern"
   }
 ]
