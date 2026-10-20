@@ -74,37 +74,37 @@
       document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
     }
     const penyes = [
-      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3", lat:41.375, lng:2.134},
-      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23", lat:41.378, lng:2.158},
-      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6", lat:41.422, lng:2.181},
-      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56", lat:41.436, lng:2.191},
-      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29", lat:41.436, lng:2.205},
-      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16", lat:41.398, lng:2.204},
-      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21", lat:40.322, lng:-3.865},
-      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39", lat:40.191, lng:-3.679},
-      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street", lat:51.513, lng:-0.126},
-      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1", lat:38.718, lng:-9.146},
-      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street", lat:40.7445, lng:-73.9925},
-      {name:"Penya Blaugrana de Paris", city:"Paris", address:"Corcoran's Grands Boulevards, 23 Boulevard Poissonnière", lat:48.8705, lng:2.3435},
-      {name:"Penya Blaugrana La Pulga de Castelldefels", city:"Barcelona", address:"Castelldefels", lat:41.28, lng:1.98},
-      {name:"Penya Barcelonista Viladecans", city:"Barcelona", address:"Viladecans", lat:41.32, lng:2.02},
-      {name:"Penya Barcelonista Mataró", city:"Barcelona", address:"Mataró", lat:41.54, lng:2.44},
-      {name:"Penya Barcelonista Premià de Dalt", city:"Barcelona", address:"Premià de Dalt", lat:41.51, lng:2.35},
-      {name:"Penya Blaugrana de Folgueroles", city:"Barcelona", address:"Folgueroles", lat:41.94, lng:2.31},
-      {name:"Penya Barcelonista Girona", city:"Girona", address:"Girona", lat:41.98, lng:2.82},
-      {name:"Gran Penya Barcelonista de Tarragona", city:"Tarragona", address:"Tarragona", lat:41.12, lng:1.25},
-      {name:"Penya Barcelonista Lleida", city:"Lleida", address:"Lleida", lat:41.62, lng:0.62},
-      {name:"Penya Barcelonista Cabanyal – Ciutat Jardí", city:"Valencia", address:"C/ Peris Brell, 43", lat:39.472, lng:-0.326},
-      {name:"Penya Barcelonista Bizkabarça", city:"Bilbao", address:"C/ General Eraso, 1", lat:43.263, lng:-2.935},
-      {name:"Penya Blaugrana Sa Indioteria", city:"Palma", address:"Sa Indioteria", lat:39.59, lng:2.65},
-      {name:"Peña Barcelonista de Utrera", city:"Sevilla", address:"Utrera", lat:37.18, lng:-5.78},
-      {name:"Peña Barcelonista PSV Almadén de la Plata", city:"Sevilla", address:"Almadén de la Plata", lat:37.87, lng:-6.08},
+      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3", lat:41.375, lng:2.134, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
+      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23", lat:41.378, lng:2.158, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
+      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6", lat:41.422, lng:2.181, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
+      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56", lat:41.436, lng:2.191, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
+      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29", lat:41.436, lng:2.205, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.", web:"https://www.pbbonpastor.com"},
+      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16", lat:41.398, lng:2.204, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.", web:"https://pbpoblenou.wixsite.com/pb-poblenou"},
+      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21", lat:40.322, lng:-3.865, notes:"Penya oficial del Barça a Madrid (núm. 2053). Local amb pantalla. Confirma horari i si es pot entrar sense ser soci.", web:"https://www.pbmostoles.com"},
+      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39", lat:40.191, lng:-3.679, notes:"Penya barcelonista a la Comunitat de Madrid. Solen veure el Barça. Confirma si el local és obert al públic."},
+      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street", lat:51.513, lng:-0.126, notes:"Official Barça penya. Match days at Bat & Ball. Non-members welcome if they support Barça; confirm the screening.", web:"https://pblondon.org"},
+      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1", lat:38.718, lng:-9.146, notes:"Barcelonista supporters' club. Confirm it is open to the public on match day."},
+      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street", lat:40.7445, lng:-73.9925, notes:"Penya oficial del Barça a Nova York. Es reuneixen al Smithfield Hall per veure els partits.", web:"https://www.fcbarcelonanyc.com"},
+      {name:"Penya Blaugrana de Paris", city:"Paris", address:"Corcoran's Grands Boulevards, 23 Boulevard Poissonnière", lat:48.8705, lng:2.3435, notes:"Penya oficial del Barça a París. Es reuneixen a Corcoran's.", web:"https://parisblaugrana.fr"},
+      {name:"Penya Blaugrana La Pulga de Castelldefels", city:"Barcelona", address:"Castelldefels", lat:41.28, lng:1.98, notes:"Penya a Castelldefels (àrea metropolitana)."},
+      {name:"Penya Barcelonista Viladecans", city:"Barcelona", address:"Viladecans", lat:41.32, lng:2.02, notes:"Penya a Viladecans."},
+      {name:"Penya Barcelonista Mataró", city:"Barcelona", address:"Mataró", lat:41.54, lng:2.44, notes:"Penya a Mataró."},
+      {name:"Penya Barcelonista Premià de Dalt", city:"Barcelona", address:"Premià de Dalt", lat:41.51, lng:2.35, notes:"Penya a Premià de Dalt."},
+      {name:"Penya Blaugrana de Folgueroles", city:"Barcelona", address:"Folgueroles", lat:41.94, lng:2.31, notes:"Penya oficial a Folgueroles."},
+      {name:"Penya Barcelonista Girona", city:"Girona", address:"Girona", lat:41.98, lng:2.82, notes:"Penya a Girona capital."},
+      {name:"Gran Penya Barcelonista de Tarragona", city:"Tarragona", address:"Tarragona", lat:41.12, lng:1.25, notes:"Penya històrica a Tarragona."},
+      {name:"Penya Barcelonista Lleida", city:"Lleida", address:"Lleida", lat:41.62, lng:0.62, notes:"Penya a Lleida capital."},
+      {name:"Penya Barcelonista Cabanyal – Ciutat Jardí", city:"Valencia", address:"C/ Peris Brell, 43", lat:39.472, lng:-0.326, notes:"Penya activa a València. Instagram @penyabarcelonistacabanyal", web:"https://www.instagram.com/penyabarcelonistacabanyal"},
+      {name:"Penya Barcelonista Bizkabarça", city:"Bilbao", address:"C/ General Eraso, 1", lat:43.263, lng:-2.935, notes:"Única penya oficial de Bilbao. Instagram @penyabilbaofcb", web:"https://www.instagram.com/penyabilbaofcb"},
+      {name:"Penya Blaugrana Sa Indioteria", city:"Palma", address:"Sa Indioteria", lat:39.59, lng:2.65, notes:"Penya de Palma. Fundada 2002. Web pbsaindioteria.wixsite.com", web:"https://pbsaindioteria.wixsite.com"},
+      {name:"Peña Barcelonista de Utrera", city:"Sevilla", address:"Utrera", lat:37.18, lng:-5.78, notes:"Penya oficial a la província de Sevilla."},
+      {name:"Peña Barcelonista PSV Almadén de la Plata", city:"Sevilla", address:"Almadén de la Plata", lat:37.87, lng:-6.08, notes:"Penya oficial."},
     ];
     let map, markers=[], you;
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
     function render(list){
       document.getElementById("count").textContent = list.length + (lang==="zh"?" 个":"") ;
-      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest barca">FCB</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p><a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest barca">FCB</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p>${p.notes?`<p class="notes">${p.notes}</p>`:""}${p.web?`<p><a href="${p.web}" target="_blank">Web</a></p>`:""}<a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
       markers.forEach(m=>map.removeLayer(m)); markers=[];
       list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
     }
