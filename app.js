@@ -1,8 +1,8 @@
 const I18N = {
   en: {
     navDir: "Directory", navFix: "Fixtures", navOwners: "Got a bar?",
-    title: "Match & Bars: which bar is showing the match?",
-    lead: "Sports bars for football, rugby, cricket and NFL in Barcelona, London, New York and eight more cities. Listings come from public guides. Always confirm the fixture with the venue.",
+    title: "Match & Bars",
+    lead: "Whenever, wherever. Find the best bar to watch your favourite sport and team. Live it with locals like a local. ⚽️🏀🏈🏏",
     searchPh: "Search by name or neighbourhood…", searchBtn: "Search",
     disclaimer: "Not an official TV schedule. Rights change; not every bar shows every sport.",
     dirTitle: "Directory", count: (n) => `${n} venues`, all: "All sports",
@@ -14,7 +14,7 @@ const I18N = {
   es: {
     navDir: "Directorio", navFix: "Partidos", navOwners: "¿Tienes un bar?",
     title: "¿En qué bar ponen el partido?",
-    lead: "Bares para ver fútbol, rugby y cricket en 11 ciudades. Datos de guías públicas. Confirma siempre con el local.",
+    lead: "Whenever, wherever. Encuentra el mejor bar para ver tu deporte y equipo favorito. Vívelo con los locales como un local (cuando estés fuera). ⚽️🏀🏈🏏",
     searchPh: "Busca por nombre o barrio…", searchBtn: "Buscar",
     disclaimer: "No es una programación oficial. Los derechos cambian.",
     dirTitle: "Directorio", count: (n) => `${n} locales`, all: "Todos los deportes",
