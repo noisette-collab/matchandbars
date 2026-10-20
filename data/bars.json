@@ -4269,5 +4269,133 @@
     "bestFor": "Barça",
     "notes": "Penya a Lleida capital.",
     "source": "Penya"
+  },
+  {
+    "id": "lfc-nyc",
+    "name": "OLSC New York",
+    "city": "New York",
+    "zone": "East Village",
+    "address": "11th Street Bar, 510 East 11th Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.728,
+    "lng": -73.981,
+    "maps": "https://maps.google.com/?q=510+East+11th+Street+New+York",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club New York.",
+    "source": "Liverpool FC",
+    "web": "https://www.lfcny.org"
+  },
+  {
+    "id": "lfc-brooklyn",
+    "name": "OLSC Brooklyn",
+    "city": "New York",
+    "zone": "Brooklyn",
+    "address": "The Monro Pub, Park Slope",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.67,
+    "lng": -73.98,
+    "maps": "https://maps.google.com/?q=The+Monro+Park+Slope",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Brooklyn.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-paris",
+    "name": "OLSC France (Paris)",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "The Kop Bar / The Lush Bar",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.89,
+    "lng": 2.34,
+    "maps": "https://maps.google.com/?q=The+Kop+Bar+Paris",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club France.",
+    "source": "Liverpool FC",
+    "web": "https://www.liverpoolfrance.com"
+  },
+  {
+    "id": "lfc-madrid",
+    "name": "Madrid Reds",
+    "city": "Madrid",
+    "zone": "Malasaña",
+    "address": "Triskel Tavern",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.71,
+    "maps": "https://maps.google.com/?q=Triskel+Tavern+Madrid",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Madrid.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-barcelona",
+    "name": "OLSC Barcelona",
+    "city": "Barcelona",
+    "zone": "Barcelona",
+    "address": "Barcelona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.39,
+    "lng": 2.17,
+    "maps": "https://maps.google.com/?q=Barcelona",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Barcelona.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-london",
+    "name": "OLSC London",
+    "city": "London",
+    "zone": "London",
+    "address": "London",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.51,
+    "lng": -0.13,
+    "maps": "https://maps.google.com/?q=London",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club London.",
+    "source": "Liverpool FC"
   }
 ]

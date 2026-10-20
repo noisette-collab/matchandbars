@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liverpool supporters clubs — where to watch the Reds | Match & Bars</title>
+  <meta name="description" content="Official Liverpool FC Supporters Clubs (OLSC) in New York, London, Paris, Madrid, Barcelona and more.">
+  <link rel="canonical" href="https://www.matchandbars.com/liverpool" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <div class="team-drop">
+          <button type="button" class="team-btn">Your team ▾</button>
+          <div class="team-menu">
+            <a href="barca.html">Barça</a>
+            <a href="madrid.html">Real Madrid</a>
+            <a href="liverpool.html">Liverpool</a>
+          </div>
+        </div>
+        <div class="langs">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Liverpool <span class="crest liverpool">LFC</span></h1>
+      <p class="lead" data-i18n="lead">Official supporters clubs where you can watch every Liverpool match.</p>
+      <p class="near"><button type="button" id="near-btn" data-i18n="near">Use my location</button> <span id="geo-status"></span></p>
+    </div>
+  </section>
+  <section class="wrap">
+    <h2 data-i18n="what">What is an OLSC?</h2>
+    <p data-i18n="whatP">An Official Liverpool Supporters Club (OLSC) is recognised by Liverpool FC. Fans meet at a fixed bar or venue to watch matches, travel to Anfield and keep the Red spirit alive. There are more than 300 OLSCs worldwide. Below are some of the ones currently listed on Match & Bars.</p>
+  </section>
+  <section class="wrap">
+    <div class="section-head"><h2 data-i18n="list">Supporters clubs</h2><p id="count"></p></div>
+    <div id="map" class="map"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+  <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const I18N = {
+      en: { lead:"Official supporters clubs where you can watch every Liverpool match.", near:"Use my location", what:"What is an OLSC?", whatP:"An Official Liverpool Supporters Club (OLSC) is recognised by Liverpool FC. Fans meet at a fixed bar or venue to watch matches, travel to Anfield and keep the Red spirit alive. There are more than 300 OLSCs worldwide. Below are some of the ones currently listed on Match & Bars.", list:"Supporters clubs", geo:"Showing nearest clubs" },
+      es: { lead:"Clubes de aficionados oficiales donde ver todos los partidos del Liverpool.", near:"Usar mi ubicación", what:"¿Qué es un OLSC?", whatP:"Un Official Liverpool Supporters Club (OLSC) está reconocido por el Liverpool FC. Los fans se reúnen en un bar o local fijo para ver los partidos, viajar a Anfield y mantener el espíritu red. Hay más de 300 en el mundo. Aquí están algunos de los que tenemos en Match & Bars.", list:"Clubes", geo:"Mostrando los más cercanos" },
+      zh: { lead:"观看利物浦比赛的官方球迷会。", near:"使用我的位置", what:"什么是 OLSC？", whatP:"OLSC（Official Liverpool Supporters Club）是利物浦官方认可的球迷会。球迷在固定酒吧聚会观看比赛、前往安菲尔德，并保持红军精神。全球有300多个。以下是 Match & Bars 目前列出的一些。", list:"球迷会", geo:"显示最近的" },
+      ja: { lead:"リバプールの試合を見られる公式サポータークラブ。", near:"現在地を使う", what:"OLSCとは？", whatP:"OLSC（Official Liverpool Supporters Club）はリバプールFCが公式に認めたサポータークラブです。ファンは決まったバーに集まり、試合を観戦し、アンフィールドへ遠征し、レッドの精神を守ります。世界中に300以上あります。以下はMatch & Barsに掲載されているものです。", list:"サポータークラブ", geo:"最寄りのクラブを表示" }
+    };
+    let lang = localStorage.getItem("mab-lang") || "en";
+    function apply() {
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const k = el.dataset.i18n;
+        if (I18N[lang] && I18N[lang][k]) el.textContent = I18N[lang][k];
+      });
+      document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
+    }
+    const clubs = [
+      {name:"OLSC New York", city:"New York", address:"11th Street Bar, 510 East 11th Street", lat:40.728, lng:-73.981},
+      {name:"OLSC Brooklyn", city:"New York", address:"The Monro Pub, Park Slope", lat:40.67, lng:-73.98},
+      {name:"OLSC France (Paris)", city:"Paris", address:"The Kop Bar / The Lush Bar", lat:48.89, lng:2.34},
+      {name:"Madrid Reds", city:"Madrid", address:"Triskel Tavern", lat:40.42, lng:-3.71},
+      {name:"OLSC Barcelona", city:"Barcelona", address:"Barcelona", lat:41.39, lng:2.17},
+      {name:"OLSC London", city:"London", address:"London", lat:51.51, lng:-0.13}
+    ];
+    let map, markers=[], you;
+    function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
+    function render(list){
+      document.getElementById("count").textContent = list.length;
+      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest liverpool">LFC</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p><a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      markers.forEach(m=>map.removeLayer(m)); markers=[];
+      list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
+    }
+    map=L.map("map").setView([40.7,-73.98],4);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+    render(clubs);
+    document.getElementById("near-btn").onclick=()=>{
+      if(!navigator.geolocation)return;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude,lng=pos.coords.longitude;
+        if(you)map.removeLayer(you);
+        you=L.circleMarker([lat,lng],{radius:8,color:"#c8f54a",fillColor:"#c8f54a",fillOpacity:.9}).addTo(map).bindPopup("You");
+        const sorted=clubs.map(p=>({...p,distance:km(lat,lng,p.lat,p.lng)})).sort((a,b)=>a.distance-b.distance);
+        render(sorted); map.setView([lat,lng],10);
+        document.getElementById("geo-status").textContent=I18N[lang].geo;
+      });
+    };
+    document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{lang=b.dataset.lang;localStorage.setItem("mab-lang",lang);apply();});
+    apply();
+    setTimeout(()=>map.invalidateSize(),200);
+  </script>
+</body>
+</html>
