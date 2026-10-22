@@ -5158,5 +5158,326 @@
     "bestFor": "Real Madrid",
     "notes": "Peña / supporters club del Real Madrid al Japó.",
     "source": "Real Madrid"
+  },
+  {
+    "id": "bcn-yuzu",
+    "name": "Dahir al Yuzu Gastrobar",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Enric Granados, 77",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3905,
+    "lng": 2.1608,
+    "maps": "https://maps.google.com/?q=Dahir+al+Yuzu+Gastrobar+Carrer+d'Enric+Granados+77+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "football",
+    "notes": "Popular gastrobar with big screens. Good atmosphere for watching matches with friends.",
+    "source": "User photos / local",
+    "web": ""
+  },
+  {
+    "id": "stuttgart-sports",
+    "name": "Sportsbar Stuttgart",
+    "city": "Stuttgart",
+    "zone": "City Centre",
+    "address": "Königstraße area",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.7758,
+    "lng": 9.1829,
+    "maps": "https://maps.google.com/?q=sports+bar+Stuttgart",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central sports bar for Bundesliga matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "leipzig-sports",
+    "name": "Leipzig Sports Pub",
+    "city": "Leipzig",
+    "zone": "Centre",
+    "address": "Near Augustusplatz",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.3397,
+    "lng": 12.3731,
+    "maps": "https://maps.google.com/?q=sports+bar+Leipzig",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular for RB Leipzig and national team matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dortmund-sports",
+    "name": "Dortmund Sports Bar",
+    "city": "Dortmund",
+    "zone": "City Centre",
+    "address": "Near Signal Iduna Park",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5136,
+    "lng": 7.4653,
+    "maps": "https://maps.google.com/?q=sports+bar+Dortmund",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Great atmosphere for Borussia Dortmund matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "nuremberg-sports",
+    "name": "Nürnberg Sports Pub",
+    "city": "Nuremberg",
+    "zone": "Altstadt",
+    "address": "Near Hauptmarkt",
+    "sports": [
+      "football"
+    ],
+    "lat": 49.4521,
+    "lng": 11.0767,
+    "maps": "https://maps.google.com/?q=sports+bar+Nuremberg",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central location for watching football.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "hannover-sports",
+    "name": "Hannover Sports Bar",
+    "city": "Hannover",
+    "zone": "Centre",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3759,
+    "lng": 9.732,
+    "maps": "https://maps.google.com/?q=sports+bar+Hannover",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Good screens for Bundesliga.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-1",
+    "name": "The Keg Sports Bar",
+    "city": "Frankfurt",
+    "zone": "Innenstadt",
+    "address": "Kaiserstraße area",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "maps": "https://maps.google.com/?q=sports+bar+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular sports bar in central Frankfurt.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-2",
+    "name": "Champions Sportsbar",
+    "city": "Frankfurt",
+    "zone": "Sachsenhausen",
+    "address": "Near Schweizer Platz",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1025,
+    "lng": 8.685,
+    "maps": "https://maps.google.com/?q=Champions+Sportsbar+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Good screens for Bundesliga and international matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-3",
+    "name": "O'Reilly's Frankfurt",
+    "city": "Frankfurt",
+    "zone": "City Centre",
+    "address": "Zeil area",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1155,
+    "lng": 8.6842,
+    "maps": "https://maps.google.com/?q=O'Reilly's+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Irish pub with multiple screens.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-4",
+    "name": "Sportbar Hauptwache",
+    "city": "Frankfurt",
+    "zone": "Hauptwache",
+    "address": "Hauptwache",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1136,
+    "lng": 8.6792,
+    "maps": "https://maps.google.com/?q=sports+bar+Hauptwache+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central location for watching matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-5",
+    "name": "The Irish Pub Frankfurt",
+    "city": "Frankfurt",
+    "zone": "Bahnhofsviertel",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.107,
+    "lng": 8.6638,
+    "maps": "https://maps.google.com/?q=Irish+Pub+Frankfurt+sports",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Lively atmosphere for football nights.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-1",
+    "name": "The Keg Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "Altstadt",
+    "address": "Altstadt",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2254,
+    "lng": 6.7763,
+    "maps": "https://maps.google.com/?q=sports+bar+Düsseldorf+Altstadt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular sports bar in the old town.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-2",
+    "name": "Sportsbar Königsallee",
+    "city": "Düsseldorf",
+    "zone": "Königsallee",
+    "address": "Near Kö",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.223,
+    "lng": 6.7825,
+    "maps": "https://maps.google.com/?q=sports+bar+Königsallee+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central sports bar for matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-3",
+    "name": "O'Reilly's Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "City Centre",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.22,
+    "lng": 6.7945,
+    "maps": "https://maps.google.com/?q=O'Reilly's+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Irish pub with big screens.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-4",
+    "name": "The Irish Pub Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "Altstadt",
+    "address": "Bolkerstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2268,
+    "lng": 6.7735,
+    "maps": "https://maps.google.com/?q=Irish+Pub+Düsseldorf+Altstadt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Great atmosphere in the old town.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-5",
+    "name": "Sportbar Bilk",
+    "city": "Düsseldorf",
+    "zone": "Bilk",
+    "address": "Bilk",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2085,
+    "lng": 6.772,
+    "maps": "https://maps.google.com/?q=sports+bar+Bilk+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Local sports bar for Bundesliga.",
+    "source": "Public guides",
+    "web": ""
   }
 ]
