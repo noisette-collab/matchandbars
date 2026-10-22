@@ -5279,5 +5279,205 @@
     "notes": "Good screens for Bundesliga.",
     "source": "Public guides",
     "web": ""
+  },
+  {
+    "id": "fra-1",
+    "name": "The Keg Sports Bar",
+    "city": "Frankfurt",
+    "zone": "Innenstadt",
+    "address": "Kaiserstraße area",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "maps": "https://maps.google.com/?q=sports+bar+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular sports bar in central Frankfurt.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-2",
+    "name": "Champions Sportsbar",
+    "city": "Frankfurt",
+    "zone": "Sachsenhausen",
+    "address": "Near Schweizer Platz",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1025,
+    "lng": 8.685,
+    "maps": "https://maps.google.com/?q=Champions+Sportsbar+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Good screens for Bundesliga and international matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-3",
+    "name": "O'Reilly's Frankfurt",
+    "city": "Frankfurt",
+    "zone": "City Centre",
+    "address": "Zeil area",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1155,
+    "lng": 8.6842,
+    "maps": "https://maps.google.com/?q=O'Reilly's+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Irish pub with multiple screens.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-4",
+    "name": "Sportbar Hauptwache",
+    "city": "Frankfurt",
+    "zone": "Hauptwache",
+    "address": "Hauptwache",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1136,
+    "lng": 8.6792,
+    "maps": "https://maps.google.com/?q=sports+bar+Hauptwache+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central location for watching matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-5",
+    "name": "The Irish Pub Frankfurt",
+    "city": "Frankfurt",
+    "zone": "Bahnhofsviertel",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.107,
+    "lng": 8.6638,
+    "maps": "https://maps.google.com/?q=Irish+Pub+Frankfurt+sports",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Lively atmosphere for football nights.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-1",
+    "name": "The Keg Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "Altstadt",
+    "address": "Altstadt",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2254,
+    "lng": 6.7763,
+    "maps": "https://maps.google.com/?q=sports+bar+Düsseldorf+Altstadt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular sports bar in the old town.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-2",
+    "name": "Sportsbar Königsallee",
+    "city": "Düsseldorf",
+    "zone": "Königsallee",
+    "address": "Near Kö",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.223,
+    "lng": 6.7825,
+    "maps": "https://maps.google.com/?q=sports+bar+Königsallee+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central sports bar for matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-3",
+    "name": "O'Reilly's Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "City Centre",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.22,
+    "lng": 6.7945,
+    "maps": "https://maps.google.com/?q=O'Reilly's+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Irish pub with big screens.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-4",
+    "name": "The Irish Pub Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "Altstadt",
+    "address": "Bolkerstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2268,
+    "lng": 6.7735,
+    "maps": "https://maps.google.com/?q=Irish+Pub+Düsseldorf+Altstadt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Great atmosphere in the old town.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-5",
+    "name": "Sportbar Bilk",
+    "city": "Düsseldorf",
+    "zone": "Bilk",
+    "address": "Bilk",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2085,
+    "lng": 6.772,
+    "maps": "https://maps.google.com/?q=sports+bar+Bilk+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Local sports bar for Bundesliga.",
+    "source": "Public guides",
+    "web": ""
   }
 ]
