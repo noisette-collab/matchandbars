@@ -58,7 +58,7 @@ h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -0.
 }
 .fixtures-track {
   display: inline-flex;
-  animation: marquee 70s linear infinite;
+  animation: marquee 50s linear infinite;
   padding-left: 100%;
 }
 .fixtures-track a {
