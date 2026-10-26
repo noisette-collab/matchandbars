@@ -5479,5 +5479,49 @@
     "notes": "Local sports bar for Bundesliga.",
     "source": "Public guides",
     "web": ""
+  },
+  {
+    "id": "mar-penya-marrakech",
+    "name": "Penya Blaugrana de Marrakech (La Cueva)",
+    "city": "Marrakech",
+    "zone": "Gueliz",
+    "address": "La Cueva, 5 Rue Tariq Bnou Ziad",
+    "sports": [
+      "football"
+    ],
+    "lat": 31.6335,
+    "lng": -8.008,
+    "maps": "https://maps.google.com/?q=La+Cueva+5+Rue+Tariq+Bnou+Ziad+Marrakech",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "football, barca",
+    "notes": "Official Barça penya #2215. They meet at La Cueva sports bar to watch Barça matches. Instagram @penyabgm",
+    "source": "Official penya",
+    "web": "https://www.instagram.com/penyabgm/",
+    "club": "barca"
+  },
+  {
+    "id": "phx-penya-phoenix",
+    "name": "Penya Blaugrana Phoenix (The Joy Lush Club)",
+    "city": "Phoenix",
+    "zone": "Camelback",
+    "address": "The Joy Lush Club, 24 W Camelback Rd",
+    "sports": [
+      "football"
+    ],
+    "lat": 33.509,
+    "lng": -112.074,
+    "maps": "https://maps.google.com/?q=The+Joy+Lush+Club+24+W+Camelback+Rd+Phoenix",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "football, barca",
+    "notes": "Official Barça penya #2413. Home bar for regular Barça watch parties. Instagram @penyablaugranaphx",
+    "source": "Official penya",
+    "web": "https://www.instagram.com/penyablaugranaphx/",
+    "club": "barca"
   }
 ]
