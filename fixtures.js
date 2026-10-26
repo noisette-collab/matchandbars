@@ -102,6 +102,21 @@ sportEl.addEventListener("change", () => { fillLeagues(); fillTeams(); render();
 leagueEl.addEventListener("change", () => { fillTeams(); render(); });
 teamEl.addEventListener("change", render);
 
+const FALLBACK = [
+  {"sport":"football","league":"Premier League","date":"2026-10-31","time":"12:30","home":"Chelsea","away":"Manchester United"},
+  {"sport":"football","league":"Premier League","date":"2026-10-31","time":"15:00","home":"Newcastle United","away":"Everton"},
+  {"sport":"football","league":"Premier League","date":"2026-10-31","time":"15:00","home":"Manchester City","away":"Brighton"},
+  {"sport":"football","league":"Premier League","date":"2026-10-31","time":"17:30","home":"Tottenham","away":"Crystal Palace"},
+  {"sport":"football","league":"LaLiga","date":"2026-11-01","time":"16:15","home":"Barcelona","away":"Real Madrid"},
+  {"sport":"football","league":"LaLiga","date":"2026-11-01","time":"18:30","home":"Atletico Madrid","away":"Sevilla"},
+  {"sport":"football","league":"Serie A","date":"2026-11-01","time":"18:00","home":"Inter","away":"Juventus"},
+  {"sport":"football","league":"Bundesliga","date":"2026-11-01","time":"15:30","home":"Bayern Munich","away":"Borussia Dortmund"},
+  {"sport":"football","league":"Ligue 1","date":"2026-11-01","time":"17:00","home":"PSG","away":"Marseille"},
+  {"sport":"football","league":"UEFA Champions League","date":"2026-11-04","time":"21:00","home":"Arsenal","away":"Bayern Munich"},
+  {"sport":"football","league":"UEFA Champions League","date":"2026-11-04","time":"21:00","home":"Real Madrid","away":"Liverpool"},
+  {"sport":"football","league":"UEFA Champions League","date":"2026-11-05","time":"21:00","home":"Barcelona","away":"Inter"}
+];
+
 async function loadFixtures() {
   try {
     const r = await fetch("/api/fixtures");
@@ -110,8 +125,14 @@ async function loadFixtures() {
       if (Array.isArray(data) && data.length) return data;
     }
   } catch (e) {}
-  const r = await fetch("data/fixtures.json");
-  return r.json();
+  try {
+    const r = await fetch("data/fixtures.json?t=" + Date.now());
+    if (r.ok) {
+      const data = await r.json();
+      if (Array.isArray(data) && data.length) return data;
+    }
+  } catch (e) {}
+  return FALLBACK;
 }
 
 loadFixtures().then((data) => {
