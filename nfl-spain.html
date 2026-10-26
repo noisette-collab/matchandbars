@@ -7,11 +7,14 @@
   <meta name="description" content="Best sports bars in Barcelona, Madrid, Valencia, Seville and Malaga to watch NFL games in Spain." />
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .bar-card { display: flex; gap: 16px; margin: 20px 0; background: #f9f9f9; padding: 16px; border-radius: 12px; }
-    .bar-card img { width: 180px; height: 120px; object-fit: cover; border-radius: 8px; }
+    .bar-card { display: flex; gap: 16px; margin: 20px 0; background: #f9f9f9; padding: 16px; border-radius: 12px; align-items: flex-start; }
+    .bar-card img { width: 180px; height: 120px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
     .bar-info h3 { margin: 0 0 6px; }
-    .hero-nfl { background: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80') center/cover; color: white; padding: 80px 0; text-align: center; }
-    .hero-nfl h1 { text-shadow: 0 2px 8px rgba(0,0,0,.6); }
+    .hero-nfl { 
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1732853089231-b02c92052eee?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; 
+      color: white; padding: 100px 0; text-align: center; 
+    }
+    .hero-nfl h1 { text-shadow: 0 2px 10px rgba(0,0,0,.7); font-size: 2.6rem; }
   </style>
 </head>
 <body>
@@ -41,7 +44,7 @@
 
     <h2>Barcelona</h2>
     <div class="bar-card">
-      <img src="https://thegeorgepayne.com/wp-content/uploads/2023/05/george-payne-interior.jpg" alt="The George Payne" onerror="this.src='https://via.placeholder.com/180x120?text=George+Payne'">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80" alt="Sports bar screens">
       <div class="bar-info">
         <h3>The George Payne</h3>
         <p>Urquinaona · Plaça Urquinaona, 5. One of Barcelona’s best Irish sports bars. Multiple large screens, strong beer selection and a lively atmosphere. Regularly shows NFL, especially on Sunday afternoons.</p>
@@ -49,7 +52,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://barwildrover.com/wp-content/uploads/2022/11/wild-rover-screens.jpg" alt="Wild Rover" onerror="this.src='https://via.placeholder.com/180x120?text=Wild+Rover'">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" alt="Pub interior with TVs">
       <div class="bar-info">
         <h3>Wild Rover</h3>
         <p>Raval · Carrer de Santa Mònica, 2. Popular Irish-style sports bar just off Las Ramblas with 9 HD screens. Shows a wide range of sports including NFL when there is demand.</p>
@@ -57,7 +60,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://cocovailbeerhall.com/wp-content/uploads/2021/08/coco-vail-screens.jpg" alt="CocoVail" onerror="this.src='https://via.placeholder.com/180x120?text=CocoVail'">
+      <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=400&q=80" alt="Craft beer bar screens">
       <div class="bar-info">
         <h3>CocoVail Beer Hall</h3>
         <p>Eixample · Carrer d’Aragó, 284. Craft beer hall with multiple screens that regularly shows NFL and Red Zone on Sundays. Great wings, craft beer and a lively American-style atmosphere.</p>
@@ -67,7 +70,7 @@
 
     <h2>Madrid</h2>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=James+Joyce" alt="The James Joyce">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80" alt="Sports bar">
       <div class="bar-info">
         <h3>The James Joyce</h3>
         <p>Centro · Calle de Alcalá area. Classic sports bar in central Madrid with several screens. Shows a wide range of international sports, including NFL.</p>
@@ -75,7 +78,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=O%27Neill%27s" alt="O'Neill's Madrid">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" alt="Irish pub">
       <div class="bar-info">
         <h3>O'Neill's Madrid</h3>
         <p>Centro. Irish pub with multiple screens and a solid reputation for sports. NFL is regularly shown, especially big games.</p>
@@ -85,7 +88,7 @@
 
     <h2>Valencia</h2>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=Finnegan%27s" alt="The Finnegan's">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80" alt="Sports screens">
       <div class="bar-info">
         <h3>The Finnegan's</h3>
         <p>City Centre. Popular Irish pub in Valencia known for showing sports. Multiple screens and a good atmosphere for NFL Sunday.</p>
@@ -93,7 +96,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=Sports+Bar+Valencia" alt="Sports Bar Valencia">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" alt="Bar interior">
       <div class="bar-info">
         <h3>Sports Bar Valencia Centre</h3>
         <p>Near City Centre. Dedicated sports venue with large screens. They cover major American sports when requested.</p>
@@ -103,7 +106,7 @@
 
     <h2>Seville</h2>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=Irish+House" alt="The Irish House">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80" alt="Pub with TVs">
       <div class="bar-info">
         <h3>The Irish House</h3>
         <p>City Centre. Well-known Irish pub in Seville that shows international sports. NFL games are put on when there is interest.</p>
@@ -111,7 +114,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=Sports+Bar+Seville" alt="Sports Bar Seville">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" alt="Sports bar">
       <div class="bar-info">
         <h3>Sports Bar Seville</h3>
         <p>Near Centro. Local sports bar with several screens. They are open to showing NFL upon request.</p>
@@ -121,7 +124,7 @@
 
     <h2>Malaga</h2>
     <div class="bar-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Morrissey%27s_Irish_Pub_%2852863022278%29.jpg/640px-Morrissey%27s_Irish_Pub_%2852863022278%29.jpg" alt="Morrissey's Irish Pub Malaga">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80" alt="Morrissey's style pub">
       <div class="bar-info">
         <h3>Morrissey's Irish Pub</h3>
         <p>Centro · Calle Méndez Núñez, 5. Classic Irish pub in the heart of Malaga with multiple screens. Great atmosphere for watching NFL and other sports. Very popular with locals and visitors.</p>
@@ -129,7 +132,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=Dubliner+Malaga" alt="The Dubliner Malaga">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" alt="Irish pub Malaga">
       <div class="bar-info">
         <h3>The Dubliner Malaga</h3>
         <p>City Centre. Classic Irish pub with multiple screens. They regularly show major sports including NFL. Good atmosphere and central location.</p>
@@ -137,7 +140,7 @@
       </div>
     </div>
     <div class="bar-card">
-      <img src="https://via.placeholder.com/180x120?text=O%27Reilly%27s+Malaga" alt="O'Reilly's Malaga">
+      <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=400&q=80" alt="Sports bar Malaga">
       <div class="bar-info">
         <h3>O'Reilly's Malaga</h3>
         <p>Centro. Another solid Irish pub option for sports. NFL is shown for big games. Friendly crowd and multiple screens.</p>
