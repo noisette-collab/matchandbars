@@ -141,9 +141,9 @@
         const track = document.getElementById("fixtures-track");
         if (!track || !Array.isArray(data)) return;
         const items = data.slice(0, 12).map(f => 
-          `<span>${f.date} ${f.time} · ${f.home} — ${f.away} (${f.league})</span>`
+          `<a href="fixtures.html">${f.date} ${f.time} · ${f.home} — ${f.away}</a>`
         ).join("");
-        track.innerHTML = items + items; // duplicate for seamless loop
+        track.innerHTML = items + items;
       } catch (e) {}
     }
     loadBanner();
