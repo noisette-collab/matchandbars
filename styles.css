@@ -15,7 +15,7 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); f
 a { color: inherit; }
 .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
 .top { position: sticky; top: 0; z-index: 10; background: var(--header-bg); border-bottom: 1px solid #222; color: var(--header-text); }
-.nav { display: flex; justify-content: space-between; align-items: center; height: 72px; }
+.nav { display: flex; justify-content: space-between; align-items: center; height: 80px; }
 .logo { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -0.03em; font-size: 1.5rem; text-decoration: none; color: #fff; }
 .logo img { height: 56px; width: auto; border-radius: 8px; display: block; background: transparent; }
 .logo .amp { color: #c8f54a; }
