@@ -24,7 +24,6 @@
       <nav>
         <a href="#directori" data-i18n="navDir">Directory</a>
         <a href="fixtures.html" data-i18n="navFix">Fixtures</a>
-        <a href="nfl-spain.html">NFL Spain</a>
         <div class="team-drop">
           <button type="button" class="team-btn">Your team ▾</button>
           <div class="team-menu">
@@ -89,6 +88,9 @@
       <h2 id="dir-title" data-i18n="dirTitle">Directory</h2>
       <p id="count"></p>
     </div>
+    <div class="fixtures-banner" id="fixtures-banner">
+      <div class="fixtures-track" id="fixtures-track"></div>
+    </div>
     <div id="map" class="map"></div>
     <div class="filters" id="filters"></div>
     <div class="grid" id="grid"></div>
@@ -130,5 +132,21 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js"></script>
   <script type="module" src="community.js"></script>
+  <script>
+    async function loadBanner() {
+      try {
+        const r = await fetch("data/fixtures.json?t=" + Date.now());
+        if (!r.ok) return;
+        const data = await r.json();
+        const track = document.getElementById("fixtures-track");
+        if (!track || !Array.isArray(data)) return;
+        const items = data.slice(0, 12).map(f => 
+          `<span>${f.date} ${f.time} · ${f.home} — ${f.away} (${f.league})</span>`
+        ).join("");
+        track.innerHTML = items + items; // duplicate for seamless loop
+      } catch (e) {}
+    }
+    loadBanner();
+  </script>
 </body>
 </html>
