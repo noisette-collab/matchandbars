@@ -88,10 +88,11 @@ h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -0.
 .notes { color: #c9d6cf; font-size: .9rem; line-height: 1.45; flex: 1; }
 .source { font-size: .75rem; color: var(--muted); }
 .card a.maps { color: var(--accent); font-weight: 600; text-decoration: none; font-size: .92rem; }
-.owners { background: #141b18; border-top: 1px solid var(--line); padding: 48px 0; }
+.owners { background: #141b18; border-top: 1px solid #2c3833; padding: 48px 0; color: #eef3ef; }
+.owners h2, .owners p { color: #eef3ef; }
 .owners-inner { display: grid; grid-template-columns: 1.2fr .8fr; gap: 24px; align-items: center; }
 .owner-form { display: flex; flex-direction: column; gap: 10px; }
-.owner-form label { display: flex; flex-direction: column; gap: 6px; color: var(--muted); font-size: .9rem; }
+.owner-form label { display: flex; flex-direction: column; gap: 6px; color: #9aada4; font-size: .9rem; }
 footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: .82rem; }
 .foot { display: flex; flex-direction: column; gap: 6px; }
 .fx-list { display: flex; flex-direction: column; gap: 10px; padding-bottom: 64px; }
