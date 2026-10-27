@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Where to Watch Barça Near Me — Penyes Blaugrana & Sports Bars | Match & Bars</title>
-  <meta name="description" content="Find penyes blaugrana and sports bars to watch Barça near you. Watch FC Barcelona like a local in Barcelona, Madrid, New York, London and more. Confirm opening with the venue." />
+  <title>FC Barcelona penyes — Match & Bars</title>
   <link rel="canonical" href="https://www.matchandbars.com/barca" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,14 +11,6 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="icon" href="favicon.png" type="image/png" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZQZB8737SY');
-</script>
 </head>
 <body>
   <header class="top">
@@ -33,24 +24,17 @@
         <a href="fixtures.html" data-i18n="navFix">Fixtures</a>
         <div class="team-drop">
           <button type="button" class="team-btn">Your team ▾</button>
-          <div class="team-menu">
-            <a href="barca.html">Barça</a>
-            <a href="madrid.html">Real Madrid</a>
-            <a href="liverpool.html">Liverpool</a>
-            <a href="manutd.html">Manchester United</a>
-            <a href="bayern.html">Bayern</a>
-          </div>
+          <div class="team-menu"><a href="barca.html">Barça</a></div>
         </div>
         <div class="langs">
           <button type="button" data-lang="en">EN</button>
           <button type="button" data-lang="es">ES</button>
           <button type="button" data-lang="zh">中文</button>
-          <button type="button" data-lang="ja">日本語</button>
         </div>
       </nav>
     </div>
   </header>
-  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; min-height: 280px; display: flex; align-items: center;">
+  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1459865264687-595d652de67a?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center 40%; min-height: 280px; display: flex; align-items: center;">
     <div class="wrap" style="color: #fff;">
       <h1 style="color: #fff; margin: 0 0 8px;">FC Barcelona <span class="crest barca">FCB</span></h1>
       <p class="lead" data-i18n="lead" style="color: #eee; font-size: 1.15rem;">Penyes and bars where you can watch every Barça match.</p>
@@ -59,7 +43,7 @@
   </section>
   <section class="wrap">
     <h2 data-i18n="what">What is a penya?</h2>
-    <p data-i18n="whatP">A penya is an official FC Barcelona (Barça, Barca, FCB) supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.</p>
+    <p data-i18n="whatP">A penya is an official FC Barcelona supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.</p>
   </section>
   <section class="wrap">
     <div class="section-head"><h2 data-i18n="list">Penyes</h2><p id="count"></p></div>
@@ -70,11 +54,9 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const I18N = {
-      en: { navDir:"Directory", navFix:"Fixtures", lead:"Penyes and bars where you can watch every Barça match.", near:"Use my location", what:"What is a penya?", whatP:"A penya is an official FC Barcelona (Barça, Barca, FCB) supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.", list:"Penyes", geo:"Showing nearest penyes" },
-      es: { navDir:"Directorio", navFix:"Partidos", lead:"Peñas y bares donde ver todos los partidos del Barça.", near:"Usar mi ubicación", what:"¿Qué es una peña?", whatP:"Una peña es un club de aficionados oficial del FC Barcelona (Barça, Barca, FCB). Los socios se reúnen en un bar o local fijo para ver los partidos, viajar a los encuentros y mantener el espíritu blaugrana. Hay cientos de peñas en Cataluña, España y el mundo. Aquí están las que ya tenemos en Match & Bars.", list:"Peñas", geo:"Mostrando las peñas más cercanas" },
-      
-      ja: { navDir:"ディレクトリ", navFix:"試合", lead:"バルサの試合を見られるペーニャとバー。", near:"現在地を使う", what:"ペーニャとは？", whatP:"ペーニャ（penya）はFCバルセロナ（バルサ、Barça、FCB）の公式サポータークラブです。ファンは決まったバーや会場に集まり、試合を観戦し、遠征し、バルサの精神を守ります。カタルーニャ、スペイン、世界中に数百のペーニャがあります。以下はMatch & Barsに掲載されているものです。", list:"ペーニャ", geo:"最寄りのペーニャを表示" },
-      zh: { navDir:"目录", navFix:"赛程", lead:"观看巴萨比赛的球迷会和酒吧。", near:"使用我的位置", what:"什么是球迷会（penya）？", whatP:"Penya 是巴塞罗那足球俱乐部（Barça、Barca、FCB）的官方球迷会。球迷们在固定的酒吧或场所聚会观看比赛、前往客场，并保持巴萨精神。加泰罗尼亚、西班牙和世界各地有数百个球迷会。以下是 Match & Bars 目前列出的。", list:"球迷会", geo:"显示最近的球迷会" }
+      en: { navDir:"Directory", navFix:"Fixtures", lead:"Penyes and bars where you can watch every Barça match.", near:"Use my location", what:"What is a penya?", whatP:"A penya is an official FC Barcelona supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the Barça spirit alive. There are hundreds of penyes in Catalonia, Spain and around the world. Below are the ones currently listed on Match & Bars.", list:"Penyes", geo:"Showing nearest penyes" },
+      es: { navDir:"Directorio", navFix:"Partidos", lead:"Peñas y bares donde ver todos los partidos del Barça.", near:"Usar mi ubicación", what:"¿Qué es una peña?", whatP:"Una peña es un club de aficionados oficial del FC Barcelona. Los socios se reúnen en un bar o local fijo para ver los partidos, viajar a los encuentros y mantener el espíritu blaugrana. Hay cientos de peñas en Cataluña, España y el mundo. Aquí están las que ya tenemos en Match & Bars.", list:"Peñas", geo:"Mostrando las peñas más cercanas" },
+      zh: { navDir:"目录", navFix:"赛程", lead:"观看巴萨比赛的球迷会和酒吧。", near:"使用我的位置", what:"什么是球迷会（penya）？", whatP:"Penya 是巴塞罗那足球俱乐部的官方球迷会。球迷们在固定的酒吧或场所聚会观看比赛、前往客场，并保持巴萨精神。加泰罗尼亚、西班牙和世界各地有数百个球迷会。以下是 Match & Bars 目前列出的。", list:"球迷会", geo:"显示最近的球迷会" }
     };
     let lang = localStorage.getItem("mab-lang") || "en";
     function apply() {
@@ -85,40 +67,28 @@
       document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
     }
     const penyes = [
-      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3", lat:41.375, lng:2.134, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
-      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23", lat:41.378, lng:2.158, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
-      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6", lat:41.422, lng:2.181, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
-      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56", lat:41.436, lng:2.191, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit."},
-      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29", lat:41.436, lng:2.205, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.", web:"https://www.pbbonpastor.com"},
-      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16", lat:41.398, lng:2.204, notes:"Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.", web:"https://pbpoblenou.wixsite.com/pb-poblenou"},
-      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21", lat:40.322, lng:-3.865, notes:"Penya oficial del Barça a Madrid (núm. 2053). Local amb pantalla. Confirma horari i si es pot entrar sense ser soci.", web:"https://www.pbmostoles.com"},
-      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39", lat:40.191, lng:-3.679, notes:"Penya barcelonista a la Comunitat de Madrid. Solen veure el Barça. Confirma si el local és obert al públic."},
-      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street", lat:51.513, lng:-0.126, notes:"Official Barça penya. Match days at Bat & Ball. Non-members welcome if they support Barça; confirm the screening.", web:"https://pblondon.org"},
-      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1", lat:38.718, lng:-9.146, notes:"Barcelonista supporters' club. Confirm it is open to the public on match day."},
-      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street", lat:40.7445, lng:-73.9925, notes:"Penya oficial del Barça a Nova York. Es reuneixen al Smithfield Hall per veure els partits.", web:"https://www.fcbarcelonanyc.com"},
-      {name:"Penya Blaugrana de Paris", city:"Paris", address:"Corcoran's Grands Boulevards, 23 Boulevard Poissonnière", lat:48.8705, lng:2.3435, notes:"Penya oficial del Barça a París. Es reuneixen a Corcoran's.", web:"https://parisblaugrana.fr"},
-      {name:"Penya Blaugrana La Pulga de Castelldefels", city:"Barcelona", address:"Castelldefels", lat:41.28, lng:1.98, notes:"Penya a Castelldefels (àrea metropolitana)."},
-      {name:"Penya Barcelonista Viladecans", city:"Barcelona", address:"Viladecans", lat:41.32, lng:2.02, notes:"Penya a Viladecans."},
-      {name:"Penya Barcelonista Mataró", city:"Barcelona", address:"Mataró", lat:41.54, lng:2.44, notes:"Penya a Mataró."},
-      {name:"Penya Barcelonista Premià de Dalt", city:"Barcelona", address:"Premià de Dalt", lat:41.51, lng:2.35, notes:"Penya a Premià de Dalt."},
-      {name:"Penya Blaugrana de Folgueroles", city:"Barcelona", address:"Folgueroles", lat:41.94, lng:2.31, notes:"Penya oficial a Folgueroles."},
-      {name:"Penya Barcelonista Girona", city:"Girona", address:"Girona", lat:41.98, lng:2.82, notes:"Penya a Girona capital."},
-      {name:"Gran Penya Barcelonista de Tarragona", city:"Tarragona", address:"Tarragona", lat:41.12, lng:1.25, notes:"Penya històrica a Tarragona."},
-      {name:"Penya Barcelonista Lleida", city:"Lleida", address:"Lleida", lat:41.62, lng:0.62, notes:"Penya a Lleida capital."},
-      {name:"Penya Barcelonista Cabanyal – Ciutat Jardí", city:"Valencia", address:"C/ Peris Brell, 43", lat:39.472, lng:-0.326, notes:"Penya activa a València. Instagram @penyabarcelonistacabanyal", web:"https://www.instagram.com/penyabarcelonistacabanyal"},
-      {name:"Penya Barcelonista Bizkabarça", city:"Bilbao", address:"C/ General Eraso, 1", lat:43.263, lng:-2.935, notes:"Única penya oficial de Bilbao. Instagram @penyabilbaofcb", web:"https://www.instagram.com/penyabilbaofcb"},
-      {name:"Penya Blaugrana Sa Indioteria", city:"Palma", address:"Sa Indioteria", lat:39.59, lng:2.65, notes:"Penya de Palma. Fundada 2002. Web pbsaindioteria.wixsite.com", web:"https://pbsaindioteria.wixsite.com"},
-      {name:"Peña Barcelonista de Utrera", city:"Sevilla", address:"Utrera", lat:37.18, lng:-5.78, notes:"Penya oficial a la província de Sevilla."},
-      {name:"Peña Barcelonista PSV Almadén de la Plata", city:"Sevilla", address:"Almadén de la Plata", lat:37.87, lng:-6.08, notes:"Penya oficial."},
-      {name:"Penya Barcelonista Japan", city:"Tokyo", address:"Tokyo", lat:35.68, lng:139.69, notes:"Penya / supporters club del Barça al Japó."},
-      {name:"Penya Blaugrana de Marrakech", city:"Marrakech", address:"La Cueva, 5 Rue Tariq Bnou Ziad, Gueliz", lat:31.6335, lng:-8.0080, notes:"Penya oficial del Barça a Marrakech (#2215). Es reuneixen a La Cueva (sports bar) per veure els partits. Instagram @penyabgm", web:"https://www.instagram.com/penyabgm/"},
-      {name:"Penya Blaugrana Phoenix", city:"Phoenix", address:"The Joy Lush Club, 24 W Camelback Rd", lat:33.5090, lng:-112.0740, notes:"Penya oficial del Barça a Phoenix, Arizona (#2413). Home bar: The Joy Lush Club. Watch parties regulars. Instagram @penyablaugranaphx", web:"https://www.instagram.com/penyablaugranaphx/"}
+      {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3", lat:41.375, lng:2.134},
+      {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23", lat:41.378, lng:2.158},
+      {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6", lat:41.422, lng:2.181},
+      {name:"Penya Blanc i Blava de Sant Andreu", city:"Barcelona", address:"Carrer Gran de Sant Andreu, 56", lat:41.436, lng:2.191},
+      {name:"Peña Barcelonista Bon Pastor", city:"Barcelona", address:"Carrer de Flix, 29", lat:41.436, lng:2.205},
+      {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16", lat:41.398, lng:2.204},
+      {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21", lat:40.322, lng:-3.865},
+      {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39", lat:40.191, lng:-3.679},
+      {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street", lat:51.513, lng:-0.126},
+      {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1", lat:38.718, lng:-9.146},
+      {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street", lat:40.7445, lng:-73.9925},
+      {name:"Penya Blaugrana de Marrakech", city:"Marrakech", address:"Marrakech", lat:31.6295, lng:-7.9811, community:true},
+      {name:"Penya Blaugrana de Baltimore", city:"Baltimore", address:"Baltimore, USA", lat:39.2904, lng:-76.6122, community:true},
+      {name:"Penya Blaugrana de Talavera", city:"Talavera", address:"Talavera de la Reina", lat:39.9630, lng:-4.8306, community:true},
+      {name:"Penya Blaugrana de Madrid", city:"Madrid", address:"Madrid", lat:40.4168, lng:-3.7038, community:true},
+      {name:"Penya Blaugrana de Guadalajara", city:"Guadalajara", address:"Guadalajara", lat:40.6333, lng:-3.1667, community:true}
     ];
     let map, markers=[], you;
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
     function render(list){
       document.getElementById("count").textContent = list.length + (lang==="zh"?" 个":"") ;
-      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest barca">FCB</span> ${p.name}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p>${p.notes?`<p class="notes">${p.notes}</p>`:""}${p.web?`<p><a href="${p.web}" target="_blank">Web</a></p>`:""}<a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest barca">FCB</span> ${p.name}${p.community ? ' <span style="color:#c9f31d; font-size:0.9em;" title="Part of Match & Bars Instagram community">✓</span>' : ''}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p><a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
       markers.forEach(m=>map.removeLayer(m)); markers=[];
       list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
     }
