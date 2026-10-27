@@ -12,6 +12,14 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="icon" href="favicon.png" type="image/png" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZQZB8737SY');
+</script>
 </head>
 <body>
   <header class="top">
@@ -102,7 +110,9 @@
       {name:"Penya Blaugrana Sa Indioteria", city:"Palma", address:"Sa Indioteria", lat:39.59, lng:2.65, notes:"Penya de Palma. Fundada 2002. Web pbsaindioteria.wixsite.com", web:"https://pbsaindioteria.wixsite.com"},
       {name:"Peña Barcelonista de Utrera", city:"Sevilla", address:"Utrera", lat:37.18, lng:-5.78, notes:"Penya oficial a la província de Sevilla."},
       {name:"Peña Barcelonista PSV Almadén de la Plata", city:"Sevilla", address:"Almadén de la Plata", lat:37.87, lng:-6.08, notes:"Penya oficial."},
-      {name:"Penya Barcelonista Japan", city:"Tokyo", address:"Tokyo", lat:35.68, lng:139.69, notes:"Penya / supporters club del Barça al Japó."}
+      {name:"Penya Barcelonista Japan", city:"Tokyo", address:"Tokyo", lat:35.68, lng:139.69, notes:"Penya / supporters club del Barça al Japó."},
+      {name:"Penya Blaugrana de Marrakech", city:"Marrakech", address:"La Cueva, 5 Rue Tariq Bnou Ziad, Gueliz", lat:31.6335, lng:-8.0080, notes:"Penya oficial del Barça a Marrakech (#2215). Es reuneixen a La Cueva (sports bar) per veure els partits. Instagram @penyabgm", web:"https://www.instagram.com/penyabgm/"},
+      {name:"Penya Blaugrana Phoenix", city:"Phoenix", address:"The Joy Lush Club, 24 W Camelback Rd", lat:33.5090, lng:-112.0740, notes:"Penya oficial del Barça a Phoenix, Arizona (#2413). Home bar: The Joy Lush Club. Watch parties regulars. Instagram @penyablaugranaphx", web:"https://www.instagram.com/penyablaugranaphx/"}
     ];
     let map, markers=[], you;
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}

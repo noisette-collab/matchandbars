@@ -4,168 +4,216 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Where to Watch NFL in Spain | Match & Bars</title>
-  <meta name="description" content="Best sports bars in Barcelona, Madrid, Valencia, Seville and Malaga to watch NFL games in Spain." />
+  <meta name="description" content="History of NFL in Spain and the best sports bars in Barcelona, Madrid, Valencia, Seville and Malaga to watch NFL games." />
+  <link rel="canonical" href="https://www.matchandbars.com/nfl-spain.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
   <style>
-    .bar-card { display: flex; gap: 16px; margin: 20px 0; background: #f9f9f9; padding: 16px; border-radius: 12px; align-items: flex-start; }
-    .bar-card img { width: 180px; height: 120px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
-    .bar-info h3 { margin: 0 0 6px; }
-    .hero-nfl { 
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/hero-kicker.jpg') center/cover no-repeat; 
-      color: white; padding: 100px 0; text-align: center; 
+    .bar-card { display: grid; grid-template-columns: 180px 1fr; gap: 16px; align-items: start; margin-bottom: 24px; }
+    .bar-card img { width: 100%; height: 140px; object-fit: cover; border-radius: 12px; }
+    @media (max-width: 640px) { .bar-card { grid-template-columns: 1fr; } }
+    .history { background: #f7f7f7; padding: 20px; border-radius: 12px; margin-bottom: 32px; }
+    .hero-nfl {
+      background: linear-gradient(rgba(15,20,18,.65), rgba(15,20,18,.65)), url('https://images.pexels.com/photos/31160151/pexels-photo-31160151.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+      color: #fff;
+      padding: 80px 0 60px;
     }
-    .hero-nfl h1 { text-shadow: 0 2px 10px rgba(0,0,0,.7); font-size: 2.6rem; }
-    .timeline { margin: 30px 0; }
-    .timeline-item { margin-bottom: 20px; padding-left: 20px; border-left: 3px solid #333; }
-    .timeline-item strong { display: block; margin-bottom: 4px; }
+    .hero-nfl h1 { color: #fff; }
+    .hero-nfl .lead { color: #eee; }
+    .top { height: 80px; }
   </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZQZB8737SY');
+</script>
 </head>
 <body>
   <header class="top">
     <div class="wrap nav">
-      <a class="logo" href="/">
+      <a class="logo" href="index.html">
         <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
         <span class="word">Match<span class="amp">&</span>Bars</span>
       </a>
       <nav>
-        <a href="/">Home</a>
+        <a href="index.html">Directory</a>
         <a href="fixtures.html">Fixtures</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero-nfl">
+  <section class="hero hero-nfl">
     <div class="wrap">
       <h1>Where to Watch NFL in Spain</h1>
-      <p>Best sports bars in the most visited cities</p>
+      <p class="lead">The best sports bars in Spain’s most visited cities to catch NFL games. Always confirm the fixture with the venue.</p>
     </div>
   </section>
 
-  <div class="wrap" style="padding: 40px 0;">
-    <h2>History of NFL in Spain</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <strong>1960s</strong>
-        American football arrived in Spain through US military bases.
-      </div>
-      <div class="timeline-item">
-        <strong>1990s</strong>
-        The Barcelona Dragons played in the World League / NFL Europe.
-      </div>
-      <div class="timeline-item">
-        <strong>1993 & 1994</strong>
-        The NFL staged two American Bowl pre-season games at Barcelona’s Olympic Stadium (49ers vs Steelers, and Broncos vs Raiders).
-      </div>
-      <div class="timeline-item">
-        <strong>November 2025</strong>
-        First official regular-season game in Spain: Miami Dolphins vs Washington Commanders at the Santiago Bernabéu (78,610 spectators).
-      </div>
-      <div class="timeline-item">
-        <strong>Since 2025</strong>
-        The NFL has signed a multi-year deal to return to Madrid.
-      </div>
+  <section class="wrap">
+    <div class="history">
+      <h2>NFL in Spain — a short history</h2>
+      <p>American football arrived in Spain in the 1960s through US military bases. The first professional team, the Barcelona Dragons, played in the World League / NFL Europe in the 1990s.</p>
+      <p>In 1993 and 1994 the NFL staged two American Bowl pre-season games at Barcelona’s Olympic Stadium (49ers vs Steelers, and Broncos vs Raiders). These were exhibition matches that helped introduce the sport to Spanish fans.</p>
+      <p>In November 2025 the NFL played its first official regular-season game in Spain: Miami Dolphins vs Washington Commanders at Real Madrid’s Santiago Bernabéu (78,610 spectators). The league has since signed a multi-year deal to return to Madrid.</p>
     </div>
 
     <h2>Barcelona</h2>
-    <div class="bar-card">
-      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/FOE6djO781EkrQljOf0vdA/o.jpg" alt="The George Payne exterior">
-      <div class="bar-info">
+    <article class="card bar-card">
+      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/FOE6djO781EkrQljOf0vdA/o.jpg" alt="The George Payne" />
+      <div>
         <h3>The George Payne</h3>
-        <p>Urquinaona · Plaça Urquinaona, 5. One of Barcelona’s best Irish sports bars. Multiple large screens, strong beer selection and a lively atmosphere. Regularly shows NFL, especially on Sunday afternoons.</p>
-        <p><a href="https://maps.google.com/?q=The+George+Payne+Barcelona">Map</a> · <a href="https://thegeorgepayne.com">Website</a> · <a href="https://www.instagram.com/thegeorgepayne/">Instagram</a></p>
+        <p class="meta">Urquinaona · Plaça Urquinaona, 5</p>
+        <p>One of Barcelona’s best Irish sports bars. Multiple large screens, strong beer selection and a lively atmosphere. Regularly shows NFL, especially on Sunday afternoons.</p>
+        <a class="maps" href="https://maps.google.com/?q=The+George+Payne+Barcelona" target="_blank">Map</a>
+        <a class="maps" href="https://thegeorgepayne.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/thegeorgepayne/" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="bar-card">
-      <img src="https://matchpint-cdn.matchpint.cloud/shared/img/pub/15599/5b1aa1e3eb0b9_medium.jpeg" alt="Wild Rover">
-      <div class="bar-info">
+    </article>
+    <article class="card bar-card">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/32/e0/af/ee/barcelona-s-ultimate.jpg" alt="Wild Rover" />
+      <div>
         <h3>Wild Rover</h3>
-        <p>Raval · Carrer de Santa Mònica, 2. Popular Irish-style sports bar just off Las Ramblas with 9 HD screens. Shows a wide range of sports including NFL when there is demand.</p>
-        <p><a href="https://maps.google.com/?q=Wild+Rover+Barcelona">Map</a> · <a href="https://barwildrover.com">Website</a> · <a href="https://www.instagram.com/wildroverbcn/">Instagram</a></p>
+        <p class="meta">Raval · Carrer de Santa Mònica, 2</p>
+        <p>Popular Irish-style sports bar just off Las Ramblas with 9 HD screens. Shows a wide range of sports including NFL when there is demand. Good food and draft beers.</p>
+        <a class="maps" href="https://maps.google.com/?q=Wild+Rover+Barcelona" target="_blank">Map</a>
+        <a class="maps" href="https://barwildrover.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/wildroverbcn/" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="bar-card">
-      <img src="https://img3.restaurantguru.com/w550/h367/r8c9-interior-CocoVail-Beer-Hall-Craft-Beer-Barcelona-2025-07-1.jpg" alt="CocoVail exterior">
-      <div class="bar-info">
+    </article>
+    <article class="card bar-card">
+      <img src="https://cocovailbeerhall.com/wp-content/uploads/2024/08/sports_01.webp" alt="CocoVail Beer Hall" />
+      <div>
         <h3>CocoVail Beer Hall</h3>
-        <p>Eixample · Carrer d’Aragó, 284. Craft beer hall with multiple screens that regularly shows NFL and Red Zone on Sundays. Great wings, craft beer and a lively American-style atmosphere.</p>
-        <p><a href="https://maps.google.com/?q=CocoVail+Beer+Hall+Barcelona">Map</a> · <a href="https://cocovailbeerhall.com">Website</a> · <a href="https://www.instagram.com/cocovailbeerhall/">Instagram</a></p>
+        <p class="meta">Eixample · Carrer d’Aragó, 284</p>
+        <p>Craft beer hall with multiple screens that regularly shows NFL and Red Zone on Sundays. Great wings, craft beer and a lively American-style atmosphere.</p>
+        <a class="maps" href="https://maps.google.com/?q=CocoVail+Beer+Hall+Barcelona" target="_blank">Map</a>
+        <a class="maps" href="https://cocovailbeerhall.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/cocovailbeerhall/" target="_blank">Instagram</a>
       </div>
-    </div>
+    </article>
 
     <h2>Madrid</h2>
-    <div class="bar-card">
-      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/bwNw6zsDEAb6JDhM6GyDhQ/o.jpg" alt="The James Joyce exterior">
-      <div class="bar-info">
+    <article class="card bar-card">
+      <img src="https://barsforkings.com/images/places/cities/madrid/sports-bars/00-00f5ecf824.jpg" alt="The James Joyce Madrid" />
+      <div>
         <h3>The James Joyce</h3>
-        <p>Centro · Calle de Alcalá, 59. Classic Irish pub near Cibeles with several screens. Shows a wide range of international sports, including NFL.</p>
-        <p><a href="https://maps.google.com/?q=The+James+Joyce+Madrid">Map</a> · <a href="https://www.jamesjoycemadrid.com">Website</a></p>
+        <p class="meta">Centro · Calle de Alcalá, 59</p>
+        <p>Classic Irish sports bar in central Madrid with multiple screens. Regularly shows international sports including NFL every week during the season. Good food, live music and comfortable seating. Established 2006.</p>
+        <a class="maps" href="https://maps.google.com/?q=The+James+Joyce+Madrid" target="_blank">Map</a>
+        <a class="maps" href="https://www.jamesjoycemadrid.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/jamesjoycemadrid/" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="bar-card">
-      <div class="bar-info">
+    </article>
+    <article class="card bar-card">
+      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/G7lPQZgQ24ezOGXQbLrF7Q/o.jpg" alt="O'Neill's Madrid" />
+      <div>
         <h3>O'Neill's Madrid</h3>
-        <p>Centro · Calle del Príncipe, 12. Irish pub with multiple screens and a solid reputation for sports. NFL is regularly shown, especially big games.</p>
-        <p><a href="https://maps.google.com/?q=O'Neill's+Madrid">Map</a></p>
+        <p class="meta">Centro · Calle del Príncipe, 12</p>
+        <p>Irish pub with several screens and a solid reputation for sports. NFL is shown for big games. Lively crowd, good beer selection and two floors. Open since 1996.</p>
+        <a class="maps" href="https://maps.google.com/?q=O'Neill's+Madrid+Calle+del+Príncipe" target="_blank">Map</a>
+        <a class="maps" href="https://www.oneills.es" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/theoneillsirishpub/" target="_blank">Instagram</a>
       </div>
-    </div>
+    </article>
 
     <h2>Valencia</h2>
-    <div class="bar-card">
-      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/NN4UL7MYBvvSjFb-4EMZVg/o.jpg" alt="Finnegans of Dublin">
-      <div class="bar-info">
-        <h3>The Finnegan's (Finnegans of Dublin)</h3>
-        <p>City Centre · Plaça de la Reina, 19. Popular Irish pub in Valencia known for showing sports. Multiple screens and a good atmosphere for NFL Sunday.</p>
-        <p><a href="https://maps.google.com/?q=Finnegans+Valencia">Map</a> · <a href="https://www.finnegansofdublin.es/">Website</a></p>
+    <article class="card bar-card">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/5e/3a/8e/st-patrick-s-irish-pub.jpg" alt="St. Patrick's Irish Pub Valencia" />
+      <div>
+        <h3>St. Patrick's Irish Pub</h3>
+        <p class="meta">Gran Vía Marqués del Turia, 69</p>
+        <p>Popular Irish pub with multiple screens (up to 12+). Shows Premier League, La Liga, NFL primetime and other American sports. Lively international crowd, pool, darts and good atmosphere. Home of the craic since 1998.</p>
+        <a class="maps" href="https://maps.google.com/?q=St+Patrick's+Irish+Pub+Valencia" target="_blank">Map</a>
+        <a class="maps" href="https://stpatricksvalencia.es" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/stpatricksvalencia/" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="bar-card">
-      <div class="bar-info">
-        <h3>Sports Bar Valencia Centre</h3>
-        <p>Near City Centre. Dedicated sports venue with large screens. They cover major American sports when requested.</p>
-        <p><a href="https://maps.google.com/?q=sports+bar+Valencia">Map</a></p>
+    </article>
+    <article class="card bar-card">
+      <img src="https://finnegansofdublin.com/wp-content/uploads/elementor/thumbs/DSC03520-rotated-rckb4q0lt7u0yr3npoomtq34tb2zs6z7hzgq8ozaim.jpg" alt="Finnegan's of Dublin Valencia" />
+      <div>
+        <h3>Finnegan's of Dublin</h3>
+        <p class="meta">Plaça de la Reina, 19</p>
+        <p>One of the oldest and largest Irish pubs in Valencia. Multiple screens for sports including football, rugby and NFL. Live music, karaoke, good food and authentic atmosphere in the heart of the old town.</p>
+        <a class="maps" href="https://maps.google.com/?q=Finnegans+of+Dublin+Valencia" target="_blank">Map</a>
+        <a class="maps" href="https://finnegansofdublin.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/finnegansofdublin/" target="_blank">Instagram</a>
       </div>
-    </div>
+    </article>
 
     <h2>Seville</h2>
-    <div class="bar-card">
-      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/O%27Neills.jpg/1280px-O%27Neills.jpg" alt="O'Neill's Seville">
-      <div class="bar-info">
-        <h3>O'Neill's / The Irish House</h3>
-        <p>City Centre. Well-known Irish pub in Seville that shows international sports. NFL games are put on when there is interest.</p>
-        <p><a href="https://maps.google.com/?q=O'Neill's+Seville">Map</a></p>
+    <article class="card bar-card">
+      <img src="https://jxrrhsqffnzeljszbecg.supabase.co/storage/v1/object/public/destination-images/sports-bars/seville/the-merchant/0.jpg" alt="The Merchant Seville" />
+      <div>
+        <h3>The Merchant</h3>
+        <p class="meta">Calle Canalejas, 12</p>
+        <p>Well-regarded Irish pub in central Seville since 1999. Multiple screens for major sports including football, rugby and international events. Homemade food, craft beers and lively atmosphere. Nº1 for sports in Seville.</p>
+        <a class="maps" href="https://maps.google.com/?q=The+Merchant+Seville" target="_blank">Map</a>
+        <a class="maps" href="https://merchantpub.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/themerchantsevilla/" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="bar-card">
-      <div class="bar-info">
-        <h3>Sports Bar Seville</h3>
-        <p>Near Centro. Local sports bar with several screens. They are open to showing NFL upon request.</p>
-        <p><a href="https://maps.google.com/?q=sports+bar+Seville">Map</a></p>
+    </article>
+    <article class="card bar-card">
+      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/G7lPQZgQ24ezOGXQbLrF7Q/o.jpg" alt="O'Neill's Seville" />
+      <div>
+        <h3>O'Neill's Seville</h3>
+        <p class="meta">Near the bullring · Calle Adriano area</p>
+        <p>Large multi-level Irish pub with projector screens. Good option for international sports and big games. Fish & chips, Guinness and lively crowd.</p>
+        <a class="maps" href="https://maps.google.com/?q=O'Neill's+Seville" target="_blank">Map</a>
+        <a class="maps" href="https://www.oneillspubs.es" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/oneillsadriano/" target="_blank">Instagram</a>
       </div>
-    </div>
+    </article>
+
+    <h2>Palma de Mallorca</h2>
+    <article class="card bar-card">
+      <img src="https://cdm0lfbn.cloudimg.io/v7/_images_base_/image_uploader/photos/e0/original/hogans-live-music-sports-bar-restaurant-7.jpg" alt="Hogan's Palma" />
+      <div>
+        <h3>Hogan's</h3>
+        <p class="meta">Carrer de Monsenyor Palmer, 2 · Santa Catalina</p>
+        <p>Palma’s number one sports bar since 1996. Authentic Irish pub (manufactured in Ireland) with 14+ Full HD screens. Shows football, rugby, NFL, F1 and more. Award-winning burgers, live music Fridays & Saturdays, best Guinness on the island.</p>
+        <a class="maps" href="https://maps.google.com/?q=Hogan's+Palma" target="_blank">Map</a>
+        <a class="maps" href="https://hoganspalma.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/hoganspub/" target="_blank">Instagram</a>
+      </div>
+    </article>
+    <article class="card bar-card">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/2a/5f/8e/shamrock-palma.jpg" alt="Shamrock Palma" />
+      <div>
+        <h3>Shamrock Irish Pub</h3>
+        <p class="meta">Avenida de Gabriel Roca, 3 · Paseo Marítimo</p>
+        <p>Classic Guinness Official Irish Pub on the seafront with 9 screens. Shows major sports including Premier League, Champions League and NFL. Live music, concert hall, restaurant terrace with marina views and great atmosphere.</p>
+        <a class="maps" href="https://maps.google.com/?q=Shamrock+Palma" target="_blank">Map</a>
+        <a class="maps" href="https://shamrockpalma.com" target="_blank">Website</a>
+        <a class="maps" href="https://www.instagram.com/shamrockpalma/" target="_blank">Instagram</a>
+      </div>
+    </article>
 
     <h2>Malaga</h2>
-    <div class="bar-card">
-      <img src="https://img3.restaurantguru.com/w550/h367/rc16-design-Morrisseys-Irish-Pub-2025-10-1.jpg" alt="Morrissey's exterior">
-      <div class="bar-info">
-        <h3>Morrissey's Irish Pub</h3>
-        <p>Centro · Calle Méndez Núñez, 5. Classic Irish pub in the heart of Malaga with multiple screens. Great atmosphere for watching NFL and other sports. Very popular with locals and visitors.</p>
-        <p><a href="https://maps.google.com/?q=Morrissey's+Irish+Pub+Malaga">Map</a> · <a href="https://www.instagram.com/morrisseys_public_house/">Instagram</a></p>
-      </div>
+    <article class="card">
+      <h3>The Dubliner Malaga</h3>
+      <p class="meta">City Centre</p>
+      <p>Classic Irish pub with multiple screens. They regularly show major sports including NFL. Good atmosphere and central location.</p>
+      <a class="maps" href="https://maps.google.com/?q=Dubliner+Malaga" target="_blank">Map</a>
+    </article>
+    <article class="card">
+      <h3>O'Reilly's Malaga</h3>
+      <p class="meta">Centro</p>
+      <p>Another solid Irish pub option for sports. NFL is shown for big games. Friendly crowd and multiple screens.</p>
+      <a class="maps" href="https://maps.google.com/?q=O'Reilly's+Malaga" target="_blank">Map</a>
+    </article>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© 2026 Match & Bars</span>
+      <span>Always confirm the fixture with the venue before going.</span>
     </div>
-    <div class="bar-card">
-      <div class="bar-info">
-        <h3>The Dubliner Malaga</h3>
-        <p>City Centre. Classic Irish pub with multiple screens. They regularly show major sports including NFL. Good atmosphere and central location.</p>
-        <p><a href="https://maps.google.com/?q=Dubliner+Malaga">Map</a></p>
-      </div>
-    </div>
-    <div class="bar-card">
-      <div class="bar-info">
-        <h3>O'Reilly's Malaga</h3>
-        <p>Centro. Another solid Irish pub option for sports. NFL is shown for big games. Friendly crowd and multiple screens.</p>
-        <p><a href="https://maps.google.com/?q=O'Reilly's+Malaga">Map</a></p>
-      </div>
-    </div>
-  </div>
+  </footer>
 </body>
 </html>
