@@ -34,7 +34,7 @@
       </nav>
     </div>
   </header>
-  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1459865264687-595d652de67a?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center 40%; min-height: 280px; display: flex; align-items: center;">
+  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/4623974/pexels-photo-4623974.jpeg?auto=compress&cs=tinysrgb&w=1600'); background-size: cover; background-position: center; min-height: 300px; display: flex; align-items: center;">
     <div class="wrap" style="color: #fff;">
       <h1 style="color: #fff; margin: 0 0 8px;">FC Barcelona <span class="crest barca">FCB</span></h1>
       <p class="lead" data-i18n="lead" style="color: #eee; font-size: 1.15rem;">Penyes and bars where you can watch every Barça match.</p>
@@ -49,6 +49,10 @@
     <div class="section-head"><h2 data-i18n="list">Penyes</h2><p id="count"></p></div>
     <div id="map" class="map"></div>
     <div class="grid" id="grid"></div>
+    <p style="margin-top:1.5rem; font-size:0.9rem; color:#555;">
+      <span style="display:inline-block; width:14px; height:14px; background:#c9f31d; border:1px solid #111; vertical-align:middle; margin-right:6px;"></span>
+      <strong>Green cards with ✓</strong> = peñas that are already part of the Match & Bars Instagram community.
+    </p>
   </section>
   <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -87,8 +91,15 @@
     let map, markers=[], you;
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
     function render(list){
+      // Community first
+      list = [...list].sort((a,b) => (b.community?1:0) - (a.community?1:0));
       document.getElementById("count").textContent = list.length + (lang==="zh"?" 个":"") ;
-      document.getElementById("grid").innerHTML = list.map(p=>`<article class="card"><h3><span class="crest barca">FCB</span> ${p.name}${p.community ? ' <span style="color:#c9f31d; font-size:0.9em;" title="Part of Match & Bars Instagram community">✓</span>' : ''}</h3><p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p><a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank">Maps</a></article>`).join("");
+      document.getElementById("grid").innerHTML = list.map(p=>`
+        <article class="card" style="${p.community ? 'background:#c9f31d; color:#111; border:2px solid #111;' : ''}">
+          <h3><span class="crest barca">FCB</span> ${p.name}${p.community ? ' <span style="color:#111; font-size:1.1em; font-weight:800;" title="Part of Match & Bars community">✓</span>' : ''}</h3>
+          <p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p>
+          <a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank" style="${p.community ? 'color:#111;' : ''}">Maps</a>
+        </article>`).join("");
       markers.forEach(m=>map.removeLayer(m)); markers=[];
       list.forEach(p=>{const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);markers.push(m);});
     }
