@@ -26,21 +26,27 @@
     "zone": "Urquinaona",
     "address": "Plaça Urquinaona, 5",
     "sports": [
-      "football",
       "rugby",
+      "football",
       "nfl"
     ],
     "lat": 41.3892,
     "lng": 2.1734,
     "maps": "https://maps.google.com/?q=The+George+Payne+Plaça+Urquinaona,+5+Barcelona",
     "tags": [
-      "football",
       "rugby",
-      "nfl"
+      "football",
+      "nfl",
+      "sports",
+      "irish"
     ],
-    "bestFor": "football, rugby, nfl",
+    "bestFor": [
+      "football, rugby, nfl",
+      "NFL",
+      "Premier League"
+    ],
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides",
+    "source": "nfl-spain",
     "web": "https://thegeorgepayne.com"
   },
   {
@@ -118,19 +124,25 @@
     "zone": "Raval",
     "address": "Carrer de Santa Mònica, 2",
     "sports": [
+      "nfl",
       "football",
-      "nfl"
+      "rugby"
     ],
     "lat": 41.3784,
     "lng": 2.175,
     "maps": "https://maps.google.com/?q=Wild+Rover+Carrer+de+Santa+Mònica,+2+Barcelona",
     "tags": [
+      "nfl",
       "football",
-      "nfl"
+      "irish",
+      "sports"
     ],
-    "bestFor": "football, nfl",
+    "bestFor": [
+      "NFL",
+      "football, nfl"
+    ],
     "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
-    "source": "Public guides",
+    "source": "nfl-spain",
     "web": "https://barwildrover.com"
   },
   {
@@ -140,9 +152,9 @@
     "zone": "Eixample",
     "address": "Carrer d'Aragó, 284",
     "sports": [
-      "football",
+      "nba",
       "nfl",
-      "nba"
+      "football"
     ],
     "lat": 41.3917,
     "lng": 2.1651,
@@ -150,11 +162,17 @@
     "tags": [
       "football",
       "nfl",
-      "nba"
+      "nba",
+      "craft beer",
+      "sports"
     ],
-    "bestFor": "football, nfl, nba",
+    "bestFor": [
+      "Red Zone",
+      "NFL",
+      "football, nfl, nba"
+    ],
     "notes": "American beer hall. Lists NFL Sundays and Red Zone. Confirm kick-off on the day.",
-    "source": "cocovailbeerhall.com",
+    "source": "nfl-spain",
     "web": "https://cocovailbeerhall.com"
   },
   {
@@ -5523,5 +5541,260 @@
     "source": "Official penya",
     "web": "https://www.instagram.com/penyablaugranaphx/",
     "club": "barca"
+  },
+  {
+    "id": "james-joyce-madrid",
+    "name": "The James Joyce",
+    "city": "Madrid",
+    "zone": "Centro",
+    "address": "Calle de Alcalá, 59, Madrid",
+    "sports": [
+      "football",
+      "nfl",
+      "rugby"
+    ],
+    "lat": 40.4195,
+    "lng": -3.6975,
+    "maps": "https://maps.google.com/?q=The+James+Joyce+Madrid",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "Shows NFL every week.",
+    "source": "nfl-spain",
+    "web": "https://www.jamesjoycemadrid.com"
+  },
+  {
+    "id": "oneills-madrid",
+    "name": "O'Neill's Madrid",
+    "city": "Madrid",
+    "zone": "Centro",
+    "address": "Calle del Príncipe, 12, Madrid",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 40.4155,
+    "lng": -3.7005,
+    "maps": "https://maps.google.com/?q=O'Neill's+Madrid",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "NFL for big games.",
+    "source": "nfl-spain",
+    "web": "https://www.oneills.es"
+  },
+  {
+    "id": "stpatricks-valencia",
+    "name": "St. Patrick's Irish Pub",
+    "city": "Valencia",
+    "zone": "Gran Vía",
+    "address": "Gran Vía del Marqués del Túria, 69, Valencia",
+    "sports": [
+      "football",
+      "nfl",
+      "rugby"
+    ],
+    "lat": 39.4695,
+    "lng": -0.376,
+    "maps": "https://maps.google.com/?q=St+Patrick's+Irish+Pub+Valencia",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "Up to 12 screens. NFL primetime.",
+    "source": "nfl-spain",
+    "web": "https://stpatricksvalencia.es"
+  },
+  {
+    "id": "finnegans-valencia",
+    "name": "Finnegan's of Dublin",
+    "city": "Valencia",
+    "zone": "Centre",
+    "address": "Plaça de la Reina, 19, Valencia",
+    "sports": [
+      "football",
+      "nfl",
+      "rugby"
+    ],
+    "lat": 39.475,
+    "lng": -0.3765,
+    "maps": "https://maps.google.com/?q=Finnegans+of+Dublin+Valencia",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "Multiple screens including NFL.",
+    "source": "nfl-spain",
+    "web": "https://finnegansofdublin.com"
+  },
+  {
+    "id": "merchant-seville",
+    "name": "The Merchant",
+    "city": "Seville",
+    "zone": "Centre",
+    "address": "Calle Canalejas, 12, Sevilla",
+    "sports": [
+      "football",
+      "nfl",
+      "rugby"
+    ],
+    "lat": 37.3885,
+    "lng": -5.995,
+    "maps": "https://maps.google.com/?q=The+Merchant+Seville",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "Nº1 for sports in Seville.",
+    "source": "nfl-spain",
+    "web": "https://merchantpub.com"
+  },
+  {
+    "id": "oneills-seville",
+    "name": "O'Neill's Seville",
+    "city": "Seville",
+    "zone": "Arenal",
+    "address": "Calle Adriano, 34, Sevilla",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 37.3855,
+    "lng": -5.9985,
+    "maps": "https://maps.google.com/?q=O'Neill's+Seville",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "Large Irish pub with screens.",
+    "source": "nfl-spain",
+    "web": "https://www.oneillspubs.es"
+  },
+  {
+    "id": "hogans-palma",
+    "name": "Hogan's",
+    "city": "Palma",
+    "zone": "Santa Catalina",
+    "address": "Carrer de Monsenyor Palmer, 2, Palma",
+    "sports": [
+      "football",
+      "nfl",
+      "rugby"
+    ],
+    "lat": 39.5725,
+    "lng": 2.6385,
+    "maps": "https://maps.google.com/?q=Hogan's+Palma",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "14+ screens. Shows NFL.",
+    "source": "nfl-spain",
+    "web": "https://hoganspalma.com"
+  },
+  {
+    "id": "shamrock-palma",
+    "name": "Shamrock Irish Pub",
+    "city": "Palma",
+    "zone": "Paseo Marítimo",
+    "address": "Avenida de Gabriel Roca, 3, Palma",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 39.5695,
+    "lng": 2.6285,
+    "maps": "https://maps.google.com/?q=Shamrock+Palma",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "9 screens. Shows NFL.",
+    "source": "nfl-spain",
+    "web": "https://shamrockpalma.com"
+  },
+  {
+    "id": "morrisseys-malaga",
+    "name": "Morrissey's Irish Pub",
+    "city": "Malaga",
+    "zone": "Centro",
+    "address": "C/ Méndez Núñez, 5, Málaga",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 36.7228,
+    "lng": -4.4206,
+    "maps": "https://maps.google.com/?q=Morrissey's+Irish+Pub+Malaga",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "12+ screens.",
+    "source": "nfl-spain",
+    "web": "https://morrisseysmalaga.com"
+  },
+  {
+    "id": "ohara-malaga",
+    "name": "O'Hara Irish Pub",
+    "city": "Malaga",
+    "zone": "Carretera de Cádiz",
+    "address": "C. Tomás Echeverría, 6, Málaga",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 36.7005,
+    "lng": -4.4355,
+    "maps": "https://maps.google.com/?q=O'Hara+Irish+Pub+Malaga",
+    "tags": [
+      "irish",
+      "sports",
+      "nfl"
+    ],
+    "bestFor": [
+      "NFL"
+    ],
+    "notes": "Sports bar with multiple screens.",
+    "source": "nfl-spain",
+    "web": ""
   }
 ]
