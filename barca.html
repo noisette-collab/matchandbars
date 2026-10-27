@@ -71,6 +71,12 @@
       document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
     }
     const penyes = [
+      // Community Instagram
+      {name:"Penya Blaugrana de Marrakech", city:"Marrakech", address:"Marrakech, Morocco", lat:31.6295, lng:-7.9811, community:true, instagram:"@penyabgm"},
+      {name:"Penya Blaugrana de Baltimore", city:"Baltimore", address:"Baltimore, USA", lat:39.2904, lng:-76.6122, community:true, instagram:"@baltimoreblaugrana"},
+      {name:"Penya Blaugrana de Talavera", city:"Talavera", address:"Talavera de la Reina, Spain", lat:39.9630, lng:-4.8306, community:true, instagram:"@pbt.1982"},
+      {name:"Penya Blaugrana de Guadalajara", city:"Guadalajara", address:"Guadalajara, Spain", lat:40.6333, lng:-3.1667, community:true, instagram:"@PenyesFCBMadridyGuadalajara"},
+      // Barcelona & Spain
       {name:"Penya Barcelonista Sants", city:"Barcelona", address:"Carrer de Viladecans, 1-3", lat:41.375, lng:2.134},
       {name:"Penya Blaugrana Ciutat Comtal", city:"Barcelona", address:"Carrer de Vilardell, 23", lat:41.378, lng:2.158},
       {name:"Penya Barcelonista Congrés", city:"Barcelona", address:"Carrer de Pardo, 6", lat:41.422, lng:2.181},
@@ -79,14 +85,27 @@
       {name:"Peña Barcelonista Poble Nou", city:"Barcelona", address:"Carrer de Venero, 16", lat:41.398, lng:2.204},
       {name:"Peña Barcelonista de Móstoles", city:"Madrid", address:"Calle Petunia, 21", lat:40.322, lng:-3.865},
       {name:"Peña Barcelonista Valdemoro", city:"Madrid", address:"Calle General Martitegui, 39", lat:40.191, lng:-3.679},
+      {name:"Penya Blaugrana de Madrid", city:"Madrid", address:"Madrid", lat:40.4168, lng:-3.7038},
+      // International
       {name:"Penya Blaugrana London", city:"London", address:"Bat & Ball, 50 Earlham Street", lat:51.513, lng:-0.126},
       {name:"Penya Barcelonista de Lisboa", city:"Lisbon", address:"Travessa do Salitre, 1", lat:38.718, lng:-9.146},
       {name:"Penya Barcelonista Nova York (Smithfield Hall)", city:"New York", address:"138 West 25th Street", lat:40.7445, lng:-73.9925},
-      {name:"Penya Blaugrana de Marrakech", city:"Marrakech", address:"Marrakech", lat:31.6295, lng:-7.9811, community:true},
-      {name:"Penya Blaugrana de Baltimore", city:"Baltimore", address:"Baltimore, USA", lat:39.2904, lng:-76.6122, community:true},
-      {name:"Penya Blaugrana de Talavera", city:"Talavera", address:"Talavera de la Reina", lat:39.9630, lng:-4.8306, community:true},
-      {name:"Penya Blaugrana de Madrid", city:"Madrid", address:"Madrid", lat:40.4168, lng:-3.7038, community:true},
-      {name:"Penya Blaugrana de Guadalajara", city:"Guadalajara", address:"Guadalajara", lat:40.6333, lng:-3.1667, community:true}
+      {name:"Penya Blaugrana Shanghai", city:"Shanghai", address:"Shanghai, China", lat:31.2304, lng:121.4737},
+      {name:"Penya FC Barcelona Japan", city:"Tokyo", address:"Tokyo, Japan", lat:35.6762, lng:139.6503},
+      {name:"Penya Barcelonista de Seúl", city:"Seoul", address:"Seoul, South Korea", lat:37.5665, lng:126.9780},
+      {name:"Penya Blaugrana Dubai", city:"Dubai", address:"Dubai, UAE", lat:25.2048, lng:55.2708},
+      {name:"Penya Barcelonista Mexico City", city:"Mexico City", address:"Mexico City, Mexico", lat:19.4326, lng:-99.1332},
+      {name:"Penya Barcelonista Buenos Aires", city:"Buenos Aires", address:"Buenos Aires, Argentina", lat:-34.6037, lng:-58.3816},
+      {name:"Penya Barcelonista São Paulo", city:"São Paulo", address:"São Paulo, Brazil", lat:-23.5505, lng:-46.6333},
+      {name:"Penya Blaugrana Sydney", city:"Sydney", address:"Sydney, Australia", lat:-33.8688, lng:151.2093},
+      {name:"Penya Barcelonista Johannesburg", city:"Johannesburg", address:"Johannesburg, South Africa", lat:-26.2041, lng:28.0473},
+      {name:"Penya Blaugrana Paris", city:"Paris", address:"Paris, France", lat:48.8566, lng:2.3522},
+      {name:"Penya Barcelonista Berlin", city:"Berlin", address:"Berlin, Germany", lat:52.5200, lng:13.4050},
+      {name:"Penya Blaugrana Miami", city:"Miami", address:"Miami, USA", lat:25.7617, lng:-80.1918},
+      {name:"Penya Barcelonista Toronto", city:"Toronto", address:"Toronto, Canada", lat:43.6532, lng:-79.3832},
+      {name:"Penya Blaugrana Singapore", city:"Singapore", address:"Singapore", lat:1.3521, lng:103.8198},
+      {name:"Penya Barcelonista Bangkok", city:"Bangkok", address:"Bangkok, Thailand", lat:13.7563, lng:100.5018},
+      {name:"Penya Blaugrana Cape Town", city:"Cape Town", address:"Cape Town, South Africa", lat:-33.9249, lng:18.4241}
     ];
     let map, markers=[], you;
     function km(a,b,c,d){const R=6371,p=Math.PI/180,dLat=(c-a)*p,dLng=(d-b)*p,x=Math.sin(dLat/2)**2+Math.cos(a*p)*Math.cos(c*p)*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
@@ -98,6 +117,7 @@
         <article class="card" style="${p.community ? 'background:#c9f31d; color:#111; border:2px solid #111;' : ''}">
           <h3><span class="crest barca">FCB</span> ${p.name}${p.community ? ' <span style="color:#111; font-size:1.1em; font-weight:800;" title="Part of Match & Bars community">✓</span>' : ''}</h3>
           <p>${p.city} · ${p.address}${p.distance?" · "+p.distance.toFixed(1)+" km":""}</p>
+          ${p.instagram ? `<p style="margin:4px 0;"><a href="https://instagram.com/${p.instagram.replace('@','')}" target="_blank" style="${p.community ? 'color:#111; font-weight:600;' : ''}">${p.instagram}</a></p>` : ''}
           <a href="https://maps.google.com/?q=${encodeURIComponent(p.address+" "+p.city)}" target="_blank" style="${p.community ? 'color:#111;' : ''}">Maps</a>
         </article>`).join("");
       markers.forEach(m=>map.removeLayer(m)); markers=[];
