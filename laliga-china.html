@@ -1,237 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Where to Watch La Liga in China 2026 | Barça & Madrid | Match & Bars</title>
-  <meta name="description" content="How to watch La Liga in China in 2026. CCTV suspended after Mbappé controversy. Migu still streams all matches. History of broadcasts + Chinese Barça & Real Madrid peñas (Shanghai, Beijing...).">
-  <meta name="keywords" content="watch La Liga China, donde ver La Liga China, 中国看西甲, Barça China, Real Madrid China, Migu La Liga, CCTV La Liga, Penya Blaugrana Shanghai, where to watch Barcelona China, donde ver el Madrid en China, 上海巴萨球迷会">
-  <meta name="robots" content="index, follow">
-  <link rel="alternate" hreflang="en" href="https://matchandbars.com/laliga-china.html">
-  <link rel="alternate" hreflang="es" href="https://matchandbars.com/laliga-china.html">
-  <link rel="alternate" hreflang="zh" href="https://matchandbars.com/laliga-china.html">
-  <link rel="alternate" hreflang="x-default" href="https://matchandbars.com/laliga-china.html">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Where to Watch La Liga in China 2026 | CCTV & Migu Status | Match & Bars</title>
+  <meta name="description" content="How to watch La Liga in China right now. CCTV has suspended broadcasts after the Mbappé controversy. Migu is the main streaming option. History, peñas in Shanghai and more." />
+  <meta name="keywords" content="watch La Liga China, donde ver La Liga China, 中国看西甲, Barça China, Real Madrid China, Migu La Liga, CCTV La Liga suspended, Penya Blaugrana Shanghai" />
+  <link rel="canonical" href="https://www.matchandbars.com/laliga-china.html" />
+  <link rel="alternate" hreflang="en" href="https://www.matchandbars.com/laliga-china.html" />
+  <link rel="alternate" hreflang="es" href="https://www.matchandbars.com/laliga-china.html" />
+  <link rel="alternate" hreflang="zh" href="https://www.matchandbars.com/laliga-china.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
   <style>
-    .hero { background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=1920&q=80') center/cover; }
-    .lang-btn.active { background: #dc2626; color: white; }
-    .timeline-item { border-left: 3px solid #dc2626; }
+    .status-box { background: #f7f7f7; padding: 20px; border-radius: 12px; margin-bottom: 24px; border-left: 4px solid #c6ff3a; }
+    .status-box h3 { margin-top: 0; }
+    .hero-china {
+      background: linear-gradient(rgba(15,20,18,.65), rgba(15,20,18,.65)), url('https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+      color: #fff;
+      padding: 80px 0 60px;
+    }
+    .hero-china h1 { color: #fff; }
+    .hero-china .lead { color: #eee; }
+    .timeline { border-left: 3px solid #c6ff3a; padding-left: 16px; margin: 16px 0; }
+    .timeline p { margin: 8px 0; }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZQZB8737SY');
+  </script>
 </head>
-<body class="bg-gray-950 text-white font-sans">
-  <!-- Language Switcher -->
-  <div class="fixed top-4 right-4 z-50 flex gap-2 bg-black/70 p-2 rounded-full backdrop-blur">
-    <button onclick="setLang('en')" id="btn-en" class="lang-btn px-3 py-1 rounded-full text-sm font-bold active">EN</button>
-    <button onclick="setLang('es')" id="btn-es" class="lang-btn px-3 py-1 rounded-full text-sm font-bold">ES</button>
-    <button onclick="setLang('zh')" id="btn-zh" class="lang-btn px-3 py-1 rounded-full text-sm font-bold">中文</button>
-  </div>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="barca.html">Barça</a>
+        <a href="madrid.html">Real Madrid</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Hero -->
-  <section class="hero min-h-[70vh] flex items-center justify-center text-center px-6">
-    <div>
-      <h1 id="hero-title" class="text-4xl md:text-6xl font-black mb-4">Where to Watch La Liga in China</h1>
-      <p id="hero-sub" class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">After the Mbappé controversy: CCTV suspended, Migu continues</p>
-      <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <a href="#how" class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-full font-bold">How to Watch Now</a>
-        <a href="#penyas" class="bg-white/10 hover:bg-white/20 px-6 py-3 rounded-full font-bold">Chinese Peñas</a>
-      </div>
+  <section class="hero hero-china">
+    <div class="wrap">
+      <h1>Where to Watch La Liga in China</h1>
+      <p class="lead">Current status (28 October 2026): CCTV has suspended broadcasts. Migu remains the main streaming option.</p>
     </div>
   </section>
 
-  <main class="max-w-5xl mx-auto px-6 py-16 space-y-20">
+  <section class="wrap">
+    <div class="status-box">
+      <h2>Current situation — 28 October 2026</h2>
+      <h3>CCTV (China Media Group)</h3>
+      <p>State broadcaster CCTV has <strong>suspended all La Liga broadcasts</strong> since 26 October 2026. The decision follows comments by Kylian Mbappé about a meme comparing him to Mao Zedong. Real Madrid’s and LaLiga’s explanations have been rejected. CCTV says there is nothing to discuss until a satisfactory public apology is issued.</p>
+      <h3>Migu (China Mobile)</h3>
+      <p>Migu holds exclusive new-media rights for all 380 La Liga matches per season until 2029/30. It is currently the main place to watch La Liga in mainland China (freemium model, Chinese commentary). Some Real Madrid matches have started being pulled from the schedule amid the controversy, but Migu remains the primary legal streaming option.</p>
+      <p><strong>Recommendation:</strong> Download the Migu app or use migu.cn. Always check the latest schedule as the situation is evolving.</p>
+    </div>
 
-    <!-- Current Status -->
-    <section id="how">
-      <h2 id="status-title" class="text-3xl md:text-4xl font-black mb-8 text-red-500">Current Situation (October 2026)</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-red-950/40 border border-red-800 p-6 rounded-2xl">
-          <h3 class="text-2xl font-bold mb-3">CCTV / Public TV — Suspended</h3>
-          <p id="cctv-text">China Media Group (CCTV) suspended all La Liga broadcasts on 26 October 2026 after Kylian Mbappé’s comments about a meme comparing him to Mao Zedong. Apologies from Mbappé, LaLiga and Real Madrid have been deemed insufficient so far.</p>
-        </div>
-        <div class="bg-green-950/40 border border-green-800 p-6 rounded-2xl">
-          <h3 class="text-2xl font-bold mb-3">Migu — Still Available</h3>
-          <p id="migu-text">Migu (China Mobile) remains the main way to watch. It holds exclusive new-media rights until 2029/30 and streams all 380 La Liga matches per season on a freemium model (app + website). Chinese commentary and localization included.</p>
-        </div>
+    <div class="history">
+      <h2>Short history of La Liga broadcasts in China</h2>
+      <div class="timeline">
+        <p><strong>2010s</strong> — Regular deals with CCTV. Spanish football very popular thanks to Barça and Real Madrid stars.</p>
+        <p><strong>2015–2020</strong> — CCTV renewals plus streaming platforms (PPTV, iQiyi, later LaLiga Plus).</p>
+        <p><strong>2021–2024</strong> — Migu becomes a major partner. Free-to-air TV reduced after political tensions; streaming fills the gap.</p>
+        <p><strong>2024–2026</strong> — CMG/CCTV returns with non-exclusive rights (CCTV-5+). In August 2026 Migu signs exclusive new-media deal through 2029/30.</p>
+        <p><strong>October 2026</strong> — CCTV suspends all coverage over the Mbappé controversy. Migu continues as the main platform (with some match removals).</p>
       </div>
-      <p class="mt-6 text-gray-300" id="other-platforms">Other platforms (iQIYI, etc.) may still carry selected matches. Check the Migu app for the most reliable coverage of Barça, Madrid, Clásicos and all other fixtures.</p>
-    </section>
+    </div>
 
-    <!-- History -->
-    <section>
-      <h2 id="history-title" class="text-3xl md:text-4xl font-black mb-8">History of La Liga in China</h2>
-      <div class="space-y-6">
-        <div class="timeline-item pl-6">
-          <h3 class="font-bold text-xl">2010s</h3>
-          <p id="hist-2010">Regular deals with CCTV. Spanish football very popular thanks to the big stars of Barcelona and Real Madrid.</p>
-        </div>
-        <div class="timeline-item pl-6">
-          <h3 class="font-bold text-xl">2015–2020</h3>
-          <p id="hist-2015">CCTV renewals + streaming platforms (PPTV, iQIYI, LaLiga Plus DTC which later closed).</p>
-        </div>
-        <div class="timeline-item pl-6">
-          <h3 class="font-bold text-xl">2021–2024</h3>
-          <p id="hist-2021">Migu becomes a major partner. After political tensions reduced free-to-air coverage, streaming filled the gap.</p>
-        </div>
-        <div class="timeline-item pl-6">
-          <h3 class="font-bold text-xl">2024–2026</h3>
-          <p id="hist-2024">CMG/CCTV returns with non-exclusive rights (CCTV-5+). Migu signs exclusive new-media deal through 2029/30 (August 2026).</p>
-        </div>
-        <div class="timeline-item pl-6">
-          <h3 class="font-bold text-xl text-red-400">October 2026</h3>
-          <p id="hist-2026">CCTV suspends coverage over the Mbappé controversy. Migu continues as the primary platform.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Peñas -->
-    <section id="penyas">
-      <h2 id="penyas-title" class="text-3xl md:text-4xl font-black mb-8 text-red-500">Chinese Peñas (Barça & Madrid)</h2>
-      <p class="mb-8 text-gray-300" id="penyas-intro">Chinese fans of Barcelona and Real Madrid have active official peñas. Here are the main ones:</p>
-
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-blue-950/40 border border-blue-800 p-6 rounded-2xl">
-          <h3 class="text-2xl font-bold mb-2">Penya Blaugrana Shanghai</h3>
-          <p class="text-sm text-blue-300 mb-3">Official FC Barcelona penya #2369 · Active since 2007 · ~3,300 members</p>
-          <p class="mb-4" id="pb-shanghai">One of the strongest Barça communities in Asia. Organises match screenings, travels to Barcelona, and supports the Barça Foundation. President: Wu Ping.</p>
-          <a href="https://penyashanghai.com" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-full text-sm font-bold">Visit website →</a>
-        </div>
-
-        <div class="bg-white/5 border border-white/20 p-6 rounded-2xl">
-          <h3 class="text-2xl font-bold mb-2">Peña Madridista Butragueño de Shanghai 101</h3>
-          <p class="text-sm text-gray-400 mb-3">Official Real Madrid peña · Part of the Chinese Real Madrid fans network</p>
-          <p class="mb-4" id="pm-shanghai">Active group organising screenings and events across China. Instagram: @penashanghai101</p>
-          <a href="https://www.instagram.com/penashanghai101/" target="_blank" class="inline-block bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-sm font-bold">Instagram →</a>
-        </div>
-      </div>
-
-      <div class="mt-8 text-gray-300">
-        <p id="other-penyas">Other official Real Madrid peñas in China include: Beijing, Yunnan (Amigos del Real Madrid), Jiangsu, Zhejiang and Euroasia. Barça also has more groups beyond Shanghai.</p>
-        <p class="mt-4"><a href="https://matchandbars.com/barca.html" class="text-red-400 hover:underline">See all Barça peñas on Match & Bars →</a></p>
-      </div>
-    </section>
-
-    <!-- Tips -->
-    <section class="bg-gray-900 p-8 rounded-3xl">
-      <h2 id="tips-title" class="text-3xl font-black mb-6">Quick Tips for Chinese Fans</h2>
-      <ul class="space-y-3 list-disc list-inside text-gray-200">
-        <li id="tip1">Download the Migu app — currently the most complete option for all 380 matches.</li>
-        <li id="tip2">Join local peñas for collective screenings of El Clásico and big nights.</li>
-        <li id="tip3">Follow Match & Bars for bars and peñas worldwide if you travel.</li>
+    <div class="history">
+      <h2>Chinese peñas (Barça & Real Madrid)</h2>
+      <p>Chinese fans have active official supporter groups. Watching with a local peña is the closest thing to the Spanish experience.</p>
+      <ul>
+        <li><strong>Penya Blaugrana Shanghai</strong> — One of the strongest culer communities in Asia. Organises screenings and trips to Barcelona.</li>
+        <li><strong>Peña Madridista Shanghai</strong> — Active group that organises viewings across China.</li>
+        <li>Other official Real Madrid peñas: Beijing, Yunnan, Jiangsu, Zhejiang, Euroasia.</li>
       </ul>
-    </section>
+      <p>See more on the dedicated pages: <a href="barca.html">Barça peñas</a> · <a href="madrid.html">Real Madrid peñas</a>.</p>
+    </div>
 
-    <footer class="text-center text-gray-500 pt-12 border-t border-gray-800">
-      <p>Match & Bars · Community for sports bars and peñas</p>
-      <p class="mt-2"><a href="https://matchandbars.com" class="hover:text-white">matchandbars.com</a> · hello@matchandbars.com</p>
-    </footer>
-  </main>
+    <div class="history">
+      <h2>Quick tips for fans in China</h2>
+      <ul>
+        <li>Download the <strong>Migu</strong> app — currently the most complete option for all 380 matches.</li>
+        <li>Join a local peña for El Clásico and big nights (better atmosphere + reliable info).</li>
+        <li>If you travel, use Match & Bars to find sports bars and peñas worldwide.</li>
+      </ul>
+    </div>
 
-  <script>
-    const translations = {
-      en: {
-        heroTitle: "Where to Watch La Liga in China",
-        heroSub: "After the Mbappé controversy: CCTV suspended, Migu continues",
-        statusTitle: "Current Situation (October 2026)",
-        cctv: "China Media Group (CCTV) suspended all La Liga broadcasts on 26 October 2026 after Kylian Mbappé’s comments about a meme comparing him to Mao Zedong. Apologies from Mbappé, LaLiga and Real Madrid have been deemed insufficient so far.",
-        migu: "Migu (China Mobile) remains the main way to watch. It holds exclusive new-media rights until 2029/30 and streams all 380 La Liga matches per season on a freemium model (app + website). Chinese commentary and localization included.",
-        other: "Other platforms (iQIYI, etc.) may still carry selected matches. Check the Migu app for the most reliable coverage of Barça, Madrid, Clásicos and all other fixtures.",
-        historyTitle: "History of La Liga in China",
-        h2010: "Regular deals with CCTV. Spanish football very popular thanks to the big stars of Barcelona and Real Madrid.",
-        h2015: "CCTV renewals + streaming platforms (PPTV, iQIYI, LaLiga Plus DTC which later closed).",
-        h2021: "Migu becomes a major partner. After political tensions reduced free-to-air coverage, streaming filled the gap.",
-        h2024: "CMG/CCTV returns with non-exclusive rights (CCTV-5+). Migu signs exclusive new-media deal through 2029/30 (August 2026).",
-        h2026: "CCTV suspends coverage over the Mbappé controversy. Migu continues as the primary platform.",
-        penyasTitle: "Chinese Peñas (Barça & Madrid)",
-        penyasIntro: "Chinese fans of Barcelona and Real Madrid have active official peñas. Here are the main ones:",
-        pbShanghai: "One of the strongest Barça communities in Asia. Organises match screenings, travels to Barcelona, and supports the Barça Foundation. President: Wu Ping.",
-        pmShanghai: "Active group organising screenings and events across China. Instagram: @penashanghai101",
-        otherPenyas: "Other official Real Madrid peñas in China include: Beijing, Yunnan (Amigos del Real Madrid), Jiangsu, Zhejiang and Euroasia. Barça also has more groups beyond Shanghai.",
-        tipsTitle: "Quick Tips for Chinese Fans",
-        tip1: "Download the Migu app — currently the most complete option for all 380 matches.",
-        tip2: "Join local peñas for collective screenings of El Clásico and big nights.",
-        tip3: "Follow Match & Bars for bars and peñas worldwide if you travel."
-      },
-      es: {
-        heroTitle: "Dónde ver La Liga en China",
-        heroSub: "Tras la polémica de Mbappé: CCTV suspendida, Migu continúa",
-        statusTitle: "Situación actual (octubre 2026)",
-        cctv: "China Media Group (CCTV) suspendió todas las retransmisiones de La Liga el 26 de octubre de 2026 tras los comentarios de Kylian Mbappé sobre un meme que lo comparaba con Mao Zedong. Las disculpas de Mbappé, LaLiga y el Real Madrid se consideran insuficientes por ahora.",
-        migu: "Migu (China Mobile) sigue siendo la forma principal de verla. Tiene los derechos exclusivos de new media hasta 2029/30 y emite los 380 partidos de La Liga por temporada en modelo freemium (app + web). Incluye comentarios en chino y localización.",
-        other: "Otras plataformas (iQIYI, etc.) pueden seguir emitiendo partidos seleccionados. La app de Migu es actualmente la opción más fiable para Barça, Madrid, Clásicos y el resto de partidos.",
-        historyTitle: "Historia de La Liga en China",
-        h2010: "Acuerdos habituales con CCTV. El fútbol español era muy popular gracias a las grandes estrellas del Barcelona y el Real Madrid.",
-        h2015: "Renovaciones con CCTV + plataformas de streaming (PPTV, iQIYI, LaLiga Plus que luego cerró).",
-        h2021: "Migu se convierte en socio importante. Tras tensiones políticas que redujeron la televisión en abierto, el streaming cubrió el hueco.",
-        h2024: "CMG/CCTV vuelve con derechos no exclusivos (CCTV-5+). Migu firma el acuerdo exclusivo de new media hasta 2029/30 (agosto 2026).",
-        h2026: "CCTV suspende la cobertura por la polémica de Mbappé. Migu continúa como plataforma principal.",
-        penyasTitle: "Peñas chinas (Barça y Madrid)",
-        penyasIntro: "Los aficionados chinos del Barcelona y el Real Madrid tienen peñas oficiales activas. Estas son las principales:",
-        pbShanghai: "Una de las comunidades culés más fuertes de Asia. Organiza visionados, viaja a Barcelona y apoya a la Fundación Barça. Presidente: Wu Ping.",
-        pmShanghai: "Grupo activo que organiza visionados y eventos por toda China. Instagram: @penashanghai101",
-        otherPenyas: "Otras peñas oficiales del Real Madrid en China: Beijing, Yunnan (Amigos del Real Madrid), Jiangsu, Zhejiang y Euroasia. El Barça también tiene más grupos además de Shanghai.",
-        tipsTitle: "Consejos rápidos para aficionados chinos",
-        tip1: "Descarga la app de Migu — actualmente la opción más completa para los 380 partidos.",
-        tip2: "Únete a peñas locales para ver el Clásico y las grandes noches en grupo.",
-        tip3: "Sigue Match & Bars para bares y peñas en todo el mundo si viajas."
-      },
-      zh: {
-        heroTitle: "在中国哪里看西甲",
-        heroSub: "姆巴佩风波后：央视停播，咪咕继续转播",
-        statusTitle: "当前情况（2026年10月）",
-        cctv: "中国中央广播电视总台（CCTV）于2026年10月26日暂停所有西甲转播，原因是姆巴佩对一张将其比作毛泽东的表情包发表评论。目前姆巴佩、西甲和皇家马德里的道歉被认为还不够。",
-        migu: "咪咕（中国移动）仍然是主要观看渠道。它拥有至2029/30赛季的独家新媒体版权，每赛季转播全部380场西甲比赛（免费+付费模式），提供中文解说和本地化内容。",
-        other: "其他平台（爱奇艺等）可能仍会转播部分比赛。目前咪咕App是观看巴萨、皇马、国家德比及所有比赛最可靠的选择。",
-        historyTitle: "西甲在中国的转播历史",
-        h2010: "与CCTV有常规版权协议。得益于巴萨和皇马的巨星，西班牙足球在中国非常受欢迎。",
-        h2015: "CCTV续约 + 流媒体平台（PPTV、爱奇艺、后来关闭的LaLiga Plus）。",
-        h2021: "咪咕成为重要合作伙伴。政治紧张局势减少了免费电视转播后，流媒体填补了空白。",
-        h2024: "CMG/CCTV以非独家版权回归（CCTV-5+）。咪咕于2026年8月签下至2029/30的独家新媒体协议。",
-        h2026: "因姆巴佩争议，CCTV暂停转播。咪咕继续作为主要平台。",
-        penyasTitle: "中国球迷会（巴萨 & 皇马）",
-        penyasIntro: "中国的巴萨和皇马球迷拥有活跃的官方球迷会。以下是主要的几个：",
-        pbShanghai: "亚洲最强大的巴萨球迷社区之一。组织观赛、前往巴塞罗那并支持巴萨基金会。会长：吴平。",
-        pmShanghai: "活跃的球迷组织，在全国各地举办观赛和活动。Instagram：@penashanghai101",
-        otherPenyas: "中国其他官方皇马球迷会包括：北京、云南、江苏、浙江和欧亚等。巴萨在上海之外也有更多球迷会。",
-        tipsTitle: "给中国球迷的快速建议",
-        tip1: "下载咪咕App — 目前观看全部380场比赛最完整的选择。",
-        tip2: "加入当地球迷会一起看国家德比和大比赛。",
-        tip3: "出行时关注 Match & Bars，查找全球体育酒吧和球迷会。"
-      }
-    };
+    <p style="margin-top: 32px;"><a href="index.html" class="chip">← Back to Directory</a></p>
+  </section>
 
-    function setLang(lang) {
-      localStorage.setItem('lang', lang);
-      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
-      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-      document.getElementById('btn-' + lang).classList.add('active');
-
-      const t = translations[lang];
-      document.getElementById('hero-title').textContent = t.heroTitle;
-      document.getElementById('hero-sub').textContent = t.heroSub;
-      document.getElementById('status-title').textContent = t.statusTitle;
-      document.getElementById('cctv-text').textContent = t.cctv;
-      document.getElementById('migu-text').textContent = t.migu;
-      document.getElementById('other-platforms').textContent = t.other;
-      document.getElementById('history-title').textContent = t.historyTitle;
-      document.getElementById('hist-2010').textContent = t.h2010;
-      document.getElementById('hist-2015').textContent = t.h2015;
-      document.getElementById('hist-2021').textContent = t.h2021;
-      document.getElementById('hist-2024').textContent = t.h2024;
-      document.getElementById('hist-2026').textContent = t.h2026;
-      document.getElementById('penyas-title').textContent = t.penyasTitle;
-      document.getElementById('penyas-intro').textContent = t.penyasIntro;
-      document.getElementById('pb-shanghai').textContent = t.pbShanghai;
-      document.getElementById('pm-shanghai').textContent = t.pmShanghai;
-      document.getElementById('other-penyas').textContent = t.otherPenyas;
-      document.getElementById('tips-title').textContent = t.tipsTitle;
-      document.getElementById('tip1').textContent = t.tip1;
-      document.getElementById('tip2').textContent = t.tip2;
-      document.getElementById('tip3').textContent = t.tip3;
-    }
-
-    // Load saved language or default EN
-    const saved = localStorage.getItem('lang') || 'en';
-    setLang(saved);
-  </script>
+  <footer class="wrap" style="margin-top: 40px; padding-bottom: 40px; font-size: 14px; color: #666;">
+    <p>Match & Bars — Live it like a local. Confirm fixtures with the venue.</p>
+  </footer>
 </body>
 </html>
