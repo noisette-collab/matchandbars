@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boca Juniors Peñas & Consulados — Match & Bars</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Assume shared CSS from the site -->
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56">
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <div class="team-drop">
+          <button type="button" class="team-btn">Your team ▾</button>
+          <div class="team-menu">
+            <a href="barca.html">Barça</a>
+            <a href="madrid.html">Real Madrid</a>
+            <a href="boca.html">Boca Juniors</a>
+            <a href="river.html">River Plate</a>
+          </div>
+        </div>
+        <div class="langs">
+          <button type="button" data-lang="en" class="on">EN</button>
+          <button type="button" data-lang="es">ES</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg'); background-size: cover; background-position: center; min-height: 340px; display: flex; align-items: center;">
+    <div class="wrap" style="color: #fff;">
+      <h1 style="color: #fff; margin: 0 0 8px;">Boca Juniors <span class="crest boca">CABJ</span></h1>
+      <p class="lead" style="color: #eee; font-size: 1.15rem;">Peñas, consulados and bars where you can watch every Boca match. The Superclásico has no borders.</p>
+      <p class="near"><button type="button" id="near-btn" style="background:#c9f31d; color:#000; border:none; padding:10px 18px; border-radius:8px; font-weight:600; cursor:pointer;">Use my location</button> <span id="geo-status" style="color:#ccc;"></span></p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2>What is a peña / consulado?</h2>
+    <p>A peña (or Consulado outside Argentina) is an official Boca Juniors supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the xeneize spirit alive. There are dozens of active consulados in Europe and the US. Below are the main ones currently listed on Match & Bars.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="section-head"><h2>Peñas & Consulados</h2><p id="count">8</p></div>
+    <!-- Map would go here like other pages, or list -->
+    <div class="list">
+      <article class="fx">
+        <div><strong>Consulado Boca Juniors Barcelona</strong><br>Barcelona · Peñas / Consulado oficial<br>Se reúne en El Raval y otros locales. Instagram: @consuladobocajuniorsbarcelona</div>
+        <a href="index.html?sport=football&near=1">Bars near me</a>
+      </article>
+      <article class="fx">
+        <div><strong>Consulado Boca Juniors Madrid</strong><br>Madrid · Representación oficial<br>Activo desde 2015. Instagram: @bocajuniorsmadrid</div>
+        <a href="index.html?sport=football&near=1">Bars near me</a>
+      </article>
+      <article class="fx">
+        <div><strong>Consulado Boca Juniors Miami</strong><br>Miami · Florida<br>Una de las más activas en EE.UU. Ideal para el Superclásico.</div>
+        <a href="index.html?sport=football&near=1">Bars near me</a>
+      </article>
+      <article class="fx">
+        <div><strong>Consulado Oficial de Boca en New York</strong><br>New York · Manhattan / Brooklyn<br>Se reúnen para ver partidos. Facebook: Consulado Oficial de Boca en New York</div>
+        <a href="index.html?sport=football&near=1">Bars near me</a>
+      </article>
+      <!-- Add more as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Match & Bars. Listings from public guides. Always confirm with the venue.</p>
+  </footer>
+</body>
+</html>
