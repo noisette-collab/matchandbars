@@ -15,6 +15,28 @@ const CITY_FOR_LEAGUE = {
   "International friendly": "Barcelona",
 };
 
+// Confirmed matches published by bars (updated from their sites)
+// Format: { date: "YYYY-MM-DD", home: "...", away: "...", bars: ["The George Payne"] }
+const CONFIRMED_MATCHES = [
+  { date: "2026-10-27", home: "Dortmund", away: "Wer. Bremen", bars: ["The George Payne"] },
+  { date: "2026-10-27", home: "Fleetwood Town", away: "Arsenal", bars: ["The George Payne"] },
+  { date: "2026-10-28", home: "Man City", away: "Brighton", bars: ["The George Payne"] },
+  { date: "2026-10-28", home: "Celtic", away: "Dundee", bars: ["The George Payne"] },
+  { date: "2026-10-28", home: "Liverpool", away: "Chelsea", bars: ["The George Payne"] },
+  { date: "2026-10-29", home: "Everton", away: "Newcastle", bars: ["The George Payne"] },
+  { date: "2026-10-30", home: "Villareal", away: "Espanyol", bars: ["The George Payne"] },
+  // Add more as bars publish schedules
+];
+
+function getConfirmedBars(r) {
+  const matches = CONFIRMED_MATCHES.filter(c => 
+    c.date === r.date && 
+    ((c.home.toLowerCase().includes(r.home.toLowerCase().slice(0, 6)) || r.home.toLowerCase().includes(c.home.toLowerCase().slice(0, 6))) &&
+     (c.away.toLowerCase().includes(r.away.toLowerCase().slice(0, 6)) || r.away.toLowerCase().includes(c.away.toLowerCase().slice(0, 6))))
+  );
+  return matches.length ? matches[0].bars : [];
+}
+
 let rows = [];
 const HIDE_LEAGUES = new Set(["Primeira Liga", "Eredivisie"]);
 const sportEl = document.getElementById("fx-sport");
@@ -87,11 +109,16 @@ function render() {
     const href = `index.html?sport=${encodeURIComponent(sport)}&near=1`;
     const time = r.time ? r.time : "TBC";
     const score = Array.isArray(r.score) ? ` · ${r.score[0]}-${r.score[1]}` : "";
+    const confirmed = getConfirmedBars(r);
+    const badge = confirmed.length 
+      ? `<div class="confirmed" style="margin-top:6px;font-size:0.85rem;color:#0a0;font-weight:600;">✓ Confirmed at ${confirmed.join(", ")}</div>` 
+      : "";
     return `<article class="fx">
       <div class="when"><strong>${r.date}</strong>${time}${score}</div>
       <div>
         <div class="league">${r.sport} · ${r.league}${r.round ? " · " + r.round : ""}</div>
         <div class="teams">${r.home} — ${r.away}</div>
+        ${badge}
       </div>
       <a href="${href}">Bars near me</a>
     </article>`;
