@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where to Watch Real Madrid — Peñas Madridistas & Sports Bars | Match & Bars</title>
+  <meta name="description" content="Find peñas madridistas and sports bars to watch Real Madrid near you. Live it like a local in Madrid and other cities.">
+  <link rel="canonical" href="https://www.matchandbars.com/madrid">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZQZB8737SY');
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56">
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html" data-i18n="navDir">Directory</a>
+        <a href="fixtures.html" data-i18n="navFix">Fixtures</a>
+        <div class="team-drop">
+          <button type="button" class="team-btn">Your team ▾</button>
+          <div class="team-menu">
+            <a href="barca.html">Barça</a>
+            <a href="madrid.html">Real Madrid</a>
+            <a href="liverpool.html">Liverpool</a>
+            <a href="manutd.html">Manchester United</a>
+            <a href="bayern.html">Bayern</a>
+          </div>
+        </div>
+        <div class="langs">
+          <button type="button" data-lang="en" class="on">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- NUEVO HERO CON IMAGEN DEL BERNABÉU -->
+  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/33845031/pexels-photo-33845031.jpeg?auto=compress&cs=tinysrgb&w=1600'); background-size: cover; background-position: center; min-height: 340px; display: flex; align-items: center;">
+    <div class="wrap" style="color: #fff;">
+      <h1 style="color: #fff; margin: 0 0 8px;">Real Madrid <span class="crest madrid">RMA</span></h1>
+      <p class="lead" data-i18n="lead" style="color: #eee; font-size: 1.15rem;">Peñas and bars where you can watch every Real Madrid match.</p>
+      <p class="near"><button type="button" id="near-btn" data-i18n="near" style="background:#c9f31d; color:#000; border:none; padding:10px 18px; border-radius:8px; font-weight:600; cursor:pointer;">Use my location</button> <span id="geo-status" style="color:#ccc;"></span></p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2 data-i18n="what">What is a peña?</h2>
+    <p data-i18n="whatP">A peña is an official Real Madrid supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the madridista spirit alive. There are thousands of peñas in Spain and around the world. Below are some of the ones currently listed on Match & Bars.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="section-head"><h2 data-i18n="list">Peñas</h2><p id="count">17</p></div>
+    <div id="map" class="map"></div>
+    <div id="list" class="list"></div>
+  </section>
+
+  <!-- Scripts de la pàgina (iguals que l’original) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="madrid.js"></script>
+  <!-- Si el teu fitxer JS es diu diferent, canvia el nom -->
+
+</body>
+</html>
