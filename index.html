@@ -58,11 +58,141 @@
     <div class="wrap">
       <h1 data-i18n="title">Match & Bars</h1>
       <p class="lead" data-i18n="lead">Whenever, wherever. Find the best bar to watch your favourite sport and team. Live it with locals like a local. ⚽️🏀🏈🏏</p>
-      <!-- Resta del contingut de la pàgina (formulari, directori, etc.) -->
-      <!-- IMPORTANT: aquest fitxer només té el header actualitzat. -->
-      <!-- Copia la resta del teu index.html original a partir d’aquí. -->
-      <p style="margin-top:40px;color:#666;"><em>Nota: aquest fitxer només actualitza el menú “Your team”. Copia la resta del teu index.html original (formularis, directori, scripts, etc.) a continuació d’aquest header.</em></p>
+      <form class="search" id="search-form">
+        <select id="city">
+          <option value="">Near me</option>
+          <option value="Amsterdam">Amsterdam</option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Berlin">Berlin</option>
+          <option value="Bilbao">Bilbao</option>
+          <option value="Chicago">Chicago</option>
+          <option value="Dortmund">Dortmund</option>
+          <option value="Dublin">Dublin</option>
+          <option value="Düsseldorf">Düsseldorf</option>
+          <option value="Frankfurt">Frankfurt</option>
+          <option value="Girona">Girona</option>
+          <option value="Hannover">Hannover</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="Leipzig">Leipzig</option>
+          <option value="Lisbon">Lisbon</option>
+          <option value="Lleida">Lleida</option>
+          <option value="London">London</option>
+          <option value="Los Angeles">Los Angeles</option>
+          <option value="Madrid">Madrid</option>
+          <option value="Marrakech">Marrakech</option>
+          <option value="Melbourne">Melbourne</option>
+          <option value="Munich">Munich</option>
+          <option value="New York">New York</option>
+          <option value="Nuremberg">Nuremberg</option>
+          <option value="Palma">Palma</option>
+          <option value="Paris">Paris</option>
+          <option value="Phoenix">Phoenix</option>
+          <option value="Rome">Rome</option>
+          <option value="Sevilla">Sevilla</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Sitges">Sitges</option>
+          <option value="Stuttgart">Stuttgart</option>
+          <option value="Sydney">Sydney</option>
+          <option value="Tarragona">Tarragona</option>
+          <option value="Tokyo">Tokyo</option>
+          <option value="Toronto">Toronto</option>
+          <option value="Valencia">Valencia</option>
+        </select>
+        <select id="sport">
+          <option value="">All sports</option>
+          <option value="football">football</option>
+          <option value="rugby">rugby</option>
+          <option value="nfl">nfl</option>
+          <option value="nba">nba</option>
+          <option value="cricket">cricket</option>
+        </select>
+        <input id="q" type="search" data-i18n-placeholder="searchPh" placeholder="Search by name or neighbourhood…" autocomplete="off">
+        <button type="submit" data-i18n="searchBtn">Search</button>
+      </form>
+      <p class="near"><button type="button" id="near-btn" data-i18n="nearBtn">Use my location</button> <span id="geo-status"></span></p>
+      <p class="disclaimer" data-i18n="disclaimer">Not an official TV schedule. Rights change; not every bar shows every sport.</p>
     </div>
   </section>
+
+  <section class="wrap" id="directori">
+    <div class="section-head">
+      <h2 id="dir-title" data-i18n="dirTitle">Directory</h2>
+      <p id="count">175 venues</p>
+    </div>
+    <div class="fixtures-banner" id="fixtures-banner">
+      <div class="fixtures-track" id="fixtures-track"></div>
+    </div>
+    <div id="map" class="map" style="height:480px;margin:16px 0;border-radius:12px;"></div>
+    <div id="list" class="list"></div>
+  </section>
+
+  <section class="wrap" id="bars-owners">
+    <h2>Do you run a bar that shows football?</h2>
+    <p>Join for free. When the dashboard is ready you can list which matches you show and fans will find you on match day.</p>
+    <p><a href="mailto:hello@matchandbars.com">Send interest</a></p>
+  </section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // Minimal working directory (sample venues so the page is usable)
+    // Replace this array with your full original venues data if you have it.
+    const venues = [
+      {name:"The George Payne", city:"Barcelona", area:"Urquinaona", address:"Plaça Urquinaona, 5", sports:["football","rugby","nfl"], lat:41.387, lng:2.173, website:"https://thegeorgepayne.com"},
+      {name:"Belushi's Barcelona", city:"Barcelona", area:"Plaça Catalunya", address:"Carrer de Bergara, 3", sports:["football","nfl"], lat:41.386, lng:2.170},
+      {name:"Michael Collins", city:"Barcelona", area:"Sagrada Família", address:"Plaça Sagrada Família, 4", sports:["football","rugby"], lat:41.403, lng:2.174},
+      {name:"Wild Rover", city:"Barcelona", area:"Raval", address:"Carrer de Santa Mònica, 2", sports:["football","nfl"], lat:41.378, lng:2.175},
+      {name:"CocoVail Beer Hall", city:"Barcelona", area:"Eixample", address:"Carrer d'Aragó, 284", sports:["football","nfl","nba"], lat:41.395, lng:2.165},
+      {name:"The James Joyce", city:"Madrid", area:"Centro", address:"Calle de Alcalá, 59", sports:["football","nfl"], lat:40.420, lng:-3.698},
+      {name:"Walkabout Temple", city:"London", area:"Temple", address:"11 Temple Place", sports:["football","rugby","cricket","nfl"], lat:51.511, lng:-0.114}
+      // Afegeix la resta del teu array de venues original aquí
+    ];
+
+    function render(list) {
+      document.getElementById("count").textContent = list.length + " venues";
+      document.getElementById("list").innerHTML = list.map(v => `
+        <article class="fx">
+          <div>
+            <strong>${v.name}</strong><br>
+            ${v.city} · ${v.area || ""} · ${v.address}<br>
+            <small>${(v.sports||[]).join(" ")}</small>
+          </div>
+          <div>
+            <a href="https://maps.google.com/?q=${encodeURIComponent(v.name+" "+v.address+" "+v.city)}" target="_blank">Maps</a>
+            ${v.website ? `<a href="${v.website}" target="_blank">Website</a>` : ""}
+          </div>
+        </article>
+      `).join("");
+    }
+
+    // Map
+    const map = L.map("map").setView([41.39, 2.16], 4);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {attribution: "&copy; OpenStreetMap"}).addTo(map);
+    venues.forEach(v => {
+      if (v.lat && v.lng) L.marker([v.lat, v.lng]).addTo(map).bindPopup(`<strong>${v.name}</strong><br>${v.city}`);
+    });
+    render(venues);
+
+    // Simple search
+    document.getElementById("search-form").onsubmit = e => {
+      e.preventDefault();
+      const city = document.getElementById("city").value.toLowerCase();
+      const sport = document.getElementById("sport").value.toLowerCase();
+      const q = document.getElementById("q").value.toLowerCase();
+      const filtered = venues.filter(v =>
+        (!city || v.city.toLowerCase().includes(city)) &&
+        (!sport || (v.sports||[]).some(s => s.toLowerCase().includes(sport))) &&
+        (!q || v.name.toLowerCase().includes(q) || (v.area||"").toLowerCase().includes(q))
+      );
+      render(filtered);
+    };
+
+    document.getElementById("near-btn").onclick = () => {
+      if (!navigator.geolocation) return;
+      navigator.geolocation.getCurrentPosition(pos => {
+        document.getElementById("geo-status").textContent = "Location used";
+        // Simple distance sort could be added here
+      });
+    };
+  </script>
 </body>
 </html>
