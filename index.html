@@ -165,12 +165,11 @@
       } catch (e) {}
     }
     loadBanner();
-  </script>
-  <script>
+<script>
 // ========== MATCH SELECTOR + GREEN/GRAY LOGIC ==========
 
 let allPenyas = [];
-let allMarkers = []; // aquí hauràs de guardar els teus markers
+let allMarkers = [];
 
 async function initMatchSelector() {
   try {
@@ -186,21 +185,20 @@ async function initMatchSelector() {
 
     const matches = [];
 
-// Try different possible structures
-if (Array.isArray(fixtures.highlights)) {
-  fixtures.highlights.forEach(m => matches.push(m));
-}
-if (Array.isArray(fixtures.competitions)) {
-  fixtures.competitions.forEach(comp => {
-    if (Array.isArray(comp.matches)) {
-      comp.matches.forEach(m => matches.push({ ...m, competition: comp.name || '' }));
+    if (Array.isArray(fixtures.highlights)) {
+      fixtures.highlights.forEach(m => matches.push(m));
     }
-  });
-}
-// Fallback: if fixtures is directly an array of matches
-if (Array.isArray(fixtures) && matches.length === 0) {
-  fixtures.forEach(m => matches.push(m));
-}
+    if (Array.isArray(fixtures.competitions)) {
+      fixtures.competitions.forEach(comp => {
+        if (Array.isArray(comp.matches)) {
+          comp.matches.forEach(m => matches.push({ ...m, competition: comp.name || '' }));
+        }
+      });
+    }
+    if (Array.isArray(fixtures) && matches.length === 0) {
+      fixtures.forEach(m => matches.push(m));
+    }
+
     matches.forEach(match => {
       const opt = document.createElement('option');
       opt.value = JSON.stringify({ home: match.home, away: match.away });
@@ -237,10 +235,25 @@ function normalizeTeamName(name) {
 }
 
 function recolorMarkersByTeams(teams) {
-  allMarkers.forEach(marker => {
-    const data = marker.options.venueData || {};
-    const isConfirmed = data.isPena && teams.includes(data.team);
-    marker.setIcon(isConfirmed ? greenIcon : grayIcon);
+  // Collect markers if needed
+  if (allMarkers.length === 0 && typeof map !== 'undefined') {
+    map.eachLayer(layer => {
+      if (layer instanceof L.Marker) allMarkers.push(layer);
+    });
+  }
+
+  allMarkers.forEach(marker => marker.setIcon(grayIcon));
+
+  const relevantPenyas = allPenyas.filter(p => teams.includes(p.team));
+
+  relevantPenyas.forEach(penya => {
+    allMarkers.forEach(marker => {
+      const latlng = marker.getLatLng();
+      const distance = latlng.distanceTo([penya.lat, penya.lng]);
+      if (distance < 80) {
+        marker.setIcon(greenIcon);
+      }
+    });
   });
 }
 
