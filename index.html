@@ -169,5 +169,92 @@
     }
     loadBanner();
   </script>
+  <script>
+// ========== MATCH SELECTOR + GREEN/GRAY LOGIC ==========
+
+let allPenyas = [];
+let allMarkers = []; // aquí hauràs de guardar els teus markers
+
+async function initMatchSelector() {
+  try {
+    const penyasRes = await fetch('penyas.json');
+    const penyasData = await penyasRes.json();
+    allPenyas = penyasData.penyas || [];
+
+    const fixturesRes = await fetch('fixtures.json');
+    const fixtures = await fixturesRes.json();
+
+    const select = document.getElementById('match-select');
+    if (!select) return;
+
+    const matches = [];
+    if (fixtures.highlights) fixtures.highlights.forEach(m => matches.push(m));
+    if (fixtures.competitions) {
+      fixtures.competitions.forEach(comp => {
+        if (comp.matches) comp.matches.forEach(m => matches.push({ ...m, competition: comp.name }));
+      });
+    }
+
+    matches.forEach(match => {
+      const opt = document.createElement('option');
+      opt.value = JSON.stringify({ home: match.home, away: match.away });
+      opt.textContent = `${match.home} vs ${match.away}${match.competition ? ' · ' + match.competition : ''}`;
+      select.appendChild(opt);
+    });
+
+    select.addEventListener('change', function() {
+      if (!this.value) {
+        resetMarkersToDefault();
+        return;
+      }
+      const selected = JSON.parse(this.value);
+      const teams = [selected.home, selected.away].map(normalizeTeamName);
+      recolorMarkersByTeams(teams);
+    });
+  } catch (err) {
+    console.error('Error loading selector:', err);
+  }
+}
+
+function normalizeTeamName(name) {
+  const map = {
+    'Barcelona': 'Barcelona', 'FC Barcelona': 'Barcelona', 'Barça': 'Barcelona',
+    'Real Madrid': 'Real Madrid', 'Madrid': 'Real Madrid',
+    'Arsenal': 'Arsenal',
+    'Bayern': 'Bayern', 'Bayern Munich': 'Bayern',
+    'Boca': 'Boca Juniors', 'Boca Juniors': 'Boca Juniors',
+    'Liverpool': 'Liverpool',
+    'Manchester United': 'Manchester United', 'Man United': 'Manchester United', 'Man Utd': 'Manchester United',
+    'River': 'River Plate', 'River Plate': 'River Plate'
+  };
+  return map[name] || name;
+}
+
+function recolorMarkersByTeams(teams) {
+  allMarkers.forEach(marker => {
+    const data = marker.options.venueData || {};
+    const isConfirmed = data.isPena && teams.includes(data.team);
+    marker.setIcon(isConfirmed ? greenIcon : grayIcon);
+  });
+}
+
+function resetMarkersToDefault() {
+  allMarkers.forEach(marker => marker.setIcon(grayIcon));
+}
+
+const greenIcon = L.icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+  iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
+});
+
+const grayIcon = L.icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+  iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
+});
+
+document.addEventListener('DOMContentLoaded', initMatchSelector);
+</script>
 </body>
 </html>
