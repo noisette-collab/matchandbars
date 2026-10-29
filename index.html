@@ -188,13 +188,22 @@ async function initMatchSelector() {
     if (!select) return;
 
     const matches = [];
-    if (fixtures.highlights) fixtures.highlights.forEach(m => matches.push(m));
-    if (fixtures.competitions) {
-      fixtures.competitions.forEach(comp => {
-        if (comp.matches) comp.matches.forEach(m => matches.push({ ...m, competition: comp.name }));
-      });
-    }
 
+// Try different possible structures
+if (Array.isArray(fixtures.highlights)) {
+  fixtures.highlights.forEach(m => matches.push(m));
+}
+if (Array.isArray(fixtures.competitions)) {
+  fixtures.competitions.forEach(comp => {
+    if (Array.isArray(comp.matches)) {
+      comp.matches.forEach(m => matches.push({ ...m, competition: comp.name || '' }));
+    }
+  });
+}
+// Fallback: if fixtures is directly an array of matches
+if (Array.isArray(fixtures) && matches.length === 0) {
+  fixtures.forEach(m => matches.push(m));
+}
     matches.forEach(match => {
       const opt = document.createElement('option');
       opt.value = JSON.stringify({ home: match.home, away: match.away });
