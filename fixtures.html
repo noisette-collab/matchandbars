@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fixtures & Kick-off Times — Football, Rugby, NFL & More | Match & Bars</title>
-  <meta name="description" content="Upcoming fixtures for football, Champions League, rugby, cricket and NFL. Find where to watch them at Match & Bars." />
-  <link rel="canonical" href="https://www.matchandbars.com/fixtures" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.png" type="image/png" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZQZB8737SY');
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixtures & Kick-off Times | Match & Bars</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .fixtures { display: flex; flex-direction: column; gap: 12px; margin: 1.5rem 0; }
+    .fixture { display: grid; grid-template-columns: 140px 1fr auto; gap: 16px; align-items: center; padding: 16px 18px; background: #fff; border-radius: 12px; border: 1px solid #eee; text-decoration: none; color: inherit; transition: box-shadow .2s; }
+    .fixture:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    .fixture .date { font-weight: 600; color: #333; }
+    .fixture .match { font-size: 1.05rem; }
+    .fixture .comp { font-size: 0.85rem; color: #666; margin-top: 2px; }
+    .fixture .time { font-weight: 600; color: #111; text-align: right; }
+    .note { margin-top: 2rem; font-size: 0.9rem; color: #555; }
+    @media (max-width: 640px) {
+      .fixture { grid-template-columns: 1fr; gap: 4px; }
+      .fixture .time { text-align: left; }
+    }
+  </style>
 </head>
 <body>
   <header class="top">
     <div class="wrap nav">
-      <a class="logo" href="index.html">
-        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
-        <span class="word">Match<span class="amp">&amp;</span>Bars</span>
-      </a>
+      <a class="logo" href="/"><span class="word">Match<span class="amp">&</span>Bars</span></a>
       <nav>
         <a href="index.html">Directory</a>
-        <a href="fixtures.html">Fixtures</a>
-        <a href="index.html#bars-owners">Got a bar?</a>
+        <a href="fixtures.html" class="on">Fixtures</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="wrap">
-      <h1>When is kick-off?</h1>
-      <p class="lead">
-        Club football, national teams and NFL Week 4 (times in CEST). Confirm channel and time with the bar.
-      </p>
-      <form class="search" id="fx-form">
-        <select id="fx-sport"></select>
-        <select id="fx-league"></select>
-        <select id="fx-team"></select>
-      </form>
-      <p class="disclaimer">Not an official broadcast guide. Dates can move.</p>
-    </div>
-  </section>
+  <main class="wrap" style="padding: 2rem 0 3rem;">
+    <h1>When is kick-off?</h1>
+    <p class="lead">Upcoming matches for the main clubs. Times in CET. Dates and times can change — always confirm.</p>
 
-  <section class="wrap">
-    <div class="section-head">
-      <h2>Schedule</h2>
-      <p id="fx-count"></p>
-    </div>
-    <div class="fx-list" id="fx-list"></div>
-  </section>
+    <div class="fixtures" id="fixtures"></div>
 
-  <footer>
-    <div class="wrap foot">
-      <span>© 2026 Match &amp; Bars</span>
-      <span>Football dates from openfootball/football.json. Rugby and cricket rows are indicative — check the official calendar.</span>
-    </div>
-  </footer>
-  <script src="fixtures.js"></script>
+    <p class="note">
+      <strong>How it works:</strong> Fixtures show only the matches. Click a match to find bars and peñas near you that may be showing it. 
+      Bars that confirm the match on their own website appear as confirmed when you select that fixture — not before.
+    </p>
+  </main>
+
+  <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
+
+  <script>
+    const fixtures = [
+      // Barça
+      { date: "Sat 31 Oct", time: "21:00", home: "Barcelona", away: "Alavés", comp: "La Liga", team: "barca" },
+      { date: "Tue 3 Nov", time: "20:00", home: "Barcelona", away: "Aston Villa", comp: "Champions League", team: "barca" },
+      { date: "Sun 8 Nov", time: "21:00", home: "Atlético Madrid", away: "Barcelona", comp: "La Liga", team: "barca" },
+      { date: "Sun 22 Nov", time: "14:00", home: "Barcelona", away: "Villarreal", comp: "La Liga", team: "barca" },
+      { date: "Wed 25 Nov", time: "18:45", home: "Sabah", away: "Barcelona", comp: "Champions League", team: "barca" },
+      // Real Madrid
+      { date: "Sun 1 Nov", time: "16:15", home: "Racing Santander", away: "Real Madrid", comp: "La Liga", team: "madrid" },
+      { date: "Wed 4 Nov", time: "18:45", home: "AEK Athens", away: "Real Madrid", comp: "Champions League", team: "madrid" },
+      { date: "Sat 7 Nov", time: "21:00", home: "Valencia", away: "Real Madrid", comp: "La Liga", team: "madrid" },
+      { date: "Sat 21 Nov", time: "21:00", home: "Real Madrid", away: "Celta", comp: "La Liga", team: "madrid" },
+      { date: "Tue 24 Nov", time: "21:00", home: "Real Madrid", away: "PSV", comp: "Champions League", team: "madrid" },
+      // Arsenal
+      { date: "Sun 1 Nov", time: "17:30", home: "Liverpool", away: "Arsenal", comp: "Premier League", team: "arsenal" },
+      { date: "Wed 4 Nov", time: "21:00", home: "Slavia Prague", away: "Arsenal", comp: "Champions League", team: "arsenal" },
+      { date: "Sat 7 Nov", time: "16:00", home: "Arsenal", away: "Hull City", comp: "Premier League", team: "arsenal" },
+      { date: "Sat 21 Nov", time: "18:30", home: "Newcastle", away: "Arsenal", comp: "Premier League", team: "arsenal" },
+      { date: "Tue 24 Nov", time: "21:00", home: "Arsenal", away: "Borussia Dortmund", comp: "Champions League", team: "arsenal" }
+    ];
+
+    const container = document.getElementById("fixtures");
+    fixtures.forEach(f => {
+      const a = document.createElement("a");
+      a.className = "fixture";
+      a.href = `/?team=${f.team}&match=${encodeURIComponent(f.home + " vs " + f.away)}`;
+      a.innerHTML = `
+        <div class="date">${f.date}</div>
+        <div class="match">
+          <strong>${f.home} vs ${f.away}</strong>
+          <div class="comp">${f.comp}</div>
+        </div>
+        <div class="time">${f.time} CET</div>
+      `;
+      container.appendChild(a);
+    });
+  </script>
 </body>
 </html>
