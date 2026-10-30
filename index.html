@@ -165,7 +165,7 @@
       } catch (e) {}
     }
     loadBanner();
-<script>
+    <script>
 // ========== MATCH SELECTOR + GREEN/GRAY LOGIC ==========
 
 let allPenyas = [];
@@ -202,7 +202,7 @@ async function initMatchSelector() {
     matches.forEach(match => {
       const opt = document.createElement('option');
       opt.value = JSON.stringify({ home: match.home, away: match.away });
-      opt.textContent = `${match.home} vs ${match.away}${match.competition ? ' · ' + match.competition : ''}`;
+      opt.textContent = match.home + ' vs ' + match.away + (match.competition ? ' · ' + match.competition : '');
       select.appendChild(opt);
     });
 
@@ -222,20 +222,27 @@ async function initMatchSelector() {
 
 function normalizeTeamName(name) {
   const map = {
-    'Barcelona': 'Barcelona', 'FC Barcelona': 'Barcelona', 'Barça': 'Barcelona',
-    'Real Madrid': 'Real Madrid', 'Madrid': 'Real Madrid',
+    'Barcelona': 'Barcelona',
+    'FC Barcelona': 'Barcelona',
+    'Barça': 'Barcelona',
+    'Real Madrid': 'Real Madrid',
+    'Madrid': 'Real Madrid',
     'Arsenal': 'Arsenal',
-    'Bayern': 'Bayern', 'Bayern Munich': 'Bayern',
-    'Boca': 'Boca Juniors', 'Boca Juniors': 'Boca Juniors',
+    'Bayern': 'Bayern',
+    'Bayern Munich': 'Bayern',
+    'Boca': 'Boca Juniors',
+    'Boca Juniors': 'Boca Juniors',
     'Liverpool': 'Liverpool',
-    'Manchester United': 'Manchester United', 'Man United': 'Manchester United', 'Man Utd': 'Manchester United',
-    'River': 'River Plate', 'River Plate': 'River Plate'
+    'Manchester United': 'Manchester United',
+    'Man United': 'Manchester United',
+    'Man Utd': 'Manchester United',
+    'River': 'River Plate',
+    'River Plate': 'River Plate'
   };
   return map[name] || name;
 }
 
 function recolorMarkersByTeams(teams) {
-  // Collect markers if needed
   if (allMarkers.length === 0 && typeof map !== 'undefined') {
     map.eachLayer(layer => {
       if (layer instanceof L.Marker) allMarkers.push(layer);
@@ -264,13 +271,19 @@ function resetMarkersToDefault() {
 const greenIcon = L.icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-  iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
 });
 
 const grayIcon = L.icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-  iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
 });
 
 document.addEventListener('DOMContentLoaded', initMatchSelector);
