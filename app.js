@@ -192,7 +192,14 @@ function syncMap(list) {
     return true;
   });
   toShow.forEach((b) => {
-    const m = L.marker([b.lat, b.lng]).addTo(map);
+  const m = L.marker([b.lat, b.lng], {
+  venueData: {
+    isPena: !!b.isPena,
+    team: b.team || null,
+    name: b.name,
+    community: !!b.community
+  }
+}).addTo(map);
     m.bindPopup(`<strong>${b.name}</strong><br>${b.zone || ""} · ${b.city}<br>${(b.sports || []).join(", ")}`);
     markers.push(m);
   });
