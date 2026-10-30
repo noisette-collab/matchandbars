@@ -209,7 +209,6 @@ async function initMatchSelector() {
       opt.textContent = match.home + ' vs ' + match.away + (match.competition ? ' · ' + match.competition : '');
       select.appendChild(opt);
     });
-
 select.addEventListener('change', function() {
   if (!this.value) {
     resetMarkersToDefault();
@@ -218,8 +217,11 @@ select.addEventListener('change', function() {
   }
   const selected = JSON.parse(this.value);
   const teams = [selected.home, selected.away].map(normalizeTeamName);
-  recolorMarkersByTeams(teams);
+  
   if (typeof render === 'function') render();
+  
+  // Recolor after render has recreated the markers
+  setTimeout(() => recolorMarkersByTeams(teams), 100);
 });
   } catch (err) {
     console.error('Error loading selector:', err);
