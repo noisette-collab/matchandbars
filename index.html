@@ -210,18 +210,29 @@ async function initMatchSelector() {
       select.appendChild(opt);
     });
 select.addEventListener('change', function() {
-  if (!this.value) {
-    resetMarkersToDefault();
-    if (typeof render === 'function') render();
-    return;
+  const hasValue = !!this.value;
+  let teams = [];
+
+  if (hasValue) {
+    try {
+      const selected = JSON.parse(this.value);
+      teams = [selected.home, selected.away].map(normalizeTeamName);
+    } catch (e) {}
   }
-  const selected = JSON.parse(this.value);
-  const teams = [selected.home, selected.away].map(normalizeTeamName);
-  
+
+  // Guardem els teams globalment perquè render() els pugui usar
+  window.currentMatchTeams = teams;
+
   if (typeof render === 'function') render();
-  
-  // Recolor after render has recreated the markers
-  setTimeout(() => recolorMarkersByTeams(teams), 100);
+
+  // Recolor after render
+  setTimeout(() => {
+    if (hasValue) {
+      recolorMarkersByTeams(teams);
+    } else {
+      resetMarkersToDefault();
+    }
+  }, 150);
 });
   } catch (err) {
     console.error('Error loading selector:', err);
