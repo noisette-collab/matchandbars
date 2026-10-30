@@ -148,7 +148,6 @@ function amenity(b) {
 function render() {
   let list = filtered();
 
-  // Use the global teams set by the selector
   const teams = window.currentMatchTeams || [];
 
   list.sort((a, b) => {
@@ -182,7 +181,7 @@ function render() {
   syncMap(list);
   if (window.mabRefreshComments) window.mabRefreshComments();
 }
- 
+
 function setStatus(msg) {
   const el = $("geo-status");
   if (el) el.textContent = msg || "";
@@ -200,7 +199,6 @@ function syncMap(list) {
   if (!map) return;
   markers.forEach((m) => map.removeLayer(m));
   markers = [];
-  // Always show all bars that match current sport/search, not only the nearest 20
   const q = ($("q").value || "").toLowerCase();
   const toShow = bars.filter((b) => {
     if (b.lat == null) return false;
@@ -210,14 +208,14 @@ function syncMap(list) {
     return true;
   });
   toShow.forEach((b) => {
-  const m = L.marker([b.lat, b.lng], {
-  venueData: {
-    isPena: !!b.isPena,
-    team: b.team || null,
-    name: b.name,
-    community: !!b.community
-  }
-}).addTo(map);
+    const m = L.marker([b.lat, b.lng], {
+      venueData: {
+        isPena: !!b.isPena,
+        team: b.team || null,
+        name: b.name,
+        community: !!b.community
+      }
+    }).addTo(map);
     m.bindPopup(`<strong>${b.name}</strong><br>${b.zone || ""} · ${b.city}<br>${(b.sports || []).join(", ")}`);
     markers.push(m);
   });
