@@ -146,12 +146,37 @@ function amenity(b) {
 }
 
 function render() {
-  const list = filtered();
+  let list = filtered();
+
+  // --- Ordenar peñas confirmades al principi ---
+  const selectEl = document.getElementById('match-select');
+  let teams = [];
+  if (selectEl && selectEl.value) {
+    try {
+      const sel = JSON.parse(selectEl.value);
+      const normalize = window.normalizeTeamName || (n => n);
+      teams = [sel.home, sel.away].map(normalize);
+    } catch (e) {}
+  }
+
+  list.sort((a, b) => {
+    const aConfirmed = a.isPena && teams.includes(a.team);
+    const bConfirmed = b.isPena && teams.includes(b.team);
+    if (aConfirmed && !bConfirmed) return -1;
+    if (!aConfirmed && bConfirmed) return 1;
+    return 0;
+  });
+  // --------------------------------------------
+
   $("count").textContent = t().count(list.length);
   $("dir-title").textContent = userLat != null ? (sport ? `Nearest · ${sport}` : "Nearest") : (city || "Directory");
-  $("grid").innerHTML = list.map((b) => `
+
+  $("grid").innerHTML = list.map((b) => {
+    const isConfirmed = b.isPena && teams.includes(b.team);
+    const tick = isConfirmed ? ' <span style="color:#2ecc40;font-weight:bold;">✓</span>' : '';
+    return `
     <article class="card">
-      <h3>${b.club === "barca" ? '<span class="crest barca" title="Barça">FCB</span>' : ""}${b.club === "madrid" ? '<span class="crest madrid" title="Real Madrid">RMA</span>' : ""}${b.name}</h3>
+      <h3>${b.club === "barca" ? '<span class="crest barca" title="Barça">FCB</span>' : ""}${b.club === "madrid" ? '<span class="crest madrid" title="Real Madrid">RMA</span>' : ""}${b.name}${tick}</h3>
       <div class="meta">${b.distance != null ? b.distance.toFixed(1) + " km · " : ""}${b.city} · ${b.zone} · ${b.address}</div>
       <div class="tags">${(b.sports || []).map((s) => `<span class="tag">${s}</span>`).join("")}</div>
       <p class="notes">${b.notes || ""}</p>
@@ -160,7 +185,9 @@ function render() {
       <a class="maps" href="${b.maps}" target="_blank" rel="noopener">${t().maps}</a>
       ${b.web ? `<a class="maps" href="${b.web}" target="_blank" rel="noopener">Website</a>` : ""}
       <div class="community" data-bar="${b.id}"></div>
-    </article>`).join("");
+    </article>`;
+  }).join("");
+
   syncMap(list);
   if (window.mabRefreshComments) window.mabRefreshComments();
 }
