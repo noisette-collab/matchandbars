@@ -242,24 +242,19 @@ function normalizeTeamName(name) {
 }
 
 function recolorMarkersByTeams(teams) {
+  // Recull els markers si encara no els tens
   if (allMarkers.length === 0 && typeof map !== 'undefined') {
     map.eachLayer(layer => {
-      if (layer instanceof L.Marker) allMarkers.push(layer);
+      if (layer instanceof L.Marker && layer.options && layer.options.venueData) {
+        allMarkers.push(layer);
+      }
     });
   }
 
-  allMarkers.forEach(marker => marker.setIcon(grayIcon));
-
-  const relevantPenyas = allPenyas.filter(p => teams.includes(p.team));
-
-  relevantPenyas.forEach(penya => {
-    allMarkers.forEach(marker => {
-      const latlng = marker.getLatLng();
-      const distance = latlng.distanceTo([penya.lat, penya.lng]);
-      if (distance < 80) {
-        marker.setIcon(greenIcon);
-      }
-    });
+  allMarkers.forEach(marker => {
+    const data = marker.options.venueData || {};
+    const isConfirmed = data.isPena && teams.includes(data.team);
+    marker.setIcon(isConfirmed ? greenIcon : grayIcon);
   });
 }
 
