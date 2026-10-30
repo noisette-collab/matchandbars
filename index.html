@@ -210,15 +210,17 @@ async function initMatchSelector() {
       select.appendChild(opt);
     });
 
-    select.addEventListener('change', function() {
-      if (!this.value) {
-        resetMarkersToDefault();
-        return;
-      }
-      const selected = JSON.parse(this.value);
-      const teams = [selected.home, selected.away].map(normalizeTeamName);
-      recolorMarkersByTeams(teams);
-    });
+select.addEventListener('change', function() {
+  if (!this.value) {
+    resetMarkersToDefault();
+    if (typeof render === 'function') render();
+    return;
+  }
+  const selected = JSON.parse(this.value);
+  const teams = [selected.home, selected.away].map(normalizeTeamName);
+  recolorMarkersByTeams(teams);
+  if (typeof render === 'function') render();
+});
   } catch (err) {
     console.error('Error loading selector:', err);
   }
