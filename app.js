@@ -182,32 +182,7 @@ function render() {
   syncMap(list);
   if (window.mabRefreshComments) window.mabRefreshComments();
 }
-  // --------------------------------------------
-
-  $("count").textContent = t().count(list.length);
-  $("dir-title").textContent = userLat != null ? (sport ? `Nearest · ${sport}` : "Nearest") : (city || "Directory");
-
-  $("grid").innerHTML = list.map((b) => {
-    const isConfirmed = b.isPena && teams.includes(b.team);
-    const tick = isConfirmed ? ' <span style="color:#2ecc40;font-weight:bold;">✓</span>' : '';
-    return `
-    <article class="card">
-      <h3>${b.club === "barca" ? '<span class="crest barca" title="Barça">FCB</span>' : ""}${b.club === "madrid" ? '<span class="crest madrid" title="Real Madrid">RMA</span>' : ""}${b.name}${tick}</h3>
-      <div class="meta">${b.distance != null ? b.distance.toFixed(1) + " km · " : ""}${b.city} · ${b.zone} · ${b.address}</div>
-      <div class="tags">${(b.sports || []).map((s) => `<span class="tag">${s}</span>`).join("")}</div>
-      <p class="notes">${b.notes || ""}</p>
-      ${amenity(b)}
-      <div class="source">${t().source}: ${b.source || ""}</div>
-      <a class="maps" href="${b.maps}" target="_blank" rel="noopener">${t().maps}</a>
-      ${b.web ? `<a class="maps" href="${b.web}" target="_blank" rel="noopener">Website</a>` : ""}
-      <div class="community" data-bar="${b.id}"></div>
-    </article>`;
-  }).join("");
-
-  syncMap(list);
-  if (window.mabRefreshComments) window.mabRefreshComments();
-}
-
+ 
 function setStatus(msg) {
   const el = $("geo-status");
   if (el) el.textContent = msg || "";
