@@ -1,0 +1,7223 @@
+[
+  {
+    "id": "bcn-ovella",
+    "name": "L'Ovella Negra Poblenou",
+    "city": "Barcelona",
+    "zone": "Poblenou",
+    "address": "Carrer de Zamora, 78",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3953,
+    "lng": 2.1878,
+    "maps": "https://maps.google.com/?q=L'Ovella+Negra+Poblenou+Carrer+de+Zamora,+78+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "http://www.ovellanegra.net"
+  },
+  {
+    "id": "bcn-george",
+    "name": "The George Payne",
+    "city": "Barcelona",
+    "zone": "Urquinaona",
+    "address": "Plaça Urquinaona, 5",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 41.3892,
+    "lng": 2.1734,
+    "maps": "https://maps.google.com/?q=The+George+Payne+Plaça+Urquinaona,+5+Barcelona",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://thegeorgepayne.com"
+  },
+  {
+    "id": "bcn-belushi",
+    "name": "Belushi's Barcelona",
+    "city": "Barcelona",
+    "zone": "Plaça Catalunya",
+    "address": "Carrer de Bergara, 3",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 41.3866,
+    "lng": 2.1686,
+    "maps": "https://maps.google.com/?q=Belushi's+Barcelona+Carrer+de+Bergara,+3+Barcelona",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.belushis.com/barcelona-las-ramblas"
+  },
+  {
+    "id": "bcn-collins",
+    "name": "Michael Collins",
+    "city": "Barcelona",
+    "zone": "Sagrada Família",
+    "address": "Plaça Sagrada Família, 4",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.403,
+    "lng": 2.1744,
+    "maps": "https://maps.google.com/?q=Michael+Collins+Plaça+Sagrada+Família,+4+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.michaelcollinspub.com"
+  },
+  {
+    "id": "bcn-flaherty",
+    "name": "Flaherty's",
+    "city": "Barcelona",
+    "zone": "Drassanes",
+    "address": "Plaça Joaquim Xirau",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 41.3773,
+    "lng": 2.1761,
+    "maps": "https://maps.google.com/?q=Flaherty's+Plaça+Joaquim+Xirau+Barcelona",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://pflaherty.com"
+  },
+  {
+    "id": "bcn-wild",
+    "name": "Wild Rover",
+    "city": "Barcelona",
+    "zone": "Raval",
+    "address": "Carrer de Santa Mònica, 2",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 41.3784,
+    "lng": 2.175,
+    "maps": "https://maps.google.com/?q=Wild+Rover+Carrer+de+Santa+Mònica,+2+Barcelona",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://barwildrover.com"
+  },
+  {
+    "id": "bcn-coco",
+    "name": "CocoVail Beer Hall",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Aragó, 284",
+    "sports": [
+      "football",
+      "nfl",
+      "nba"
+    ],
+    "lat": 41.3917,
+    "lng": 2.1651,
+    "maps": "https://maps.google.com/?q=CocoVail+Carrer+d'Aragó,+284+Barcelona",
+    "tags": [
+      "football",
+      "nfl",
+      "nba"
+    ],
+    "bestFor": "football, nfl, nba",
+    "notes": "American beer hall. Lists NFL Sundays and Red Zone. Confirm kick-off on the day.",
+    "source": "cocovailbeerhall.com",
+    "web": "https://cocovailbeerhall.com"
+  },
+  {
+    "id": "bcn-sports",
+    "name": "Sports Bar Ample",
+    "city": "Barcelona",
+    "zone": "Gòtic",
+    "address": "Carrer Ample, 51",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 41.381,
+    "lng": 2.1796,
+    "maps": "https://maps.google.com/?q=Sports+Bar+Ample+Carrer+Ample,+51+Barcelona",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-dunnes",
+    "name": "Dunne's",
+    "city": "Barcelona",
+    "zone": "Via Laietana",
+    "address": "Via Laietana, 19",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3835,
+    "lng": 2.1788,
+    "maps": "https://maps.google.com/?q=Dunne's+Via+Laietana,+19+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-mccarthy",
+    "name": "McCarthy's",
+    "city": "Barcelona",
+    "zone": "Via Laietana",
+    "address": "Via Laietana, 44",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3858,
+    "lng": 2.1772,
+    "maps": "https://maps.google.com/?q=McCarthy's+Via+Laietana,+44+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-fastnet",
+    "name": "The Fastnet",
+    "city": "Barcelona",
+    "zone": "Barceloneta",
+    "address": "Pg. Joan de Borbó, 22",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3816,
+    "lng": 2.1874,
+    "maps": "https://maps.google.com/?q=The+Fastnet+Pg.+Joan+de+Borbó,+22+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-grizzly",
+    "name": "Grizzly 72",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Gran Via, 586",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3868,
+    "lng": 2.1648,
+    "maps": "https://maps.google.com/?q=Grizzly+72+Gran+Via,+586+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-walkabout",
+    "name": "Walkabout Temple",
+    "city": "London",
+    "zone": "Temple",
+    "address": "11 Temple Place",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 51.5114,
+    "lng": -0.1139,
+    "maps": "https://maps.google.com/?q=Walkabout+Temple+11+Temple+Place+London",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.walkaboutbars.co.uk"
+  },
+  {
+    "id": "lon-sports-bar",
+    "name": "The Sports Bar & Grill",
+    "city": "London",
+    "zone": "King's Cross",
+    "address": "Unit 3, King's Boulevard",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 51.532,
+    "lng": -0.124,
+    "maps": "https://maps.google.com/?q=The+Sports+Bar+&+Grill+Unit+3,+King's+Boulevard+London",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-draft",
+    "name": "Draft House Tower Bridge",
+    "city": "London",
+    "zone": "London Bridge",
+    "address": "Unit C, 1 Tower Bridge",
+    "sports": [
+      "football",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 51.5045,
+    "lng": -0.076,
+    "maps": "https://maps.google.com/?q=Draft+House+Tower+Bridge+Unit+C,+1+Tower+Bridge+London",
+    "tags": [
+      "football",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-slug",
+    "name": "Slug & Lettuce West India",
+    "city": "London",
+    "zone": "Canary Wharf",
+    "address": "West India Quay",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.507,
+    "lng": -0.023,
+    "maps": "https://maps.google.com/?q=Slug+&+Lettuce+West+India+West+India+Quay+London",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-o2",
+    "name": "The O2 Sports Bar",
+    "city": "London",
+    "zone": "Greenwich",
+    "address": "Peninsula Square",
+    "sports": [
+      "football",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 51.503,
+    "lng": 0.0032,
+    "maps": "https://maps.google.com/?q=The+O2+Sports+Bar+Peninsula+Square+London",
+    "tags": [
+      "football",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-libertine",
+    "name": "The Libertine",
+    "city": "London",
+    "zone": "Old Street",
+    "address": "125 City Road",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5264,
+    "lng": -0.0873,
+    "maps": "https://maps.google.com/?q=The+Libertine+125+City+Road+London",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-green-man",
+    "name": "The Green Man",
+    "city": "London",
+    "zone": "Soho",
+    "address": "57 Berwick Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.514,
+    "lng": -0.135,
+    "maps": "https://maps.google.com/?q=The+Green+Man+57+Berwick+Street+London",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-willow",
+    "name": "The Willow Walk",
+    "city": "London",
+    "zone": "Victoria",
+    "address": "25 Wilton Road",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "lat": 51.4952,
+    "lng": -0.1438,
+    "maps": "https://maps.google.com/?q=The+Willow+Walk+25+Wilton+Road+London",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "bestFor": "football, rugby, cricket",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-haze",
+    "name": "Haze",
+    "city": "London",
+    "zone": "Shoreditch",
+    "address": "348 Old Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.526,
+    "lng": -0.08,
+    "maps": "https://maps.google.com/?q=Haze+348+Old+Street+London",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-porter",
+    "name": "Porterhouse Covent Garden",
+    "city": "London",
+    "zone": "Covent Garden",
+    "address": "21-22 Maiden Lane",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "lat": 51.5112,
+    "lng": -0.1233,
+    "maps": "https://maps.google.com/?q=Porterhouse+Covent+Garden+21-22+Maiden+Lane+London",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "bestFor": "football, rugby, cricket",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.theporterhouse.ie"
+  },
+  {
+    "id": "lon-all-bar",
+    "name": "All Bar One Paddington",
+    "city": "London",
+    "zone": "Paddington",
+    "address": "Paddington Station",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5154,
+    "lng": -0.1755,
+    "maps": "https://maps.google.com/?q=All+Bar+One+Paddington+Paddington+Station+London",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.allbarone.co.uk"
+  },
+  {
+    "id": "lon-irish",
+    "name": "The Irish House",
+    "city": "London",
+    "zone": "Leicester Square",
+    "address": "29-31 Cranbourn Street",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "lat": 51.5116,
+    "lng": -0.128,
+    "maps": "https://maps.google.com/?q=The+Irish+House+29-31+Cranbourn+Street+London",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "bestFor": "football, rugby, cricket",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-frog-p",
+    "name": "The Frog & Princess",
+    "city": "Paris",
+    "zone": "Saint-Germain",
+    "address": "9 Rue Princesse",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 48.8534,
+    "lng": 2.3338,
+    "maps": "https://maps.google.com/?q=The+Frog+&+Princess+9+Rue+Princesse+Paris",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-frog-r",
+    "name": "The Frog & Rosbif",
+    "city": "Paris",
+    "zone": "2e",
+    "address": "116 Rue Saint-Denis",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8636,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=The+Frog+&+Rosbif+116+Rue+Saint-Denis+Paris",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-belushi",
+    "name": "Belushi's Gare du Nord",
+    "city": "Paris",
+    "zone": "10e",
+    "address": "5 Rue de Dunkerque",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 48.8804,
+    "lng": 2.3553,
+    "maps": "https://maps.google.com/?q=Belushi's+Gare+du+Nord+5+Rue+de+Dunkerque+Paris",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.belushis.com"
+  },
+  {
+    "id": "par-bombardier",
+    "name": "The Bombardier",
+    "city": "Paris",
+    "zone": "Panthéon",
+    "address": "2 Place du Panthéon",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8462,
+    "lng": 2.3448,
+    "maps": "https://maps.google.com/?q=The+Bombardier+2+Place+du+Panthéon+Paris",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-osull",
+    "name": "O'Sullivan's By The Mill",
+    "city": "Paris",
+    "zone": "Montmartre",
+    "address": "1 Rue Caulaincourt",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.889,
+    "lng": 2.332,
+    "maps": "https://maps.google.com/?q=O'Sullivan's+By+The+Mill+1+Rue+Caulaincourt+Paris",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-corrigan",
+    "name": "Corrigan's",
+    "city": "Paris",
+    "zone": "16e",
+    "address": "20 Boulevard de Grenelle",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8505,
+    "lng": 2.291,
+    "maps": "https://maps.google.com/?q=Corrigan's+20+Boulevard+de+Grenelle+Paris",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-canadian",
+    "name": "The Great Canadian",
+    "city": "Paris",
+    "zone": "9e",
+    "address": "4 Rue Volney",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 48.8702,
+    "lng": 2.3305,
+    "maps": "https://maps.google.com/?q=The+Great+Canadian+4+Rue+Volney+Paris",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-hideout",
+    "name": "The Hideout",
+    "city": "Paris",
+    "zone": "11e",
+    "address": "23 Rue de Lappe",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.8535,
+    "lng": 2.371,
+    "maps": "https://maps.google.com/?q=The+Hideout+23+Rue+de+Lappe+Paris",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-highlander",
+    "name": "The Highlander",
+    "city": "Paris",
+    "zone": "6e",
+    "address": "8 Rue de Nevers",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8548,
+    "lng": 2.337,
+    "maps": "https://maps.google.com/?q=The+Highlander+8+Rue+de+Nevers+Paris",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-bar-dix",
+    "name": "Bar Dix",
+    "city": "Paris",
+    "zone": "6e",
+    "address": "10 Rue de l'Odéon",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.851,
+    "lng": 2.3385,
+    "maps": "https://maps.google.com/?q=Bar+Dix+10+Rue+de+l'Odéon+Paris",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-commerce",
+    "name": "Café du Commerce",
+    "city": "Paris",
+    "zone": "15e",
+    "address": "51 Rue du Commerce",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.8458,
+    "lng": 2.2948,
+    "maps": "https://maps.google.com/?q=Café+du+Commerce+51+Rue+du+Commerce+Paris",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "par-james",
+    "name": "James Joyce",
+    "city": "Paris",
+    "zone": "17e",
+    "address": "5 Passage Cardinet",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8875,
+    "lng": 2.31,
+    "maps": "https://maps.google.com/?q=James+Joyce+5+Passage+Cardinet+Paris",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-james",
+    "name": "James Joyce Irish Pub",
+    "city": "Madrid",
+    "zone": "Justicia",
+    "address": "C. de Alcalá, 59",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 40.4215,
+    "lng": -3.682,
+    "maps": "https://maps.google.com/?q=James+Joyce+Irish+Pub+C.+de+Alcalá,+59+Madrid",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-irish",
+    "name": "The Irish Rover",
+    "city": "Madrid",
+    "zone": "Salamanca",
+    "address": "Av. de Brasil, 7",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 40.456,
+    "lng": -3.692,
+    "maps": "https://maps.google.com/?q=The+Irish+Rover+Av.+de+Brasil,+7+Madrid",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-stromboli",
+    "name": "Stromboli Sports Bar",
+    "city": "Madrid",
+    "zone": "Malasaña",
+    "address": "C. del Pez",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4235,
+    "lng": -3.7055,
+    "maps": "https://maps.google.com/?q=Stromboli+Sports+Bar+C.+del+Pez+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-sports",
+    "name": "Sports Bar Madrid",
+    "city": "Madrid",
+    "zone": "Centro",
+    "address": "C. de la Cruz",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.416,
+    "lng": -3.7025,
+    "maps": "https://maps.google.com/?q=Sports+Bar+Madrid+C.+de+la+Cruz+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-oConnell",
+    "name": "O'Connell's",
+    "city": "Madrid",
+    "zone": "Chamberí",
+    "address": "C. de Sagasta",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 40.432,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=O'Connell's+C.+de+Sagasta+Madrid",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-finnegans",
+    "name": "Finnegan's",
+    "city": "Madrid",
+    "zone": "Huertas",
+    "address": "Plaza de las Cortes",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4155,
+    "lng": -3.6965,
+    "maps": "https://maps.google.com/?q=Finnegan's+Plaza+de+las+Cortes+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-peacock",
+    "name": "The Peacock",
+    "city": "Madrid",
+    "zone": "Chueca",
+    "address": "C. de Barbieri",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4218,
+    "lng": -3.6985,
+    "maps": "https://maps.google.com/?q=The+Peacock+C.+de+Barbieri+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-dubliners",
+    "name": "The Dubliners",
+    "city": "Madrid",
+    "zone": "Lavapiés",
+    "address": "C. de Lavapiés",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4105,
+    "lng": -3.7028,
+    "maps": "https://maps.google.com/?q=The+Dubliners+C.+de+Lavapiés+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-redlion",
+    "name": "Red Lion",
+    "city": "Madrid",
+    "zone": "Sol",
+    "address": "C. de Espoz y Mina",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4158,
+    "lng": -3.7038,
+    "maps": "https://maps.google.com/?q=Red+Lion+C.+de+Espoz+y+Mina+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-wicklow",
+    "name": "Wicklow",
+    "city": "Madrid",
+    "zone": "Tribunal",
+    "address": "C. de Fuencarral",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4265,
+    "lng": -3.7008,
+    "maps": "https://maps.google.com/?q=Wicklow+C.+de+Fuencarral+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-shamrock",
+    "name": "Shamrock",
+    "city": "Madrid",
+    "zone": "Moncloa",
+    "address": "C. de la Princesa",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 40.435,
+    "lng": -3.717,
+    "maps": "https://maps.google.com/?q=Shamrock+C.+de+la+Princesa+Madrid",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "mad-goal",
+    "name": "Goal Sports Café",
+    "city": "Madrid",
+    "zone": "Arganzuela",
+    "address": "Paseo de las Delicias",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.399,
+    "lng": -3.6935,
+    "maps": "https://maps.google.com/?q=Goal+Sports+Café+Paseo+de+las+Delicias+Madrid",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-kilkenny",
+    "name": "Kilkenny Irish Pub",
+    "city": "Berlin",
+    "zone": "Mitte",
+    "address": "Am Kupfergraben",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 52.521,
+    "lng": 13.3955,
+    "maps": "https://maps.google.com/?q=Kilkenny+Irish+Pub+Am+Kupfergraben+Berlin",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-belushi",
+    "name": "Belushi's Alexanderplatz",
+    "city": "Berlin",
+    "zone": "Mitte",
+    "address": "Dircksenstraße",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 52.5218,
+    "lng": 13.4115,
+    "maps": "https://maps.google.com/?q=Belushi's+Alexanderplatz+Dircksenstraße+Berlin",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.belushis.com"
+  },
+  {
+    "id": "ber-magnet",
+    "name": "FC Magnet Bar",
+    "city": "Berlin",
+    "zone": "Mitte",
+    "address": "Veteranenstraße 26",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.5335,
+    "lng": 13.401,
+    "maps": "https://maps.google.com/?q=FC+Magnet+Bar+Veteranenstraße+26+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-blarney",
+    "name": "Blarney Pub",
+    "city": "Berlin",
+    "zone": "Kreuzberg",
+    "address": "Eisenbahnstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.4995,
+    "lng": 13.43,
+    "maps": "https://maps.google.com/?q=Blarney+Pub+Eisenbahnstraße+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-irish",
+    "name": "The Irish Pub Berlin",
+    "city": "Berlin",
+    "zone": "Friedrichshain",
+    "address": "Karl-Liebknecht-Straße",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 52.5205,
+    "lng": 13.416,
+    "maps": "https://maps.google.com/?q=The+Irish+Pub+Berlin+Karl-Liebknecht-Straße+Berlin",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-lir",
+    "name": "The Lir",
+    "city": "Berlin",
+    "zone": "Moabit",
+    "address": "Alt-Moabit",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 52.524,
+    "lng": 13.348,
+    "maps": "https://maps.google.com/?q=The+Lir+Alt-Moabit+Berlin",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-cheers",
+    "name": "Country Cheers",
+    "city": "Berlin",
+    "zone": "Friedrichshain",
+    "address": "Strausberger Platz",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.5185,
+    "lng": 13.428,
+    "maps": "https://maps.google.com/?q=Country+Cheers+Strausberger+Platz+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-oscar",
+    "name": "Oscar Wilde Pub",
+    "city": "Berlin",
+    "zone": "Mitte",
+    "address": "Friedrichstraße",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 52.52,
+    "lng": 13.3885,
+    "maps": "https://maps.google.com/?q=Oscar+Wilde+Pub+Friedrichstraße+Berlin",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-naumanns",
+    "name": "Naumanns",
+    "city": "Berlin",
+    "zone": "Schöneberg",
+    "address": "Wilhelm-Kabus-Straße 70",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.483,
+    "lng": 13.358,
+    "maps": "https://maps.google.com/?q=Naumanns+Wilhelm-Kabus-Straße+70+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-meanie",
+    "name": "Meanie Bar",
+    "city": "Berlin",
+    "zone": "Kreuzberg",
+    "address": "Skalitzer Straße",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.4992,
+    "lng": 13.4185,
+    "maps": "https://maps.google.com/?q=Meanie+Bar+Skalitzer+Straße+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-traffic",
+    "name": "Traffic Bar",
+    "city": "Berlin",
+    "zone": "Neukölln",
+    "address": "Weserstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.4825,
+    "lng": 13.437,
+    "maps": "https://maps.google.com/?q=Traffic+Bar+Weserstraße+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ber-wildes",
+    "name": "Wildes",
+    "city": "Berlin",
+    "zone": "Prenzlauer Berg",
+    "address": "Kastanienallee",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.54,
+    "lng": 13.409,
+    "maps": "https://maps.google.com/?q=Wildes+Kastanienallee+Berlin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-scholars",
+    "name": "Scholar's Lounge",
+    "city": "Rome",
+    "zone": "Centro",
+    "address": "Via del Plebiscito",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 41.8962,
+    "lng": 12.4805,
+    "maps": "https://maps.google.com/?q=Scholar's+Lounge+Via+del+Plebiscito+Rome",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-druid",
+    "name": "The Druid's Den",
+    "city": "Rome",
+    "zone": "Monti",
+    "address": "Via San Martino ai Monti",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.8955,
+    "lng": 12.4985,
+    "maps": "https://maps.google.com/?q=The+Druid's+Den+Via+San+Martino+ai+Monti+Rome",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-fiddlers",
+    "name": "Fiddler's Elbow",
+    "city": "Rome",
+    "zone": "San Lorenzo",
+    "address": "Via dell'Olmata",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.8978,
+    "lng": 12.498,
+    "maps": "https://maps.google.com/?q=Fiddler's+Elbow+Via+dell'Olmata+Rome",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-trinity",
+    "name": "Trinity College",
+    "city": "Rome",
+    "zone": "Pantheon",
+    "address": "Via del Collegio Romano",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 41.897,
+    "lng": 12.4795,
+    "maps": "https://maps.google.com/?q=Trinity+College+Via+del+Collegio+Romano+Rome",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-nether",
+    "name": "The Nethergate",
+    "city": "Rome",
+    "zone": "Trastevere",
+    "address": "Via del Politeama",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.8895,
+    "lng": 12.4675,
+    "maps": "https://maps.google.com/?q=The+Nethergate+Via+del+Politeama+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-finnegan",
+    "name": "Finnegan Irish Pub",
+    "city": "Rome",
+    "zone": "Prati",
+    "address": "Via Mentana",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.9105,
+    "lng": 12.473,
+    "maps": "https://maps.google.com/?q=Finnegan+Irish+Pub+Via+Mentana+Rome",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-abbot",
+    "name": "The Abbey Theatre",
+    "city": "Rome",
+    "zone": "Navona",
+    "address": "Via del Governo Vecchio",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.898,
+    "lng": 12.4715,
+    "maps": "https://maps.google.com/?q=The+Abbey+Theatre+Via+del+Governo+Vecchio+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-field",
+    "name": "The Field",
+    "city": "Rome",
+    "zone": "Termini",
+    "address": "Via Marsala",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.9015,
+    "lng": 12.502,
+    "maps": "https://maps.google.com/?q=The+Field+Via+Marsala+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-green",
+    "name": "The Green Goose",
+    "city": "Rome",
+    "zone": "Testaccio",
+    "address": "Via Marmorata",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.878,
+    "lng": 12.4755,
+    "maps": "https://maps.google.com/?q=The+Green+Goose+Via+Marmorata+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-black",
+    "name": "Black Sheep Pub",
+    "city": "Rome",
+    "zone": "San Giovanni",
+    "address": "Via Appia Nuova",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.8845,
+    "lng": 12.51,
+    "maps": "https://maps.google.com/?q=Black+Sheep+Pub+Via+Appia+Nuova+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-piper",
+    "name": "Piper Pub",
+    "city": "Rome",
+    "zone": "Trastevere",
+    "address": "Piazza Trilussa",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.8905,
+    "lng": 12.4698,
+    "maps": "https://maps.google.com/?q=Piper+Pub+Piazza+Trilussa+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "rom-rush",
+    "name": "The Rush",
+    "city": "Rome",
+    "zone": "Esquilino",
+    "address": "Via Merulana",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.893,
+    "lng": 12.501,
+    "maps": "https://maps.google.com/?q=The+Rush+Via+Merulana+Rome",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-tara",
+    "name": "The Tara",
+    "city": "Amsterdam",
+    "zone": "Centrum",
+    "address": "Rokin",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 52.3695,
+    "lng": 4.8922,
+    "maps": "https://maps.google.com/?q=The+Tara+Rokin+Amsterdam",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-sisters",
+    "name": "The Three Sisters",
+    "city": "Amsterdam",
+    "zone": "Rembrandtplein",
+    "address": "Rembrandtplein",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 52.366,
+    "lng": 4.8965,
+    "maps": "https://maps.google.com/?q=The+Three+Sisters+Rembrandtplein+Amsterdam",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-belushi",
+    "name": "Belushi's Amsterdam",
+    "city": "Amsterdam",
+    "zone": "De Wallen",
+    "address": "Warmoesstraat 129",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 52.3742,
+    "lng": 4.8978,
+    "maps": "https://maps.google.com/?q=Belushi's+Amsterdam+Warmoesstraat+129+Amsterdam",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-coco",
+    "name": "Coco's Outback",
+    "city": "Amsterdam",
+    "zone": "Rembrandtplein",
+    "address": "Thorbeckeplein 8-12",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 52.3662,
+    "lng": 4.8955,
+    "maps": "https://maps.google.com/?q=Coco's+Outback+Thorbeckeplein+8-12+Amsterdam",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-satelliet",
+    "name": "Satelliet Sportcafé",
+    "city": "Amsterdam",
+    "zone": "Leidseplein",
+    "address": "Leidseplein 11",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3638,
+    "lng": 4.8825,
+    "maps": "https://maps.google.com/?q=Satelliet+Sportcafé+Leidseplein+11+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-planb",
+    "name": "Plan B",
+    "city": "Amsterdam",
+    "zone": "Oud-West",
+    "address": "Overtoom 209",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3608,
+    "lng": 4.8705,
+    "maps": "https://maps.google.com/?q=Plan+B+Overtoom+209+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-molly",
+    "name": "Molly Malone's",
+    "city": "Amsterdam",
+    "zone": "Centrum",
+    "address": "Oudezijds Kolk 9",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 52.3768,
+    "lng": 4.9005,
+    "maps": "https://maps.google.com/?q=Molly+Malone's+Oudezijds+Kolk+9+Amsterdam",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-excalibur",
+    "name": "Excalibur Café",
+    "city": "Amsterdam",
+    "zone": "Centrum",
+    "address": "Nieuwezijds Voorburgwal",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.373,
+    "lng": 4.891,
+    "maps": "https://maps.google.com/?q=Excalibur+Café+Nieuwezijds+Voorburgwal+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-ledig",
+    "name": "Ledig Erf",
+    "city": "Amsterdam",
+    "zone": "De Pijp",
+    "address": "Nieuwe Achtergracht",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3615,
+    "lng": 4.907,
+    "maps": "https://maps.google.com/?q=Ledig+Erf+Nieuwe+Achtergracht+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-coco2",
+    "name": "The Old Sailor",
+    "city": "Amsterdam",
+    "zone": "De Wallen",
+    "address": "Warmoesstraat",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.375,
+    "lng": 4.8975,
+    "maps": "https://maps.google.com/?q=The+Old+Sailor+Warmoesstraat+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-bourbon",
+    "name": "Bourbon Street",
+    "city": "Amsterdam",
+    "zone": "Leidseplein",
+    "address": "Leidsekruisstraat",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3635,
+    "lng": 4.8838,
+    "maps": "https://maps.google.com/?q=Bourbon+Street+Leidsekruisstraat+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ams-gollem",
+    "name": "Café Gollem",
+    "city": "Amsterdam",
+    "zone": "Centrum",
+    "address": "Raamsteeg",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3688,
+    "lng": 4.8895,
+    "maps": "https://maps.google.com/?q=Café+Gollem+Raamsteeg+Amsterdam",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-sinnotts",
+    "name": "Sinnotts Bar",
+    "city": "Dublin",
+    "zone": "St Stephen's Green",
+    "address": "South King Street",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 53.3398,
+    "lng": -6.2612,
+    "maps": "https://maps.google.com/?q=Sinnotts+Bar+South+King+Street+Dublin",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-river",
+    "name": "River Bar",
+    "city": "Dublin",
+    "zone": "O'Connell Bridge",
+    "address": "Burgh Quay",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 53.347,
+    "lng": -6.2585,
+    "maps": "https://maps.google.com/?q=River+Bar+Burgh+Quay+Dublin",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-murrays",
+    "name": "Murray's Bar",
+    "city": "Dublin",
+    "zone": "O'Connell Street",
+    "address": "33-34 Upper O'Connell Street",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "lat": 53.3512,
+    "lng": -6.2608,
+    "maps": "https://maps.google.com/?q=Murray's+Bar+33-34+Upper+O'Connell+Street+Dublin",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "bestFor": "football, rugby, cricket",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-sinbin",
+    "name": "The SinBin",
+    "city": "Dublin",
+    "zone": "Merrion Square",
+    "address": "Merrion Street Lower",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "lat": 53.3395,
+    "lng": -6.2505,
+    "maps": "https://maps.google.com/?q=The+SinBin+Merrion+Street+Lower+Dublin",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, cricket, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-doyles",
+    "name": "Doyle's Corner",
+    "city": "Dublin",
+    "zone": "Phibsborough",
+    "address": "Phibsborough Road",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.36,
+    "lng": -6.273,
+    "maps": "https://maps.google.com/?q=Doyle's+Corner+Phibsborough+Road+Dublin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-slattery",
+    "name": "Slattery's",
+    "city": "Dublin",
+    "zone": "Capel Street",
+    "address": "Capel Street",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 53.3485,
+    "lng": -6.2685,
+    "maps": "https://maps.google.com/?q=Slattery's+Capel+Street+Dublin",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-casino",
+    "name": "The Casino",
+    "city": "Dublin",
+    "zone": "Marlborough",
+    "address": "Marlborough Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.3505,
+    "lng": -6.2578,
+    "maps": "https://maps.google.com/?q=The+Casino+Marlborough+Street+Dublin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-tower",
+    "name": "The Tower Bar",
+    "city": "Dublin",
+    "zone": "Temple Bar",
+    "address": "Temple Bar",
+    "sports": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "lat": 53.3455,
+    "lng": -6.264,
+    "maps": "https://maps.google.com/?q=The+Tower+Bar+Temple+Bar+Dublin",
+    "tags": [
+      "football",
+      "rugby",
+      "cricket"
+    ],
+    "bestFor": "football, rugby, cricket",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-palace",
+    "name": "The Palace Bar",
+    "city": "Dublin",
+    "zone": "Fleet Street",
+    "address": "Fleet Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.3458,
+    "lng": -6.2598,
+    "maps": "https://maps.google.com/?q=The+Palace+Bar+Fleet+Street+Dublin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-grogans",
+    "name": "Grogan's",
+    "city": "Dublin",
+    "zone": "South William",
+    "address": "South William Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.3418,
+    "lng": -6.2628,
+    "maps": "https://maps.google.com/?q=Grogan's+South+William+Street+Dublin",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-kehoes",
+    "name": "Kehoe's",
+    "city": "Dublin",
+    "zone": "South Anne",
+    "address": "South Anne Street",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 53.3415,
+    "lng": -6.2605,
+    "maps": "https://maps.google.com/?q=Kehoe's+South+Anne+Street+Dublin",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-odono",
+    "name": "O'Donoghue's",
+    "city": "Dublin",
+    "zone": "Merrion Row",
+    "address": "Merrion Row",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 53.3388,
+    "lng": -6.2538,
+    "maps": "https://maps.google.com/?q=O'Donoghue's+Merrion+Row+Dublin",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-kilian",
+    "name": "Kilian's Irish Pub",
+    "city": "Munich",
+    "zone": "Altstadt",
+    "address": "Frauenplatz",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 48.1386,
+    "lng": 11.5738,
+    "maps": "https://maps.google.com/?q=Kilian's+Irish+Pub+Frauenplatz+Munich",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-andechser",
+    "name": "Andechser am Dom",
+    "city": "Munich",
+    "zone": "Altstadt",
+    "address": "Weinstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1382,
+    "lng": 11.5745,
+    "maps": "https://maps.google.com/?q=Andechser+am+Dom+Weinstraße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-augustiner",
+    "name": "Augustiner-Keller",
+    "city": "Munich",
+    "zone": "Maxvorstadt",
+    "address": "Arnulfstraße 52",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1435,
+    "lng": 11.5515,
+    "maps": "https://maps.google.com/?q=Augustiner-Keller+Arnulfstraße+52+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-hofer",
+    "name": "Hofbräukeller",
+    "city": "Munich",
+    "zone": "Haidhausen",
+    "address": "Innere Wiener Straße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1318,
+    "lng": 11.5955,
+    "maps": "https://maps.google.com/?q=Hofbräukeller+Innere+Wiener+Straße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-shannon",
+    "name": "Shannon Irish Pub",
+    "city": "Munich",
+    "zone": "Hauptbahnhof",
+    "address": "Bayerstraße",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 48.1398,
+    "lng": 11.5585,
+    "maps": "https://maps.google.com/?q=Shannon+Irish+Pub+Bayerstraße+Munich",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-narren",
+    "name": "Narrenkäfig",
+    "city": "Munich",
+    "zone": "Glockenbach",
+    "address": "Klenzestraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1305,
+    "lng": 11.573,
+    "maps": "https://maps.google.com/?q=Narrenkäfig+Klenzestraße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-beershark",
+    "name": "Beershark",
+    "city": "Munich",
+    "zone": "Schwabing",
+    "address": "Leopoldstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.159,
+    "lng": 11.5845,
+    "maps": "https://maps.google.com/?q=Beershark+Leopoldstraße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-holy",
+    "name": "Holy Home",
+    "city": "Munich",
+    "zone": "Glockenbach",
+    "address": "Reichenbachstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1312,
+    "lng": 11.5758,
+    "maps": "https://maps.google.com/?q=Holy+Home+Reichenbachstraße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-traube",
+    "name": "Zur Traubenwirtin",
+    "city": "Munich",
+    "zone": "Au",
+    "address": "Lilienstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1285,
+    "lng": 11.585,
+    "maps": "https://maps.google.com/?q=Zur+Traubenwirtin+Lilienstraße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-oconnor",
+    "name": "O'Connor's",
+    "city": "Munich",
+    "zone": "Isarvorstadt",
+    "address": "Müllerstraße",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 48.1328,
+    "lng": 11.5695,
+    "maps": "https://maps.google.com/?q=O'Connor's+Müllerstraße+Munich",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-eden",
+    "name": "Eden Bar",
+    "city": "Munich",
+    "zone": "Altstadt",
+    "address": "Am Einlass",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.134,
+    "lng": 11.571,
+    "maps": "https://maps.google.com/?q=Eden+Bar+Am+Einlass+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "muc-park",
+    "name": "Park Café",
+    "city": "Munich",
+    "zone": "Maxvorstadt",
+    "address": "Sophienstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.1428,
+    "lng": 11.5655,
+    "maps": "https://maps.google.com/?q=Park+Café+Sophienstraße+Munich",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-british",
+    "name": "The British Bar",
+    "city": "Lisbon",
+    "zone": "Cais do Sodré",
+    "address": "Rua Bernardino Costa",
+    "sports": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "lat": 38.7068,
+    "lng": -9.1455,
+    "maps": "https://maps.google.com/?q=The+British+Bar+Rua+Bernardino+Costa+Lisbon",
+    "tags": [
+      "football",
+      "rugby",
+      "nfl"
+    ],
+    "bestFor": "football, rugby, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-pilsner",
+    "name": "Pilsner Pub",
+    "city": "Lisbon",
+    "zone": "Bairro Alto",
+    "address": "Rua da Atalaia",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7122,
+    "lng": -9.1448,
+    "maps": "https://maps.google.com/?q=Pilsner+Pub+Rua+da+Atalaia+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-sports",
+    "name": "Lisbon Sports Cafe",
+    "city": "Lisbon",
+    "zone": "Parque das Nações",
+    "address": "Alameda dos Oceanos",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 38.7685,
+    "lng": -9.0938,
+    "maps": "https://maps.google.com/?q=Lisbon+Sports+Cafe+Alameda+dos+Oceanos+Lisbon",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-cork",
+    "name": "The Cork & Company",
+    "city": "Lisbon",
+    "zone": "Chiado",
+    "address": "Rua Nova da Trindade",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 38.7108,
+    "lng": -9.1425,
+    "maps": "https://maps.google.com/?q=The+Cork+&+Company+Rua+Nova+da+Trindade+Lisbon",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-hennessy",
+    "name": "Hennessy's Irish Pub",
+    "city": "Lisbon",
+    "zone": "Baixa",
+    "address": "Rua do Comércio",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 38.7085,
+    "lng": -9.1368,
+    "maps": "https://maps.google.com/?q=Hennessy's+Irish+Pub+Rua+do+Comércio+Lisbon",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-oGil",
+    "name": "O'Gilín's",
+    "city": "Lisbon",
+    "zone": "Santos",
+    "address": "Rua das Janelas Verdes",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7055,
+    "lng": -9.157,
+    "maps": "https://maps.google.com/?q=O'Gilín's+Rua+das+Janelas+Verdes+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-casa",
+    "name": "Casa Independente",
+    "city": "Lisbon",
+    "zone": "Intendente",
+    "address": "Largo do Intendente",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7205,
+    "lng": -9.135,
+    "maps": "https://maps.google.com/?q=Casa+Independente+Largo+do+Intendente+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-baixa",
+    "name": "Baixa Bar",
+    "city": "Lisbon",
+    "zone": "Baixa",
+    "address": "Rua Augusta",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.711,
+    "lng": -9.1375,
+    "maps": "https://maps.google.com/?q=Baixa+Bar+Rua+Augusta+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-park",
+    "name": "Park Bar",
+    "city": "Lisbon",
+    "zone": "Príncipe Real",
+    "address": "Calçada do Combro",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7128,
+    "lng": -9.1485,
+    "maps": "https://maps.google.com/?q=Park+Bar+Calçada+do+Combro+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-sky",
+    "name": "Sky Bar Tivoli",
+    "city": "Lisbon",
+    "zone": "Avenida",
+    "address": "Av. da Liberdade",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7208,
+    "lng": -9.1458,
+    "maps": "https://maps.google.com/?q=Sky+Bar+Tivoli+Av.+da+Liberdade+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-redfrog",
+    "name": "Red Frog Speakeasy",
+    "city": "Lisbon",
+    "zone": "Avenida",
+    "address": "Praça da Alegria",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7185,
+    "lng": -9.144,
+    "maps": "https://maps.google.com/?q=Red+Frog+Speakeasy+Praça+da+Alegria+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lis-cervejaria",
+    "name": "Cervejaria Trindade",
+    "city": "Lisbon",
+    "zone": "Chiado",
+    "address": "Rua Nova da Trindade",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7112,
+    "lng": -9.1428,
+    "maps": "https://maps.google.com/?q=Cervejaria+Trindade+Rua+Nova+da+Trindade+Lisbon",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-legends",
+    "name": "Legends Sports Bar",
+    "city": "New York",
+    "zone": "Financial District",
+    "address": "6 Murray Street",
+    "sports": [
+      "football",
+      "nfl",
+      "nba"
+    ],
+    "lat": 40.7135,
+    "lng": -74.0085,
+    "maps": "https://maps.google.com/?q=Legends+Sports+Bar+6+Murray+Street+New+York",
+    "tags": [
+      "football",
+      "nfl",
+      "nba"
+    ],
+    "bestFor": "football, nfl, nba",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-stout",
+    "name": "Stout NYC",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "133 W 33rd Street",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 40.7502,
+    "lng": -73.9905,
+    "maps": "https://maps.google.com/?q=Stout+NYC+133+W+33rd+Street+New+York",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides",
+    "web": "https://www.stoutnyc.com"
+  },
+  {
+    "id": "ny-woodwork",
+    "name": "Woodwork",
+    "city": "New York",
+    "zone": "Brooklyn",
+    "address": "583 Vanderbilt Ave",
+    "sports": [
+      "football",
+      "nba"
+    ],
+    "lat": 40.6788,
+    "lng": -73.9685,
+    "maps": "https://maps.google.com/?q=Woodwork+583+Vanderbilt+Ave+New+York",
+    "tags": [
+      "football",
+      "nba"
+    ],
+    "bestFor": "football, nba",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-smith",
+    "name": "Smithfield Hall",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "138 W 25th Street",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 40.745,
+    "lng": -73.9935,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+138+W+25th+Street+New+York",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football, rugby",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-nevada",
+    "name": "Nevada Smith's",
+    "city": "New York",
+    "zone": "East Village",
+    "address": "74 3rd Avenue",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7312,
+    "lng": -73.9885,
+    "maps": "https://maps.google.com/?q=Nevada+Smith's+74+3rd+Avenue+New+York",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-session",
+    "name": "Session 73",
+    "city": "New York",
+    "zone": "Upper East Side",
+    "address": "1359 1st Avenue",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 40.7685,
+    "lng": -73.9555,
+    "maps": "https://maps.google.com/?q=Session+73+1359+1st+Avenue+New+York",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-slate",
+    "name": "Slate NY",
+    "city": "New York",
+    "zone": "Flatiron",
+    "address": "54 W 21st Street",
+    "sports": [
+      "football",
+      "nba"
+    ],
+    "lat": 40.7412,
+    "lng": -73.9928,
+    "maps": "https://maps.google.com/?q=Slate+NY+54+W+21st+Street+New+York",
+    "tags": [
+      "football",
+      "nba"
+    ],
+    "bestFor": "football, nba",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-bounce",
+    "name": "Bounce Sporting Club",
+    "city": "New York",
+    "zone": "Flatiron",
+    "address": "55 W 21st Street",
+    "sports": [
+      "nfl",
+      "nba"
+    ],
+    "lat": 40.741,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Bounce+Sporting+Club+55+W+21st+Street+New+York",
+    "tags": [
+      "nfl",
+      "nba"
+    ],
+    "bestFor": "nfl, nba",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-iron",
+    "name": "The Iron Horse",
+    "city": "New York",
+    "zone": "Financial District",
+    "address": "32 Cliff Street",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 40.708,
+    "lng": -74.0052,
+    "maps": "https://maps.google.com/?q=The+Iron+Horse+32+Cliff+Street+New+York",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-jack",
+    "name": "Jack Demsey's",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "35 W 33rd Street",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 40.7488,
+    "lng": -73.9878,
+    "maps": "https://maps.google.com/?q=Jack+Demsey's+35+W+33rd+Street+New+York",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football, nfl",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-peculier",
+    "name": "The Peculier Pub",
+    "city": "New York",
+    "zone": "West Village",
+    "address": "145 Bleecker Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7282,
+    "lng": -74.0005,
+    "maps": "https://maps.google.com/?q=The+Peculier+Pub+145+Bleecker+Street+New+York",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-stand",
+    "name": "The Stand",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "116 E 16th Street",
+    "sports": [
+      "football",
+      "nba"
+    ],
+    "lat": 40.7355,
+    "lng": -73.987,
+    "maps": "https://maps.google.com/?q=The+Stand+116+E+16th+Street+New+York",
+    "tags": [
+      "football",
+      "nba"
+    ],
+    "bestFor": "football, nba",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-lords",
+    "name": "The Lord's Tavern",
+    "city": "London",
+    "zone": "St John's Wood",
+    "address": "St John's Wood Road",
+    "sports": [
+      "cricket",
+      "football"
+    ],
+    "lat": 51.5296,
+    "lng": -0.1722,
+    "maps": "https://maps.google.com/?q=The+Lord's+Tavern+St+John's+Wood+Road+London",
+    "tags": [
+      "cricket",
+      "football"
+    ],
+    "bestFor": "cricket, football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-oval",
+    "name": "The Oval Tavern",
+    "city": "London",
+    "zone": "Kennington",
+    "address": "33 Kennington Oval",
+    "sports": [
+      "cricket",
+      "football"
+    ],
+    "lat": 51.4836,
+    "lng": -0.115,
+    "maps": "https://maps.google.com/?q=The+Oval+Tavern+33+Kennington+Oval+London",
+    "tags": [
+      "cricket",
+      "football"
+    ],
+    "bestFor": "cricket, football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "dub-boundary",
+    "name": "The Boundary",
+    "city": "Dublin",
+    "zone": "Ballsbridge",
+    "address": "Pembroke Road",
+    "sports": [
+      "cricket",
+      "rugby",
+      "football"
+    ],
+    "lat": 53.3315,
+    "lng": -6.2365,
+    "maps": "https://maps.google.com/?q=The+Boundary+Pembroke+Road+Dublin",
+    "tags": [
+      "cricket",
+      "rugby",
+      "football"
+    ],
+    "bestFor": "cricket, rugby, football",
+    "notes": "Listed in public sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "lon-box",
+    "name": "BOX Piccadilly",
+    "city": "London",
+    "zone": "Piccadilly",
+    "address": "Piccadilly Circus",
+    "sports": [
+      "nfl",
+      "football"
+    ],
+    "lat": 51.5101,
+    "lng": -0.134,
+    "maps": "https://maps.google.com/?q=BOX+Piccadilly+Piccadilly+Circus+London",
+    "tags": [
+      "nfl",
+      "football"
+    ],
+    "bestFor": "nfl, football",
+    "notes": "Listed as an NFL UK sports-bar partner. Confirm hours.",
+    "source": "NFL UK / local guides"
+  },
+  {
+    "id": "lon-passyunk",
+    "name": "Passyunk Avenue",
+    "city": "London",
+    "zone": "Fitzrovia",
+    "address": "80 Cleveland Street",
+    "sports": [
+      "nfl",
+      "nba"
+    ],
+    "lat": 51.5215,
+    "lng": -0.1408,
+    "maps": "https://maps.google.com/?q=Passyunk+Avenue+80+Cleveland+Street+London",
+    "tags": [
+      "nfl",
+      "nba"
+    ],
+    "bestFor": "nfl, nba",
+    "notes": "Philadelphia-style bar; Eagles landing / NFL Sundays.",
+    "source": "Local guides"
+  },
+  {
+    "id": "par-moose",
+    "name": "The Moose",
+    "city": "Paris",
+    "zone": "Odéon",
+    "address": "16 Rue des Quatre Vents",
+    "sports": [
+      "nfl",
+      "nba",
+      "football",
+      "rugby"
+    ],
+    "lat": 48.8512,
+    "lng": 2.3382,
+    "maps": "https://maps.google.com/?q=The+Moose+16+Rue+des+Quatre+Vents+Paris",
+    "tags": [
+      "nfl",
+      "nba",
+      "football",
+      "rugby"
+    ],
+    "bestFor": "nfl, nba, football, rugby",
+    "notes": "Canadian pub; football, rugby, NHL, NBA and NFL.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-woodford",
+    "name": "Woodford",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "136 E 44th Street",
+    "sports": [
+      "nfl",
+      "nba",
+      "football"
+    ],
+    "lat": 40.7522,
+    "lng": -73.9738,
+    "maps": "https://maps.google.com/?q=Woodford+136+E+44th+Street+New+York",
+    "tags": [
+      "nfl",
+      "nba",
+      "football"
+    ],
+    "bestFor": "nfl, nba, football",
+    "notes": "Sports bar often listed for NFL slates.",
+    "source": "Public guides"
+  },
+  {
+    "id": "ny-stout2",
+    "name": "Stout NYC FiDi",
+    "city": "New York",
+    "zone": "Financial District",
+    "address": "90 John Street",
+    "sports": [
+      "nfl",
+      "football"
+    ],
+    "lat": 40.708,
+    "lng": -74.0065,
+    "maps": "https://maps.google.com/?q=Stout+NYC+FiDi+90+John+Street+New+York",
+    "tags": [
+      "nfl",
+      "football"
+    ],
+    "bestFor": "nfl, football",
+    "notes": "Second Stout room; NFL and soccer screens.",
+    "source": "Public guides",
+    "web": "https://www.stoutnyc.com"
+  },
+  {
+    "id": "bcn-penya-juanito",
+    "name": "Peña Madridista Juanito",
+    "city": "Barcelona",
+    "zone": "Sant Martí",
+    "address": "Rambla de Guipúscoa, 120",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4184,
+    "lng": 2.2038,
+    "maps": "https://maps.google.com/?q=Rambla+de+Guipuscoa+120+Barcelona",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Seu de la Federació de Penyes Madridistes de Catalunya. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "FEPEMAC",
+    "web": "https://www.fepemac.com",
+    "club": "madrid"
+  },
+  {
+    "id": "mad-penya-mostoles",
+    "name": "Peña Barcelonista de Móstoles",
+    "city": "Madrid",
+    "zone": "Móstoles",
+    "address": "Calle Petunia, 21",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3225,
+    "lng": -3.8648,
+    "maps": "https://maps.google.com/?q=Calle+Petunia+21+Mostoles",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya oficial del Barça a Madrid (núm. 2053). Local amb pantalla. Confirma horari i si es pot entrar sense ser soci.",
+    "source": "Penya Barcelonista de Móstoles",
+    "web": "https://www.pbmostoles.com",
+    "club": "barca"
+  },
+  {
+    "id": "mad-penya-valdemoro",
+    "name": "Peña Barcelonista Valdemoro",
+    "city": "Madrid",
+    "zone": "Valdemoro",
+    "address": "Calle General Martitegui, 39",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.1907,
+    "lng": -3.6784,
+    "maps": "https://maps.google.com/?q=Calle+General+Martitegui+39+Valdemoro",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya barcelonista a la Comunitat de Madrid. Solen veure el Barça. Confirma si el local és obert al públic.",
+    "source": "Public listing",
+    "club": "barca"
+  },
+  {
+    "id": "mad-penya-brujo",
+    "name": "Peña Madridista El Brujo",
+    "city": "Madrid",
+    "zone": "Villaverde",
+    "address": "Avenida de los Rosales, 94",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3482,
+    "lng": -3.6994,
+    "maps": "https://maps.google.com/?q=Avenida+de+los+Rosales+94+Madrid",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya oficial del Real Madrid al sud de Madrid. Solen veure el Madrid. Confirma accés el dia de partit.",
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
+  },
+  {
+    "id": "bcn-penya-sants",
+    "name": "Penya Barcelonista Sants",
+    "city": "Barcelona",
+    "zone": "La Bordeta",
+    "address": "Carrer de Viladecans, 1-3",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3689,
+    "lng": 2.1348,
+    "maps": "https://maps.google.com/?q=Carrer+de+Viladecans+1+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona",
+    "club": "barca"
+  },
+  {
+    "id": "bcn-penya-ciutat",
+    "name": "Penya Blaugrana Ciutat Comtal",
+    "city": "Barcelona",
+    "zone": "Sants",
+    "address": "Carrer de Vilardell, 23",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3742,
+    "lng": 2.1365,
+    "maps": "https://maps.google.com/?q=Carrer+de+Vilardell+23+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona",
+    "club": "barca"
+  },
+  {
+    "id": "bcn-penya-congres",
+    "name": "Penya Barcelonista Congrés",
+    "city": "Barcelona",
+    "zone": "Congrés",
+    "address": "Carrer de Pardo, 6",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4236,
+    "lng": 2.1812,
+    "maps": "https://maps.google.com/?q=Carrer+de+Pardo+6+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona",
+    "club": "barca"
+  },
+  {
+    "id": "bcn-penya-andreu",
+    "name": "Penya Blanc i Blava de Sant Andreu",
+    "city": "Barcelona",
+    "zone": "Sant Andreu",
+    "address": "Carrer Gran de Sant Andreu, 56",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4358,
+    "lng": 2.1914,
+    "maps": "https://maps.google.com/?q=Carrer+Gran+de+Sant+Andreu+56+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona",
+    "club": "barca"
+  },
+  {
+    "id": "bcn-penya-bonpastor",
+    "name": "Peña Barcelonista Bon Pastor",
+    "city": "Barcelona",
+    "zone": "Bon Pastor",
+    "address": "Carrer de Flix, 29",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4364,
+    "lng": 2.2016,
+    "maps": "https://maps.google.com/?q=Carrer+de+Flix+29+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Guia Barcelona",
+    "web": "https://www.pbbonpastor.com",
+    "club": "barca"
+  },
+  {
+    "id": "bcn-penya-poblenou",
+    "name": "Peña Barcelonista Poble Nou",
+    "city": "Barcelona",
+    "zone": "Poblenou",
+    "address": "Carrer de Venero, 16",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3978,
+    "lng": 2.2034,
+    "maps": "https://maps.google.com/?q=Carrer+de+Venero+16+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "notes": "Penya blaugrana. Solen veure el Barça. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Public listing",
+    "web": "https://pbpoblenou.wixsite.com/pb-poblenou",
+    "club": "barca"
+  },
+  {
+    "id": "mad-penya-vallecana",
+    "name": "Peña Madridista Vallecana",
+    "city": "Madrid",
+    "zone": "Vallecas",
+    "address": "Calle Sierra Vieja, 64",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3884,
+    "lng": -3.6212,
+    "maps": "https://maps.google.com/?q=Calle+Sierra+Vieja+64+Madrid",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
+  },
+  {
+    "id": "mad-penya-leganes",
+    "name": "Peña Madridista Leganés",
+    "city": "Madrid",
+    "zone": "Leganés",
+    "address": "Plaza de España, 20 (El Viejo Café)",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3282,
+    "lng": -3.7634,
+    "maps": "https://maps.google.com/?q=Plaza+de+Espana+20+Leganes",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit. Seu al bar El Viejo Café.",
+    "source": "Peña Madridista Leganés",
+    "web": "https://xn--peamadridistaleganes-46b.es",
+    "club": "madrid"
+  },
+  {
+    "id": "mad-penya-guadarrama",
+    "name": "Peña Madridista Guadarrama",
+    "city": "Madrid",
+    "zone": "Guadarrama",
+    "address": "Calle La Llama, 9",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.6726,
+    "lng": -4.0894,
+    "maps": "https://maps.google.com/?q=Calle+La+Llama+9+Guadarrama",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
+  },
+  {
+    "id": "mad-penya-sanse",
+    "name": "Peña Madridista San Sebastián de los Reyes",
+    "city": "Madrid",
+    "zone": "San Sebastián de los Reyes",
+    "address": "Calle Dos de Mayo, 2",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.5472,
+    "lng": -3.6258,
+    "maps": "https://maps.google.com/?q=Calle+Dos+de+Mayo+2+San+Sebastian+de+los+Reyes",
+    "tags": [
+      "football",
+      "real-madrid"
+    ],
+    "bestFor": "Real Madrid",
+    "notes": "Penya madridista. Solen veure el Madrid. Confirma si el local és obert al públic el dia de partit.",
+    "source": "Real Madrid penyes list",
+    "club": "madrid"
+  },
+  {
+    "id": "bcn-oldirish",
+    "name": "The Old Irish Pub",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Rambla dels Caputxins, 31",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3794,
+    "lng": 2.1746,
+    "maps": "https://maps.google.com/?q=Rambla+dels+Caputxins+31+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go.",
+    "source": "oldirishpub.es",
+    "web": "https://oldirishpub.es"
+  },
+  {
+    "id": "bcn-mybar",
+    "name": "My Bar Irish Pub",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Carrer d'Escudellers, 8",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3798,
+    "lng": 2.1762,
+    "maps": "https://maps.google.com/?q=My+Bar+Irish+Pub+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go. Address from the pub's own site area in the Gothic Quarter; confirm the door.",
+    "source": "mybar.es",
+    "web": "https://mybar.es"
+  },
+  {
+    "id": "bcn-temple-ferran",
+    "name": "Temple Bar Ferran",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Carrer de Ferran",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3806,
+    "lng": 2.1754,
+    "maps": "https://maps.google.com/?q=Temple+Bar+Ferran+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go.",
+    "source": "templebarbcn.com",
+    "web": "https://templebarbcn.com"
+  },
+  {
+    "id": "bcn-temple-avinyo",
+    "name": "Temple Bar Avinyó",
+    "city": "Barcelona",
+    "zone": "El Gòtic",
+    "address": "Carrer d'Avinyó",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3801,
+    "lng": 2.1768,
+    "maps": "https://maps.google.com/?q=Temple+Bar+Avinyo+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go.",
+    "source": "templebarbcn.com",
+    "web": "https://templebarbcn.com"
+  },
+  {
+    "id": "bcn-4latas-poblenou",
+    "name": "4 Latas Poblenou",
+    "city": "Barcelona",
+    "zone": "Poblenou",
+    "address": "Rambla del Poblenou, 125",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4022,
+    "lng": 2.2048,
+    "maps": "https://maps.google.com/?q=Rambla+del+Poblenou+125+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed by KOP Stadium as a football venue. Confirm the match. No confirmed website yet.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "bcn-4latas-hostafrancs",
+    "name": "4 Latas Hostafrancs",
+    "city": "Barcelona",
+    "zone": "Sants-Montjuïc",
+    "address": "Carrer de Vilardell, 25",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3744,
+    "lng": 2.1368,
+    "maps": "https://maps.google.com/?q=Carrer+de+Vilardell+25+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed by KOP Stadium as a football venue. Confirm the match. No confirmed website yet.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "bcn-aretapas",
+    "name": "Aretapas",
+    "city": "Barcelona",
+    "zone": "El Clot",
+    "address": "Carrer del Clot, 139",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4108,
+    "lng": 2.1896,
+    "maps": "https://maps.google.com/?q=Carrer+del+Clot+139+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed by KOP Stadium as a football venue. Confirm the match. No confirmed website yet.",
+    "source": "KOP Stadium"
+  },
+  {
+    "id": "bcn-dowjones",
+    "name": "Dow Jones",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer del Bruc, 97",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3956,
+    "lng": 2.1728,
+    "maps": "https://maps.google.com/?q=Carrer+del+Bruc+97+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar listed in Barcelona match guides. Confirm the fixture. No confirmed website yet.",
+    "source": "Pocket Barcelona"
+  },
+  {
+    "id": "bcn-lennox",
+    "name": "Lennox the Pub",
+    "city": "Barcelona",
+    "zone": "Sant Antoni",
+    "address": "Carrer de Sepúlveda, 158",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3786,
+    "lng": 2.1584,
+    "maps": "https://maps.google.com/?q=Lennox+the+Pub+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar with its own website. Confirm the fixture and the screen before you go. No confirmed website yet.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-sotavent",
+    "name": "Sotavent",
+    "city": "Barcelona",
+    "zone": "Barceloneta",
+    "address": "Carrer de l'Almirall Cervera, 6",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3782,
+    "lng": 2.1918,
+    "maps": "https://maps.google.com/?q=Sotavent+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Named in Barcelona football-bar guides for LaLiga. Confirm the match. No confirmed website yet.",
+    "source": "Barcelona Urbana"
+  },
+  {
+    "id": "bcn-taverna",
+    "name": "La Taverna",
+    "city": "Barcelona",
+    "zone": "Gràcia",
+    "address": "Carrer de Mozart, 8",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4034,
+    "lng": 2.1588,
+    "maps": "https://maps.google.com/?q=Carrer+de+Mozart+8+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-estadio",
+    "name": "Bar Estadio",
+    "city": "Barcelona",
+    "zone": "Les Corts",
+    "address": "Travessera de les Corts, 203",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3868,
+    "lng": 2.1224,
+    "maps": "https://maps.google.com/?q=Bar+Estadio+Travessera+de+les+Corts+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Near Camp Nou. Used as a match-day bar. Confirm it is open.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-dubliner",
+    "name": "The Dubliner",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Aribau, 125",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.3928,
+    "lng": 2.1556,
+    "maps": "https://maps.google.com/?q=The+Dubliner+Aribau+Barcelona",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-blackhorse",
+    "name": "The Black Horse",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Aragó, 184",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3906,
+    "lng": 2.1634,
+    "maps": "https://maps.google.com/?q=The+Black+Horse+Arago+184+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-paddys",
+    "name": "Paddy's Point",
+    "city": "Barcelona",
+    "zone": "Barceloneta",
+    "address": "Carrer de la Maquinista, 16",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3796,
+    "lng": 2.1886,
+    "maps": "https://maps.google.com/?q=Paddys+Point+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "bcn-uptown",
+    "name": "Uptown Barcelona",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer de Provença, 236",
+    "sports": [
+      "football",
+      "nfl"
+    ],
+    "lat": 41.3948,
+    "lng": 2.1648,
+    "maps": "https://maps.google.com/?q=Uptown+Barcelona+Provenca+236",
+    "tags": [
+      "football",
+      "nfl"
+    ],
+    "bestFor": "football",
+    "notes": "Listed in public Barcelona sports-bar guides. Confirm the fixture with the venue.",
+    "source": "Public guides"
+  },
+  {
+    "id": "sitges-sports",
+    "name": "Sports Bar Sitges",
+    "city": "Sitges",
+    "zone": "Passeig Marítim",
+    "address": "Passeig de la Ribera, 48",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.2346,
+    "lng": 1.8112,
+    "maps": "https://maps.google.com/?q=Passeig+de+la+Ribera+48+Sitges",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "15 screens. Confirm the fixture on their Instagram.",
+    "source": "sportsbarsitges.com",
+    "web": "https://sportsbarsitges.com"
+  },
+  {
+    "id": "lon-penya-barca",
+    "name": "Penya Blaugrana London",
+    "city": "London",
+    "zone": "Covent Garden",
+    "address": "Bat & Ball, 50 Earlham Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5134,
+    "lng": -0.1266,
+    "maps": "https://maps.google.com/?q=Bat+and+Ball+50+Earlham+Street+London",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "club": "barca",
+    "notes": "Official Barça penya. Match days at Bat & Ball. Non-members welcome if they support Barça; confirm the screening.",
+    "source": "pblondon.org",
+    "web": "https://pblondon.org"
+  },
+  {
+    "id": "lis-penya-barca",
+    "name": "Penya Barcelonista de Lisboa",
+    "city": "Lisbon",
+    "zone": "Príncipe Real",
+    "address": "Travessa do Salitre, 1",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.7176,
+    "lng": -9.1468,
+    "maps": "https://maps.google.com/?q=Travessa+do+Salitre+1+Lisboa",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "FC Barcelona",
+    "club": "barca",
+    "notes": "Barcelonista supporters' club. Confirm it is open to the public on match day.",
+    "source": "Public listing"
+  },
+  {
+    "id": "sitges-tresquarts",
+    "name": "Tres Quarts Sitges Sports Bar",
+    "city": "Sitges",
+    "zone": "Centre",
+    "address": "Carrer Bonaire, 36",
+    "sports": [
+      "football",
+      "rugby"
+    ],
+    "lat": 41.2354,
+    "lng": 1.8118,
+    "maps": "https://maps.google.com/?q=Carrer+Bonaire+36+Sitges",
+    "tags": [
+      "football",
+      "rugby"
+    ],
+    "bestFor": "football",
+    "notes": "Sports bar al centre de Sitges. Pantalles i ambient de partit. Confirma l'horari.",
+    "source": "tresquartsbar.com",
+    "web": "https://www.tresquartsbar.com"
+  },
+  {
+    "id": "bcn-bentips",
+    "name": "Ben Tips",
+    "city": "Barcelona",
+    "zone": "Gràcia",
+    "address": "Avinguda de la República Argentina, 104",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.4128,
+    "lng": 2.1456,
+    "maps": "https://maps.google.com/?q=Avinguda+de+la+Republica+Argentina+104+Barcelona",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Bar a Gràcia (metro Vallcarca) que retransmet partits. Confirma l'horari i el partit.",
+    "source": "Public listings",
+    "web": "https://www.bentips.es"
+  },
+  {
+    "id": "nyc-penya-barca",
+    "name": "Penya Barcelonista Nova York (Smithfield Hall)",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "138 West 25th Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+138+West+25th+Street+New+York",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial del Barça a Nova York. Es reuneixen al Smithfield Hall per veure els partits.",
+    "source": "Penya FC Barcelona NYC",
+    "web": "https://www.fcbarcelonanyc.com"
+  },
+  {
+    "id": "val-cabanyal",
+    "name": "Penya Barcelonista Cabanyal – Ciutat Jardí",
+    "city": "Valencia",
+    "zone": "Cabanyal",
+    "address": "C/ Peris Brell, 43",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.472,
+    "lng": -0.326,
+    "maps": "https://maps.google.com/?q=Carrer+Peris+Brell+43+Valencia",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya activa a València. Instagram @penyabarcelonistacabanyal",
+    "source": "Penya",
+    "web": "https://www.instagram.com/penyabarcelonistacabanyal"
+  },
+  {
+    "id": "bilbao-bizka",
+    "name": "Penya Barcelonista Bizkabarça",
+    "city": "Bilbao",
+    "zone": "Bilbao",
+    "address": "C/ General Eraso, 1",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.263,
+    "lng": -2.935,
+    "maps": "https://maps.google.com/?q=Calle+General+Eraso+1+Bilbao",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Única penya oficial de Bilbao. Instagram @penyabilbaofcb",
+    "source": "Penya",
+    "web": "https://www.instagram.com/penyabilbaofcb"
+  },
+  {
+    "id": "palma-indi",
+    "name": "Penya Blaugrana Sa Indioteria",
+    "city": "Palma",
+    "zone": "Sa Indioteria",
+    "address": "Sa Indioteria",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.59,
+    "lng": 2.65,
+    "maps": "https://maps.google.com/?q=Sa+Indioteria+Palma",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya de Palma. Fundada 2002. Web pbsaindioteria.wixsite.com",
+    "source": "Penya",
+    "web": "https://pbsaindioteria.wixsite.com"
+  },
+  {
+    "id": "sev-utrera",
+    "name": "Peña Barcelonista de Utrera",
+    "city": "Sevilla",
+    "zone": "Utrera",
+    "address": "Utrera",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.18,
+    "lng": -5.78,
+    "maps": "https://maps.google.com/?q=Utrera+Sevilla",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial a la província de Sevilla.",
+    "source": "Penya"
+  },
+  {
+    "id": "sev-almaden",
+    "name": "Peña Barcelonista PSV Almadén de la Plata",
+    "city": "Sevilla",
+    "zone": "Almadén de la Plata",
+    "address": "Almadén de la Plata",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.87,
+    "lng": -6.08,
+    "maps": "https://maps.google.com/?q=Almaden+de+la+Plata",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial.",
+    "source": "Penya"
+  },
+  {
+    "id": "paris-penya-barca",
+    "name": "Penya Blaugrana de Paris",
+    "city": "Paris",
+    "zone": "2nd arrondissement",
+    "address": "Corcoran's Grands Boulevards, 23 Boulevard Poissonnière",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.8705,
+    "lng": 2.3435,
+    "maps": "https://maps.google.com/?q=23+Boulevard+Poissonniere+Paris",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial del Barça a París. Es reuneixen a Corcoran's.",
+    "source": "Penya Blaugrana de Paris",
+    "web": "https://parisblaugrana.fr"
+  },
+  {
+    "id": "madrid-pena-nyc",
+    "name": "Peña Madridista NYC",
+    "city": "New York",
+    "zone": "Midtown",
+    "address": "The Playwright Irish Pub, 27 W 35th St",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.75,
+    "lng": -73.986,
+    "maps": "https://maps.google.com/?q=27+W+35th+St+New+York",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a Nova York.",
+    "source": "Peña Madridista NYC",
+    "web": "https://www.madridistasnyc.com"
+  },
+  {
+    "id": "madrid-pena-london",
+    "name": "Real Madrid Central London",
+    "city": "London",
+    "zone": "Central London",
+    "address": "Sports Café area",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.51,
+    "lng": -0.13,
+    "maps": "https://maps.google.com/?q=Sports+Cafe+London",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a Londres.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "madrid-pena-paris",
+    "name": "Peña Madridista Paris",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "Paris",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.86,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Paris",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a París.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "madrid-pena-barcelona",
+    "name": "Peña El Centenario (Barcelona)",
+    "city": "Barcelona",
+    "zone": "Barcelona",
+    "address": "Barcelona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.39,
+    "lng": 2.17,
+    "maps": "https://maps.google.com/?q=Barcelona",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a Barcelona.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "madrid-pena-valencia",
+    "name": "Peña El 10 (Valencia)",
+    "city": "Valencia",
+    "zone": "Valencia",
+    "address": "Valencia",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.47,
+    "lng": -0.37,
+    "maps": "https://maps.google.com/?q=Valencia",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial del Real Madrid a València.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-7julio",
+    "name": "Peña 7 de Julio",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid capital.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-centenario",
+    "name": "Peña Centenario Blanco",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.71,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-elchopo",
+    "name": "Peña EL Chopo",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.41,
+    "lng": -3.69,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-campamento",
+    "name": "Peña Campamento",
+    "city": "Madrid",
+    "zone": "Campamento",
+    "address": "Campamento, Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.39,
+    "lng": -3.76,
+    "maps": "https://maps.google.com/?q=Campamento+Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-alboran",
+    "name": "Peña Alborán Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.43,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña oficial a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-guadarrama",
+    "name": "Peña Madridista Guadarrama",
+    "city": "Madrid",
+    "zone": "Guadarrama",
+    "address": "C/ La Llama, 9",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.67,
+    "lng": -4.09,
+    "maps": "https://maps.google.com/?q=Guadarrama",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Guadarrama (Comunitat de Madrid).",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-sanse",
+    "name": "Peña Madridista San Sebastián de los Reyes",
+    "city": "Madrid",
+    "zone": "San Sebastián de los Reyes",
+    "address": "Calle Dos de Mayo, 2",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.55,
+    "lng": -3.62,
+    "maps": "https://maps.google.com/?q=San+Sebastian+de+los+Reyes",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a San Sebastián de los Reyes.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-getafe",
+    "name": "Peña Madridista Getafe",
+    "city": "Madrid",
+    "zone": "Getafe",
+    "address": "Getafe",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.3,
+    "lng": -3.73,
+    "maps": "https://maps.google.com/?q=Getafe",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña històrica a Getafe.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-mostoles",
+    "name": "Peña El Centenario Móstoles",
+    "city": "Madrid",
+    "zone": "Móstoles",
+    "address": "Móstoles",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.32,
+    "lng": -3.86,
+    "maps": "https://maps.google.com/?q=Mostoles",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Móstoles.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-alcala",
+    "name": "Peña Alcalaína",
+    "city": "Madrid",
+    "zone": "Alcalá de Henares",
+    "address": "Alcalá de Henares",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.48,
+    "lng": -3.36,
+    "maps": "https://maps.google.com/?q=Alcala+de+Henares",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Alcalá de Henares.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "mad-chelle",
+    "name": "Peña Chelle",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4,
+    "lng": -3.68,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña a Madrid.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "bcn-castelldefels",
+    "name": "Penya Blaugrana La Pulga de Castelldefels",
+    "city": "Barcelona",
+    "zone": "Castelldefels",
+    "address": "Castelldefels",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.28,
+    "lng": 1.98,
+    "maps": "https://maps.google.com/?q=Castelldefels",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Castelldefels (àrea metropolitana).",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-viladecans",
+    "name": "Penya Barcelonista Viladecans",
+    "city": "Barcelona",
+    "zone": "Viladecans",
+    "address": "Viladecans",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.32,
+    "lng": 2.02,
+    "maps": "https://maps.google.com/?q=Viladecans",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Viladecans.",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-mataro",
+    "name": "Penya Barcelonista Mataró",
+    "city": "Barcelona",
+    "zone": "Mataró",
+    "address": "Mataró",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.54,
+    "lng": 2.44,
+    "maps": "https://maps.google.com/?q=Mataro",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Mataró.",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-premiadalt",
+    "name": "Penya Barcelonista Premià de Dalt",
+    "city": "Barcelona",
+    "zone": "Premià de Dalt",
+    "address": "Premià de Dalt",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.51,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Premia+de+Dalt",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Premià de Dalt.",
+    "source": "Penya"
+  },
+  {
+    "id": "bcn-folgueroles",
+    "name": "Penya Blaugrana de Folgueroles",
+    "city": "Barcelona",
+    "zone": "Folgueroles",
+    "address": "Folgueroles",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.94,
+    "lng": 2.31,
+    "maps": "https://maps.google.com/?q=Folgueroles",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya oficial a Folgueroles.",
+    "source": "Penya"
+  },
+  {
+    "id": "girona-pb",
+    "name": "Penya Barcelonista Girona",
+    "city": "Girona",
+    "zone": "Girona",
+    "address": "Girona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.98,
+    "lng": 2.82,
+    "maps": "https://maps.google.com/?q=Girona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Girona capital.",
+    "source": "Penya"
+  },
+  {
+    "id": "tarragona-pb",
+    "name": "Gran Penya Barcelonista de Tarragona",
+    "city": "Tarragona",
+    "zone": "Tarragona",
+    "address": "Tarragona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.12,
+    "lng": 1.25,
+    "maps": "https://maps.google.com/?q=Tarragona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya històrica a Tarragona.",
+    "source": "Penya"
+  },
+  {
+    "id": "lleida-pb",
+    "name": "Penya Barcelonista Lleida",
+    "city": "Lleida",
+    "zone": "Lleida",
+    "address": "Lleida",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.62,
+    "lng": 0.62,
+    "maps": "https://maps.google.com/?q=Lleida",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya a Lleida capital.",
+    "source": "Penya"
+  },
+  {
+    "id": "lfc-nyc",
+    "name": "OLSC New York",
+    "city": "New York",
+    "zone": "East Village",
+    "address": "11th Street Bar, 510 East 11th Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.728,
+    "lng": -73.981,
+    "maps": "https://maps.google.com/?q=510+East+11th+Street+New+York",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club New York.",
+    "source": "Liverpool FC",
+    "web": "https://www.lfcny.org"
+  },
+  {
+    "id": "lfc-brooklyn",
+    "name": "OLSC Brooklyn",
+    "city": "New York",
+    "zone": "Brooklyn",
+    "address": "The Monro Pub, Park Slope",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.67,
+    "lng": -73.98,
+    "maps": "https://maps.google.com/?q=The+Monro+Park+Slope",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Brooklyn.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-paris",
+    "name": "OLSC France (Paris)",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "The Kop Bar / The Lush Bar",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.89,
+    "lng": 2.34,
+    "maps": "https://maps.google.com/?q=The+Kop+Bar+Paris",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club France.",
+    "source": "Liverpool FC",
+    "web": "https://www.liverpoolfrance.com"
+  },
+  {
+    "id": "lfc-madrid",
+    "name": "Madrid Reds",
+    "city": "Madrid",
+    "zone": "Malasaña",
+    "address": "Triskel Tavern",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.71,
+    "maps": "https://maps.google.com/?q=Triskel+Tavern+Madrid",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Madrid.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-barcelona",
+    "name": "OLSC Barcelona",
+    "city": "Barcelona",
+    "zone": "Barcelona",
+    "address": "Barcelona",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.39,
+    "lng": 2.17,
+    "maps": "https://maps.google.com/?q=Barcelona",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Barcelona.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-london",
+    "name": "OLSC London",
+    "city": "London",
+    "zone": "London",
+    "address": "London",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.51,
+    "lng": -0.13,
+    "maps": "https://maps.google.com/?q=London",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club London.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "mu-nyc",
+    "name": "New York Reds (Man United)",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "Smithfield Hall, 138 W 25th St",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+New+York",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Official Manchester United supporters club in NYC.",
+    "source": "Man United",
+    "web": "https://manutdusa.com"
+  },
+  {
+    "id": "mu-london",
+    "name": "Man United London Supporters",
+    "city": "London",
+    "zone": "London",
+    "address": "London",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.51,
+    "lng": -0.13,
+    "maps": "https://maps.google.com/?q=London",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club in London.",
+    "source": "Man United"
+  },
+  {
+    "id": "bayern-nyc",
+    "name": "FC Bayern NYC",
+    "city": "New York",
+    "zone": "Chelsea",
+    "address": "Smithfield Hall, 138 W 25th St",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Smithfield+Hall+New+York",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "Official FC Bayern Munich fan club in NYC.",
+    "source": "Bayern",
+    "web": "https://www.instagram.com/fcbayernnyc"
+  },
+  {
+    "id": "bayern-london",
+    "name": "Red Dragons London",
+    "city": "London",
+    "zone": "London",
+    "address": "Bermondsey Bierkeller",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5,
+    "lng": -0.08,
+    "maps": "https://maps.google.com/?q=Bermondsey+Bierkeller+London",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "Official FC Bayern fan club in London.",
+    "source": "Bayern"
+  },
+  {
+    "id": "lfc-japan",
+    "name": "OLSC Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Epilogue, Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.65,
+    "lng": 139.71,
+    "maps": "https://maps.google.com/?q=Epilogue+Tokyo",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Japan. Meetings in Tokyo and other cities.",
+    "source": "Liverpool FC",
+    "web": "https://www.liverpoolsc.jp"
+  },
+  {
+    "id": "lfc-sydney",
+    "name": "OLSC Sydney",
+    "city": "Sydney",
+    "zone": "Sydney",
+    "address": "Sydney",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.87,
+    "lng": 151.21,
+    "maps": "https://maps.google.com/?q=Sydney",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Sydney.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-melbourne",
+    "name": "OLSC Melbourne",
+    "city": "Melbourne",
+    "zone": "Melbourne",
+    "address": "Melbourne",
+    "sports": [
+      "football"
+    ],
+    "lat": -37.81,
+    "lng": 144.96,
+    "maps": "https://maps.google.com/?q=Melbourne",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Melbourne.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-toronto",
+    "name": "OLSC Toronto",
+    "city": "Toronto",
+    "zone": "Toronto",
+    "address": "Toronto",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.65,
+    "lng": -79.38,
+    "maps": "https://maps.google.com/?q=Toronto",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Toronto.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-chicago",
+    "name": "OLSC Chicago",
+    "city": "Chicago",
+    "zone": "Chicago",
+    "address": "Chicago",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.88,
+    "lng": -87.63,
+    "maps": "https://maps.google.com/?q=Chicago",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Chicago.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-berlin",
+    "name": "OLSC Berlin",
+    "city": "Berlin",
+    "zone": "Berlin",
+    "address": "Berlin",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.52,
+    "lng": 13.4,
+    "maps": "https://maps.google.com/?q=Berlin",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Berlin.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-dublin",
+    "name": "OLSC Dublin",
+    "city": "Dublin",
+    "zone": "Dublin",
+    "address": "Dublin",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.35,
+    "lng": -6.26,
+    "maps": "https://maps.google.com/?q=Dublin",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Dublin.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-amsterdam",
+    "name": "OLSC Amsterdam",
+    "city": "Amsterdam",
+    "zone": "Amsterdam",
+    "address": "Amsterdam",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.37,
+    "lng": 4.9,
+    "maps": "https://maps.google.com/?q=Amsterdam",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Amsterdam.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-losangeles",
+    "name": "OLSC Los Angeles",
+    "city": "Los Angeles",
+    "zone": "Los Angeles",
+    "address": "Los Angeles",
+    "sports": [
+      "football"
+    ],
+    "lat": 34.05,
+    "lng": -118.24,
+    "maps": "https://maps.google.com/?q=Los+Angeles",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Los Angeles.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "lfc-singapore",
+    "name": "OLSC Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.35,
+    "lng": 103.82,
+    "maps": "https://maps.google.com/?q=Singapore",
+    "tags": [
+      "football",
+      "liverpool"
+    ],
+    "club": "liverpool",
+    "bestFor": "Liverpool",
+    "notes": "Official LFC Supporters Club Singapore.",
+    "source": "Liverpool FC"
+  },
+  {
+    "id": "mu-japan",
+    "name": "MUFC Tokyo",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Official Manchester United supporters club Japan.",
+    "source": "Man United",
+    "web": "https://www.facebook.com/mufctokyo"
+  },
+  {
+    "id": "mu-sydney",
+    "name": "Man United Sydney",
+    "city": "Sydney",
+    "zone": "Sydney",
+    "address": "Sydney",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.87,
+    "lng": 151.21,
+    "maps": "https://maps.google.com/?q=Sydney",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Sydney.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-toronto",
+    "name": "Man United Toronto",
+    "city": "Toronto",
+    "zone": "Toronto",
+    "address": "Toronto",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.65,
+    "lng": -79.38,
+    "maps": "https://maps.google.com/?q=Toronto",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Toronto.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-chicago",
+    "name": "Man United Chicago",
+    "city": "Chicago",
+    "zone": "Chicago",
+    "address": "Chicago",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.88,
+    "lng": -87.63,
+    "maps": "https://maps.google.com/?q=Chicago",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Chicago.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-dublin",
+    "name": "Man United Dublin",
+    "city": "Dublin",
+    "zone": "Dublin",
+    "address": "Dublin",
+    "sports": [
+      "football"
+    ],
+    "lat": 53.35,
+    "lng": -6.26,
+    "maps": "https://maps.google.com/?q=Dublin",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Dublin.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-singapore",
+    "name": "Man United Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.35,
+    "lng": 103.82,
+    "maps": "https://maps.google.com/?q=Singapore",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Singapore.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-hongkong",
+    "name": "Hong Kong Reds",
+    "city": "Hong Kong",
+    "zone": "Hong Kong",
+    "address": "Hong Kong",
+    "sports": [
+      "football"
+    ],
+    "lat": 22.32,
+    "lng": 114.17,
+    "maps": "https://maps.google.com/?q=Hong+Kong",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Hong Kong.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-losangeles",
+    "name": "Man United Los Angeles",
+    "city": "Los Angeles",
+    "zone": "Los Angeles",
+    "address": "Los Angeles",
+    "sports": [
+      "football"
+    ],
+    "lat": 34.05,
+    "lng": -118.24,
+    "maps": "https://maps.google.com/?q=Los+Angeles",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Los Angeles.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-paris",
+    "name": "Man United Paris",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "Paris",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.86,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Paris",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Paris.",
+    "source": "Man United"
+  },
+  {
+    "id": "mu-madrid",
+    "name": "Man United Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "manutd"
+    ],
+    "club": "manutd",
+    "bestFor": "Manchester United",
+    "notes": "Manchester United supporters club Madrid.",
+    "source": "Man United"
+  },
+  {
+    "id": "bayern-japan",
+    "name": "Mia San Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "Official FC Bayern Munich fan club Japan.",
+    "source": "Bayern",
+    "web": "https://x.com/mia_san_japan"
+  },
+  {
+    "id": "bayern-sydney",
+    "name": "FC Bayern Sydney",
+    "city": "Sydney",
+    "zone": "Sydney",
+    "address": "Sydney",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.87,
+    "lng": 151.21,
+    "maps": "https://maps.google.com/?q=Sydney",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Sydney.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-toronto",
+    "name": "FC Bayern Toronto",
+    "city": "Toronto",
+    "zone": "Toronto",
+    "address": "Toronto",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.65,
+    "lng": -79.38,
+    "maps": "https://maps.google.com/?q=Toronto",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Toronto.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-chicago",
+    "name": "FC Bayern Chicago",
+    "city": "Chicago",
+    "zone": "Chicago",
+    "address": "Chicago",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.88,
+    "lng": -87.63,
+    "maps": "https://maps.google.com/?q=Chicago",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Chicago.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-paris",
+    "name": "FC Bayern Paris",
+    "city": "Paris",
+    "zone": "Paris",
+    "address": "Paris",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.86,
+    "lng": 2.35,
+    "maps": "https://maps.google.com/?q=Paris",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Paris.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-madrid",
+    "name": "FC Bayern Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.42,
+    "lng": -3.7,
+    "maps": "https://maps.google.com/?q=Madrid",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Madrid.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-singapore",
+    "name": "FC Bayern Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.35,
+    "lng": 103.82,
+    "maps": "https://maps.google.com/?q=Singapore",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Singapore.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-hongkong",
+    "name": "FC Bayern Hong Kong",
+    "city": "Hong Kong",
+    "zone": "Hong Kong",
+    "address": "Hong Kong",
+    "sports": [
+      "football"
+    ],
+    "lat": 22.32,
+    "lng": 114.17,
+    "maps": "https://maps.google.com/?q=Hong+Kong",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Hong Kong.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-losangeles",
+    "name": "FC Bayern Los Angeles",
+    "city": "Los Angeles",
+    "zone": "Los Angeles",
+    "address": "Los Angeles",
+    "sports": [
+      "football"
+    ],
+    "lat": 34.05,
+    "lng": -118.24,
+    "maps": "https://maps.google.com/?q=Los+Angeles",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Los Angeles.",
+    "source": "Bayern"
+  },
+  {
+    "id": "bayern-berlin",
+    "name": "FC Bayern Berlin",
+    "city": "Berlin",
+    "zone": "Berlin",
+    "address": "Berlin",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.52,
+    "lng": 13.4,
+    "maps": "https://maps.google.com/?q=Berlin",
+    "tags": [
+      "football",
+      "bayern"
+    ],
+    "club": "bayern",
+    "bestFor": "Bayern Munich",
+    "notes": "FC Bayern fan club Berlin.",
+    "source": "Bayern"
+  },
+  {
+    "id": "barca-japan",
+    "name": "Penya Barcelonista Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "club": "barca",
+    "bestFor": "Barça",
+    "notes": "Penya / supporters club del Barça al Japó.",
+    "source": "Penya"
+  },
+  {
+    "id": "madrid-japan",
+    "name": "Peña Madridista Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo",
+    "address": "Tokyo",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.68,
+    "lng": 139.69,
+    "maps": "https://maps.google.com/?q=Tokyo",
+    "tags": [
+      "football",
+      "madrid"
+    ],
+    "club": "madrid",
+    "bestFor": "Real Madrid",
+    "notes": "Peña / supporters club del Real Madrid al Japó.",
+    "source": "Real Madrid"
+  },
+  {
+    "id": "bcn-yuzu",
+    "name": "Dahir al Yuzu Gastrobar",
+    "city": "Barcelona",
+    "zone": "Eixample",
+    "address": "Carrer d'Enric Granados, 77",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3905,
+    "lng": 2.1608,
+    "maps": "https://maps.google.com/?q=Dahir+al+Yuzu+Gastrobar+Carrer+d'Enric+Granados+77+Barcelona",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "football",
+    "notes": "Popular gastrobar with big screens. Good atmosphere for watching matches with friends.",
+    "source": "User photos / local",
+    "web": ""
+  },
+  {
+    "id": "stuttgart-sports",
+    "name": "Sportsbar Stuttgart",
+    "city": "Stuttgart",
+    "zone": "City Centre",
+    "address": "Königstraße area",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.7758,
+    "lng": 9.1829,
+    "maps": "https://maps.google.com/?q=sports+bar+Stuttgart",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central sports bar for Bundesliga matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "leipzig-sports",
+    "name": "Leipzig Sports Pub",
+    "city": "Leipzig",
+    "zone": "Centre",
+    "address": "Near Augustusplatz",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.3397,
+    "lng": 12.3731,
+    "maps": "https://maps.google.com/?q=sports+bar+Leipzig",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular for RB Leipzig and national team matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dortmund-sports",
+    "name": "Dortmund Sports Bar",
+    "city": "Dortmund",
+    "zone": "City Centre",
+    "address": "Near Signal Iduna Park",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5136,
+    "lng": 7.4653,
+    "maps": "https://maps.google.com/?q=sports+bar+Dortmund",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Great atmosphere for Borussia Dortmund matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "nuremberg-sports",
+    "name": "Nürnberg Sports Pub",
+    "city": "Nuremberg",
+    "zone": "Altstadt",
+    "address": "Near Hauptmarkt",
+    "sports": [
+      "football"
+    ],
+    "lat": 49.4521,
+    "lng": 11.0767,
+    "maps": "https://maps.google.com/?q=sports+bar+Nuremberg",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central location for watching football.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "hannover-sports",
+    "name": "Hannover Sports Bar",
+    "city": "Hannover",
+    "zone": "Centre",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.3759,
+    "lng": 9.732,
+    "maps": "https://maps.google.com/?q=sports+bar+Hannover",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Good screens for Bundesliga.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-1",
+    "name": "The Keg Sports Bar",
+    "city": "Frankfurt",
+    "zone": "Innenstadt",
+    "address": "Kaiserstraße area",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "maps": "https://maps.google.com/?q=sports+bar+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular sports bar in central Frankfurt.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-2",
+    "name": "Champions Sportsbar",
+    "city": "Frankfurt",
+    "zone": "Sachsenhausen",
+    "address": "Near Schweizer Platz",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1025,
+    "lng": 8.685,
+    "maps": "https://maps.google.com/?q=Champions+Sportsbar+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Good screens for Bundesliga and international matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-3",
+    "name": "O'Reilly's Frankfurt",
+    "city": "Frankfurt",
+    "zone": "City Centre",
+    "address": "Zeil area",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1155,
+    "lng": 8.6842,
+    "maps": "https://maps.google.com/?q=O'Reilly's+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Irish pub with multiple screens.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-4",
+    "name": "Sportbar Hauptwache",
+    "city": "Frankfurt",
+    "zone": "Hauptwache",
+    "address": "Hauptwache",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.1136,
+    "lng": 8.6792,
+    "maps": "https://maps.google.com/?q=sports+bar+Hauptwache+Frankfurt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central location for watching matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "fra-5",
+    "name": "The Irish Pub Frankfurt",
+    "city": "Frankfurt",
+    "zone": "Bahnhofsviertel",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 50.107,
+    "lng": 8.6638,
+    "maps": "https://maps.google.com/?q=Irish+Pub+Frankfurt+sports",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Lively atmosphere for football nights.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-1",
+    "name": "The Keg Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "Altstadt",
+    "address": "Altstadt",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2254,
+    "lng": 6.7763,
+    "maps": "https://maps.google.com/?q=sports+bar+Düsseldorf+Altstadt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Popular sports bar in the old town.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-2",
+    "name": "Sportsbar Königsallee",
+    "city": "Düsseldorf",
+    "zone": "Königsallee",
+    "address": "Near Kö",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.223,
+    "lng": 6.7825,
+    "maps": "https://maps.google.com/?q=sports+bar+Königsallee+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Central sports bar for matches.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-3",
+    "name": "O'Reilly's Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "City Centre",
+    "address": "Near Hauptbahnhof",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.22,
+    "lng": 6.7945,
+    "maps": "https://maps.google.com/?q=O'Reilly's+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Irish pub with big screens.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-4",
+    "name": "The Irish Pub Düsseldorf",
+    "city": "Düsseldorf",
+    "zone": "Altstadt",
+    "address": "Bolkerstraße",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2268,
+    "lng": 6.7735,
+    "maps": "https://maps.google.com/?q=Irish+Pub+Düsseldorf+Altstadt",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Great atmosphere in the old town.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "dus-5",
+    "name": "Sportbar Bilk",
+    "city": "Düsseldorf",
+    "zone": "Bilk",
+    "address": "Bilk",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.2085,
+    "lng": 6.772,
+    "maps": "https://maps.google.com/?q=sports+bar+Bilk+Düsseldorf",
+    "tags": [
+      "football"
+    ],
+    "bestFor": "football",
+    "notes": "Local sports bar for Bundesliga.",
+    "source": "Public guides",
+    "web": ""
+  },
+  {
+    "id": "mar-penya-marrakech",
+    "name": "Penya Blaugrana de Marrakech (La Cueva)",
+    "city": "Marrakech",
+    "zone": "Gueliz",
+    "address": "La Cueva, 5 Rue Tariq Bnou Ziad",
+    "sports": [
+      "football"
+    ],
+    "lat": 31.6335,
+    "lng": -8.008,
+    "maps": "https://maps.google.com/?q=La+Cueva+5+Rue+Tariq+Bnou+Ziad+Marrakech",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "football, barca",
+    "notes": "Official Barça penya #2215. They meet at La Cueva sports bar to watch Barça matches. Instagram @penyabgm",
+    "source": "Official penya",
+    "web": "https://www.instagram.com/penyabgm/",
+    "club": "barca"
+  },
+  {
+    "id": "phx-penya-phoenix",
+    "name": "Penya Blaugrana Phoenix (The Joy Lush Club)",
+    "city": "Phoenix",
+    "zone": "Camelback",
+    "address": "The Joy Lush Club, 24 W Camelback Rd",
+    "sports": [
+      "football"
+    ],
+    "lat": 33.509,
+    "lng": -112.074,
+    "maps": "https://maps.google.com/?q=The+Joy+Lush+Club+24+W+Camelback+Rd+Phoenix",
+    "tags": [
+      "football",
+      "barca"
+    ],
+    "bestFor": "football, barca",
+    "notes": "Official Barça penya #2413. Home bar for regular Barça watch parties. Instagram @penyablaugranaphx",
+    "source": "Official penya",
+    "web": "https://www.instagram.com/penyablaugranaphx/",
+    "club": "barca"
+  },
+  {
+    "id": "barca-marrakech",
+    "name": "Penya Blaugrana de Marrakech",
+    "city": "Marrakech",
+    "zone": "Morocco",
+    "address": "Marrakech, Morocco",
+    "sports": [
+      "football"
+    ],
+    "lat": 31.6295,
+    "lng": -7.9811,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Marrakech+Marrakech",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@penyabgm"
+  },
+  {
+    "id": "barca-baltimore",
+    "name": "Penya Blaugrana de Baltimore",
+    "city": "Baltimore",
+    "zone": "USA",
+    "address": "Baltimore, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Baltimore+Baltimore",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@baltimoreblaugrana"
+  },
+  {
+    "id": "barca-talavera",
+    "name": "Penya Blaugrana de Talavera",
+    "city": "Talavera",
+    "zone": "Spain",
+    "address": "Talavera, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.963,
+    "lng": -4.8306,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Talavera+Talavera",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@pbt.1982"
+  },
+  {
+    "id": "barca-guadalajara",
+    "name": "Penya Blaugrana de Guadalajara",
+    "city": "Guadalajara",
+    "zone": "Spain",
+    "address": "Guadalajara, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.6333,
+    "lng": -3.1667,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Guadalajara+Guadalajara",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@PenyesFCBMadridyGuadalajara"
+  },
+  {
+    "id": "barca-cartagena",
+    "name": "Penya Barcelonista de Cartagena",
+    "city": "Cartagena",
+    "zone": "Spain",
+    "address": "Cartagena, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.625,
+    "lng": -0.996,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+de+Cartagena+Cartagena",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@penabarcelonistadecartagena"
+  },
+  {
+    "id": "barca-madrid",
+    "name": "Penya Blaugrana de Madrid",
+    "city": "Madrid",
+    "zone": "Spain",
+    "address": "Madrid, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Madrid+Madrid",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-shanghai",
+    "name": "Penya Blaugrana Shanghai",
+    "city": "Shanghai",
+    "zone": "China",
+    "address": "Shanghai, China",
+    "sports": [
+      "football"
+    ],
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Shanghai+Shanghai",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-seoul",
+    "name": "Penya Barcelonista de Seúl",
+    "city": "Seoul",
+    "zone": "South Korea",
+    "address": "Seoul, South Korea",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.5665,
+    "lng": 126.978,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+de+Seúl+Seoul",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-dubai",
+    "name": "Penya Blaugrana Dubai",
+    "city": "Dubai",
+    "zone": "UAE",
+    "address": "Dubai, UAE",
+    "sports": [
+      "football"
+    ],
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Dubai+Dubai",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-mexicocity",
+    "name": "Penya Barcelonista Mexico City",
+    "city": "Mexico City",
+    "zone": "Mexico",
+    "address": "Mexico City, Mexico",
+    "sports": [
+      "football"
+    ],
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Mexico+City+Mexico City",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-buenosaires",
+    "name": "Penya Barcelonista Buenos Aires",
+    "city": "Buenos Aires",
+    "zone": "Argentina",
+    "address": "Buenos Aires, Argentina",
+    "sports": [
+      "football"
+    ],
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Buenos+Aires+Buenos Aires",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-saopaulo",
+    "name": "Penya Barcelonista São Paulo",
+    "city": "São Paulo",
+    "zone": "Brazil",
+    "address": "São Paulo, Brazil",
+    "sports": [
+      "football"
+    ],
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+São+Paulo+São Paulo",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-sydney",
+    "name": "Penya Blaugrana Sydney",
+    "city": "Sydney",
+    "zone": "Australia",
+    "address": "Sydney, Australia",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Sydney+Sydney",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-johannesburg",
+    "name": "Penya Barcelonista Johannesburg",
+    "city": "Johannesburg",
+    "zone": "South Africa",
+    "address": "Johannesburg, South Africa",
+    "sports": [
+      "football"
+    ],
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Johannesburg+Johannesburg",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-paris",
+    "name": "Penya Blaugrana Paris",
+    "city": "Paris",
+    "zone": "France",
+    "address": "Paris, France",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Paris+Paris",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-berlin",
+    "name": "Penya Barcelonista Berlin",
+    "city": "Berlin",
+    "zone": "Germany",
+    "address": "Berlin, Germany",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.52,
+    "lng": 13.405,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Berlin+Berlin",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-miami",
+    "name": "Penya Blaugrana Miami",
+    "city": "Miami",
+    "zone": "USA",
+    "address": "Miami, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Miami+Miami",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-toronto",
+    "name": "Penya Barcelonista Toronto",
+    "city": "Toronto",
+    "zone": "Canada",
+    "address": "Toronto, Canada",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Toronto+Toronto",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-singapore",
+    "name": "Penya Blaugrana Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore, Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Singapore+Singapore",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-bangkok",
+    "name": "Penya Barcelonista Bangkok",
+    "city": "Bangkok",
+    "zone": "Thailand",
+    "address": "Bangkok, Thailand",
+    "sports": [
+      "football"
+    ],
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Bangkok+Bangkok",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-capetown",
+    "name": "Penya Blaugrana Cape Town",
+    "city": "Cape Town",
+    "zone": "South Africa",
+    "address": "Cape Town, South Africa",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Cape+Town+Cape Town",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "madrid-nyc",
+    "name": "Madridistas NYC",
+    "city": "New York",
+    "zone": "USA",
+    "address": "New York, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7282,
+    "lng": -73.9942,
+    "maps": "https://maps.google.com/?q=Madridistas+NYC+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Real Madrid matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Real Madrid",
+    "community": true,
+    "instagram": "@madridistasnyc"
+  },
+  {
+    "id": "madrid-piornalega",
+    "name": "Peña Madridista Piornalega",
+    "city": "Piornal",
+    "zone": "Spain",
+    "address": "Piornal, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.1167,
+    "lng": -5.85,
+    "maps": "https://maps.google.com/?q=Peña+Madridista+Piornalega+Piornal",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Real Madrid matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Real Madrid",
+    "community": true,
+    "instagram": "@p.madridista_piornalega"
+  },
+  {
+    "id": "madrid-salta",
+    "name": "Peña Madridista Salta",
+    "city": "Salta",
+    "zone": "Argentina",
+    "address": "Salta, Argentina",
+    "sports": [
+      "football"
+    ],
+    "lat": -24.7859,
+    "lng": -65.4117,
+    "maps": "https://maps.google.com/?q=Peña+Madridista+Salta+Salta",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Real Madrid matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Real Madrid",
+    "community": true,
+    "instagram": "@pena.madridista.salta.org"
+  },
+  {
+    "id": "madrid-filipinas",
+    "name": "Peña Madridista Filipinas",
+    "city": "Manila",
+    "zone": "Philippines",
+    "address": "Manila, Philippines",
+    "sports": [
+      "football"
+    ],
+    "lat": 14.5995,
+    "lng": 120.9842,
+    "maps": "https://maps.google.com/?q=Peña+Madridista+Filipinas+Manila",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Real Madrid matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Real Madrid",
+    "community": true,
+    "instagram": "@penamadridistafilipinas"
+  },
+  {
+    "id": "madrid-tampa",
+    "name": "Madridistas Tampa Bay",
+    "city": "Tampa",
+    "zone": "USA",
+    "address": "Tampa, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 27.9506,
+    "lng": -82.4572,
+    "maps": "https://maps.google.com/?q=Madridistas+Tampa+Bay+Tampa",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Real Madrid matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Real Madrid",
+    "community": true,
+    "instagram": "@madridistas_tampa_bay"
+  },
+  {
+    "id": "arsenal-pdx",
+    "name": "PDX Gooners",
+    "city": "Portland",
+    "zone": "USA",
+    "address": "Portland, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 45.5152,
+    "lng": -122.6784,
+    "maps": "https://maps.google.com/?q=PDX+Gooners+Portland",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Arsenal matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Arsenal",
+    "community": true,
+    "instagram": "@pdxgooners"
+  },
+  {
+    "id": "arsenal-nyc",
+    "name": "Arsenal America NYC",
+    "city": "New York",
+    "zone": "USA",
+    "address": "New York, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7282,
+    "lng": -73.9942,
+    "maps": "https://maps.google.com/?q=Arsenal+America+NYC+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Arsenal matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Arsenal",
+    "community": false
+  },
+  {
+    "id": "bayern-munich",
+    "name": "Bayern Fan Club München",
+    "city": "Munich",
+    "zone": "Germany",
+    "address": "Munich, Germany",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.2188,
+    "lng": 11.6247,
+    "maps": "https://maps.google.com/?q=Bayern+Fan+Club+München+Munich",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Bayern matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Bayern",
+    "community": false
+  },
+  {
+    "id": "boca-nyc",
+    "name": "Peña Boca Juniors New York",
+    "city": "New York",
+    "zone": "USA",
+    "address": "New York, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7484,
+    "lng": -73.9857,
+    "maps": "https://maps.google.com/?q=Peña+Boca+Juniors+New+York+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Boca Juniors matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Boca Juniors",
+    "community": false
+  },
+  {
+    "id": "boca-madrid",
+    "name": "Peña Boca Juniors Madrid",
+    "city": "Madrid",
+    "zone": "Spain",
+    "address": "Madrid, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "maps": "https://maps.google.com/?q=Peña+Boca+Juniors+Madrid+Madrid",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Boca Juniors matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Boca Juniors",
+    "community": false
+  },
+  {
+    "id": "liverpool-nyc",
+    "name": "Liverpool FC NYC",
+    "city": "New York",
+    "zone": "USA",
+    "address": "New York, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7282,
+    "lng": -73.9942,
+    "maps": "https://maps.google.com/?q=Liverpool+FC+NYC+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Liverpool matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Liverpool",
+    "community": false
+  },
+  {
+    "id": "liverpool-london",
+    "name": "Liverpool Supporters Club London",
+    "city": "London",
+    "zone": "UK",
+    "address": "London, UK",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "maps": "https://maps.google.com/?q=Liverpool+Supporters+Club+London+London",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Liverpool matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Liverpool",
+    "community": false
+  },
+  {
+    "id": "manutd-nyc",
+    "name": "Manchester United NYC",
+    "city": "New York",
+    "zone": "USA",
+    "address": "New York, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.758,
+    "lng": -73.9855,
+    "maps": "https://maps.google.com/?q=Manchester+United+NYC+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Manchester United matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Manchester United",
+    "community": false
+  },
+  {
+    "id": "manutd-london",
+    "name": "Manchester United Supporters Club London",
+    "city": "London",
+    "zone": "UK",
+    "address": "London, UK",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.5145,
+    "lng": -0.144,
+    "maps": "https://maps.google.com/?q=Manchester+United+Supporters+Club+London+London",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Manchester United matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Manchester United",
+    "community": false
+  },
+  {
+    "id": "river-nyc",
+    "name": "Peña River Plate New York",
+    "city": "New York",
+    "zone": "USA",
+    "address": "New York, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7282,
+    "lng": -73.9942,
+    "maps": "https://maps.google.com/?q=Peña+River+Plate+New+York+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "River Plate matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "River Plate",
+    "community": false
+  },
+  {
+    "id": "river-barcelona",
+    "name": "Peña River Plate Barcelona",
+    "city": "Barcelona",
+    "zone": "Spain",
+    "address": "Barcelona, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "maps": "https://maps.google.com/?q=Peña+River+Plate+Barcelona+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "River Plate matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "River Plate",
+    "community": false
+  },
+  {
+    "id": "barca-1",
+    "name": "Penya Blaugrana de Marrakech",
+    "city": "Marrakech",
+    "zone": "Marrakech, Morocco",
+    "address": "Marrakech, Morocco",
+    "sports": [
+      "football"
+    ],
+    "lat": 31.6295,
+    "lng": -7.9811,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Marrakech+Marrakech",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@penyabgm"
+  },
+  {
+    "id": "barca-2",
+    "name": "Penya Blaugrana de Baltimore",
+    "city": "Baltimore",
+    "zone": "Baltimore, USA",
+    "address": "Baltimore, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Baltimore+Baltimore",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@baltimoreblaugrana"
+  },
+  {
+    "id": "barca-3",
+    "name": "Penya Blaugrana de Talavera",
+    "city": "Talavera",
+    "zone": "Talavera de la Reina, Spain",
+    "address": "Talavera de la Reina, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 39.963,
+    "lng": -4.8306,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Talavera+Talavera",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@pbt.1982"
+  },
+  {
+    "id": "barca-4",
+    "name": "Penya Blaugrana de Guadalajara",
+    "city": "Guadalajara",
+    "zone": "Guadalajara, Spain",
+    "address": "Guadalajara, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.6333,
+    "lng": -3.1667,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Guadalajara+Guadalajara",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@PenyesFCBMadridyGuadalajara"
+  },
+  {
+    "id": "barca-5",
+    "name": "Penya Barcelonista de Cartagena",
+    "city": "Cartagena",
+    "zone": "Cartagena, Spain",
+    "address": "Cartagena, Spain",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.625,
+    "lng": -0.996,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+de+Cartagena+Cartagena",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": true,
+    "instagram": "@penabarcelonistadecartagena"
+  },
+  {
+    "id": "barca-6",
+    "name": "Penya Barcelonista Sants",
+    "city": "Barcelona",
+    "zone": "Carrer de Viladecans, 1-3",
+    "address": "Carrer de Viladecans, 1-3",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.375,
+    "lng": 2.134,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Sants+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-7",
+    "name": "Penya Blaugrana Ciutat Comtal",
+    "city": "Barcelona",
+    "zone": "Carrer de Vilardell, 23",
+    "address": "Carrer de Vilardell, 23",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.378,
+    "lng": 2.158,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Ciutat+Comtal+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-8",
+    "name": "Penya Barcelonista Congrés",
+    "city": "Barcelona",
+    "zone": "Carrer de Pardo, 6",
+    "address": "Carrer de Pardo, 6",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.422,
+    "lng": 2.181,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Congrés+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-9",
+    "name": "Penya Blanc i Blava de Sant Andreu",
+    "city": "Barcelona",
+    "zone": "Carrer Gran de Sant Andreu, 56",
+    "address": "Carrer Gran de Sant Andreu, 56",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.436,
+    "lng": 2.191,
+    "maps": "https://maps.google.com/?q=Penya+Blanc+i+Blava+de+Sant+Andreu+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-10",
+    "name": "Peña Barcelonista Bon Pastor",
+    "city": "Barcelona",
+    "zone": "Carrer de Flix, 29",
+    "address": "Carrer de Flix, 29",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.436,
+    "lng": 2.205,
+    "maps": "https://maps.google.com/?q=Peña+Barcelonista+Bon+Pastor+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-11",
+    "name": "Peña Barcelonista Poble Nou",
+    "city": "Barcelona",
+    "zone": "Carrer de Venero, 16",
+    "address": "Carrer de Venero, 16",
+    "sports": [
+      "football"
+    ],
+    "lat": 41.398,
+    "lng": 2.204,
+    "maps": "https://maps.google.com/?q=Peña+Barcelonista+Poble+Nou+Barcelona",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-12",
+    "name": "Peña Barcelonista de Móstoles",
+    "city": "Madrid",
+    "zone": "Calle Petunia, 21",
+    "address": "Calle Petunia, 21",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.322,
+    "lng": -3.865,
+    "maps": "https://maps.google.com/?q=Peña+Barcelonista+de+Móstoles+Madrid",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-13",
+    "name": "Peña Barcelonista Valdemoro",
+    "city": "Madrid",
+    "zone": "Calle General Martitegui, 39",
+    "address": "Calle General Martitegui, 39",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.191,
+    "lng": -3.679,
+    "maps": "https://maps.google.com/?q=Peña+Barcelonista+Valdemoro+Madrid",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-14",
+    "name": "Penya Blaugrana de Madrid",
+    "city": "Madrid",
+    "zone": "Madrid",
+    "address": "Madrid",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+de+Madrid+Madrid",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-15",
+    "name": "Penya Blaugrana London",
+    "city": "London",
+    "zone": "Bat & Ball, 50 Earlham Street",
+    "address": "Bat & Ball, 50 Earlham Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 51.513,
+    "lng": -0.126,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+London+London",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-16",
+    "name": "Penya Barcelonista de Lisboa",
+    "city": "Lisbon",
+    "zone": "Travessa do Salitre, 1",
+    "address": "Travessa do Salitre, 1",
+    "sports": [
+      "football"
+    ],
+    "lat": 38.718,
+    "lng": -9.146,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+de+Lisboa+Lisbon",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-17",
+    "name": "Penya Barcelonista Nova York (Smithfield Hall)",
+    "city": "New York",
+    "zone": "138 West 25th Street",
+    "address": "138 West 25th Street",
+    "sports": [
+      "football"
+    ],
+    "lat": 40.7445,
+    "lng": -73.9925,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Nova+York+(Smithfield+Hall)+New York",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-18",
+    "name": "Penya Blaugrana Shanghai",
+    "city": "Shanghai",
+    "zone": "Shanghai, China",
+    "address": "Shanghai, China",
+    "sports": [
+      "football"
+    ],
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Shanghai+Shanghai",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-19",
+    "name": "Penya FC Barcelona Japan",
+    "city": "Tokyo",
+    "zone": "Tokyo, Japan",
+    "address": "Tokyo, Japan",
+    "sports": [
+      "football"
+    ],
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "maps": "https://maps.google.com/?q=Penya+FC+Barcelona+Japan+Tokyo",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-20",
+    "name": "Penya Barcelonista de Seúl",
+    "city": "Seoul",
+    "zone": "Seoul, South Korea",
+    "address": "Seoul, South Korea",
+    "sports": [
+      "football"
+    ],
+    "lat": 37.5665,
+    "lng": 126.978,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+de+Seúl+Seoul",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-21",
+    "name": "Penya Blaugrana Dubai",
+    "city": "Dubai",
+    "zone": "Dubai, UAE",
+    "address": "Dubai, UAE",
+    "sports": [
+      "football"
+    ],
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Dubai+Dubai",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-22",
+    "name": "Penya Barcelonista Mexico City",
+    "city": "Mexico City",
+    "zone": "Mexico City, Mexico",
+    "address": "Mexico City, Mexico",
+    "sports": [
+      "football"
+    ],
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Mexico+City+Mexico City",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-23",
+    "name": "Penya Barcelonista Buenos Aires",
+    "city": "Buenos Aires",
+    "zone": "Buenos Aires, Argentina",
+    "address": "Buenos Aires, Argentina",
+    "sports": [
+      "football"
+    ],
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Buenos+Aires+Buenos Aires",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-24",
+    "name": "Penya Barcelonista São Paulo",
+    "city": "São Paulo",
+    "zone": "São Paulo, Brazil",
+    "address": "São Paulo, Brazil",
+    "sports": [
+      "football"
+    ],
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+São+Paulo+São Paulo",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-25",
+    "name": "Penya Blaugrana Sydney",
+    "city": "Sydney",
+    "zone": "Sydney, Australia",
+    "address": "Sydney, Australia",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Sydney+Sydney",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-26",
+    "name": "Penya Barcelonista Johannesburg",
+    "city": "Johannesburg",
+    "zone": "Johannesburg, South Africa",
+    "address": "Johannesburg, South Africa",
+    "sports": [
+      "football"
+    ],
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Johannesburg+Johannesburg",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-27",
+    "name": "Penya Blaugrana Paris",
+    "city": "Paris",
+    "zone": "Paris, France",
+    "address": "Paris, France",
+    "sports": [
+      "football"
+    ],
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Paris+Paris",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-28",
+    "name": "Penya Barcelonista Berlin",
+    "city": "Berlin",
+    "zone": "Berlin, Germany",
+    "address": "Berlin, Germany",
+    "sports": [
+      "football"
+    ],
+    "lat": 52.52,
+    "lng": 13.405,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Berlin+Berlin",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-29",
+    "name": "Penya Blaugrana Miami",
+    "city": "Miami",
+    "zone": "Miami, USA",
+    "address": "Miami, USA",
+    "sports": [
+      "football"
+    ],
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Miami+Miami",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-30",
+    "name": "Penya Barcelonista Toronto",
+    "city": "Toronto",
+    "zone": "Toronto, Canada",
+    "address": "Toronto, Canada",
+    "sports": [
+      "football"
+    ],
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Toronto+Toronto",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-31",
+    "name": "Penya Blaugrana Singapore",
+    "city": "Singapore",
+    "zone": "Singapore",
+    "address": "Singapore",
+    "sports": [
+      "football"
+    ],
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Singapore+Singapore",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-32",
+    "name": "Penya Barcelonista Bangkok",
+    "city": "Bangkok",
+    "zone": "Bangkok, Thailand",
+    "address": "Bangkok, Thailand",
+    "sports": [
+      "football"
+    ],
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "maps": "https://maps.google.com/?q=Penya+Barcelonista+Bangkok+Bangkok",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  },
+  {
+    "id": "barca-33",
+    "name": "Penya Blaugrana Cape Town",
+    "city": "Cape Town",
+    "zone": "Cape Town, South Africa",
+    "address": "Cape Town, South Africa",
+    "sports": [
+      "football"
+    ],
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "maps": "https://maps.google.com/?q=Penya+Blaugrana+Cape+Town+Cape Town",
+    "tags": [
+      "football",
+      "peña",
+      "fan club"
+    ],
+    "bestFor": "Barcelona matches",
+    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
+    "source": "Match & Bars peñas",
+    "isPena": true,
+    "team": "Barcelona",
+    "community": false
+  }
+]
