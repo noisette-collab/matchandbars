@@ -1,0 +1,517 @@
+{
+  "updated": "2026-10-30",
+  "description": "Peñas / fan clubs for the teams in My Team. Green markers when a match of that team is selected. community = already part of Match & Bars Instagram.",
+  "penyas": [
+    {
+      "id": "barca-marrakech",
+      "name": "Penya Blaugrana de Marrakech",
+      "team": "Barcelona",
+      "city": "Marrakech",
+      "country": "Morocco",
+      "lat": 31.6295,
+      "lng": -7.9811,
+      "instagram": "@penyabgm",
+      "community": true
+    },
+    {
+      "id": "barca-baltimore",
+      "name": "Penya Blaugrana de Baltimore",
+      "team": "Barcelona",
+      "city": "Baltimore",
+      "country": "USA",
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "instagram": "@baltimoreblaugrana",
+      "community": true
+    },
+    {
+      "id": "barca-talavera",
+      "name": "Penya Blaugrana de Talavera",
+      "team": "Barcelona",
+      "city": "Talavera",
+      "country": "Spain",
+      "lat": 39.9630,
+      "lng": -4.8306,
+      "instagram": "@pbt.1982",
+      "community": true
+    },
+    {
+      "id": "barca-guadalajara",
+      "name": "Penya Blaugrana de Guadalajara",
+      "team": "Barcelona",
+      "city": "Guadalajara",
+      "country": "Spain",
+      "lat": 40.6333,
+      "lng": -3.1667,
+      "instagram": "@PenyesFCBMadridyGuadalajara",
+      "community": true
+    },
+    {
+      "id": "barca-cartagena",
+      "name": "Penya Barcelonista de Cartagena",
+      "team": "Barcelona",
+      "city": "Cartagena",
+      "country": "Spain",
+      "lat": 37.6250,
+      "lng": -0.9960,
+      "instagram": "@penabarcelonistadecartagena",
+      "community": true
+    },
+    {
+      "id": "barca-sants",
+      "name": "Penya Barcelonista Sants",
+      "team": "Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.375,
+      "lng": 2.134,
+      "community": false
+    },
+    {
+      "id": "barca-ciutatcomtal",
+      "name": "Penya Blaugrana Ciutat Comtal",
+      "team": "Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.378,
+      "lng": 2.158,
+      "community": false
+    },
+    {
+      "id": "barca-congres",
+      "name": "Penya Barcelonista Congrés",
+      "team": "Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.422,
+      "lng": 2.181,
+      "community": false
+    },
+    {
+      "id": "barca-santandreu",
+      "name": "Penya Blanc i Blava de Sant Andreu",
+      "team": "Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.436,
+      "lng": 2.191,
+      "community": false
+    },
+    {
+      "id": "barca-bonpastor",
+      "name": "Peña Barcelonista Bon Pastor",
+      "team": "Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.436,
+      "lng": 2.205,
+      "community": false
+    },
+    {
+      "id": "barca-poblenou",
+      "name": "Peña Barcelonista Poble Nou",
+      "team": "Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.398,
+      "lng": 2.204,
+      "community": false
+    },
+    {
+      "id": "barca-mostoles",
+      "name": "Peña Barcelonista de Móstoles",
+      "team": "Barcelona",
+      "city": "Madrid",
+      "country": "Spain",
+      "lat": 40.322,
+      "lng": -3.865,
+      "community": false
+    },
+    {
+      "id": "barca-valdemoro",
+      "name": "Peña Barcelonista Valdemoro",
+      "team": "Barcelona",
+      "city": "Madrid",
+      "country": "Spain",
+      "lat": 40.191,
+      "lng": -3.679,
+      "community": false
+    },
+    {
+      "id": "barca-madrid",
+      "name": "Penya Blaugrana de Madrid",
+      "team": "Barcelona",
+      "city": "Madrid",
+      "country": "Spain",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "community": false
+    },
+    {
+      "id": "barca-london",
+      "name": "Penya Blaugrana London",
+      "team": "Barcelona",
+      "city": "London",
+      "country": "UK",
+      "lat": 51.513,
+      "lng": -0.126,
+      "community": false
+    },
+    {
+      "id": "barca-lisbon",
+      "name": "Penya Barcelonista de Lisboa",
+      "team": "Barcelona",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "lat": 38.718,
+      "lng": -9.146,
+      "community": false
+    },
+    {
+      "id": "barca-nyc-smithfield",
+      "name": "Penya Barcelonista Nova York (Smithfield Hall)",
+      "team": "Barcelona",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7445,
+      "lng": -73.9925,
+      "community": false
+    },
+    {
+      "id": "barca-shanghai",
+      "name": "Penya Blaugrana Shanghai",
+      "team": "Barcelona",
+      "city": "Shanghai",
+      "country": "China",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "community": false
+    },
+    {
+      "id": "barca-japan",
+      "name": "Penya FC Barcelona Japan",
+      "team": "Barcelona",
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "community": false
+    },
+    {
+      "id": "barca-seoul",
+      "name": "Penya Barcelonista de Seúl",
+      "team": "Barcelona",
+      "city": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lng": 126.9780,
+      "community": false
+    },
+    {
+      "id": "barca-dubai",
+      "name": "Penya Blaugrana Dubai",
+      "team": "Barcelona",
+      "city": "Dubai",
+      "country": "UAE",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "community": false
+    },
+    {
+      "id": "barca-mexicocity",
+      "name": "Penya Barcelonista Mexico City",
+      "team": "Barcelona",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "community": false
+    },
+    {
+      "id": "barca-buenosaires",
+      "name": "Penya Barcelonista Buenos Aires",
+      "team": "Barcelona",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "community": false
+    },
+    {
+      "id": "barca-saopaulo",
+      "name": "Penya Barcelonista São Paulo",
+      "team": "Barcelona",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "community": false
+    },
+    {
+      "id": "barca-sydney",
+      "name": "Penya Blaugrana Sydney",
+      "team": "Barcelona",
+      "city": "Sydney",
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "community": false
+    },
+    {
+      "id": "barca-johannesburg",
+      "name": "Penya Barcelonista Johannesburg",
+      "team": "Barcelona",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "lat": -26.2041,
+      "lng": 28.0473,
+      "community": false
+    },
+    {
+      "id": "barca-paris",
+      "name": "Penya Blaugrana Paris",
+      "team": "Barcelona",
+      "city": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "community": false
+    },
+    {
+      "id": "barca-berlin",
+      "name": "Penya Barcelonista Berlin",
+      "team": "Barcelona",
+      "city": "Berlin",
+      "country": "Germany",
+      "lat": 52.5200,
+      "lng": 13.4050,
+      "community": false
+    },
+    {
+      "id": "barca-miami",
+      "name": "Penya Blaugrana Miami",
+      "team": "Barcelona",
+      "city": "Miami",
+      "country": "USA",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "community": false
+    },
+    {
+      "id": "barca-toronto",
+      "name": "Penya Barcelonista Toronto",
+      "team": "Barcelona",
+      "city": "Toronto",
+      "country": "Canada",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "community": false
+    },
+    {
+      "id": "barca-singapore",
+      "name": "Penya Blaugrana Singapore",
+      "team": "Barcelona",
+      "city": "Singapore",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "community": false
+    },
+    {
+      "id": "barca-bangkok",
+      "name": "Penya Barcelonista Bangkok",
+      "team": "Barcelona",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "community": false
+    },
+    {
+      "id": "barca-capetown",
+      "name": "Penya Blaugrana Cape Town",
+      "team": "Barcelona",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "community": false
+    },
+    {
+      "id": "madrid-nyc",
+      "name": "Madridistas NYC",
+      "team": "Real Madrid",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7282,
+      "lng": -73.9942,
+      "instagram": "@madridistasnyc",
+      "community": true
+    },
+    {
+      "id": "madrid-piornalega",
+      "name": "Peña Madridista Piornalega",
+      "team": "Real Madrid",
+      "city": "Piornal",
+      "country": "Spain",
+      "lat": 40.1167,
+      "lng": -5.8500,
+      "instagram": "@p.madridista_piornalega",
+      "community": true
+    },
+    {
+      "id": "madrid-salta",
+      "name": "Peña Madridista Salta",
+      "team": "Real Madrid",
+      "city": "Salta",
+      "country": "Argentina",
+      "lat": -24.7859,
+      "lng": -65.4117,
+      "instagram": "@pena.madridista.salta.org",
+      "community": true
+    },
+    {
+      "id": "madrid-filipinas",
+      "name": "Peña Madridista Filipinas",
+      "team": "Real Madrid",
+      "city": "Manila",
+      "country": "Philippines",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "instagram": "@penamadridistafilipinas",
+      "community": true
+    },
+    {
+      "id": "madrid-tampa",
+      "name": "Madridistas Tampa Bay",
+      "team": "Real Madrid",
+      "city": "Tampa",
+      "country": "USA",
+      "lat": 27.9506,
+      "lng": -82.4572,
+      "instagram": "@madridistas_tampa_bay",
+      "community": true
+    },
+    {
+      "id": "arsenal-pdx",
+      "name": "PDX Gooners",
+      "team": "Arsenal",
+      "city": "Portland",
+      "country": "USA",
+      "lat": 45.5152,
+      "lng": -122.6784,
+      "instagram": "@pdxgooners",
+      "community": true
+    },
+    {
+      "id": "arsenal-nyc",
+      "name": "Arsenal America NYC",
+      "team": "Arsenal",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7282,
+      "lng": -73.9942,
+      "community": false
+    },
+    {
+      "id": "bayern-nyc",
+      "name": "Bayern Munich NYC",
+      "team": "Bayern",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7505,
+      "lng": -73.9934,
+      "community": false
+    },
+    {
+      "id": "bayern-munich",
+      "name": "Bayern Fan Club München",
+      "team": "Bayern",
+      "city": "Munich",
+      "country": "Germany",
+      "lat": 48.2188,
+      "lng": 11.6247,
+      "community": false
+    },
+    {
+      "id": "boca-nyc",
+      "name": "Peña Boca Juniors New York",
+      "team": "Boca Juniors",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7484,
+      "lng": -73.9857,
+      "community": false
+    },
+    {
+      "id": "boca-madrid",
+      "name": "Peña Boca Juniors Madrid",
+      "team": "Boca Juniors",
+      "city": "Madrid",
+      "country": "Spain",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "community": false
+    },
+    {
+      "id": "liverpool-nyc",
+      "name": "Liverpool FC NYC",
+      "team": "Liverpool",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7282,
+      "lng": -73.9942,
+      "community": false
+    },
+    {
+      "id": "liverpool-london",
+      "name": "Liverpool Supporters Club London",
+      "team": "Liverpool",
+      "city": "London",
+      "country": "UK",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "community": false
+    },
+    {
+      "id": "manutd-nyc",
+      "name": "Manchester United NYC",
+      "team": "Manchester United",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7580,
+      "lng": -73.9855,
+      "community": false
+    },
+    {
+      "id": "manutd-london",
+      "name": "Manchester United Supporters Club London",
+      "team": "Manchester United",
+      "city": "London",
+      "country": "UK",
+      "lat": 51.5145,
+      "lng": -0.1440,
+      "community": false
+    },
+    {
+      "id": "river-nyc",
+      "name": "Peña River Plate New York",
+      "team": "River Plate",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7282,
+      "lng": -73.9942,
+      "community": false
+    },
+    {
+      "id": "river-barcelona",
+      "name": "Peña River Plate Barcelona",
+      "team": "River Plate",
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3851,
+      "lng": 2.1734,
+      "community": false
+    }
+  ]
+}
