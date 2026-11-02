@@ -88,6 +88,19 @@
         {"home": "Genoa", "away": "Milan", "date": "2026-11-08", "time": "15:00"},
         {"home": "Inter", "away": "Como", "date": "2026-11-08", "time": "18:00"}
       ]
-    }
+    },
+    {
+      "name": "NFL",
+      "matches": [
+        {"home": "Jaguars", "away": "Ravens", "date": "2026-11-05", "time": "02:15"},
+        {"home": "Bengals", "away": "Falcons", "date": "2026-11-08", "time": "15:30"},
+        {"home": "Broncos", "away": "Panthers", "date": "2026-11-08", "time": "19:00"},
+        {"home": "Cowboys", "away": "Colts", "date": "2026-11-08", "time": "19:00"},
+        {"home": "Jets", "away": "Chiefs", "date": "2026-11-08", "time": "19:00"},
+        {"home": "Lions", "away": "Dolphins", "date": "2026-11-08", "time": "19:00"},
+        {"home": "Packers", "away": "Patriots", "date": "2026-11-08", "time": "22:25"},
+        {"home": "Buccaneers", "away": "Bears", "date": "2026-11-09", "time": "02:20"},
+        {"home": "Bills", "away": "Vikings", "date": "2026-11-10", "time": "02:15"}
+      ]
   ]
 }
