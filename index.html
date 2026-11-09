@@ -182,7 +182,7 @@ async function initMatchSelector() {
     const penyasData = await penyasRes.json();
     allPenyas = penyasData.penyas || [];
 
-    const fixturesRes = await fetch('fixtures.json');
+   const fixturesRes = await fetch('data/fixtures.json?t=' + Date.now());
     const fixtures = await fixturesRes.json();
 
     const select = document.getElementById('match-select');
