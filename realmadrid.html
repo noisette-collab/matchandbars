@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real Madrid peñas — Match & Bars</title>
+  <link rel="canonical" href="https://www.matchandbars.com/realmadrid" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZQZB8737SY');
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="index.html">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <div class="team-drop">
+          <button type="button" class="team-btn">Your team ▾</button>
+          <div class="team-menu">
+            <a href="barca.html">Barça</a>
+            <a href="realmadrid.html">Real Madrid</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; min-height: 320px; display: flex; align-items: center;">
+    <div class="wrap" style="color: #fff;">
+      <h1 style="color: #fff; margin: 0 0 8px;">Real Madrid <span class="crest madrid">RMA</span></h1>
+      <p class="lead" style="color: #eee; font-size: 1.15rem;">Peñas and bars where you can watch every Real Madrid match.</p>
+      <p><button type="button" id="near-btn" style="background:#c9f31d; color:#000; border:none; padding:10px 18px; border-radius:8px; font-weight:600; cursor:pointer;">Use my location</button></p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2>What is a peña?</h2>
+    <p>A peña is an official Real Madrid supporters club. Fans meet at a fixed bar or venue to watch matches, travel to games and keep the madridista spirit alive. There are thousands of peñas in Spain and around the world.</p>
+    <p><strong>Green cards with ✓</strong> = peñas that are already part of the Match & Bars Instagram community.</p>
+
+    <div id="map" style="height: 420px; margin: 24px 0; border-radius: 12px;"></div>
+    <p id="count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const penas = [{"name": "Madridistas NYC", "city": "New York", "address": "New York, USA", "lat": 40.7282, "lng": -73.9942, "instagram": "@madridistasnyc", "community": true}, {"name": "Peña Madridista Piornalega", "city": "Piornal", "address": "Piornal, Spain", "lat": 40.1167, "lng": -5.85, "instagram": "@p.madridista_piornalega", "community": true}, {"name": "Peña Madridista Salta", "city": "Salta", "address": "Salta, Argentina", "lat": -24.7859, "lng": -65.4117, "instagram": "@pena.madridista.salta.org", "community": true}, {"name": "Peña Madridista Filipinas", "city": "Manila", "address": "Manila, Philippines", "lat": 14.5995, "lng": 120.9842, "instagram": "@penamadridistafilipinas", "community": true}, {"name": "Madridistas Tampa Bay", "city": "Tampa", "address": "Tampa, USA", "lat": 27.9506, "lng": -82.4572, "instagram": "@madridistas_tampa_bay", "community": true}, {"name": "Peña Madridista de Salta", "city": "Salta", "address": "Salta, Argentina", "lat": -24.785, "lng": -65.412, "instagram": "@pena.madridista.salta.org", "community": true}, {"name": "Madridistas Tampa Bay", "city": "Tampa Bay", "address": "Tampa, Florida, USA", "lat": 27.951, "lng": -82.457, "instagram": "@madridistas_tampa_bay", "community": true}, {"name": "Peña Madridista Chamartín", "city": "Madrid", "address": "Chamartín, Madrid", "lat": 40.474, "lng": -3.688, "instagram": "", "community": false}, {"name": "Peña Madridista de Vallecas", "city": "Madrid", "address": "Vallecas, Madrid", "lat": 40.385, "lng": -3.661, "instagram": "", "community": false}, {"name": "Peña Madridista London", "city": "London", "address": "London, UK", "lat": 51.507, "lng": -0.128, "instagram": "", "community": false}, {"name": "Peña Madridista New York", "city": "New York", "address": "New York, USA", "lat": 40.713, "lng": -74.006, "instagram": "", "community": false}, {"name": "Peña Madridista Barcelona", "city": "Barcelona", "address": "Barcelona", "lat": 41.387, "lng": 2.168, "instagram": "", "community": false}, {"name": "Peña Madridista Valencia", "city": "Valencia", "address": "Valencia", "lat": 39.47, "lng": -0.377, "instagram": "", "community": false}, {"name": "Peña Madridista Miami", "city": "Miami", "address": "Miami, USA", "lat": 25.762, "lng": -80.192, "instagram": "", "community": false}, {"name": "Peña Madridista México", "city": "Mexico City", "address": "Ciudad de México", "lat": 19.433, "lng": -99.133, "instagram": "", "community": false}, {"name": "Peña Madridista de Sevilla", "city": "Sevilla", "address": "Sevilla, Spain", "lat": 37.389, "lng": -5.984, "instagram": "", "community": false}, {"name": "Peña Madridista de Bilbao", "city": "Bilbao", "address": "Bilbao, Spain", "lat": 43.263, "lng": -2.935, "instagram": "", "community": false}, {"name": "Peña Madridista de Málaga", "city": "Málaga", "address": "Málaga, Spain", "lat": 36.721, "lng": -4.421, "instagram": "", "community": false}, {"name": "Peña Madridista de Zaragoza", "city": "Zaragoza", "address": "Zaragoza, Spain", "lat": 41.649, "lng": -0.889, "instagram": "", "community": false}, {"name": "Peña Madridista de Lisboa", "city": "Lisbon", "address": "Lisboa, Portugal", "lat": 38.722, "lng": -9.139, "instagram": "", "community": false}, {"name": "Peña Madridista de París", "city": "Paris", "address": "Paris, France", "lat": 48.857, "lng": 2.352, "instagram": "", "community": false}, {"name": "Peña Madridista de Roma", "city": "Rome", "address": "Roma, Italy", "lat": 41.903, "lng": 12.496, "instagram": "", "community": false}, {"name": "Peña Madridista de Buenos Aires", "city": "Buenos Aires", "address": "Buenos Aires, Argentina", "lat": -34.603, "lng": -58.382, "instagram": "", "community": false}, {"name": "Peña Madridista de São Paulo", "city": "São Paulo", "address": "São Paulo, Brazil", "lat": -23.551, "lng": -46.633, "instagram": "", "community": false}, {"name": "Peña Madridista de Bogotá", "city": "Bogotá", "address": "Bogotá, Colombia", "lat": 4.711, "lng": -74.072, "instagram": "", "community": false}, {"name": "Peña Madridista Paterna", "city": "Paterna", "address": "Calle Ravanell 8, Paterna", "lat": 39.5028, "lng": -0.4406, "instagram": "", "community": false}, {"name": "Peña Madridista Rivas Covibar", "city": "Rivas-Vaciamadrid", "address": "Plaza Monteciruelo 4, Rivas-Vaciamadrid", "lat": 40.353, "lng": -3.518, "instagram": "", "community": false}, {"name": "Peña Madridista de Alcoy", "city": "Alcoy", "address": "Carrer Ausiàs March, 7, 03804 Alcoi", "lat": 38.698, "lng": -0.474, "instagram": "", "community": false}, {"name": "Peña Santamaria de Lieja", "city": "Liège", "address": "Rue de Fraigneux 122, 4100 Liège", "lat": 50.633, "lng": 5.567, "instagram": "", "community": false}, {"name": "Peña Madridista de Benicarló", "city": "Benicarló", "address": "Carrer Organista Coscollano, 7, 12580 Benicarló", "lat": 40.416, "lng": 0.423, "instagram": "", "community": false}, {"name": "Peña Madridista La Victoria", "city": "La Victoria", "address": "Carrer Mariana Pineda, 20, 14140 La Victoria, Córdoba", "lat": 37.68, "lng": -4.85, "instagram": "", "community": false}];
+
+    let map, markers = [], you;
+    function km(lat1,lng1,lat2,lng2){
+      const R=6371, p=Math.PI/180;
+      const dLat=(lat2-lat1)*p, dLng=(lng2-lng1)*p;
+      const a=Math.sin(dLat/2)**2 + Math.cos(lat1*p)*Math.cos(lat2*p)*Math.sin(dLng/2)**2;
+      return 2*R*Math.asin(Math.sqrt(a));
+    }
+    function render(list){
+      list = [...list].sort((a,b) => (b.community?1:0) - (a.community?1:0));
+      document.getElementById("count").textContent = list.length + " peñas";
+      document.getElementById("grid").innerHTML = list.map(p=>`
+        <article class="card" style="${p.community ? 'background:#c9f31d; color:#111; border:2px solid #111;' : ''}">
+          <h3><span class="crest madrid">RMA</span> ${p.name}${p.community ? ' <span style="color:#111; font-size:1.1em; font-weight:800;">✓</span>' : ''}</h3>
+          <p>${p.city}${p.address ? ' · '+p.address : ''}${p.distance ? " · "+p.distance.toFixed(1)+" km" : ""}</p>
+          ${p.instagram ? `<p style="margin:4px 0;"><a href="https://instagram.com/${p.instagram.replace('@','')}" target="_blank">${p.instagram}</a></p>` : ''}
+          <a href="https://maps.google.com/?q=${encodeURIComponent((p.address||'')+' '+p.city)}" target="_blank">Maps</a>
+        </article>`).join("");
+      markers.forEach(m=>map.removeLayer(m)); markers=[];
+      list.forEach(p=>{
+        if(p.lat && p.lng){
+          const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);
+          markers.push(m);
+        }
+      });
+    }
+    map=L.map("map").setView([40.4,-3.7],5);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+    render(penas);
+    document.getElementById("near-btn").onclick=()=>{
+      if(!navigator.geolocation)return;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude, lng=pos.coords.longitude;
+        if(you)map.removeLayer(you);
+        you=L.circleMarker([lat,lng],{radius:8,color:"#c8f54a",fillColor:"#c8f54a",fillOpacity:.9}).addTo(map).bindPopup("You");
+        const sorted=penas.map(p=>({...p,distance:km(lat,lng,p.lat,p.lng)})).sort((a,b)=>a.distance-b.distance);
+        render(sorted); map.setView([lat,lng],10);
+      });
+    };
+    setTimeout(()=>map.invalidateSize(),200);
+  </script>
+</body>
+</html>
