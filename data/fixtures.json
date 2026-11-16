@@ -1,49 +1,111 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "highlights": [
-    {"home": "England", "away": "Croatia", "competition": "UEFA Nations League", "date": "2026-11-12", "time": "20:45"},
-    {"home": "Czech Republic", "away": "Spain", "competition": "UEFA Nations League", "date": "2026-11-12", "time": "20:45"},
-    {"home": "Italy", "away": "France", "competition": "UEFA Nations League", "date": "2026-11-12", "time": "20:45"},
-    {"home": "Bills", "away": "Vikings", "competition": "NFL", "date": "2026-11-09", "time": "02:15"}
+    {"home": "Germany", "away": "Netherlands", "competition": "UEFA Nations League", "date": "2026-11-16", "time": "20:45"},
+    {"home": "Barcelona", "away": "Villarreal", "competition": "La Liga", "date": "2026-11-22", "time": "14:00"},
+    {"home": "Liverpool", "away": "Manchester United", "competition": "Premier League", "date": "2026-11-22", "time": "16:30"},
+    {"home": "Bayern", "away": "Köln", "competition": "Bundesliga", "date": "2026-11-20", "time": "20:30"},
+    {"home": "Atalanta", "away": "Inter", "competition": "Serie A", "date": "2026-11-22", "time": "20:45"}
   ],
   "competitions": [
     {
       "name": "UEFA Nations League",
       "matches": [
-        {"home": "Turkey", "away": "Belgium", "date": "2026-11-12", "time": "18:00"},
-        {"home": "Italy", "away": "France", "date": "2026-11-12", "time": "20:45"},
-        {"home": "Czech Republic", "away": "Spain", "date": "2026-11-12", "time": "20:45"},
-        {"home": "England", "away": "Croatia", "date": "2026-11-12", "time": "20:45"},
-        {"home": "Albania", "away": "Finland", "date": "2026-11-12", "time": "20:45"},
-        {"home": "Netherlands", "away": "Greece", "date": "2026-11-13", "time": "20:45"},
-        {"home": "Serbia", "away": "Germany", "date": "2026-11-13", "time": "20:45"},
-        {"home": "Scotland", "away": "North Macedonia", "date": "2026-11-13", "time": "20:45"},
-        {"home": "Slovenia", "away": "Switzerland", "date": "2026-11-13", "time": "20:45"},
-        {"home": "Portugal", "away": "Denmark", "date": "2026-11-14", "time": "20:45"},
-        {"home": "Norway", "away": "Wales", "date": "2026-11-14", "time": "18:00"},
-        {"home": "Austria", "away": "Republic of Ireland", "date": "2026-11-14", "time": "20:45"},
-        {"home": "Sweden", "away": "Bosnia and Herzegovina", "date": "2026-11-14", "time": "20:45"},
-        {"home": "Belgium", "away": "Italy", "date": "2026-11-15", "time": "20:45"},
-        {"home": "France", "away": "Turkey", "date": "2026-11-15", "time": "20:45"},
-        {"home": "Croatia", "away": "Czech Republic", "date": "2026-11-15", "time": "20:45"}
+        {"home": "Faroe Islands", "away": "Moldova", "date": "2026-11-16", "time": "16:00"},
+        {"home": "Kazakhstan", "away": "Slovakia", "date": "2026-11-16", "time": "16:00"},
+        {"home": "Estonia", "away": "Bulgaria", "date": "2026-11-16", "time": "18:00"},
+        {"home": "Iceland", "away": "Luxembourg", "date": "2026-11-16", "time": "18:00"},
+        {"home": "Lithuania", "away": "Liechtenstein", "date": "2026-11-16", "time": "18:00"},
+        {"home": "Germany", "away": "Netherlands", "date": "2026-11-16", "time": "20:45"},
+        {"home": "Greece", "away": "Serbia", "date": "2026-11-16", "time": "20:45"},
+        {"home": "North Macedonia", "away": "Slovenia", "date": "2026-11-16", "time": "20:45"},
+        {"home": "Switzerland", "away": "Scotland", "date": "2026-11-16", "time": "20:45"},
+        {"home": "Gibraltar", "away": "Malta", "date": "2026-11-16", "time": "20:45"},
+        {"home": "Denmark", "away": "Norway", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Wales", "away": "Portugal", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Hungary", "away": "Northern Ireland", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Ukraine", "away": "Georgia", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Israel", "away": "Austria", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Republic of Ireland", "away": "Kosovo", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Bosnia-Herzegovina", "away": "Romania", "date": "2026-11-17", "time": "20:45"},
+        {"home": "Poland", "away": "Sweden", "date": "2026-11-17", "time": "20:45"}
+      ]
+    },
+    {
+      "name": "La Liga",
+      "matches": [
+        {"home": "Athletic Club", "away": "Espanyol", "date": "2026-11-20", "time": "21:00"},
+        {"home": "Alavés", "away": "Deportivo", "date": "2026-11-21", "time": "14:00"},
+        {"home": "Rayo Vallecano", "away": "Valencia", "date": "2026-11-21", "time": "16:15"},
+        {"home": "Sevilla", "away": "Real Betis", "date": "2026-11-21", "time": "18:30"},
+        {"home": "Real Madrid", "away": "Celta", "date": "2026-11-21", "time": "21:00"},
+        {"home": "Barcelona", "away": "Villarreal", "date": "2026-11-22", "time": "14:00"},
+        {"home": "Racing", "away": "Real Sociedad", "date": "2026-11-22", "time": "16:15"},
+        {"home": "Osasuna", "away": "Málaga", "date": "2026-11-22", "time": "18:30"},
+        {"home": "Getafe", "away": "Atlético Madrid", "date": "2026-11-22", "time": "21:00"},
+        {"home": "Levante", "away": "Elche", "date": "2026-11-23", "time": "21:00"}
+      ]
+    },
+    {
+      "name": "Premier League",
+      "matches": [
+        {"home": "Manchester City", "away": "Fulham", "date": "2026-11-21", "time": "12:30"},
+        {"home": "Bournemouth", "away": "Nottingham Forest", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Aston Villa", "away": "Sunderland", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Chelsea", "away": "Leeds", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Coventry", "away": "Crystal Palace", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Tottenham", "away": "Ipswich", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Newcastle", "away": "Arsenal", "date": "2026-11-21", "time": "17:30"},
+        {"home": "Hull", "away": "Brighton", "date": "2026-11-22", "time": "14:00"},
+        {"home": "Liverpool", "away": "Manchester United", "date": "2026-11-22", "time": "16:30"},
+        {"home": "Brentford", "away": "Everton", "date": "2026-11-23", "time": "20:00"}
+      ]
+    },
+    {
+      "name": "Bundesliga",
+      "matches": [
+        {"home": "Bayern", "away": "Köln", "date": "2026-11-20", "time": "20:30"},
+        {"home": "Elversberg", "away": "Freiburg", "date": "2026-11-21", "time": "15:30"},
+        {"home": "Union Berlin", "away": "RB Leipzig", "date": "2026-11-21", "time": "15:30"},
+        {"home": "Mönchengladbach", "away": "Dortmund", "date": "2026-11-21", "time": "15:30"},
+        {"home": "Frankfurt", "away": "Hoffenheim", "date": "2026-11-21", "time": "15:30"},
+        {"home": "Leverkusen", "away": "Paderborn", "date": "2026-11-21", "time": "15:30"},
+        {"home": "Schalke", "away": "Stuttgart", "date": "2026-11-21", "time": "18:30"},
+        {"home": "Augsburg", "away": "Mainz", "date": "2026-11-22", "time": "15:30"},
+        {"home": "Werder Bremen", "away": "Hamburg", "date": "2026-11-22", "time": "17:30"}
+      ]
+    },
+    {
+      "name": "Serie A",
+      "matches": [
+        {"home": "Lazio", "away": "Lecce", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Como", "away": "Cagliari", "date": "2026-11-21", "time": "15:00"},
+        {"home": "Parma", "away": "Roma", "date": "2026-11-21", "time": "18:00"},
+        {"home": "Napoli", "away": "Torino", "date": "2026-11-21", "time": "20:45"},
+        {"home": "Juventus", "away": "Venezia", "date": "2026-11-22", "time": "12:30"},
+        {"home": "Sassuolo", "away": "Genoa", "date": "2026-11-22", "time": "15:00"},
+        {"home": "Bologna", "away": "Udinese", "date": "2026-11-22", "time": "15:00"},
+        {"home": "Milan", "away": "Frosinone", "date": "2026-11-22", "time": "18:00"},
+        {"home": "Atalanta", "away": "Inter", "date": "2026-11-22", "time": "20:45"},
+        {"home": "Monza", "away": "Fiorentina", "date": "2026-11-23", "time": "20:45"}
       ]
     },
     {
       "name": "NFL",
       "matches": [
-        {"home": "Bills", "away": "Vikings", "date": "2026-11-09", "time": "02:15"},
-        {"home": "Commanders", "away": "Giants", "date": "2026-11-13", "time": "02:15"},
-        {"home": "Patriots", "away": "Lions", "date": "2026-11-15", "time": "15:30"},
-        {"home": "Chiefs", "away": "Falcons", "date": "2026-11-15", "time": "19:00"},
-        {"home": "Texans", "away": "Browns", "date": "2026-11-15", "time": "19:00"},
-        {"home": "Vikings", "away": "Packers", "date": "2026-11-15", "time": "19:00"},
-        {"home": "Jaguars", "away": "Titans", "date": "2026-11-15", "time": "19:00"},
-        {"home": "Dolphins", "away": "Colts", "date": "2026-11-15", "time": "19:00"},
-        {"home": "Seahawks", "away": "Raiders", "date": "2026-11-15", "time": "22:05"},
-        {"home": "Rams", "away": "Cardinals", "date": "2026-11-15", "time": "22:05"},
-        {"home": "49ers", "away": "Cowboys", "date": "2026-11-15", "time": "22:25"},
-        {"home": "Steelers", "away": "Bengals", "date": "2026-11-16", "time": "02:20"},
-        {"home": "Chargers", "away": "Ravens", "date": "2026-11-17", "time": "02:15"}
+        {"home": "Texans", "away": "Colts", "date": "2026-11-20", "time": "02:15"},
+        {"home": "Bills", "away": "Dolphins", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Panthers", "away": "Ravens", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Bears", "away": "Saints", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Cowboys", "away": "Titans", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Lions", "away": "Buccaneers", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Chiefs", "away": "Cardinals", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Eagles", "away": "Steelers", "date": "2026-11-22", "time": "19:00"},
+        {"home": "Chargers", "away": "Jets", "date": "2026-11-22", "time": "22:05"},
+        {"home": "Broncos", "away": "Raiders", "date": "2026-11-22", "time": "22:25"},
+        {"home": "Giants", "away": "Jaguars", "date": "2026-11-22", "time": "22:25"},
+        {"home": "49ers", "away": "Vikings", "date": "2026-11-23", "time": "02:20"},
+        {"home": "Commanders", "away": "Bengals", "date": "2026-11-24", "time": "02:15"}
       ]
     }
   ]
