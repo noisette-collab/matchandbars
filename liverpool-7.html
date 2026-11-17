@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liverpool FC Official Supporters Clubs & Peñas | Match & Bars</title>
+  <meta name="description" content="Official Liverpool FC Supporters Clubs (OLSC) around the world. Where Reds meet to watch every match. Distinctive features of official peñas." />
+  <link rel="canonical" href="https://www.matchandbars.com/liverpool" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZQZB8737SY');
+  </script>
+  <style>
+    .hero-liverpool {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('https://images.ctfassets.net/rm6ms1yxue4m/4Wt1nCzw10dcJevbykOZwV/0cf542d16b60e55ae4fdf696b4a90670/OLSC-New-York-main-050726_b70b2e7a64dd60139b671223ef421c77.jpg?w=1600') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px 90px;
+      text-align: center;
+    }
+    .hero-liverpool h1 { font-size: 2.8rem; margin: 0 0 12px; text-shadow: 0 2px 8px rgba(0,0,0,0.5); }
+    .hero-liverpool h1, .hero-liverpool .lead, .hero-liverpool .kicker { color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6); }
+    .intro { background: #f8f9fa; padding: 36px; border-radius: 16px; margin: 40px 0; max-width: 860px; }
+    .intro h2 { margin-top: 0; color: #c8102e; }
+    .intro p { line-height: 1.65; margin-bottom: 16px; }
+    .intro strong { color: #c8102e; }
+    .pena-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 32px 0; }
+    .pena-card { background: white; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #c8102e; }
+    .pena-card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+    .pena-card .meta { color: #555; font-size: 0.9rem; margin-bottom: 8px; }
+    .green { background: #e8f8f0; border-left-color: #2ecc40; }
+  
+    .map, #map { height: 420px !important; width: 100%; border-radius: 12px; margin: 16px 0 24px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 24px 0; }
+    .card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .card h3 { margin: 0 0 8px; font-size: 1.15rem; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .hero-liverpool, .hero-manutd { color: white; }
+
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="/">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="liverpool-city.html">Liverpool</a>
+        <a href="manchester-city.html">Manchester</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero-liverpool" style="text-align:center; color:#ffffff;">
+    <div class="wrap" style="text-align:center;">
+      <p class="kicker">Your Team · Liverpool FC</p>
+      <h1>Liverpool <span style="color:#c8102e;">FC</span></h1>
+      <p class="lead" style="text-align:center; margin-left:auto; margin-right:auto; max-width:720px;">Official Supporters Clubs (OLSC) where Reds meet to watch every match. You'll Never Walk Alone.</p>
+      <p style="text-align:center;"><button type="button" id="near-btn" style="background:#c9f31d; color:#000; border:none; padding:10px 18px; border-radius:8px; font-weight:600; cursor:pointer;">Use my location</button></p>
+    </div>
+  </div>
+
+  <section class="wrap">
+    <div class="intro">
+      <h2>What makes an Official Liverpool Supporters Club (OLSC) special?</h2>
+      <p>There are more than <strong>300 Official Liverpool Supporters Clubs (OLSCs)</strong> across around 100 countries. These are not informal groups — they are formally recognised by Liverpool FC.</p>
+      <p>The distinctive features of an OLSC include:</p>
+      <ul>
+        <li>Official recognition by the club and access to club communications.</li>
+        <li>A fixed meeting venue where fans gather for every match, no matter the kick-off time.</li>
+        <li>Organised travel to Anfield, 5-a-side teams, and charitable work with the LFC Foundation.</li>
+        <li>A strong community spirit that represents the “Red Way” wherever they are in the world.</li>
+      </ul>
+      <p>Green cards with ✓ = peñas that are already part of the Match & Bars Instagram community.</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div id="map" style="height: 420px; margin: 24px 0; border-radius: 12px;"></div>
+    <p id="count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const penas = [
+      {name:"OLSC New York", city:"New York", address:"510 E 11th St", lat:40.7283, lng:-73.9816, community:true},
+      {name:"OLSC Brooklyn", city:"New York", address:"Park Slope", lat:40.671, lng:-73.981},
+      {name:"OLSC Atlanta", city:"Atlanta", address:"Buckhead", lat:33.848, lng:-84.373},
+      {name:"OLSC Madrid", city:"Madrid", address:"Triskel Tavern", lat:40.416, lng:-3.703},
+      {name:"OLSC Barcelona", city:"Barcelona", address:"Barcelona", lat:41.387, lng:2.168},
+      {name:"OLSC London", city:"London", address:"London", lat:51.507, lng:-0.128},
+      {name:"OLSC Paris", city:"Paris", address:"Paris", lat:48.856, lng:2.352},
+      {name:"OLSC Dublin", city:"Dublin", address:"Dublin", lat:53.349, lng:-6.260},
+      {name:"OLSC Oslo", city:"Oslo", address:"Oslo", lat:59.913, lng:10.752},
+      {name:"OLSC Stockholm", city:"Stockholm", address:"Stockholm", lat:59.329, lng:18.068},
+      {name:"OLSC Melbourne", city:"Melbourne", address:"Melbourne", lat:-37.814, lng:144.963},
+      {name:"OLSC Sydney", city:"Sydney", address:"Sydney", lat:-33.868, lng:151.209},
+      {name:"OLSC Singapore", city:"Singapore", address:"Singapore", lat:1.352, lng:103.820},
+      {name:"OLSC Dubai", city:"Dubai", address:"Dubai", lat:25.204, lng:55.270},
+      {name:"OLSC Toronto", city:"Toronto", address:"Toronto", lat:43.653, lng:-79.383},
+      {name:"OLSC Chicago", city:"Chicago", address:"Chicago", lat:41.878, lng:-87.630},
+      {name:"OLSC Los Angeles", city:"Los Angeles", address:"Los Angeles", lat:34.052, lng:-118.244},
+      {name:"OLSC Houston", city:"Houston", address:"Houston", lat:29.760, lng:-95.370},
+      {name:"OLSC Seattle", city:"Seattle", address:"Seattle", lat:47.606, lng:-122.332},
+      {name:"OLSC Boston", city:"Boston", address:"Boston", lat:42.360, lng:-71.059},
+      {name:"OLSC Miami", city:"Miami", address:"Miami", lat:25.761, lng:-80.191},
+      {name:"OLSC Liverpool City Centre", city:"Liverpool", address:"Liverpool", lat:53.4084, lng:-2.9916},
+      {name:"OLSC Anfield", city:"Liverpool", address:"Near Anfield", lat:53.4308, lng:-2.9608},
+      {name:"OLSC Manchester", city:"Manchester", address:"Manchester", lat:53.4808, lng:-2.2426},
+      {name:"OLSC Birmingham", city:"Birmingham", address:"Birmingham", lat:52.4862, lng:-1.8904},
+      {name:"OLSC Leeds", city:"Leeds", address:"Leeds", lat:53.8008, lng:-1.5491},
+      {name:"OLSC Glasgow", city:"Glasgow", address:"Glasgow", lat:55.8642, lng:-4.2518},
+      {name:"OLSC Edinburgh", city:"Edinburgh", address:"Edinburgh", lat:55.9533, lng:-3.1883},
+      {name:"OLSC Cardiff", city:"Cardiff", address:"Cardiff", lat:51.4816, lng:-3.1791},
+      {name:"OLSC Belfast", city:"Belfast", address:"Belfast", lat:54.5973, lng:-5.9301},
+      {name:"OLSC Cork", city:"Cork", address:"Cork", lat:51.8985, lng:-8.4756},
+      {name:"OLSC Lyon", city:"Lyon", address:"Lyon", lat:45.7640, lng:4.8357},
+      {name:"OLSC Marseille", city:"Marseille", address:"Marseille", lat:43.2965, lng:5.3698},
+      {name:"OLSC Berlin", city:"Berlin", address:"Berlin", lat:52.5200, lng:13.4050},
+      {name:"OLSC Munich", city:"Munich", address:"Munich", lat:48.1351, lng:11.5820},
+      {name:"OLSC Frankfurt", city:"Frankfurt", address:"Frankfurt", lat:50.1109, lng:8.6821},
+      {name:"OLSC Amsterdam", city:"Amsterdam", address:"Amsterdam", lat:52.3676, lng:4.9041},
+      {name:"OLSC Rotterdam", city:"Rotterdam", address:"Rotterdam", lat:51.9225, lng:4.4792},
+      {name:"OLSC Brussels", city:"Brussels", address:"Brussels", lat:50.8503, lng:4.3517},
+      {name:"OLSC Rome", city:"Rome", address:"Rome", lat:41.9028, lng:12.4964},
+      {name:"OLSC Milan", city:"Milan", address:"Milan", lat:45.4642, lng:9.1900},
+      {name:"OLSC Lisbon", city:"Lisbon", address:"Lisbon", lat:38.7223, lng:-9.1393},
+      {name:"OLSC New York Brooklyn", city:"New York", address:"Brooklyn", lat:40.6782, lng:-73.9442},
+      {name:"OLSC Vancouver", city:"Vancouver", address:"Vancouver", lat:49.2827, lng:-123.1207},
+      {name:"OLSC Auckland", city:"Auckland", address:"Auckland", lat:-36.8509, lng:174.7645},
+      {name:"OLSC Johannesburg", city:"Johannesburg", address:"Johannesburg", lat:-26.2041, lng:28.0473},
+      {name:"OLSC Cape Town", city:"Cape Town", address:"Cape Town", lat:-33.9249, lng:18.4241},
+      {name:"OLSC Bangalore", city:"Bangalore", address:"Bangalore", lat:12.9716, lng:77.5946},
+      {name:"OLSC Mumbai", city:"Mumbai", address:"Mumbai", lat:19.0760, lng:72.8777}
+    ];
+    let map, markers=[], you;
+    function km(lat1,lng1,lat2,lng2){
+      const R=6371, p=Math.PI/180;
+      const dLat=(lat2-lat1)*p, dLng=(lng2-lng1)*p;
+      const a=Math.sin(dLat/2)**2 + Math.cos(lat1*p)*Math.cos(lat2*p)*Math.sin(dLng/2)**2;
+      return 2*R*Math.asin(Math.sqrt(a));
+    }
+    function render(list){
+      list = [...list].sort((a,b) => (b.community?1:0) - (a.community?1:0));
+      document.getElementById("count").textContent = list.length + " peñas";
+      document.getElementById("grid").innerHTML = list.map(p=>`
+        <article class="card" style="${p.community ? 'background:#c9f31d; color:#111; border:2px solid #111;' : ''}">
+          <h3>${p.name}${p.community ? ' <span style="color:#111; font-size:1.1em; font-weight:800;">✓</span>' : ''}</h3>
+          <p>${p.city}${p.address ? ' · '+p.address : ''}${p.distance ? " · "+p.distance.toFixed(1)+" km" : ""}</p>
+          <a href="https://maps.google.com/?q=${encodeURIComponent((p.address||'')+' '+p.city)}" target="_blank">Maps</a>
+        </article>`).join("");
+      markers.forEach(m=>map.removeLayer(m)); markers=[];
+      list.forEach(p=>{
+        if(p.lat && p.lng){
+          const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);
+          markers.push(m);
+        }
+      });
+    }
+    map=L.map("map").setView([53.4,-2.9],4);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+    render(penas);
+    document.getElementById("near-btn").onclick=()=>{
+      if(!navigator.geolocation)return;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude, lng=pos.coords.longitude;
+        if(you)map.removeLayer(you);
+        you=L.circleMarker([lat,lng],{radius:8,color:"#c8f54a",fillColor:"#c8f54a",fillOpacity:.9}).addTo(map).bindPopup("You");
+        const sorted=penas.map(p=>({...p,distance:km(lat,lng,p.lat,p.lng)})).sort((a,b)=>a.distance-b.distance);
+        render(sorted); map.setView([lat,lng],10);
+      });
+    };
+    setTimeout(()=>map.invalidateSize(),200);
+  </script>
+</body>
+</html>
