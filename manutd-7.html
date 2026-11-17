@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manchester United Official Supporters Clubs & Peñas | Match & Bars</title>
+  <meta name="description" content="Official Manchester United Supporters Clubs (MUSC) worldwide. Where Red Devils meet. Distinctive features of official peñas." />
+  <link rel="canonical" href="https://www.matchandbars.com/manutd" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZQZB8737SY');
+  </script>
+  <style>
+    .hero-manutd { text-align: center; 
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('https://constructionmanagement.co.uk/wp-content/uploads/2025/03/Man-Utd-3.jpg') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px 90px;
+      text-align: center;
+    }
+    .hero-manutd h1 { font-size: 2.8rem; margin: 0 0 12px; text-shadow: 0 2px 8px rgba(0,0,0,0.5); }
+    .hero-manutd h1, .hero-manutd .lead, .hero-manutd .kicker { color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6); }
+    .intro { background: #f8f9fa; padding: 36px; border-radius: 16px; margin: 40px 0; max-width: 860px; }
+    .intro h2 { margin-top: 0; color: #da291c; }
+    .intro p { line-height: 1.65; margin-bottom: 16px; }
+    .intro strong { color: #da291c; }
+    .pena-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 32px 0; }
+    .pena-card { background: white; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #da291c; }
+    .pena-card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+    .pena-card .meta { color: #555; font-size: 0.9rem; margin-bottom: 8px; }
+    .green { background: #e8f8f0; border-left-color: #2ecc40; }
+  
+    .map, #map { height: 420px !important; width: 100%; border-radius: 12px; margin: 16px 0 24px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 24px 0; }
+    .card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .card h3 { margin: 0 0 8px; font-size: 1.15rem; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .hero-liverpool, .hero-manutd { text-align: center;  color: white; }
+
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56" />
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="/">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="liverpool.html">Liverpool</a>
+        <a href="manchester-city.html">Manchester</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero-manutd" style="color:#ffffff; text-align:center;">
+    <div class="wrap" style="text-align:center;">
+      <p class="kicker">Your Team · Manchester United</p>
+      <h1>Manchester United</h1>
+      <p class="lead">Official Supporters Clubs (MUSC) where Red Devils meet around the world. Glory Glory Man United.</p>
+      <p><button type="button" id="near-btn" style="background:#c9f31d; color:#000; border:none; padding:10px 18px; border-radius:8px; font-weight:600; cursor:pointer;">Use my location</button></p>
+    </div>
+  </div>
+
+  <section class="wrap">
+    <div class="intro">
+      <h2>What makes an Official Manchester United Supporters Club (MUSC) special?</h2>
+      <p>Manchester United has more than <strong>350 official Supporters Clubs (MUSCs)</strong> in 94–95 countries — one of the largest networks in world football.</p>
+      <p>Distinctive features of official MUSCs:</p>
+      <ul>
+        <li>Formal recognition by Manchester United FC.</li>
+        <li>Organised meetings to watch matches, travel to Old Trafford and connect with the club.</li>
+        <li>Access to exclusive events, pre-season tours and fan engagement programmes.</li>
+        <li>A global family that brings Reds together wherever they are.</li>
+      </ul>
+      <p>Green cards with ✓ = peñas that are already part of the Match & Bars Instagram community.</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div id="map" style="height: 420px; margin: 24px 0; border-radius: 12px;"></div>
+    <p id="count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="wrap">
+    
+
+  <footer><div class="wrap foot"><span>© 2026 Match & Bars</span></div></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const penas = [
+      {name:"New York Reds (Smithfield Hall)", city:"New York", address:"138 W 25th St", lat:40.7447, lng:-73.9935, community:true},
+      {name:"Barcelona Red Devils", city:"Barcelona", address:"McCarthy’s Bar, Via Laietana 44", lat:41.385, lng:2.178},
+      {name:"London Supporters Club", city:"London", address:"London", lat:51.507, lng:-0.128},
+      {name:"Manchester Local MUSC", city:"Manchester", address:"Manchester", lat:53.480, lng:-2.242},
+      {name:"Ireland / ROI Clubs", city:"Dublin", address:"Ireland", lat:53.349, lng:-6.260},
+      {name:"USA – Colorado MUSC", city:"Denver", address:"Colorado", lat:39.739, lng:-104.990},
+      {name:"USA – Milwaukee MUSC", city:"Milwaukee", address:"Milwaukee", lat:43.038, lng:-87.907},
+      {name:"Australia – Sydney / NSW MUSC", city:"Sydney", address:"Sydney", lat:-33.868, lng:151.209},
+      {name:"Australia – Melbourne MUSC", city:"Melbourne", address:"Melbourne", lat:-37.814, lng:144.963},
+      {name:"Canada – Toronto MUSC", city:"Toronto", address:"Toronto", lat:43.653, lng:-79.383},
+      {name:"UAE / Dubai MUSC", city:"Dubai", address:"Dubai", lat:25.204, lng:55.270},
+      {name:"Singapore MUSC", city:"Singapore", address:"Singapore", lat:1.352, lng:103.820}
+    ,
+      {name:"MUSC Manchester City Centre", city:"Manchester", address:"Manchester", lat:53.4808, lng:-2.2426},
+      {name:"MUSC Old Trafford", city:"Manchester", address:"Near Old Trafford", lat:53.4631, lng:-2.2913},
+      {name:"MUSC Salford", city:"Salford", address:"Salford", lat:53.4875, lng:-2.2901},
+      {name:"MUSC Birmingham", city:"Birmingham", address:"Birmingham", lat:52.4862, lng:-1.8904},
+      {name:"MUSC Leeds", city:"Leeds", address:"Leeds", lat:53.8008, lng:-1.5491},
+      {name:"MUSC Glasgow", city:"Glasgow", address:"Glasgow", lat:55.8642, lng:-4.2518},
+      {name:"MUSC Edinburgh", city:"Edinburgh", address:"Edinburgh", lat:55.9533, lng:-3.1883},
+      {name:"MUSC Cardiff", city:"Cardiff", address:"Cardiff", lat:51.4816, lng:-3.1791},
+      {name:"MUSC Belfast", city:"Belfast", address:"Belfast", lat:54.5973, lng:-5.9301},
+      {name:"MUSC Dublin South", city:"Dublin", address:"Dublin", lat:53.3498, lng:-6.2603},
+      {name:"MUSC Cork", city:"Cork", address:"Cork", lat:51.8985, lng:-8.4756},
+      {name:"MUSC Paris", city:"Paris", address:"Paris", lat:48.8566, lng:2.3522},
+      {name:"MUSC Lyon", city:"Lyon", address:"Lyon", lat:45.764, lng:4.8357},
+      {name:"MUSC Marseille", city:"Marseille", address:"Marseille", lat:43.2965, lng:5.3698},
+      {name:"MUSC Berlin", city:"Berlin", address:"Berlin", lat:52.52, lng:13.405},
+      {name:"MUSC Munich", city:"Munich", address:"Munich", lat:48.1351, lng:11.582},
+      {name:"MUSC Frankfurt", city:"Frankfurt", address:"Frankfurt", lat:50.1109, lng:8.6821},
+      {name:"MUSC Amsterdam", city:"Amsterdam", address:"Amsterdam", lat:52.3676, lng:4.9041},
+      {name:"MUSC Rotterdam", city:"Rotterdam", address:"Rotterdam", lat:51.9225, lng:4.4792},
+      {name:"MUSC Brussels", city:"Brussels", address:"Brussels", lat:50.8503, lng:4.3517},
+      {name:"MUSC Rome", city:"Rome", address:"Rome", lat:41.9028, lng:12.4964},
+      {name:"MUSC Milan", city:"Milan", address:"Milan", lat:45.4642, lng:9.19},
+      {name:"MUSC Madrid", city:"Madrid", address:"Madrid", lat:40.4168, lng:-3.7038},
+      {name:"MUSC Lisbon", city:"Lisbon", address:"Lisbon", lat:38.7223, lng:-9.1393},
+      {name:"MUSC New York Brooklyn", city:"New York", address:"Brooklyn", lat:40.6782, lng:-73.9442},
+      {name:"MUSC Los Angeles", city:"Los Angeles", address:"Los Angeles", lat:34.0522, lng:-118.2437},
+      {name:"MUSC Chicago", city:"Chicago", address:"Chicago", lat:41.8781, lng:-87.6298},
+      {name:"MUSC Boston", city:"Boston", address:"Boston", lat:42.3601, lng:-71.0589},
+      {name:"MUSC Miami", city:"Miami", address:"Miami", lat:25.7617, lng:-80.1918},
+      {name:"MUSC Toronto East", city:"Toronto", address:"Toronto", lat:43.6532, lng:-79.3832},
+      {name:"MUSC Vancouver", city:"Vancouver", address:"Vancouver", lat:49.2827, lng:-123.1207},
+      {name:"MUSC Sydney East", city:"Sydney", address:"Sydney", lat:-33.8688, lng:151.2093},
+      {name:"MUSC Melbourne South", city:"Melbourne", address:"Melbourne", lat:-37.8136, lng:144.9631},
+      {name:"MUSC Auckland", city:"Auckland", address:"Auckland", lat:-36.8509, lng:174.7645},
+      {name:"MUSC Singapore Central", city:"Singapore", address:"Singapore", lat:1.3521, lng:103.8198},
+      {name:"MUSC Dubai Marina", city:"Dubai", address:"Dubai", lat:25.0772, lng:55.1394},
+      {name:"MUSC Johannesburg", city:"Johannesburg", address:"Johannesburg", lat:-26.2041, lng:28.0473},
+      {name:"MUSC Cape Town", city:"Cape Town", address:"Cape Town", lat:-33.9249, lng:18.4241},
+      {name:"MUSC Bangalore", city:"Bangalore", address:"Bangalore", lat:12.9716, lng:77.5946},
+      {name:"MUSC Mumbai", city:"Mumbai", address:"Mumbai", lat:19.076, lng:72.8777},
+];
+    let map, markers=[], you;
+    function km(lat1,lng1,lat2,lng2){
+      const R=6371, p=Math.PI/180;
+      const dLat=(lat2-lat1)*p, dLng=(lng2-lng1)*p;
+      const a=Math.sin(dLat/2)**2 + Math.cos(lat1*p)*Math.cos(lat2*p)*Math.sin(dLng/2)**2;
+      return 2*R*Math.asin(Math.sqrt(a));
+    }
+    function render(list){
+      list = [...list].sort((a,b) => (b.community?1:0) - (a.community?1:0));
+      document.getElementById("count").textContent = list.length + " peñas";
+      document.getElementById("grid").innerHTML = list.map(p=>`
+        <article class="card" style="${p.community ? 'background:#c9f31d; color:#111; border:2px solid #111;' : ''}">
+          <h3>${p.name}${p.community ? ' <span style="color:#111; font-size:1.1em; font-weight:800;">✓</span>' : ''}</h3>
+          <p>${p.city}${p.address ? ' · '+p.address : ''}${p.distance ? " · "+p.distance.toFixed(1)+" km" : ""}</p>
+          <a href="https://maps.google.com/?q=${encodeURIComponent((p.address||'')+' '+p.city)}" target="_blank">Maps</a>
+        </article>`).join("");
+      markers.forEach(m=>map.removeLayer(m)); markers=[];
+      list.forEach(p=>{
+        if(p.lat && p.lng){
+          const m=L.marker([p.lat,p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.city}`);
+          markers.push(m);
+        }
+      });
+    }
+    map=L.map("map").setView([53.48,-2.24],4);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);
+    render(penas);
+    document.getElementById("near-btn").onclick=()=>{
+      if(!navigator.geolocation)return;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude, lng=pos.coords.longitude;
+        if(you)map.removeLayer(you);
+        you=L.circleMarker([lat,lng],{radius:8,color:"#c8f54a",fillColor:"#c8f54a",fillOpacity:.9}).addTo(map).bindPopup("You");
+        const sorted=penas.map(p=>({...p,distance:km(lat,lng,p.lat,p.lng)})).sort((a,b)=>a.distance-b.distance);
+        render(sorted); map.setView([lat,lng],10);
+      });
+    };
+    setTimeout(()=>map.invalidateSize(),200);
+  </script>
+</body>
+</html>
