@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fixtures & Kick-off Times | Match & Bars</title>
+  <meta name="description" content="This week's football and NFL fixtures. Full lists for Premier League, La Liga, Serie A, Ligue 1, Bundesliga and NFL. Times shown in your local timezone.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    .fixtures { display: flex; flex-direction: column; gap: 10px; margin: 1rem 0 2.5rem; }
+    .fixture { display: flex; gap: 14px; padding: 12px 16px; background: #fff; border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid #eee; transition: border-color .15s, box-shadow .15s; }
+    .fixture:hover { border-color: #bbb; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+    .date { min-width: 88px; font-weight: 600; color: #555; font-size: 13.5px; line-height: 1.3; }
+    .match strong { display: block; font-size: 15.5px; font-weight: 650; }
+    .comp { font-size: 12.5px; color: #777; margin-top: 1px; }
+    .section-header {
+      position: relative;
+      height: 180px;
+      border-radius: 18px;
+      overflow: hidden;
+      margin: 56px 0 24px;
+      display: flex;
+      align-items: flex-end;
+      background-size: cover;
+      background-position: center 30%;
+    }
+    .section-header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.78) 0%, rgba(0,0,0,.35) 50%, rgba(0,0,0,.15) 100%);
+    }
+    .section-header h2 {
+      position: relative;
+      color: white;
+      margin: 0;
+      padding: 22px 28px;
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-shadow: 0 2px 12px rgba(0,0,0,.7);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .highlights-header { background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80'); }
+    .pl-header { background-image: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1600&q=80'); }
+    .laliga-header { background-image: url('https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&w=1600&q=80'); }
+    .seriea-header { background-image: url('https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1600&q=80'); }
+    .ligue1-header { background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80'); }
+    .bundes-header { background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80'); }
+    .nfl-header { background-image: url('https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1600&q=80'); }
+    .ucl-header { background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1600&q=80'); }
+    .intro { font-size: 1.05rem; color: #444; margin-bottom: 0.5rem; }
+    .tz-note { font-size: 0.92rem; color: #555; background: #f8f8f8; padding: 10px 14px; border-radius: 8px; margin: 8px 0 16px; }
+    @media (max-width: 640px) {
+      .section-header { height: 130px; margin: 40px 0 18px; }
+      .section-header h2 { font-size: 1.55rem; padding: 16px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56">
+        <span>Match & Bars</span>
+      </a>
+      <nav>
+        <a href="/">Directory</a>
+        <a href="fixtures.html" class="on">Fixtures</a>
+        <a href="/#bars-owners">Got a bar?</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1 style="font-size:2rem; margin-bottom:0.4rem;">This Week's Fixtures</h1>
+    <p class="intro">Click any match to find bars and peñas near you showing the game.</p>
+    <div class="tz-note" id="tz-note">Times shown in your local timezone.</div>
+
+    <div class="section-header highlights-header">
+      <h2>Highlights</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Arsenal%20vs%20Manchester%20City"><div class="date" data-utc="2026-11-29T15:30:00Z">Sun 29 Nov<br>16:30</div><div class="match"><strong>Arsenal vs Manchester City</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?team=liverpool&match=Everton%20vs%20Liverpool"><div class="date" data-utc="2026-11-29T11:00:00Z">Sun 29 Nov<br>12:00</div><div class="match"><strong>Everton vs Liverpool</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?team=barca&match=Deportivo%20vs%20Barcelona"><div class="date" data-utc="2026-11-29T14:15:00Z">Sun 29 Nov<br>15:15</div><div class="match"><strong>Deportivo vs Barcelona</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?team=madrid&match=Real%20Madrid%20vs%20Alaves"><div class="date" data-utc="2026-11-28T19:00:00Z">Sat 28 Nov<br>20:00</div><div class="match"><strong>Real Madrid vs Alavés</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Como%20vs%20Juventus"><div class="date" data-utc="2026-11-29T19:45:00Z">Sun 29 Nov<br>20:45</div><div class="match"><strong>Como vs Juventus</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Cagliari%20vs%20AC%20Milan"><div class="date" data-utc="2026-11-30T19:45:00Z">Mon 30 Nov<br>20:45</div><div class="match"><strong>Cagliari vs AC Milan</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=PSG%20vs%20Lorient"><div class="date" data-utc="2026-11-28T19:45:00Z">Sat 28 Nov<br>20:45</div><div class="match"><strong>PSG vs Lorient</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Lyon%20vs%20Monaco"><div class="date" data-utc="2026-11-29T19:45:00Z">Sun 29 Nov<br>20:45</div><div class="match"><strong>Lyon vs Monaco</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Borussia%20Dortmund%20vs%20Bayer%20Leverkusen"><div class="date" data-utc="2026-11-29T17:30:00Z">Sun 29 Nov<br>18:30</div><div class="match"><strong>Borussia Dortmund vs Bayer Leverkusen</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Hamburger%20SV%20vs%20Bayern%20Munchen"><div class="date" data-utc="2026-11-28T14:30:00Z">Sat 28 Nov<br>15:30</div><div class="match"><strong>Hamburger SV vs Bayern München</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Kansas%20City%20Chiefs%20vs%20Buffalo%20Bills"><div class="date" data-utc="2026-11-27T01:20:00Z">Thu 26 Nov<br>02:20</div><div class="match"><strong>Kansas City Chiefs vs Buffalo Bills</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Green%20Bay%20Packers%20vs%20Los%20Angeles%20Rams"><div class="date" data-utc="2026-11-26T01:00:00Z">Wed 25 Nov<br>02:00</div><div class="match"><strong>Green Bay Packers vs Los Angeles Rams</strong><div class="comp">NFL</div></div></a>
+    </div>
+
+    <div class="section-header ucl-header">
+      <h2>Champions League</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Bodo/Glimt%20vs%20LASK"><div class="date" data-utc="2026-11-24T17:45:00Z">Tue 24 Nov<br>18:45</div><div class="match"><strong>Bodø/Glimt vs LASK</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Galatasaray%20vs%20Aston%20Villa"><div class="date" data-utc="2026-11-24T17:45:00Z">Tue 24 Nov<br>18:45</div><div class="match"><strong>Galatasaray vs Aston Villa</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Arsenal%20vs%20Borussia%20Dortmund"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>Arsenal vs Borussia Dortmund</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Como%20vs%20AEK%20Athens"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>Como vs AEK Athens</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Feyenoord%20vs%20Porto"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>Feyenoord vs Porto</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Manchester%20City%20vs%20Napoli"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>Manchester City vs Napoli</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=RB%20Leipzig%20vs%20Lens"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>RB Leipzig vs Lens</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Real%20Madrid%20vs%20PSV"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>Real Madrid vs PSV</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Slovan%20Bratislava%20vs%20Real%20Betis"><div class="date" data-utc="2026-11-24T20:00:00Z">Tue 24 Nov<br>21:00</div><div class="match"><strong>Slovan Bratislava vs Real Betis</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Sabah%20vs%20Barcelona"><div class="date" data-utc="2026-11-25T17:45:00Z">Wed 25 Nov<br>18:45</div><div class="match"><strong>Sabah vs Barcelona</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Slavia%20Praha%20vs%20Villarreal"><div class="date" data-utc="2026-11-25T17:45:00Z">Wed 25 Nov<br>18:45</div><div class="match"><strong>Slavia Praha vs Villarreal</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Atletico%20Madrid%20vs%20Viking"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>Atlético Madrid vs Viking</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Club%20Brugge%20vs%20Liverpool"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>Club Brugge vs Liverpool</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Inter%20vs%20Stuttgart"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>Inter vs Stuttgart</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Shakhtar%20Donetsk%20vs%20Fenerbahce"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>Shakhtar Donetsk vs Fenerbahçe</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Lille%20vs%20Bayern%20Munchen"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>Lille vs Bayern München</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=PSG%20vs%20Roma"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>PSG vs Roma</strong><div class="comp">Champions League</div></div></a>
+      <a class="fixture" href="/?match=Sporting%20CP%20vs%20Manchester%20United"><div class="date" data-utc="2026-11-25T20:00:00Z">Wed 25 Nov<br>21:00</div><div class="match"><strong>Sporting CP vs Manchester United</strong><div class="comp">Champions League</div></div></a>
+    </div>
+
+    <div class="section-header pl-header">
+      <h2>Premier League</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Brentford%20vs%20Everton"><div class="date" data-utc="2026-11-23T19:00:00Z">Mon 23 Nov<br>20:00</div><div class="match"><strong>Brentford vs Everton</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Nottingham%20Forest%20vs%20Chelsea"><div class="date" data-utc="2026-11-27T19:00:00Z">Fri 27 Nov<br>20:00</div><div class="match"><strong>Nottingham Forest vs Chelsea</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Manchester%20United%20vs%20Brentford"><div class="date" data-utc="2026-11-28T14:00:00Z">Sat 28 Nov<br>15:00</div><div class="match"><strong>Manchester United vs Brentford</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Leeds%20vs%20Coventry"><div class="date" data-utc="2026-11-28T14:00:00Z">Sat 28 Nov<br>15:00</div><div class="match"><strong>Leeds vs Coventry</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Ipswich%20vs%20Aston%20Villa"><div class="date" data-utc="2026-11-28T16:30:00Z">Sat 28 Nov<br>17:30</div><div class="match"><strong>Ipswich vs Aston Villa</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Everton%20vs%20Liverpool"><div class="date" data-utc="2026-11-29T11:00:00Z">Sun 29 Nov<br>12:00</div><div class="match"><strong>Everton vs Liverpool</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Brighton%20vs%20Newcastle"><div class="date" data-utc="2026-11-29T13:05:00Z">Sun 29 Nov<br>14:05</div><div class="match"><strong>Brighton vs Newcastle</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Sunderland%20vs%20Tottenham"><div class="date" data-utc="2026-11-29T13:05:00Z">Sun 29 Nov<br>14:05</div><div class="match"><strong>Sunderland vs Tottenham</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Fulham%20vs%20Bournemouth"><div class="date" data-utc="2026-11-29T13:05:00Z">Sun 29 Nov<br>14:05</div><div class="match"><strong>Fulham vs Bournemouth</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Crystal%20Palace%20vs%20Hull"><div class="date" data-utc="2026-11-29T13:05:00Z">Sun 29 Nov<br>14:05</div><div class="match"><strong>Crystal Palace vs Hull</strong><div class="comp">Premier League</div></div></a>
+      <a class="fixture" href="/?match=Arsenal%20vs%20Manchester%20City"><div class="date" data-utc="2026-11-29T15:30:00Z">Sun 29 Nov<br>16:30</div><div class="match"><strong>Arsenal vs Manchester City</strong><div class="comp">Premier League</div></div></a>
+    </div>
+
+    <div class="section-header laliga-header">
+      <h2>La Liga</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Levante%20vs%20Elche"><div class="date" data-utc="2026-11-23T19:00:00Z">Mon 23 Nov<br>20:00</div><div class="match"><strong>Levante vs Elche</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Levante%20vs%20Racing%20Santander"><div class="date" data-utc="2026-11-27T19:00:00Z">Fri 27 Nov<br>20:00</div><div class="match"><strong>Levante vs Racing Santander</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Real%20Betis%20vs%20Rayo%20Vallecano"><div class="date" data-utc="2026-11-28T12:00:00Z">Sat 28 Nov<br>13:00</div><div class="match"><strong>Real Betis vs Rayo Vallecano</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Malaga%20vs%20Athletic"><div class="date" data-utc="2026-11-28T14:15:00Z">Sat 28 Nov<br>15:15</div><div class="match"><strong>Málaga vs Athletic</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Elche%20vs%20Atletico"><div class="date" data-utc="2026-11-28T16:30:00Z">Sat 28 Nov<br>17:30</div><div class="match"><strong>Elche vs Atlético</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?team=madrid&match=Real%20Madrid%20vs%20Alaves"><div class="date" data-utc="2026-11-28T19:00:00Z">Sat 28 Nov<br>20:00</div><div class="match"><strong>Real Madrid vs Alavés</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Valencia%20vs%20Osasuna"><div class="date" data-utc="2026-11-29T12:00:00Z">Sun 29 Nov<br>13:00</div><div class="match"><strong>Valencia vs Osasuna</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?team=barca&match=Deportivo%20vs%20Barcelona"><div class="date" data-utc="2026-11-29T14:15:00Z">Sun 29 Nov<br>15:15</div><div class="match"><strong>Deportivo vs Barcelona</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Celta%20vs%20Villarreal"><div class="date" data-utc="2026-11-29T16:30:00Z">Sun 29 Nov<br>17:30</div><div class="match"><strong>Celta vs Villarreal</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Real%20Sociedad%20vs%20Sevilla"><div class="date" data-utc="2026-11-29T19:00:00Z">Sun 29 Nov<br>20:00</div><div class="match"><strong>Real Sociedad vs Sevilla</strong><div class="comp">La Liga</div></div></a>
+      <a class="fixture" href="/?match=Espanyol%20vs%20Getafe"><div class="date" data-utc="2026-11-30T19:00:00Z">Mon 30 Nov<br>20:00</div><div class="match"><strong>Espanyol vs Getafe</strong><div class="comp">La Liga</div></div></a>
+    </div>
+
+    <div class="section-header seriea-header">
+      <h2>Serie A</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Monza%20vs%20Fiorentina"><div class="date" data-utc="2026-11-23T19:45:00Z">Mon 23 Nov<br>20:45</div><div class="match"><strong>Monza vs Fiorentina</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Venezia%20vs%20Bologna"><div class="date" data-utc="2026-11-27T19:45:00Z">Fri 27 Nov<br>20:45</div><div class="match"><strong>Venezia vs Bologna</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Frosinone%20vs%20Parma"><div class="date" data-utc="2026-11-28T14:00:00Z">Sat 28 Nov<br>15:00</div><div class="match"><strong>Frosinone vs Parma</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Torino%20vs%20Lazio"><div class="date" data-utc="2026-11-28T17:00:00Z">Sat 28 Nov<br>18:00</div><div class="match"><strong>Torino vs Lazio</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Inter%20vs%20Genoa"><div class="date" data-utc="2026-11-28T19:45:00Z">Sat 28 Nov<br>20:45</div><div class="match"><strong>Inter vs Genoa</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Udinese%20vs%20Fiorentina"><div class="date" data-utc="2026-11-29T11:30:00Z">Sun 29 Nov<br>12:30</div><div class="match"><strong>Udinese vs Fiorentina</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Sassuolo%20vs%20Napoli"><div class="date" data-utc="2026-11-29T14:00:00Z">Sun 29 Nov<br>15:00</div><div class="match"><strong>Sassuolo vs Napoli</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Roma%20vs%20Monza"><div class="date" data-utc="2026-11-29T17:00:00Z">Sun 29 Nov<br>18:00</div><div class="match"><strong>Roma vs Monza</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Como%20vs%20Juventus"><div class="date" data-utc="2026-11-29T19:45:00Z">Sun 29 Nov<br>20:45</div><div class="match"><strong>Como vs Juventus</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Lecce%20vs%20Atalanta"><div class="date" data-utc="2026-11-30T17:30:00Z">Mon 30 Nov<br>18:30</div><div class="match"><strong>Lecce vs Atalanta</strong><div class="comp">Serie A</div></div></a>
+      <a class="fixture" href="/?match=Cagliari%20vs%20AC%20Milan"><div class="date" data-utc="2026-11-30T19:45:00Z">Mon 30 Nov<br>20:45</div><div class="match"><strong>Cagliari vs AC Milan</strong><div class="comp">Serie A</div></div></a>
+    </div>
+
+    <div class="section-header ligue1-header">
+      <h2>Ligue 1</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Brest%20vs%20Paris%20FC"><div class="date" data-utc="2026-11-27T19:45:00Z">Fri 27 Nov<br>20:45</div><div class="match"><strong>Brest vs Paris FC</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Angers%20vs%20Lens"><div class="date" data-utc="2026-11-28T16:15:00Z">Sat 28 Nov<br>17:15</div><div class="match"><strong>Angers vs Lens</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Le%20Havre%20vs%20Strasbourg"><div class="date" data-utc="2026-11-28T19:45:00Z">Sat 28 Nov<br>20:45</div><div class="match"><strong>Le Havre vs Strasbourg</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Le%20Mans%20vs%20Lille"><div class="date" data-utc="2026-11-28T19:45:00Z">Sat 28 Nov<br>20:45</div><div class="match"><strong>Le Mans vs Lille</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Nice%20vs%20Troyes"><div class="date" data-utc="2026-11-28T19:45:00Z">Sat 28 Nov<br>20:45</div><div class="match"><strong>Nice vs Troyes</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=PSG%20vs%20Lorient"><div class="date" data-utc="2026-11-28T19:45:00Z">Sat 28 Nov<br>20:45</div><div class="match"><strong>PSG vs Lorient</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Auxerre%20vs%20Marseille"><div class="date" data-utc="2026-11-29T14:00:00Z">Sun 29 Nov<br>15:00</div><div class="match"><strong>Auxerre vs Marseille</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Toulouse%20vs%20Rennes"><div class="date" data-utc="2026-11-29T16:15:00Z">Sun 29 Nov<br>17:15</div><div class="match"><strong>Toulouse vs Rennes</strong><div class="comp">Ligue 1</div></div></a>
+      <a class="fixture" href="/?match=Lyon%20vs%20Monaco"><div class="date" data-utc="2026-11-29T19:45:00Z">Sun 29 Nov<br>20:45</div><div class="match"><strong>Lyon vs Monaco</strong><div class="comp">Ligue 1</div></div></a>
+    </div>
+
+    <div class="section-header bundes-header">
+      <h2>Bundesliga</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Werder%20Bremen%20vs%20Borussia%20Monchengladbach"><div class="date" data-utc="2026-11-27T19:30:00Z">Fri 27 Nov<br>20:30</div><div class="match"><strong>Werder Bremen vs Borussia Mönchengladbach</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Paderborn%20vs%20Schalke"><div class="date" data-utc="2026-11-28T14:30:00Z">Sat 28 Nov<br>15:30</div><div class="match"><strong>Paderborn vs Schalke</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Mainz%20vs%20Union%20Berlin"><div class="date" data-utc="2026-11-28T14:30:00Z">Sat 28 Nov<br>15:30</div><div class="match"><strong>Mainz vs Union Berlin</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Hamburger%20SV%20vs%20Bayern%20Munchen"><div class="date" data-utc="2026-11-28T14:30:00Z">Sat 28 Nov<br>15:30</div><div class="match"><strong>Hamburger SV vs Bayern München</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Koln%20vs%20Elversberg"><div class="date" data-utc="2026-11-28T14:30:00Z">Sat 28 Nov<br>15:30</div><div class="match"><strong>Köln vs Elversberg</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Stuttgart%20vs%20Eintracht%20Frankfurt"><div class="date" data-utc="2026-11-28T17:30:00Z">Sat 28 Nov<br>18:30</div><div class="match"><strong>Stuttgart vs Eintracht Frankfurt</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Freiburg%20vs%20RB%20Leipzig"><div class="date" data-utc="2026-11-29T14:30:00Z">Sun 29 Nov<br>15:30</div><div class="match"><strong>Freiburg vs RB Leipzig</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Hoffenheim%20vs%20Augsburg"><div class="date" data-utc="2026-11-29T16:30:00Z">Sun 29 Nov<br>17:30</div><div class="match"><strong>Hoffenheim vs Augsburg</strong><div class="comp">Bundesliga</div></div></a>
+      <a class="fixture" href="/?match=Borussia%20Dortmund%20vs%20Bayer%20Leverkusen"><div class="date" data-utc="2026-11-29T17:30:00Z">Sun 29 Nov<br>18:30</div><div class="match"><strong>Borussia Dortmund vs Bayer Leverkusen</strong><div class="comp">Bundesliga</div></div></a>
+    </div>
+
+    <div class="section-header nfl-header">
+      <h2>NFL</h2>
+    </div>
+    <div class="fixtures">
+      <a class="fixture" href="/?match=Green%20Bay%20Packers%20vs%20Los%20Angeles%20Rams"><div class="date" data-utc="2026-11-26T01:00:00Z">Wed 25 Nov<br>02:00</div><div class="match"><strong>Green Bay Packers vs Los Angeles Rams</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Chicago%20Bears%20vs%20Detroit%20Lions"><div class="date" data-utc="2026-11-26T18:00:00Z">Thu 26 Nov<br>19:00</div><div class="match"><strong>Chicago Bears vs Detroit Lions</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Philadelphia%20Eagles%20vs%20Dallas%20Cowboys"><div class="date" data-utc="2026-11-26T21:30:00Z">Thu 26 Nov<br>22:30</div><div class="match"><strong>Philadelphia Eagles vs Dallas Cowboys</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Kansas%20City%20Chiefs%20vs%20Buffalo%20Bills"><div class="date" data-utc="2026-11-27T01:20:00Z">Thu 26 Nov<br>02:20</div><div class="match"><strong>Kansas City Chiefs vs Buffalo Bills</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Denver%20Broncos%20vs%20Pittsburgh%20Steelers"><div class="date" data-utc="2026-11-27T20:00:00Z">Fri 27 Nov<br>21:00</div><div class="match"><strong>Denver Broncos vs Pittsburgh Steelers</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=New%20Orleans%20Saints%20vs%20Cincinnati%20Bengals"><div class="date" data-utc="2026-11-29T18:00:00Z">Sun 29 Nov<br>19:00</div><div class="match"><strong>New Orleans Saints vs Cincinnati Bengals</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Baltimore%20Ravens%20vs%20Houston%20Texans"><div class="date" data-utc="2026-11-29T18:00:00Z">Sun 29 Nov<br>19:00</div><div class="match"><strong>Baltimore Ravens vs Houston Texans</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=New%20York%20Giants%20vs%20Indianapolis%20Colts"><div class="date" data-utc="2026-11-29T18:00:00Z">Sun 29 Nov<br>19:00</div><div class="match"><strong>New York Giants vs Indianapolis Colts</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Tennessee%20Titans%20vs%20Jacksonville%20Jaguars"><div class="date" data-utc="2026-11-29T18:00:00Z">Sun 29 Nov<br>19:00</div><div class="match"><strong>Tennessee Titans vs Jacksonville Jaguars</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=New%20York%20Jets%20vs%20Miami%20Dolphins"><div class="date" data-utc="2026-11-29T18:00:00Z">Sun 29 Nov<br>19:00</div><div class="match"><strong>New York Jets vs Miami Dolphins</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Atlanta%20Falcons%20vs%20Minnesota%20Vikings"><div class="date" data-utc="2026-11-29T18:00:00Z">Sun 29 Nov<br>19:00</div><div class="match"><strong>Atlanta Falcons vs Minnesota Vikings</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=New%20England%20Patriots%20vs%20Los%20Angeles%20Chargers"><div class="date" data-utc="2026-11-29T21:05:00Z">Sun 29 Nov<br>22:05</div><div class="match"><strong>New England Patriots vs Los Angeles Chargers</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Seattle%20Seahawks%20vs%20San%20Francisco%2049ers"><div class="date" data-utc="2026-11-29T21:25:00Z">Sun 29 Nov<br>22:25</div><div class="match"><strong>Seattle Seahawks vs San Francisco 49ers</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Washington%20Commanders%20vs%20Arizona%20Cardinals"><div class="date" data-utc="2026-11-29T21:25:00Z">Sun 29 Nov<br>22:25</div><div class="match"><strong>Washington Commanders vs Arizona Cardinals</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Las%20Vegas%20Raiders%20vs%20Cleveland%20Browns"><div class="date" data-utc="2026-11-30T01:20:00Z">Sun 29 Nov<br>02:20</div><div class="match"><strong>Las Vegas Raiders vs Cleveland Browns</strong><div class="comp">NFL</div></div></a>
+      <a class="fixture" href="/?match=Carolina%20Panthers%20vs%20Tampa%20Bay%20Buccaneers"><div class="date" data-utc="2026-11-30T01:15:00Z">Mon 30 Nov<br>02:15</div><div class="match"><strong>Carolina Panthers vs Tampa Bay Buccaneers</strong><div class="comp">NFL</div></div></a>
+    </div>
+
+    <p style="margin-top:48px; font-size:0.9rem; color:#666;">Times convert automatically to your local timezone. Always confirm with the venue. Want a bar listed? Email hello@matchandbars.com</p>
+  </main>
+
+  <script>
+    (function() {
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      const note = document.getElementById('tz-note');
+      if (note) note.textContent = `Times shown in your local timezone (${tz}).`;
+
+      const dates = document.querySelectorAll('.date[data-utc]');
+      dates.forEach(el => {
+        const utc = el.getAttribute('data-utc');
+        if (!utc) return;
+        const d = new Date(utc);
+        const day = d.toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' });
+        const time = d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit', hour12: false });
+        el.innerHTML = day + '<br>' + time;
+      });
+    })();
+  </script>
+</body>
+</html>
