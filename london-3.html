@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports Bars in London | Where to Watch Football | Match & Bars</title>
+  <meta name="description" content="Best sports bars in London to watch Premier League, Champions League and more. Soho, Victoria, Covent Garden, King's Cross and Canary Wharf. Find where to watch the match.">
+  <link rel="canonical" href="https://www.matchandbars.com/london">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQZB8737SY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZQZB8737SY');
+  </script>
+  <style>
+    .hero-london {
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                  url('https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px 80px;
+      text-align: center;
+    }
+    .hero-london h1 { font-size: 2.5rem; margin: 0 0 12px; text-shadow: 0 2px 6px rgba(0,0,0,0.4); }
+    .hero-london .lead { font-size: 1.15rem; max-width: 680px; margin: 0 auto 20px; }
+    .intro {
+      background: #f8f9fa;
+      padding: 32px;
+      border-radius: 16px;
+      margin: 40px 0;
+      max-width: 860px;
+    }
+    .intro h2 { margin-top: 0; }
+    .intro p { line-height: 1.65; margin-bottom: 14px; }
+    .bar-card.highlight { border-left: 4px solid #2ecc40; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="logo" href="/">
+        <img src="logo.jpg" alt="Match & Bars" width="40" height="56">
+        <span class="word">Match<span class="amp">&</span>Bars</span>
+      </a>
+      <nav>
+        <a href="/">Directory</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="london.html">London</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero-london">
+    <div class="wrap">
+      <h1>Sports Bars in London</h1>
+      <p class="lead">Where to watch Premier League, Champions League and more</p>
+      <p><a class="maps" href="/?city=London" style="color:white;border-color:white;">Open London on the map</a></p>
+    </div>
+  </div>
+
+  <section class="wrap">
+    <div class="intro">
+      <h2>Where to Watch Football in London</h2>
+      <p>London has one of the highest concentrations of sports bars in Europe. Because the city is so large and has so many clubs, the atmosphere and the type of fans you find can change noticeably from one area to another.</p>
+      <p><strong>Central London (Soho, Covent Garden, Temple, Leicester Square)</strong> is the most international and neutral. You’ll find big multi-screen sports bars (Walkabout, BOX, Bat & Ball, Porterhouse) that attract a mix of tourists, expats and fans of every club. These are usually the safest and most reliable places for any Premier League or Champions League match.</p>
+      <p><strong>North London (Islington, Highbury, King’s Cross, Camden)</strong> leans heavily towards Arsenal. Many pubs around the Emirates show Arsenal games with a strong local crowd. King’s Cross itself is more mixed because of the station traffic.</p>
+      <p><strong>West London (Chelsea, Fulham, Hammersmith)</strong> is Chelsea territory, with pockets of Fulham and QPR support. Stamford Bridge area pubs can be very Chelsea-oriented on match days.</p>
+      <p><strong>East London (Stratford, Canary Wharf, Shoreditch)</strong> has a strong West Ham following, especially closer to the London Stadium. Canary Wharf is more corporate and international.</p>
+      <p><strong>South London (Brixton, Clapham, Kennington, London Bridge)</strong> is more mixed, with Crystal Palace influence in the south and a general mix of fans elsewhere. London Bridge has several large modern sports bars popular with a wide range of supporters.</p>
+      <p>For big neutral games or if you just want multiple screens and a guaranteed atmosphere, the central bars (Soho, Covent Garden, Victoria, London Bridge) are usually the best choice. Always confirm the specific fixture with the venue.</p>
+    </div>
+
+    <div id="map" style="height: 420px; margin: 32px 0; border-radius: 12px;"></div>
+
+    <h2>Top Picks</h2>
+    <article class="card bar-card highlight">
+      <h3>Walkabout Temple</h3>
+      <p class="meta">Temple · 11 Temple Place</p>
+      <p>Large Australian-style sports bar with many screens. Very popular for big Premier League and international matches.</p>
+      <a class="maps" href="https://maps.google.com/?q=Walkabout+Temple+London" target="_blank">Map</a>
+      <a class="maps" href="https://www.walkaboutbars.co.uk" target="_blank">Website</a>
+    </article>
+    <article class="card bar-card highlight">
+      <h3>Greenwood Victoria</h3>
+      <p class="meta">Victoria · 170 Victoria Street</p>
+      <p>Huge two-floor sports bar with 20+ screens and a big LED wall. One of the best-equipped places in central London.</p>
+      <a class="maps" href="https://maps.google.com/?q=Greenwood+Victoria+London" target="_blank">Map</a>
+      <a class="maps" href="https://www.greenwoodbar.co.uk" target="_blank">Website</a>
+    </article>
+    <article class="card bar-card highlight">
+      <h3>BOX Piccadilly</h3>
+      <p class="meta">Soho · Great Windmill Street</p>
+      <p>Modern West End sports bar with dozens of HD screens. Good for Premier League, NFL and other sports.</p>
+      <a class="maps" href="https://maps.google.com/?q=BOX+Piccadilly+London" target="_blank">Map</a>
+      <a class="maps" href="https://www.boxpiccadilly.com" target="_blank">Website</a>
+    </article>
+    <article class="card bar-card highlight">
+      <h3>Bat & Ball Covent Garden</h3>
+      <p class="meta">Covent Garden · 50 Earlham Street</p>
+      <p>Big basement sports bar with 20+ screens. Popular for football and a lively atmosphere.</p>
+      <a class="maps" href="https://maps.google.com/?q=Bat+and+Ball+Covent+Garden" target="_blank">Map</a>
+      <a class="maps" href="https://www.batandball.pub" target="_blank">Website</a>
+    </article>
+    <article class="card bar-card highlight">
+      <h3>Redwood Sports Pub</h3>
+      <p class="meta">London Bridge · London Bridge Station</p>
+      <p>Large modern sports bar above London Bridge station with a big video wall and many screens.</p>
+      <a class="maps" href="https://maps.google.com/?q=Redwood+Sports+Pub+London+Bridge" target="_blank">Map</a>
+      <a class="maps" href="https://www.redwoodpub.co.uk" target="_blank">Website</a>
+    </article>
+
+    <h2 style="margin:48px 0 24px;">More Sports Bars in London</h2>
+    <article class="card">
+      <h3>The Sports Bar & Grill King's Cross</h3>
+      <p class="meta">King's Cross · King's Boulevard</p>
+      <p>Convenient modern sports bar right by the station.</p>
+      <a class="maps" href="https://maps.google.com/?q=Sports+Bar+and+Grill+King's+Cross" target="_blank">Map</a>
+      <a class="maps" href="https://www.sportsbarandgrill.co.uk" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>Porterhouse Covent Garden</h3>
+      <p class="meta">Covent Garden · 21-22 Maiden Lane</p>
+      <p>Irish pub with multiple screens and its own beers.</p>
+      <a class="maps" href="https://maps.google.com/?q=Porterhouse+Covent+Garden" target="_blank">Map</a>
+      <a class="maps" href="https://www.theporterhouse.ie" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>Belushi's London Bridge</h3>
+      <p class="meta">London Bridge · Borough High Street</p>
+      <p>Lively sports bar popular with backpackers and expats.</p>
+      <a class="maps" href="https://maps.google.com/?q=Belushi's+London+Bridge" target="_blank">Map</a>
+      <a class="maps" href="https://www.belushis.com" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>Nordic Bar</h3>
+      <p class="meta">Fitzrovia · 25 Newman Street</p>
+      <p>Good option for NFL and international sports.</p>
+      <a class="maps" href="https://maps.google.com/?q=Nordic+Bar+London" target="_blank">Map</a>
+      <a class="maps" href="https://www.nordicbar.com" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>The Willow Walk</h3>
+      <p class="meta">Victoria · 25 Wilton Road</p>
+      <p>Reliable sports pub near Victoria station.</p>
+      <a class="maps" href="https://maps.google.com/?q=The+Willow+Walk+Victoria" target="_blank">Map</a>
+      <a class="maps" href="https://www.thewillowwalk.co.uk" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>Slug & Lettuce Canary Wharf</h3>
+      <p class="meta">Canary Wharf · West India Quay</p>
+      <p>Chain sports bar popular in the business district.</p>
+      <a class="maps" href="https://maps.google.com/?q=Slug+and+Lettuce+Canary+Wharf" target="_blank">Map</a>
+      <a class="maps" href="https://www.slugandlettuce.co.uk" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>The Green Man Soho</h3>
+      <p class="meta">Soho · 57 Berwick Street</p>
+      <p>Popular Soho pub that shows football.</p>
+      <a class="maps" href="https://maps.google.com/?q=The+Green+Man+Soho" target="_blank">Map</a>
+      <a class="maps" href="https://www.thegreenmansoho.com" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>Kings Sports Bar</h3>
+      <p class="meta">Leicester Square · Empire Casino</p>
+      <p>Large screens inside the Empire Casino. Good for NFL and big games.</p>
+      <a class="maps" href="https://maps.google.com/?q=Kings+Sports+Bar+Leicester+Square" target="_blank">Map</a>
+      <a class="maps" href="https://www.empirecasino.com" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>The Lord's Tavern</h3>
+      <p class="meta">St John's Wood</p>
+      <p>Traditional pub near Lord's Cricket Ground that shows sports.</p>
+      <a class="maps" href="https://maps.google.com/?q=The+Lord's+Tavern+London" target="_blank">Map</a>
+      <a class="maps" href="https://www.thelordstavern.com" target="_blank">Website</a>
+    </article>
+    <article class="card">
+      <h3>The Oval Tavern</h3>
+      <p class="meta">Kennington · Kennington Oval</p>
+      <p>Pub near The Oval that shows cricket and football.</p>
+      <a class="maps" href="https://maps.google.com/?q=The+Oval+Tavern+London" target="_blank">Map</a>
+      <a class="maps" href="https://www.theovaltavern.co.uk" target="_blank">Website</a>
+    </article>
+
+    <p style="margin-top:40px; font-size:0.9rem; color:#666;">Listings from public guides. Always confirm the specific match with the venue. Want your bar listed? Email hello@matchandbars.com</p>
+  </section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([51.5074, -0.1278], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+    // Markers would be loaded from JSON in the real site
+  </script>
+</body>
+</html>
