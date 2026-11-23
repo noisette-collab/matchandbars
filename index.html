@@ -186,59 +186,56 @@ async function initMatchSelector() {
     const penyasData = await penyasRes.json();
     allPenyas = penyasData.penyas || [];
 
-   const fixturesRes = await fetch('data/fixtures.json?t=' + Date.now());
+    const fixturesRes = await fetch('data/fixtures.json?t=' + Date.now());
     const fixtures = await fixturesRes.json();
 
     const select = document.getElementById('match-select');
     if (!select) return;
 
-    const matches = [];
+    // Clear existing options except the first placeholder
+    while (select.options.length > 1) select.remove(1);
 
-    if (Array.isArray(fixtures.highlights)) {
-      fixtures.highlights.forEach(m => matches.push(m));
-    }
-    if (Array.isArray(fixtures.competitions)) {
-      fixtures.competitions.forEach(comp => {
-        if (Array.isArray(comp.matches)) {
-          comp.matches.forEach(m => matches.push({ ...m, competition: comp.name || '' }));
-        }
+    const competitions = fixtures.competitions || [];
+
+    competitions.forEach(comp => {
+      if (!comp.matches || !comp.matches.length) return;
+
+      const group = document.createElement('optgroup');
+      group.label = comp.name;
+
+      comp.matches.forEach(match => {
+        const opt = document.createElement('option');
+        opt.value = JSON.stringify({ home: match.home, away: match.away });
+        opt.textContent = match.home + ' vs ' + match.away;
+        group.appendChild(opt);
       });
-    }
-    if (Array.isArray(fixtures) && matches.length === 0) {
-      fixtures.forEach(m => matches.push(m));
-    }
 
-    matches.forEach(match => {
-      const opt = document.createElement('option');
-      opt.value = JSON.stringify({ home: match.home, away: match.away });
-      opt.textContent = match.home + ' vs ' + match.away + (match.competition ? ' · ' + match.competition : '');
-      select.appendChild(opt);
+      select.appendChild(group);
     });
-select.addEventListener('change', function() {
-  const hasValue = !!this.value;
-  let teams = [];
 
-  if (hasValue) {
-    try {
-      const selected = JSON.parse(this.value);
-      teams = [selected.home, selected.away].map(normalizeTeamName);
-    } catch (e) {}
-  }
+    select.addEventListener('change', function() {
+      const hasValue = !!this.value;
+      let teams = [];
 
-  // Guardem els teams globalment perquè render() els pugui usar
-  window.currentMatchTeams = teams;
+      if (hasValue) {
+        try {
+          const selected = JSON.parse(this.value);
+          teams = [selected.home, selected.away].map(normalizeTeamName);
+        } catch (e) {}
+      }
 
-  if (typeof render === 'function') render();
+      window.currentMatchTeams = teams;
 
-  // Recolor after render
-  setTimeout(() => {
-    if (hasValue) {
-      recolorMarkersByTeams(teams);
-    } else {
-      resetMarkersToDefault();
-    }
-  }, 150);
-});
+      if (typeof render === 'function') render();
+
+      setTimeout(() => {
+        if (hasValue) {
+          recolorMarkersByTeams(teams);
+        } else {
+          resetMarkersToDefault();
+        }
+      }, 150);
+    });
   } catch (err) {
     console.error('Error loading selector:', err);
   }
@@ -267,7 +264,6 @@ function normalizeTeamName(name) {
 }
 
 function recolorMarkersByTeams(teams) {
-  // Recull els markers si encara no els tens
   if (allMarkers.length === 0 && typeof map !== 'undefined') {
     map.eachLayer(layer => {
       if (layer instanceof L.Marker && layer.options && layer.options.venueData) {
@@ -282,7 +278,7 @@ function recolorMarkersByTeams(teams) {
     marker.setIcon(isConfirmed ? greenIcon : grayIcon);
   });
 }
-    
+
 function resetMarkersToDefault() {
   allMarkers.forEach(marker => marker.setIcon(grayIcon));
 }
