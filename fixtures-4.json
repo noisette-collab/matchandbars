@@ -1,0 +1,538 @@
+[
+  {
+    "home": "Arsenal",
+    "away": "Manchester City",
+    "competition": "Premier League",
+    "date": "2026-11-29",
+    "time": "15:30",
+    "utc": "2026-11-29T15:30:00Z"
+  },
+  {
+    "home": "Everton",
+    "away": "Liverpool",
+    "competition": "Premier League",
+    "date": "2026-11-29",
+    "time": "11:00",
+    "utc": "2026-11-29T11:00:00Z"
+  },
+  {
+    "home": "Deportivo",
+    "away": "Barcelona",
+    "competition": "La Liga",
+    "date": "2026-11-29",
+    "time": "14:15",
+    "utc": "2026-11-29T14:15:00Z"
+  },
+  {
+    "home": "Real Madrid",
+    "away": "Alavés",
+    "competition": "La Liga",
+    "date": "2026-11-28",
+    "time": "19:00",
+    "utc": "2026-11-28T19:00:00Z"
+  },
+  {
+    "home": "Como",
+    "away": "Juventus",
+    "competition": "Serie A",
+    "date": "2026-11-29",
+    "time": "19:45",
+    "utc": "2026-11-29T19:45:00Z"
+  },
+  {
+    "home": "Cagliari",
+    "away": "AC Milan",
+    "competition": "Serie A",
+    "date": "2026-11-30",
+    "time": "19:45",
+    "utc": "2026-11-30T19:45:00Z"
+  },
+  {
+    "home": "PSG",
+    "away": "Lorient",
+    "competition": "Ligue 1",
+    "date": "2026-11-28",
+    "time": "19:45",
+    "utc": "2026-11-28T19:45:00Z"
+  },
+  {
+    "home": "Lyon",
+    "away": "Monaco",
+    "competition": "Ligue 1",
+    "date": "2026-11-29",
+    "time": "19:45",
+    "utc": "2026-11-29T19:45:00Z"
+  },
+  {
+    "home": "Borussia Dortmund",
+    "away": "Bayer Leverkusen",
+    "competition": "Bundesliga",
+    "date": "2026-11-29",
+    "time": "17:30",
+    "utc": "2026-11-29T17:30:00Z"
+  },
+  {
+    "home": "Hamburger SV",
+    "away": "Bayern München",
+    "competition": "Bundesliga",
+    "date": "2026-11-28",
+    "time": "14:30",
+    "utc": "2026-11-28T14:30:00Z"
+  },
+  {
+    "home": "Kansas City Chiefs",
+    "away": "Buffalo Bills",
+    "competition": "NFL",
+    "date": "2026-11-27",
+    "time": "01:20",
+    "utc": "2026-11-27T01:20:00Z"
+  },
+  {
+    "home": "Green Bay Packers",
+    "away": "Los Angeles Rams",
+    "competition": "NFL",
+    "date": "2026-11-26",
+    "time": "01:00",
+    "utc": "2026-11-26T01:00:00Z"
+  },
+  {
+    "home": "Brentford",
+    "away": "Everton",
+    "competition": "Premier League",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "utc": "2026-11-23T19:00:00Z"
+  },
+  {
+    "home": "Nottingham Forest",
+    "away": "Chelsea",
+    "competition": "Premier League",
+    "date": "2026-11-27",
+    "time": "19:00",
+    "utc": "2026-11-27T19:00:00Z"
+  },
+  {
+    "home": "Manchester United",
+    "away": "Brentford",
+    "competition": "Premier League",
+    "date": "2026-11-28",
+    "time": "14:00",
+    "utc": "2026-11-28T14:00:00Z"
+  },
+  {
+    "home": "Leeds",
+    "away": "Coventry",
+    "competition": "Premier League",
+    "date": "2026-11-28",
+    "time": "14:00",
+    "utc": "2026-11-28T14:00:00Z"
+  },
+  {
+    "home": "Ipswich",
+    "away": "Aston Villa",
+    "competition": "Premier League",
+    "date": "2026-11-28",
+    "time": "16:30",
+    "utc": "2026-11-28T16:30:00Z"
+  },
+  {
+    "home": "Brighton",
+    "away": "Newcastle",
+    "competition": "Premier League",
+    "date": "2026-11-29",
+    "time": "13:05",
+    "utc": "2026-11-29T13:05:00Z"
+  },
+  {
+    "home": "Sunderland",
+    "away": "Tottenham",
+    "competition": "Premier League",
+    "date": "2026-11-29",
+    "time": "13:05",
+    "utc": "2026-11-29T13:05:00Z"
+  },
+  {
+    "home": "Fulham",
+    "away": "Bournemouth",
+    "competition": "Premier League",
+    "date": "2026-11-29",
+    "time": "13:05",
+    "utc": "2026-11-29T13:05:00Z"
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Hull",
+    "competition": "Premier League",
+    "date": "2026-11-29",
+    "time": "13:05",
+    "utc": "2026-11-29T13:05:00Z"
+  },
+  {
+    "home": "Levante",
+    "away": "Elche",
+    "competition": "La Liga",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "utc": "2026-11-23T19:00:00Z"
+  },
+  {
+    "home": "Levante",
+    "away": "Racing Santander",
+    "competition": "La Liga",
+    "date": "2026-11-27",
+    "time": "19:00",
+    "utc": "2026-11-27T19:00:00Z"
+  },
+  {
+    "home": "Real Betis",
+    "away": "Rayo Vallecano",
+    "competition": "La Liga",
+    "date": "2026-11-28",
+    "time": "12:00",
+    "utc": "2026-11-28T12:00:00Z"
+  },
+  {
+    "home": "Málaga",
+    "away": "Athletic",
+    "competition": "La Liga",
+    "date": "2026-11-28",
+    "time": "14:15",
+    "utc": "2026-11-28T14:15:00Z"
+  },
+  {
+    "home": "Elche",
+    "away": "Atlético",
+    "competition": "La Liga",
+    "date": "2026-11-28",
+    "time": "16:30",
+    "utc": "2026-11-28T16:30:00Z"
+  },
+  {
+    "home": "Valencia",
+    "away": "Osasuna",
+    "competition": "La Liga",
+    "date": "2026-11-29",
+    "time": "12:00",
+    "utc": "2026-11-29T12:00:00Z"
+  },
+  {
+    "home": "Celta",
+    "away": "Villarreal",
+    "competition": "La Liga",
+    "date": "2026-11-29",
+    "time": "16:30",
+    "utc": "2026-11-29T16:30:00Z"
+  },
+  {
+    "home": "Real Sociedad",
+    "away": "Sevilla",
+    "competition": "La Liga",
+    "date": "2026-11-29",
+    "time": "19:00",
+    "utc": "2026-11-29T19:00:00Z"
+  },
+  {
+    "home": "Espanyol",
+    "away": "Getafe",
+    "competition": "La Liga",
+    "date": "2026-11-30",
+    "time": "19:00",
+    "utc": "2026-11-30T19:00:00Z"
+  },
+  {
+    "home": "Monza",
+    "away": "Fiorentina",
+    "competition": "Serie A",
+    "date": "2026-11-23",
+    "time": "19:45",
+    "utc": "2026-11-23T19:45:00Z"
+  },
+  {
+    "home": "Venezia",
+    "away": "Bologna",
+    "competition": "Serie A",
+    "date": "2026-11-27",
+    "time": "19:45",
+    "utc": "2026-11-27T19:45:00Z"
+  },
+  {
+    "home": "Frosinone",
+    "away": "Parma",
+    "competition": "Serie A",
+    "date": "2026-11-28",
+    "time": "14:00",
+    "utc": "2026-11-28T14:00:00Z"
+  },
+  {
+    "home": "Torino",
+    "away": "Lazio",
+    "competition": "Serie A",
+    "date": "2026-11-28",
+    "time": "17:00",
+    "utc": "2026-11-28T17:00:00Z"
+  },
+  {
+    "home": "Inter",
+    "away": "Genoa",
+    "competition": "Serie A",
+    "date": "2026-11-28",
+    "time": "19:45",
+    "utc": "2026-11-28T19:45:00Z"
+  },
+  {
+    "home": "Udinese",
+    "away": "Fiorentina",
+    "competition": "Serie A",
+    "date": "2026-11-29",
+    "time": "11:30",
+    "utc": "2026-11-29T11:30:00Z"
+  },
+  {
+    "home": "Sassuolo",
+    "away": "Napoli",
+    "competition": "Serie A",
+    "date": "2026-11-29",
+    "time": "14:00",
+    "utc": "2026-11-29T14:00:00Z"
+  },
+  {
+    "home": "Roma",
+    "away": "Monza",
+    "competition": "Serie A",
+    "date": "2026-11-29",
+    "time": "17:00",
+    "utc": "2026-11-29T17:00:00Z"
+  },
+  {
+    "home": "Lecce",
+    "away": "Atalanta",
+    "competition": "Serie A",
+    "date": "2026-11-30",
+    "time": "17:30",
+    "utc": "2026-11-30T17:30:00Z"
+  },
+  {
+    "home": "Brest",
+    "away": "Paris FC",
+    "competition": "Ligue 1",
+    "date": "2026-11-27",
+    "time": "19:45",
+    "utc": "2026-11-27T19:45:00Z"
+  },
+  {
+    "home": "Angers",
+    "away": "Lens",
+    "competition": "Ligue 1",
+    "date": "2026-11-28",
+    "time": "16:15",
+    "utc": "2026-11-28T16:15:00Z"
+  },
+  {
+    "home": "Le Havre",
+    "away": "Strasbourg",
+    "competition": "Ligue 1",
+    "date": "2026-11-28",
+    "time": "19:45",
+    "utc": "2026-11-28T19:45:00Z"
+  },
+  {
+    "home": "Le Mans",
+    "away": "Lille",
+    "competition": "Ligue 1",
+    "date": "2026-11-28",
+    "time": "19:45",
+    "utc": "2026-11-28T19:45:00Z"
+  },
+  {
+    "home": "Nice",
+    "away": "Troyes",
+    "competition": "Ligue 1",
+    "date": "2026-11-28",
+    "time": "19:45",
+    "utc": "2026-11-28T19:45:00Z"
+  },
+  {
+    "home": "Auxerre",
+    "away": "Marseille",
+    "competition": "Ligue 1",
+    "date": "2026-11-29",
+    "time": "14:00",
+    "utc": "2026-11-29T14:00:00Z"
+  },
+  {
+    "home": "Toulouse",
+    "away": "Rennes",
+    "competition": "Ligue 1",
+    "date": "2026-11-29",
+    "time": "16:15",
+    "utc": "2026-11-29T16:15:00Z"
+  },
+  {
+    "home": "Werder Bremen",
+    "away": "Borussia Mönchengladbach",
+    "competition": "Bundesliga",
+    "date": "2026-11-27",
+    "time": "19:30",
+    "utc": "2026-11-27T19:30:00Z"
+  },
+  {
+    "home": "Paderborn",
+    "away": "Schalke",
+    "competition": "Bundesliga",
+    "date": "2026-11-28",
+    "time": "14:30",
+    "utc": "2026-11-28T14:30:00Z"
+  },
+  {
+    "home": "Mainz",
+    "away": "Union Berlin",
+    "competition": "Bundesliga",
+    "date": "2026-11-28",
+    "time": "14:30",
+    "utc": "2026-11-28T14:30:00Z"
+  },
+  {
+    "home": "Köln",
+    "away": "Elversberg",
+    "competition": "Bundesliga",
+    "date": "2026-11-28",
+    "time": "14:30",
+    "utc": "2026-11-28T14:30:00Z"
+  },
+  {
+    "home": "Stuttgart",
+    "away": "Eintracht Frankfurt",
+    "competition": "Bundesliga",
+    "date": "2026-11-28",
+    "time": "17:30",
+    "utc": "2026-11-28T17:30:00Z"
+  },
+  {
+    "home": "Freiburg",
+    "away": "RB Leipzig",
+    "competition": "Bundesliga",
+    "date": "2026-11-29",
+    "time": "14:30",
+    "utc": "2026-11-29T14:30:00Z"
+  },
+  {
+    "home": "Hoffenheim",
+    "away": "Augsburg",
+    "competition": "Bundesliga",
+    "date": "2026-11-29",
+    "time": "16:30",
+    "utc": "2026-11-29T16:30:00Z"
+  },
+  {
+    "home": "Chicago Bears",
+    "away": "Detroit Lions",
+    "competition": "NFL",
+    "date": "2026-11-26",
+    "time": "18:00",
+    "utc": "2026-11-26T18:00:00Z"
+  },
+  {
+    "home": "Philadelphia Eagles",
+    "away": "Dallas Cowboys",
+    "competition": "NFL",
+    "date": "2026-11-26",
+    "time": "21:30",
+    "utc": "2026-11-26T21:30:00Z"
+  },
+  {
+    "home": "Denver Broncos",
+    "away": "Pittsburgh Steelers",
+    "competition": "NFL",
+    "date": "2026-11-27",
+    "time": "20:00",
+    "utc": "2026-11-27T20:00:00Z"
+  },
+  {
+    "home": "New Orleans Saints",
+    "away": "Cincinnati Bengals",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "utc": "2026-11-29T18:00:00Z"
+  },
+  {
+    "home": "Baltimore Ravens",
+    "away": "Houston Texans",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "utc": "2026-11-29T18:00:00Z"
+  },
+  {
+    "home": "New York Giants",
+    "away": "Indianapolis Colts",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "utc": "2026-11-29T18:00:00Z"
+  },
+  {
+    "home": "Tennessee Titans",
+    "away": "Jacksonville Jaguars",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "utc": "2026-11-29T18:00:00Z"
+  },
+  {
+    "home": "New York Jets",
+    "away": "Miami Dolphins",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "utc": "2026-11-29T18:00:00Z"
+  },
+  {
+    "home": "Atlanta Falcons",
+    "away": "Minnesota Vikings",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "utc": "2026-11-29T18:00:00Z"
+  },
+  {
+    "home": "New England Patriots",
+    "away": "Los Angeles Chargers",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "21:05",
+    "utc": "2026-11-29T21:05:00Z"
+  },
+  {
+    "home": "Seattle Seahawks",
+    "away": "San Francisco 49ers",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "21:25",
+    "utc": "2026-11-29T21:25:00Z"
+  },
+  {
+    "home": "Washington Commanders",
+    "away": "Arizona Cardinals",
+    "competition": "NFL",
+    "date": "2026-11-29",
+    "time": "21:25",
+    "utc": "2026-11-29T21:25:00Z"
+  },
+  {
+    "home": "Las Vegas Raiders",
+    "away": "Cleveland Browns",
+    "competition": "NFL",
+    "date": "2026-11-30",
+    "time": "01:20",
+    "utc": "2026-11-30T01:20:00Z"
+  },
+  {
+    "home": "Carolina Panthers",
+    "away": "Tampa Bay Buccaneers",
+    "competition": "NFL",
+    "date": "2026-11-30",
+    "time": "01:15",
+    "utc": "2026-11-30T01:15:00Z"
+  }
+]
