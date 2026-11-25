@@ -264,13 +264,22 @@ function normalizeTeamName(name) {
 }
 
 function recolorMarkersByTeams(teams) {
-  if (allMarkers.length === 0 && typeof map !== 'undefined') {
+  // Always refresh the markers list (they get recreated on each render)
+  allMarkers = [];
+  if (typeof map !== 'undefined') {
     map.eachLayer(layer => {
       if (layer instanceof L.Marker && layer.options && layer.options.venueData) {
         allMarkers.push(layer);
       }
     });
   }
+
+  allMarkers.forEach(marker => {
+    const data = marker.options.venueData || {};
+    const isConfirmed = data.isPena && teams.includes(data.team);
+    marker.setIcon(isConfirmed ? greenIcon : grayIcon);
+  });
+}
 
   allMarkers.forEach(marker => {
     const data = marker.options.venueData || {};
