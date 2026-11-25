@@ -281,13 +281,6 @@ function recolorMarkersByTeams(teams) {
   });
 }
 
-  allMarkers.forEach(marker => {
-    const data = marker.options.venueData || {};
-    const isConfirmed = data.isPena && teams.includes(data.team);
-    marker.setIcon(isConfirmed ? greenIcon : grayIcon);
-  });
-}
-
 function resetMarkersToDefault() {
   allMarkers.forEach(marker => marker.setIcon(grayIcon));
 }
