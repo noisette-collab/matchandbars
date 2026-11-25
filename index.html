@@ -160,7 +160,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js"></script>
   <script type="module" src="community.js"></script>
-  <script>
+<script>
     async function loadBanner() {
       try {
         const r = await fetch("data/fixtures.json?t=" + Date.now());
@@ -192,7 +192,6 @@ async function initMatchSelector() {
     const select = document.getElementById('match-select');
     if (!select) return;
 
-    // Clear existing options except the first placeholder
     while (select.options.length > 1) select.remove(1);
 
     const competitions = fixtures.competitions || [];
@@ -264,7 +263,6 @@ function normalizeTeamName(name) {
 }
 
 function recolorMarkersByTeams(teams) {
-  // Always refresh the markers list (they get recreated on each render)
   allMarkers = [];
   if (typeof map !== 'undefined') {
     map.eachLayer(layer => {
@@ -280,6 +278,7 @@ function recolorMarkersByTeams(teams) {
     marker.setIcon(isConfirmed ? greenIcon : grayIcon);
   });
 }
+
 function resetMarkersToDefault() {
   allMarkers.forEach(marker => marker.setIcon(grayIcon));
 }
