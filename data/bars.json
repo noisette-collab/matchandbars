@@ -6080,12 +6080,12 @@
     "name": "PDX Gooners",
     "city": "Portland",
     "zone": "USA",
-    "address": "Portland, USA",
+    "address": "118 NE 28th Ave, Portland, OR 97232",
     "sports": [
       "football"
     ],
-    "lat": 45.5152,
-    "lng": -122.6784,
+    "lat": 45.524,
+    "lng": -122.638,
     "maps": "https://maps.google.com/?q=PDX+Gooners+Portland",
     "tags": [
       "football",
