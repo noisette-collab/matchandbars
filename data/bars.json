@@ -6075,30 +6075,79 @@
     "community": true,
     "instagram": "@madridistas_tampa_bay"
   },
-    {
-    "id": "arsenal-nyc",
-    "name": "Arsenal America NYC",
-    "city": "New York",
-    "zone": "USA",
-    "address": "New York, USA",
-    "sports": [
-      "football"
-    ],
-    "lat": 40.7282,
-    "lng": -73.9942,
-    "maps": "https://maps.google.com/?q=Arsenal+America+NYC+New York",
-    "tags": [
-      "football",
-      "peña",
-      "fan club"
-    ],
-    "bestFor": "Arsenal matches",
-    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
-    "source": "Match & Bars peñas",
-    "isPena": true,
-    "team": "Arsenal",
-    "community": false
-  },
+  {
+  "id": "arsenal-nyc",
+  "name": "Arsenal America NYC (O'Hanlon's)",
+  "city": "New York",
+  "zone": "USA",
+  "address": "349 E 14th St, New York, NY 10003",
+  "sports": ["football"],
+  "lat": 40.7315,
+  "lng": -73.9835,
+  "maps": "https://maps.google.com/?q=O'Hanlon's+349+E+14th+St+New+York",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Arsenal matches",
+  "notes": "Official Arsenal NYC supporters. Multiple partner pubs; O'Hanlon's is one of the main ones.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Arsenal",
+  "community": true
+}
+  {
+  "id": "arsenal-boston",
+  "name": "Boston Gooners",
+  "city": "Boston",
+  "zone": "USA",
+  "address": "955 Boylston St, Boston, MA 02115",
+  "sports": ["football"],
+  "lat": 42.3480,
+  "lng": -71.0859,
+  "maps": "https://maps.google.com/?q=Dillon's+955+Boylston+St+Boston",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Arsenal matches",
+  "notes": "Official Boston Gooners. Meet at Dillon's.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Arsenal",
+  "community": true,
+  "instagram": "@bostongooners"
+}
+  {
+  "id": "arsenal-chicago",
+  "name": "Chicago Gooners",
+  "city": "Chicago",
+  "zone": "USA",
+  "address": "1934 W Irving Park Rd, Chicago, IL 60613",
+  "sports": ["football"],
+  "lat": 41.9545,
+  "lng": -87.6778,
+  "maps": "https://maps.google.com/?q=The+Globe+Pub+1934+W+Irving+Park+Rd+Chicago",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Arsenal matches",
+  "notes": "Official Chicago Gooners. Main home is The Globe Pub (also meet at Ten Cat Tavern).",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Arsenal",
+  "community": true
+}
+  {
+  "id": "arsenal-seattle",
+  "name": "Cascadia Gooners",
+  "city": "Seattle",
+  "zone": "USA",
+  "address": "7200 Woodlawn Ave NE, Seattle, WA 98115",
+  "sports": ["football"],
+  "lat": 47.6800,
+  "lng": -122.3240,
+  "maps": "https://maps.google.com/?q=The+Atlantic+Crossing+7200+Woodlawn+Ave+NE+Seattle",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Arsenal matches",
+  "notes": "Official Cascadia Gooners (Seattle). Home pub is The Atlantic Crossing.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Arsenal",
+  "community": true
+}
   {
     "id": "bayern-munich",
     "name": "Bayern Fan Club München",
