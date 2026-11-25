@@ -6075,32 +6075,7 @@
     "community": true,
     "instagram": "@madridistas_tampa_bay"
   },
-  {
-    "id": "arsenal-pdx",
-    "name": "PDX Gooners",
-    "city": "Portland",
-    "zone": "USA",
-    "address": "118 NE 28th Ave, Portland, OR 97232",
-    "sports": [
-      "football"
-    ],
-    "lat": 45.524,
-    "lng": -122.638,
-    "maps": "https://maps.google.com/?q=PDX+Gooners+Portland",
-    "tags": [
-      "football",
-      "peña",
-      "fan club"
-    ],
-    "bestFor": "Arsenal matches",
-    "notes": "Official peña / supporters club. Confirm fixture with the venue.",
-    "source": "Match & Bars peñas",
-    "isPena": true,
-    "team": "Arsenal",
-    "community": true,
-    "instagram": "@pdxgooners"
-  },
-  {
+    {
     "id": "arsenal-nyc",
     "name": "Arsenal America NYC",
     "city": "New York",
