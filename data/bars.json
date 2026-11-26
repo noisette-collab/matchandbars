@@ -1,5 +1,23 @@
 [
   {
+  "id": "everton-marbella-tavern",
+  "name": "Everton Supporters Club Marbella (The Tavern)",
+  "city": "Marbella",
+  "zone": "Spain",
+  "address": "Calle Peral, 7, Casco Antiguo, Marbella (The Tavern)",
+  "sports": ["football"],
+  "lat": 36.5100,
+  "lng": -4.8850,
+  "maps": "https://maps.google.com/?q=The+Tavern+Calle+Peral+7+Marbella",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Everton matches",
+  "notes": "Official meeting point of Everton Supporters Club Marbella. Run by Scousers, famous for goal celebrations.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Everton",
+  "community": true
+},
+  {
   "id": "everton-barcelona-dunnes",
   "name": "Barcelona Toffees (Dunne's Irish Bar)",
   "city": "Barcelona",
