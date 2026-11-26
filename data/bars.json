@@ -1,5 +1,20 @@
 [
   {
+  "id": "everton-lanzarote",
+  "name": "Abbey Road Bar (Costa Teguise)",
+  "city": "Lanzarote",
+  "zone": "Spain",
+  "address": "Avenida el Jablillo, 12, Costa Teguise, Lanzarote (Abbey Road Bar)",
+  "sports": ["football"],
+  "lat": 29.0100,
+  "lng": -13.4800,
+  "maps": "https://maps.google.com/?q=Abbey+Road+Bar+Avenida+el+Jablillo+12+Costa+Teguise",
+  "tags": ["football", "sports bar"],
+  "bestFor": "Everton matches",
+  "notes": "Known among Everton fans as a regular pub for watching matches in Costa Teguise.",
+  "source": "Public guides"
+},
+  {
   "id": "everton-dubai",
   "name": "Dubai Everton Supporters Club (McGettigan's Souk Madinat)",
   "city": "Dubai",
