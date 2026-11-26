@@ -1,5 +1,23 @@
 [
   {
+  "id": "barca-denver-tavernblake",
+  "name": "Penya Barça Denver (The Tavern on Blake)",
+  "city": "Denver",
+  "zone": "North America",
+  "address": "2301 Blake Street #200, Denver, CO 80205 (The Tavern on Blake)",
+  "sports": ["football"],
+  "lat": 39.7545,
+  "lng": -104.9920,
+  "maps": "https://maps.google.com/?q=The+Tavern+on+Blake+2301+Blake+Street+Denver",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "FC Barcelona matches",
+  "notes": "Official meeting point of Penya Barça Denver. Watch parties at The Tavern on Blake.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Barcelona",
+  "community": true
+},
+  {
   "id": "everton-oliva",
   "name": "The Oliva Everton Supporters Club (The Irish Brewery)",
   "city": "Oliva",
