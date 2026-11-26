@@ -1,5 +1,23 @@
 [
   {
+  "id": "arsenal-hamburg",
+  "name": "Hamburg Gooners",
+  "city": "Hamburg",
+  "zone": "Europe",
+  "address": "Börsenbrücke 10, 20457 Hamburg (Irish Pub in the Fleetenkieker)",
+  "sports": ["football"],
+  "lat": 53.5505,
+  "lng": 9.9930,
+  "maps": "https://maps.google.com/?q=Irish+Pub+Fleetenkieker+Börsenbrücke+10+Hamburg",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Arsenal matches",
+  "notes": "Official Hamburg Gooners venue. Central location near the town hall. Shows Arsenal matches with original commentary.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Arsenal",
+  "community": true
+},
+  {
   "id": "corfu-matts-sports-bar",
   "name": "Matt's Sport's Bar",
   "city": "Corfu",
