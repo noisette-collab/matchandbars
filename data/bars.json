@@ -1,5 +1,23 @@
 [
   {
+  "id": "atletico-dusseldorf",
+  "name": "Peña Fortuna Atlético Düsseldorf",
+  "city": "Düsseldorf",
+  "zone": "Flingern",
+  "address": "Flinger Broich 87, 40235 Düsseldorf (Bar 95)",
+  "sports": ["football"],
+  "lat": 51.2400,
+  "lng": 6.8100,
+  "maps": "https://maps.google.com/?q=Bar+95+Flinger+Broich+87+Düsseldorf",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Atlético Madrid matches",
+  "notes": "Official meeting point of Peña Fortuna Atlético Düsseldorf. Located next to Fortuna Düsseldorf's Paul-Janes Stadium.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Atlético Madrid",
+  "community": true
+},
+  {
   "id": "celtic-dusseldorf",
   "name": "Düsseldorf Celtic Supporters Club",
   "city": "Düsseldorf",
