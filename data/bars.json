@@ -1,5 +1,23 @@
 [
   {
+  "id": "steelers-cdmx-burgerbar",
+  "name": "Stiller Gang MX (Burger Bar Joint Universidad)",
+  "city": "Mexico City",
+  "zone": "North America",
+  "address": "Avenida Universidad 1038, Loc. J-08, Xoco, Benito Juárez, 03330 Ciudad de México (Burger Bar Joint Patio Universidad)",
+  "sports": ["football"],
+  "lat": 19.3670,
+  "lng": -99.1655,
+  "maps": "https://maps.google.com/?q=Burger+Bar+Joint+Universidad+Av+Universidad+1038+Mexico+City",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Pittsburgh Steelers matches",
+  "notes": "Official meeting point of Stiller Gang MX. Watch parties at Burger Bar Joint Universidad.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Pittsburgh Steelers",
+  "community": true
+},
+  {
   "id": "barca-denver-tavernblake",
   "name": "Penya Barça Denver (The Tavern on Blake)",
   "city": "Denver",
