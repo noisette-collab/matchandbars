@@ -1,5 +1,23 @@
 [
   {
+  "id": "everton-benalmadena-winston",
+  "name": "Bar Winston (Benalmádena Toffees)",
+  "city": "Benalmádena",
+  "zone": "Spain",
+  "address": "Puerto Marina, Benalmádena, Málaga (Bar Winston)",
+  "sports": ["football"],
+  "lat": 36.5950,
+  "lng": -4.5200,
+  "maps": "https://maps.google.com/?q=Bar+Winston+Puerto+Marina+Benalmádena",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Everton matches",
+  "notes": "Meeting point for Everton fans in Benalmádena / Costa del Sol.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Everton",
+  "community": true
+},
+  {
   "id": "everton-marbella-tavern",
   "name": "Everton Supporters Club Marbella (The Tavern)",
   "city": "Marbella",
