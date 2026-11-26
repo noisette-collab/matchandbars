@@ -1,5 +1,23 @@
 [
   {
+  "id": "everton-oliva",
+  "name": "The Oliva Everton Supporters Club (The Irish Brewery)",
+  "city": "Oliva",
+  "zone": "Spain",
+  "address": "Carrer del Pare Antoni Salelles, 8, 46780 Oliva, Valencia (The Irish Brewery)",
+  "sports": ["football"],
+  "lat": 38.9200,
+  "lng": -0.1200,
+  "maps": "https://maps.google.com/?q=The+Irish+Brewery+Carrer+del+Pare+Antoni+Salelles+8+Oliva",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Everton matches",
+  "notes": "Official meeting point of The Oliva Everton Supporters Club.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Everton",
+  "community": true
+},
+  {
   "id": "everton-benalmadena-winston",
   "name": "Bar Winston (Benalmádena Toffees)",
   "city": "Benalmádena",
