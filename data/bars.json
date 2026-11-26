@@ -1,5 +1,35 @@
 [
   {
+  "id": "dus-oreillys-irish-pub",
+  "name": "O'Reilly's Irish Pub",
+  "city": "Düsseldorf",
+  "zone": "Altstadt",
+  "address": "Mutter-Ey-Straße 1, 40213 Düsseldorf",
+  "sports": ["football"],
+  "lat": 51.2255,
+  "lng": 6.7730,
+  "maps": "https://maps.google.com/?q=O'Reilly's+Irish+Pub+Mutter-Ey-Straße+1+Düsseldorf",
+  "tags": ["football", "sports bar"],
+  "bestFor": "football",
+  "notes": "Popular Altstadt pub for Premier League matches and Arsenal celebrations.",
+  "source": "Public guides"
+},
+{
+  "id": "dus-irish-pub-bei-fatty",
+  "name": "Irish Pub bei Fatty",
+  "city": "Düsseldorf",
+  "zone": "Altstadt",
+  "address": "Hunsrückstraße 13, 40213 Düsseldorf",
+  "sports": ["football"],
+  "lat": 51.2240,
+  "lng": 6.7710,
+  "maps": "https://maps.google.com/?q=Irish+Pub+bei+Fatty+Hunsrückstraße+13+Düsseldorf",
+  "tags": ["football", "sports bar"],
+  "bestFor": "football",
+  "notes": "Altstadt pub with big screens for British football.",
+  "source": "Public guides"
+},
+  {
   "id": "fra-waxys-irish-pub",
   "name": "Waxy's Irish Pub & Restaurant",
   "city": "Frankfurt",
