@@ -57,24 +57,42 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="wrap">
-      <h1 data-i18n="title">Match & Bars</h1>
-      <p class="lead" data-i18n="lead">
-        Sports bars for football, rugby, cricket and NFL in Barcelona, London, New York and eight more cities. Listings come from public guides. Always confirm the fixture with the venue.
-      </p>
-      <form class="search" id="search-form">
-        <select id="city"></select>
-        <select id="sport"></select>
-        <input id="q" type="search" data-i18n-placeholder="searchPh" placeholder="Search…" autocomplete="off" />
-        <button type="submit" data-i18n="searchBtn">Search</button>
-      </form>
-      <p class="near"><button type="button" id="near-btn" data-i18n="nearBtn">Use my location</button> <span id="geo-status"></span></p>
-      <p class="disclaimer" data-i18n="disclaimer">
-        Listings are not an official TV schedule. Broadcast rights change and not every bar shows every competition.
-      </p>
+<section class="hero">
+  <div class="wrap">
+    <h1 data-i18n="title">Match & Bars</h1>
+    <p class="lead" data-i18n="lead">Whenever, wherever. Find the best bar to watch your favourite sport and team. Live it with locals like a local. ⚽️🏀🏈🏏</p>
+  </div>
+</section>
+
+<section class="wrap" style="margin-top: 10px;">
+  <div style="text-align: center; margin-bottom: 16px;">
+    <label for="match-select" style="font-size: 22px; font-weight: 700; color: #111; letter-spacing: -0.3px;">
+      See confirmed venues for match
+    </label>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 18px; align-items: center;">
+    <a href="fixtures.html" class="btn-primary" style="padding: 12px 22px; font-size: 16px; font-weight: 600; border-radius: 10px; text-decoration: none;">
+      Partidos / Matches
+    </a>
+
+    <button type="button" id="near-btn" class="btn-secondary" style="padding: 12px 22px; font-size: 16px; font-weight: 600; border-radius: 10px;">
+      Use my location
+    </button>
+
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <input type="text" id="city-search" placeholder="City or postal code" 
+             style="padding: 12px 16px; font-size: 16px; border-radius: 10px; border: 1px solid #ddd; min-width: 220px;">
+      <button type="button" id="city-search-btn" class="btn-secondary" style="padding: 12px 18px; font-size: 16px; border-radius: 10px;">
+        Go
+      </button>
     </div>
-  </section>
+  </div>
+
+  <select id="match-select" style="display: none;">
+    <option value="">— Select a match —</option>
+  </select>
+</section>
 
   <section class="wrap" id="directori">
     <div class="section-head">
