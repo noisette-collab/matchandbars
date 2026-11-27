@@ -1,5 +1,24 @@
 [
   {
+  "id": "barca-pb-sant-adria-besos",
+  "name": "Penya Barcelonista de Sant Adrià de Besòs",
+  "city": "Sant Adrià de Besòs",
+  "zone": "Europe",
+  "address": "Carrer de Maragall 18, 08930 Sant Adrià de Besòs",
+  "sports": ["football"],
+  "lat": 41.4325,
+  "lng": 2.2165,
+  "maps": "https://maps.google.com/?q=Carrer+de+Maragall+18+Sant+Adrià+de+Besòs",
+  "tags": ["football", "peña", "fan club"],
+  "bestFor": "Barcelona matches",
+  "notes": "Official local social of the Penya Barcelonista de Sant Adrià de Besòs (founded 1985). Museum-like space with Barça memorabilia. Confirm matchday openings with the peña.",
+  "source": "Match & Bars peñas",
+  "isPena": true,
+  "team": "Barcelona",
+  "community": true,
+  "instagram": "@pbsantadriabesos"
+},
+  {
     "id": "everton-ferrymans-cape-town",
     "name": "Ferryman's Irish Tavern (Cape Town Toffees)",
     "city": "Cape Town",
